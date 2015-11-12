@@ -15,6 +15,7 @@ import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
 
+
 public class CorpusGenerator {
 	private String movieTitlesFile;
 	public CorpusGenerator(String movieTitlesFile){
@@ -47,7 +48,11 @@ public class CorpusGenerator {
 		    		else if(score>60 && score<=100)
 		    			classe = "positive";
 		    		
-		    		File file = new File("corpus/" + classe + "/" + response.getBody().getObject().getJSONObject("result").get("name").toString() + i +".txt");
+		    		String nom = response.getBody().getObject().getJSONObject("result").get("name").toString();
+		    		String nomFichier = nom.replace(":", "_");
+		    		nomFichier = nomFichier.replace(" ", "_");
+		    		
+		    		File file = new File("corpus/" + classe + "/" + nomFichier + i +".txt");
 		    		System.out.println(file.getAbsolutePath());
 		    		// if file doesnt exists, then create it
 					if (!file.exists()) {
