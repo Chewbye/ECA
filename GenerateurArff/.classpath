@@ -2,6 +2,21 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/GenerateurArff/unirest-java-1.4.7.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/fluent-hc-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpasyncclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpasyncclient-cache-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpclient-cache-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpclient-win-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpcore-nio-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/httpmime-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/json-20150729.jar"/>
+	<classpathentry kind="lib" path="/auto_home/llafon/Cours/semestre9/ECA/ECA/GenerateurArff/lib/unirest-java-1.4.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
