@@ -1,0 +1,13 @@
+A	DT	a
+gorgeous	JJ	gorgeous
+film	NN	film
+that	WDT	that
+could	MD	could
+inspire	VB	inspire
+a	DT	a
+whole	JJ	whole
+new	JJ	new
+crop	NN	crop
+of	IN	of
+astronauts	NNS	astronaut
+.	SENT	.

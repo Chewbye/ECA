@@ -1,0 +1,17 @@
+Scorch	VB	scorch
+Trials	NP	<unknown>
+ambitiously	RB	ambitiously
+opens	VBZ	open
+up	RP	up
+its	PP$	its
+world	NN	world
+with	IN	with
+mixed	JJ	mixed
+results	NNS	result
+:	:	:
+gripping	JJ	gripping
+action	NN	action
+,	,	,
+so-so	JJ	so-so
+script	NN	script
+.	SENT	.

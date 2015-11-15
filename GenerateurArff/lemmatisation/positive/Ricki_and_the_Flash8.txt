@@ -1,0 +1,17 @@
+A	DT	a
+breezy	JJ	breezy
+but	CC	but
+touching	JJ	touching
+dysfunctional	JJ	dysfunctional
+family	NN	family
+dramedy	NN	<unknown>
+,	,	,
+with	IN	with
+real	JJ	real
+heart	NN	heart
+and	CC	and
+some	DT	some
+genuine	JJ	genuine
+musical	JJ	musical
+soul	NN	soul
+.	SENT	.

@@ -1,0 +1,8 @@
+Spectre	NN	spectre
+isn’t	NN	<unknown>
+bad	JJ	bad
+—	NN	<unknown>
+just	RB	just
+slightly	RB	slightly
+disappointing	JJ	disappointing
+.	SENT	.

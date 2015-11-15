@@ -1,0 +1,17 @@
+Sinister	JJ	sinister
+2	CD	2
+doesn’t	NN	<unknown>
+know	VBP	know
+what	WP	what
+it	PP	it
+wants	VBZ	want
+to	TO	to
+be	VB	be
+,	,	,
+and	CC	and
+doesn’t	NN	<unknown>
+add	VBP	add
+up	RP	up
+to	TO	to
+much	JJ	much
+.	SENT	.

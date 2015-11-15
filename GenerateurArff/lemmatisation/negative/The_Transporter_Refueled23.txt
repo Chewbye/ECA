@@ -1,0 +1,10 @@
+The	DT	the
+Transporter	NP	<unknown>
+Refueled	NP	<unknown>
+should	MD	should
+be	VB	be
+put	VBN	put
+up	RP	up
+on	IN	on
+blocks	NNS	block
+.	SENT	.

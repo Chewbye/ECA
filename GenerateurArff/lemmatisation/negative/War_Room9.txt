@@ -1,0 +1,17 @@
+One	PP	one
+can	MD	can
+always	RB	always
+keep	VB	keep
+praying	VBG	pray
+that	IN	that
+the	DT	the
+next	JJ	next
+of	IN	of
+these	DT	these
+films	NNS	film
+will	MD	will
+be	VB	be
+a	DT	a
+little	RB	little
+better	JJR	good
+.	SENT	.

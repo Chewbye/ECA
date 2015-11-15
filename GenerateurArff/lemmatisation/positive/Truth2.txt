@@ -1,0 +1,11 @@
+To	TO	To
+say	VB	say
+Blanchett	NP	Blanchett
+is	VBZ	be
+good	JJ	good
+here	RB	here
+is	VBZ	be
+a	DT	a
+grave	JJ	grave
+understatement	NN	understatement
+.	SENT	.

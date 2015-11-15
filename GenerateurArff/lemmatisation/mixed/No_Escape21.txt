@@ -1,0 +1,9 @@
+There’s	RB	<unknown>
+no	RB	no
+fleeing	VBG	flee
+the	DT	the
+clunkiness	NN	<unknown>
+in	IN	in
+No	DT	no
+Escape	NP	<unknown>
+.	SENT	.

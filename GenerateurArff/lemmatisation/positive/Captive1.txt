@@ -1,0 +1,14 @@
+The	DT	the
+film	NN	film
+'s	POS	's
+police-procedural	JJ	<unknown>
+action	NN	action
+is	VBZ	be
+unimaginatively	RB	<unknown>
+presented	VBN	present
+,	,	,
+but	CC	but
+Oyelowo	NP	<unknown>
+is	VBZ	be
+compelling	JJ	compelling
+.	SENT	.

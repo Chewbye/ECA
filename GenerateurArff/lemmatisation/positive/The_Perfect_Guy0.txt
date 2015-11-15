@@ -1,0 +1,17 @@
+For	IN	for
+all	PDT	all
+its	PP$	its
+third	JJ	third
+act	NN	act
+nuttiness	NN	nuttiness
+,	,	,
+The	DT	the
+Perfect	NP	Perfect
+Guy	NP	Guy
+really	RB	really
+should	MD	should
+have	VB	have
+gone	VBN	go
+way	RB	way
+crazier	JJR	crazy
+.	SENT	.

@@ -1,0 +1,8 @@
+The	DT	the
+tedium	NN	tedium
+makes	VBZ	make
+us	PP	us
+forget	VB	forget
+the	DT	the
+cynicism	NN	cynicism
+.	SENT	.

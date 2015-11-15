@@ -1,0 +1,15 @@
+Like	IN	like
+a	DT	a
+great	JJ	great
+amusement	NN	amusement
+park	NN	park
+ride	NN	ride
+,	,	,
+Shaun	NP	Shaun
+the	DT	the
+Sheep	NP	Sheep
+Movie	NP	Movie
+is	VBZ	be
+consistently	RB	consistently
+enjoyable	JJ	enjoyable
+.	SENT	.

@@ -1,0 +1,6 @@
+The	DT	the
+chases	NNS	chase
+are	VBP	be
+nothing	RB	nothing
+special	JJ	special
+.	SENT	.

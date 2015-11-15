@@ -1,0 +1,7 @@
+Spectre	NN	spectre
+is	VBZ	be
+a	DT	a
+frustratingly	RB	frustratingly
+unsatisfying	VBG	unsatisfy
+experience	NN	experience
+.	SENT	.

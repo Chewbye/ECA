@@ -1,0 +1,15 @@
+No	DT	no
+Escape	NP	<unknown>
+is	VBZ	be
+a	DT	a
+pedestrian	JJ	pedestrian
+but	CC	but
+modestly	RB	modestly
+gripping	JJ	gripping
+nerve-jangler	NN	<unknown>
+from	IN	from
+writer-director	NP	writer-director
+John	NP	John
+Erick	NP	Erick
+Dowdle	NP	Dowdle
+.	SENT	.

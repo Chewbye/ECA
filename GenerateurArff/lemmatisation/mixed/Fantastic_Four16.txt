@@ -1,0 +1,15 @@
+Ponderous	JJ	ponderous
+,	,	,
+pretentious	JJ	pretentious
+and	CC	and
+,	,	,
+most	RBS	most
+damning	VBG	damn
+of	IN	of
+all	DT	all
+,	,	,
+just	RB	just
+not	RB	not
+much	JJ	much
+fun	NN	fun
+.	SENT	.

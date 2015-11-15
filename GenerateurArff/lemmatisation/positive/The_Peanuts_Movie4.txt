@@ -1,0 +1,14 @@
+A	DT	a
+delightful	JJ	delightful
+romp	NN	romp
+that	WDT	that
+captures	VBZ	capture
+the	DT	the
+spirit	NN	spirit
+of	IN	of
+the	DT	the
+adored	VBN	adore
+65-year-old	JJ	<unknown>
+comic	JJ	comic
+strip	NN	strip
+.	SENT	.

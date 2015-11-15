@@ -27,22 +27,22 @@ public class Lemme2ARFF {
 		typesValides.add("VBN");
 		typesValides.add("VBD");
 		typesValides.add("VBG");
-//		typesValides.add("JJ");
-//		typesValides.add("JJR");
-//		typesValides.add("JJS");
+		typesValides.add("JJ");
+		typesValides.add("JJR");
+		typesValides.add("JJS");
 		
-		arffContent = "% Ceci représente la classification de séries en fonction de leur genre.";
-		arffContent += "\n\n@relation series";
+		arffContent = "% Ceci représente la classification de critiques de films en fonction de 3 catégories de jugement (mixed, negative, positive).";
+		arffContent += "\n\n@relation critiquesFilms";
 		arffContent += "\n\n@attribute nom_fichier string";
 		arffContent += "\n@attribute contenu string";
-		arffContent += "\n@attribute classe {animation, crime, medical}";
+		arffContent += "\n@attribute classe {mixed, negative, positive}";
 		arffContent += "\n\n@data";
 		
 		File file = new File("");
 		ArrayList<String> folderNames = new ArrayList<String>();
-		folderNames.add("animation");
-		folderNames.add("crime");
-		folderNames.add("medical");
+		folderNames.add("mixed");
+		folderNames.add("negative");
+		folderNames.add("positive");
 		
 		for(String folderName: folderNames){
 			File[] files= getListOfFiles(foldersPath + "/" + folderName);

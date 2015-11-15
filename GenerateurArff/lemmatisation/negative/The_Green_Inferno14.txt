@@ -1,0 +1,11 @@
+The	DT	the
+Green	NP	Green
+Inferno	NP	<unknown>
+feels	VBZ	feel
+like	IN	like
+a	DT	a
+retread	NN	retread
+of	IN	of
+a	DT	a
+retread	NN	retread
+.	SENT	.

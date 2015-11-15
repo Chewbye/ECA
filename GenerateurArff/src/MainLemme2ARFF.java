@@ -7,7 +7,7 @@ public class MainLemme2ARFF {
 //		String projectPath = "/auto_home/llafon/Cours/semestre8/ECD/ECD/corpus";
 //		ARFF arff = new ARFF(projectPath, projectPath + "/result.arff");
 		
-		String projectPath = "/home/asapinux/Bureau/Semestre_2/ECD/Projet/ECD/corpus";
+		String projectPath = "/home/axel/Bureau/ProjetExtractionConn/ECA/GenerateurArff";
 		Lemme2ARFF l2a = new Lemme2ARFF(projectPath+"/lemmatisation",projectPath+"/resultLemme.arff");
 	}
 }

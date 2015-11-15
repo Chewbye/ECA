@@ -1,0 +1,13 @@
+If	IN	if
+this	DT	this
+all	RB	all
+sounds	VBZ	sound
+rather	RB	rather
+dull	JJ	dull
+,	,	,
+that	WDT	that
+is	VBZ	be
+because	IN	because
+it	PP	it
+is	VBZ	be
+.	SENT	.

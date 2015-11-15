@@ -1,0 +1,17 @@
+Consistently	RB	consistently
+off	RB	off
+by	IN	by
+a	DT	a
+beat	NN	beat
+,	,	,
+Hitman	NP	hitman
+:	:	:
+Agent	NN	agent
+47	CD	@card@
+fails	VBZ	fail
+to	TO	to
+ever	RB	ever
+click	VB	click
+into	IN	into
+gear	NN	gear
+.	SENT	.

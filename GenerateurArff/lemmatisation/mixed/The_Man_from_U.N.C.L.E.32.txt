@@ -1,0 +1,14 @@
+Looks	NNS	look
+great	JJ	great
+,	,	,
+sounds	VBZ	sound
+great	RB	great
+--	:	--
+what	WP	what
+'s	VBZ	be
+the	DT	the
+problem	NN	problem
+?	SENT	?
+Everything	NN	Everything
+else	RB	else
+.	SENT	.

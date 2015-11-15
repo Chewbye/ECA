@@ -1,0 +1,12 @@
+Ping-ponging	VBG	<unknown>
+camera	NN	camera
+moves	VBZ	move
+temporarily	RB	temporarily
+distract	VB	distract
+from	IN	from
+the	DT	the
+haphazard	JJ	haphazard
+structuring	NN	structuring
+and	CC	and
+translation	NN	translation
+.	SENT	.

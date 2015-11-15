@@ -1,0 +1,16 @@
+A	DT	a
+movie	NN	movie
+that	WDT	that
+gives	VBZ	give
+Streep	NP	Streep
+her	PP$	her
+most	RBS	most
+emotionally	RB	emotionally
+blocked	VBN	block
+character	NN	character
+in	IN	in
+years	NNS	year
+,	,	,
+without	IN	without
+caricature	NN	caricature
+.	SENT	.

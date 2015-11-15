@@ -1,0 +1,13 @@
+Unusually	RB	unusually
+for	IN	for
+a	DT	a
+Spielberg	NP	Spielberg
+movie	NN	movie
+,	,	,
+Bridge	NP	Bridge
+of	IN	of
+Spies	NP	Spies
+is	VBZ	be
+tonally	RB	tonally
+uncertain	JJ	uncertain
+.	SENT	.

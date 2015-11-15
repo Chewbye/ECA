@@ -1,0 +1,16 @@
+Star	NN	star
+vehicles	NNS	vehicle
+this	DT	this
+rickety	JJ	rickety
+have	VBP	have
+a	DT	a
+way	NN	way
+of	IN	of
+making	VBG	make
+the	DT	the
+world	NN	world
+unsafe	JJ	unsafe
+for	IN	for
+comic	JJ	comic
+democracy	NN	democracy
+.	SENT	.

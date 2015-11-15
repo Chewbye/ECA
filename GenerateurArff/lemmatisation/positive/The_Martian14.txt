@@ -1,0 +1,15 @@
+The	DT	the
+Martian	NN	Martian
+is	VBZ	be
+never	RB	never
+less	JJR	less
+than	IN	than
+engaging	JJ	engaging
+,	,	,
+and	CC	and
+often	RB	often
+much	RB	much
+more	JJR	more
+than	IN	than
+that	DT	that
+.	SENT	.

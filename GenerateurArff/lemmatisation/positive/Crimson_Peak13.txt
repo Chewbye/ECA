@@ -1,0 +1,16 @@
+Though	IN	though
+this	DT	this
+movie	NN	movie
+waltzes	VBZ	waltz
+to	TO	to
+its	PP$	its
+own	JJ	own
+strange	JJ	strange
+rhythm	NN	rhythm
+,	,	,
+del	NP	del
+Toro	NP	Toro
+hits	VBZ	hit
+every	DT	every
+note	NN	note
+.	SENT	.

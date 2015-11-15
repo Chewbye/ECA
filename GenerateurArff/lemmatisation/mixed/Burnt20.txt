@@ -1,0 +1,16 @@
+A	DT	a
+tasteless	JJ	tasteless
+concoction	NN	concoction
+-	:	-
+one	CD	one
+gay	JJ	gay
+character	NN	character
+is	VBZ	be
+particularly	RB	particularly
+misjudged	VBN	misjudge
+-	:	-
+that	WDT	that
+'s	VBZ	be
+instantly	RB	instantly
+forgettable	JJ	forgettable
+.	SENT	.

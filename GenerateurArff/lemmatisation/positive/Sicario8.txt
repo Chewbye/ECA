@@ -1,0 +1,14 @@
+The	DT	the
+violence	NN	violence
+is	VBZ	be
+shocking	JJ	shocking
+,	,	,
+effective	JJ	effective
+and	CC	and
+soaked	VBN	soak
+into	IN	into
+the	DT	the
+dry	JJ	dry
+brown	JJ	brown
+landscape	NN	landscape
+.	SENT	.

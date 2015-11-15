@@ -1,0 +1,15 @@
+Everest	NP	Everest
+,	,	,
+in	IN	in
+short	JJ	short
+,	,	,
+suffers	VBZ	suffer
+from	IN	from
+the	DT	the
+same	JJ	same
+problem	NN	problem
+as	IN	as
+Everest	NP	Everest
+:	:	:
+overcrowding	NN	overcrowding
+.	SENT	.

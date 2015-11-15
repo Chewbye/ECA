@@ -1,0 +1,11 @@
+The	DT	the
+mountain	NN	mountain
+,	,	,
+grim	JJ	grim
+and	CC	and
+unforgiving	VBG	unforgive
+,	,	,
+remains	VBZ	remain
+the	DT	the
+star	NN	star
+.	SENT	.

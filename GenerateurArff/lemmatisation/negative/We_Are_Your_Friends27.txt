@@ -1,0 +1,14 @@
+We	PP	we
+Are	VBP	be
+Your	PP$	your
+Friends	NNS	friend
+has	VBZ	have
+no	DT	no
+heartbeat	NN	heartbeat
+.	SENT	.
+It	PP	it
+flatlines	VBZ	<unknown>
+,	,	,
+early	RB	early
+on	IN	on
+.	SENT	.

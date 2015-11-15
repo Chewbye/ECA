@@ -1,0 +1,9 @@
+Careens	VBZ	careen
+helplessly	RB	helplessly
+between	IN	between
+the	DT	the
+garish	JJ	garish
+and	CC	and
+the	DT	the
+generic	JJ	generic
+.	SENT	.

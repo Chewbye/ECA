@@ -1,0 +1,7 @@
+A	DT	a
+rare	JJ	rare
+gem	NN	gem
+of	IN	of
+a	DT	a
+movie	NN	movie
+.	SENT	.

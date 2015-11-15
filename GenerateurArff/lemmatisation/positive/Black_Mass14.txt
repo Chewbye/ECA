@@ -1,0 +1,14 @@
+A	DT	a
+solid	JJ	solid
+piece	NN	piece
+of	IN	of
+filmmaking	VBG	filmmak
+,	,	,
+from	IN	from
+subtle	JJ	subtle
+beginning	NN	beginning
+to	TO	to
+the	DT	the
+excessive	JJ	excessive
+end	NN	end
+.	SENT	.

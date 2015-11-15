@@ -1,0 +1,13 @@
+Bridge	NP	Bridge
+of	IN	of
+Spies	NP	Spies
+is	VBZ	be
+like	IN	like
+Capra	NP	Capra
+with	IN	with
+a	DT	a
+dash	NN	dash
+of	IN	of
+le	DT	le
+Carré	NP	<unknown>
+.	SENT	.

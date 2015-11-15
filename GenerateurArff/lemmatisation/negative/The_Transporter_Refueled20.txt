@@ -1,0 +1,17 @@
+It	PP	it
+appears	VBZ	appear
+that	IN	that
+this	DT	this
+franchise	NN	franchise
+has	VBZ	have
+hit	VBN	hit
+a	DT	a
+dead	JJ	dead
+end	NN	end
+,	,	,
+running	VBG	run
+on	IN	on
+nothing	NN	nothing
+but	CC	but
+fumes	NNS	fume
+.	SENT	.

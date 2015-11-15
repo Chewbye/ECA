@@ -1,0 +1,12 @@
+It’s	NP	<unknown>
+a	DT	a
+well-crafted	NN	well-crafted
+,	,	,
+well-paced	JJ	well-paced
+procedural	JJ	procedural
+drama	NN	drama
+about	IN	about
+a	DT	a
+monotonous	JJ	monotonous
+psychopath	NN	psychopath
+.	SENT	.

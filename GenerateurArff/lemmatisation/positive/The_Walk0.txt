@@ -1,0 +1,8 @@
+The	DT	the
+Walk	VBP	walk
+is	VBZ	be
+a	DT	a
+visionary	JJ	visionary
+high-wire	NN	high-wire
+act	NN	act
+.	SENT	.

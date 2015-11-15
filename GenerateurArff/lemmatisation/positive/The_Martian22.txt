@@ -1,0 +1,7 @@
+[	SYM	[
+An	NP	An
+]	SYM	]
+enormously	RB	enormously
+entertaining	JJ	entertaining
+movie	NN	movie
+.	SENT	.

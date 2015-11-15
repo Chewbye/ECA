@@ -1,0 +1,16 @@
+No	DT	no
+Escape	NP	<unknown>
+is	VBZ	be
+a	DT	a
+tense	JJ	tense
+but	CC	but
+utterly	RB	utterly
+predictable	JJ	predictable
+exercise	NN	exercise
+in	IN	in
+Western	JJ	Western
+xenophobic	JJ	xenophobic
+paranoia	NN	paranoia
+and	CC	and
+guilt	NN	guilt
+.	SENT	.

@@ -1,0 +1,16 @@
+Director	NP	Director
+Joe	NP	Joe
+Wright	NP	Wright
+'s	POS	's
+movie	NN	movie
+barely	RB	barely
+gets	VBZ	get
+off	RP	off
+the	DT	the
+ground	NN	ground
+,	,	,
+and	CC	and
+gets	VBZ	get
+old	JJ	old
+quickly	RB	quickly
+.	SENT	.

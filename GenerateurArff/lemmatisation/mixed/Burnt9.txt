@@ -1,0 +1,5 @@
+Burnt	JJ	burnt
+is	VBZ	be
+mildly	RB	mildly
+diverting	VBG	divert
+.	SENT	.

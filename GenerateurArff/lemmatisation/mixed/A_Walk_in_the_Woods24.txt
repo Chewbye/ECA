@@ -1,0 +1,4 @@
+A	DT	a
+middling	JJ	middling
+sitcom	NN	sitcom
+.	SENT	.

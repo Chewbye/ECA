@@ -1,0 +1,15 @@
+In	IN	in
+the	DT	the
+closing	NN	closing
+act	NN	act
+,	,	,
+the	DT	the
+film	NN	film
+sharpens	VBZ	sharpen
+and	CC	and
+becomes	VBZ	become
+something	NN	something
+far	RB	far
+more	RBR	more
+compelling	JJ	compelling
+.	SENT	.

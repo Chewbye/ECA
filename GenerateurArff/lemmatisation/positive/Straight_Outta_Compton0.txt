@@ -1,0 +1,14 @@
+Straight	JJ	straight
+Outta	NP	<unknown>
+Compton	NP	Compton
+is	VBZ	be
+among	IN	among
+the	DT	the
+most	RBS	most
+potent	JJ	potent
+rags-to-riches	NNS	rich
+showbiz	NN	showbiz
+movies	NNS	movie
+ever	RB	ever
+made	VBN	make
+.	SENT	.
