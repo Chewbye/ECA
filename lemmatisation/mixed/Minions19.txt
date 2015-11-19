@@ -1,0 +1,12 @@
+If	IN	if
+Minions	NNS	minion
+were	VBD	be
+a	DT	a
+toy	NN	toy
+,	,	,
+you	PP	you
+'d	MD	will
+hide	VB	hide
+its	PP$	its
+batteries	NNS	battery
+.	SENT	.

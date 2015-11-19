@@ -1,0 +1,13 @@
+It	PP	it
+'s	VBZ	be
+a	DT	a
+well-crafted	JJ	well-crafted
+,	,	,
+well-paced	JJ	well-paced
+procedural	JJ	procedural
+drama	NN	drama
+about	IN	about
+a	DT	a
+monotonous	JJ	monotonous
+psychopath	NN	psychopath
+.	SENT	.

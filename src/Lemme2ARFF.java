@@ -31,11 +31,10 @@ public class Lemme2ARFF {
 		typesValides.add("JJR");
 		typesValides.add("JJS");
 		
-		arffContent = "% Ceci représente la classification de critiques de films en fonction de 3 catégories de jugement (mixed, negative, positive).";
-		arffContent += "\n\n@relation critiquesFilms";
-		arffContent += "\n\n@attribute nom_fichier string";
+		arffContent = "% Ceci represente la classification de critiques de films en fonction de leur jugement.";
+		arffContent += "\n\n@relation critiques";
 		arffContent += "\n@attribute contenu string";
-		arffContent += "\n@attribute classe {mixed, negative, positive}";
+		arffContent += "\n@attribute classe {positive, mixed, negative}";
 		arffContent += "\n\n@data";
 		
 		File file = new File("");
@@ -59,16 +58,16 @@ public class Lemme2ARFF {
 					{
 						String[] triplet = ligne.split("\t");
 						
-						if (motValide(triplet))
-						{
+						//if (motValide(triplet))
+						//{
 							fileContent = fileContent + triplet[triplet.length-1] + " ";
-						}
+						//}
 						
 						
 						ligne = bf.readLine();
 					}
 					
-					arffContent += "\n\'" + fileName.split("/")[fileName.split("/").length - 1] + "\',\'"+ fileContent.replace("\'", "\\'") + "\'," + folderName;
+					arffContent += "\n\'" + fileContent.replace("\'", "\\'") + "\'," + folderName;
 					System.out.println(arffContent);
 					
 					bf.close();

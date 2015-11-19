@@ -1,0 +1,12 @@
+Say	VBP	say
+one	CD	one
+thing	NN	thing
+for	IN	for
+these	DT	these
+killer	NN	killer
+kids	NNS	kid
+:	:	:
+they	PP	they
+'re	VBP	be
+creative	JJ	creative
+.	SENT	.

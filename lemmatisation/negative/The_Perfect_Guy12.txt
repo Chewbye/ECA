@@ -1,0 +1,8 @@
+It	PP	it
+'s	VBZ	be
+a	DT	a
+lazy	JJ	lazy
+,	,	,
+by-the-numbers	NNS	<unknown>
+bore	VBD	bear
+.	SENT	.

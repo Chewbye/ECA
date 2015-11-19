@@ -1,0 +1,15 @@
+The	DT	the
+movie	NN	movie
+left	VBD	leave
+me	PP	me
+amazed	VBD	amaze
+—	NN	<unknown>
+amazed	VBD	amaze
+that	IN	that
+Nicolas	NP	Nicolas
+Cage	NP	Cage
+was	VBD	be
+n't	RB	n't
+in	IN	in
+it	PP	it
+.	SENT	.

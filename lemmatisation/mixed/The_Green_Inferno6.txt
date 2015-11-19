@@ -1,0 +1,13 @@
+The	DT	the
+blood-soaked	JJ	blood-soaked
+Inferno	NP	<unknown>
+practically	RB	practically
+ends	VBZ	end
+up	RP	up
+a	DT	a
+promotional	JJ	promotional
+snuff	NN	snuff
+film	NN	film
+for	IN	for
+deforestation	NN	deforestation
+.	SENT	.

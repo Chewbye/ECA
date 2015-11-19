@@ -1,0 +1,11 @@
+There	EX	there
+'s	VBZ	be
+no	DT	no
+edge	NN	edge
+to	TO	to
+any	DT	any
+character	NN	character
+in	IN	in
+the	DT	the
+movie	NN	movie
+.	SENT	.

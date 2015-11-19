@@ -1,0 +1,16 @@
+That	DT	that
+'s	VBZ	be
+the	DT	the
+nature	NN	nature
+of	IN	of
+Truth	NP	<unknown>
+:	:	:
+a	DT	a
+promising	JJ	promising
+build-up	NN	build-up
+,	,	,
+dead-ending	NN	<unknown>
+into	IN	into
+prosaic	JJ	prosaic
+pontification	NN	<unknown>
+.	SENT	.

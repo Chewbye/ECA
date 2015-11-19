@@ -1,9 +1,0 @@
-Steer	VB	steer
-clear	JJ	clear
-,	,	,
-Friends	NNS	friend
-of	IN	of
-Ol	NP	<unknown>
-’	NP	<unknown>
-Marvel	NP	Marvel
-!	SENT	!

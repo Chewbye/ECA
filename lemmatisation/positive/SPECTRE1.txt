@@ -1,0 +1,9 @@
+It	PP	it
+'s	VBZ	be
+a	DT	a
+feat	NN	feat
+of	IN	of
+pure	JJ	pure
+cinematic	JJ	cinematic
+necromancy	NN	necromancy
+.	SENT	.

@@ -1,0 +1,17 @@
+There	EX	there
+'s	VBZ	be
+a	DT	a
+special	JJ	special
+variety	NN	variety
+of	IN	of
+infuriating	VBG	infuriate
+that	WDT	that
+comes	VBZ	come
+from	IN	from
+a	DT	a
+bad	JJ	bad
+movie	NN	movie
+by	IN	by
+talented	JJ	talented
+people	NNS	people
+.	SENT	.

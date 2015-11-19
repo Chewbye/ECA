@@ -1,0 +1,17 @@
+It	PP	it
+'s	VBZ	be
+tempting	JJ	tempting
+to	TO	to
+think	VB	think
+Hitman	NP	hitman
+undermines	VBZ	undermine
+any	DT	any
+beauty	NN	beauty
+it	PP	it
+musters	VBZ	muster
+with	IN	with
+its	PP$	its
+habit	NN	habit
+of	IN	of
+ridiculousness	NN	ridiculousness
+.	SENT	.

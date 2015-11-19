@@ -1,4 +1,0 @@
-The	DT	the
-movie’s	NNS	<unknown>
-ridiculous	JJ	ridiculous
-.	SENT	.

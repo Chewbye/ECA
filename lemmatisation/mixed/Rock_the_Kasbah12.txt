@@ -1,0 +1,14 @@
+It	PP	it
+'s	VBZ	be
+Ishtar	NP	Ishtar
+with	IN	with
+the	DT	the
+passion	NN	passion
+and	CC	and
+sincerity	NN	sincerity
+replaced	VBN	replace
+with	IN	with
+a	DT	a
+surface-level	JJ	<unknown>
+shrug	NN	shrug
+.	SENT	.

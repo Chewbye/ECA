@@ -1,0 +1,11 @@
+One	CD	One
+of	IN	of
+the	DT	the
+summer	NN	summer
+'s	POS	's
+most	RBS	most
+entertaining	JJ	entertaining
+and	CC	and
+provocative	JJ	provocative
+movies	NNS	movie
+.	SENT	.

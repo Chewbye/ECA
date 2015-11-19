@@ -1,0 +1,16 @@
+It	PP	it
+'s	VBZ	be
+somehow	RB	somehow
+both	DT	both
+too	RB	too
+drawn-out	JJ	drawn-out
+and	CC	and
+abrupt	JJ	abrupt
+—	NN	<unknown>
+but	CC	but
+it	PP	it
+'s	VBZ	have
+got	VBN	get
+creepiness	NN	creepiness
+galore	JJ	galore
+.	SENT	.

@@ -1,7 +1,0 @@
-It’s	NP	<unknown>
-a	DT	a
-lazy	JJ	lazy
-,	,	,
-by-the-numbers	NNS	<unknown>
-bore	VBD	bear
-.	SENT	.

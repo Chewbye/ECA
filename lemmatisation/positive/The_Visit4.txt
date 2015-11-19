@@ -1,0 +1,9 @@
+It	PP	it
+'s	VBZ	be
+vintage	JJ	vintage
+Shyamalan	NP	<unknown>
+,	,	,
+with	IN	with
+a	DT	a
+twist	NN	twist
+.	SENT	.

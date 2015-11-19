@@ -1,0 +1,12 @@
+90	CD	@card@
+Minutes	NP	Minutes
+is	VBZ	be
+one	CD	one
+of	IN	of
+the	DT	the
+better	JJR	good
+faith-based	JJ	<unknown>
+films	NNS	film
+out	IN	out
+there	RB	there
+.	SENT	.

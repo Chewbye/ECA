@@ -1,5 +1,0 @@
-It’s	NP	<unknown>
-a	DT	a
-joyless	JJ	joyless
-relaunch/re-imaging	NN	<unknown>
-.	SENT	.

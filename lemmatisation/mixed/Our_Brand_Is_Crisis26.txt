@@ -1,0 +1,15 @@
+The	DT	the
+comedy	NN	comedy
+here	RB	here
+is	VBZ	be
+n't	RB	n't
+very	RB	very
+funny	JJ	funny
+and	CC	and
+the	DT	the
+drama	NN	drama
+is	VBZ	be
+n't	RB	n't
+very	RB	very
+sharp	JJ	sharp
+.	SENT	.

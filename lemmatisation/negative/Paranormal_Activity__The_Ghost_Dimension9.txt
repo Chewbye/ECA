@@ -1,0 +1,9 @@
+Still	RB	still
+,	,	,
+The	DT	the
+Haunting	NP	<unknown>
+these	DT	these
+films	NNS	film
+are	VBP	be
+not	RB	not
+.	SENT	.

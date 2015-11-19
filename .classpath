@@ -2,21 +2,21 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/fluent-hc-4.5.1.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpasyncclient-4.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpasyncclient-cache-4.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpclient-4.5.1.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpclient-cache-4.5.1.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpclient-win-4.5.1.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpcore-4.4.3.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpcore-4.4.4.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpcore-nio-4.4.4.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/httpmime-4.5.1.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/json-20150729.jar"/>
-	<classpathentry kind="lib" path="D:/WorkspaceJAVAExtractionDeConnaissancesAvancee/ProjetECD/lib/unirest-java-1.4.7.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/fluent-hc-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpasyncclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpasyncclient-cache-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpclient-cache-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpclient-win-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpcore-nio-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/httpmime-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/json-20150729.jar"/>
+	<classpathentry kind="lib" path="/auto_home/adepret/Bureau/ProjetECA/ECA/lib/unirest-java-1.4.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
