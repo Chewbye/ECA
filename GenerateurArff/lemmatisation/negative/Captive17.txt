@@ -1,0 +1,12 @@
+For	IN	for
+a	DT	a
+movie	NN	movie
+about	IN	about
+purpose	NN	purpose
+,	,	,
+Captive	NP	<unknown>
+never	RB	never
+finds	VBZ	find
+its	PP$	its
+own	JJ	own
+.	SENT	.

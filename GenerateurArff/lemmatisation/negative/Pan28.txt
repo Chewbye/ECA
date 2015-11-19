@@ -1,0 +1,13 @@
+A	DT	a
+complete	JJ	complete
+washout	NN	washout
+,	,	,
+a	DT	a
+joyless	JJ	joyless
+,	,	,
+pointless	JJ	pointless
+and	CC	and
+fundamentally	RB	fundamentally
+idiotic	JJ	idiotic
+enterprise	NN	enterprise
+.	SENT	.

@@ -1,0 +1,15 @@
+This	DT	this
+adaptation	NN	adaptation
+of	IN	of
+Phoebe	NP	Phoebe
+Gloeckner’s	NP	<unknown>
+heavily	RB	heavily
+autobiographical	JJ	autobiographical
+novel	NN	novel
+is	VBZ	be
+ideally	RB	ideally
+cast	VBN	cast
+and	CC	and
+skillfully	RB	skillfully
+handled	VBN	handle
+.	SENT	.

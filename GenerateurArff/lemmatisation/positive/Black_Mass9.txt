@@ -1,0 +1,15 @@
+Black	NP	Black
+Mass	NP	Mass
+is	VBZ	be
+like	IN	like
+a	DT	a
+playlist	NN	<unknown>
+of	IN	of
+greatest	JJS	great
+hits	NNS	hit
+from	IN	from
+other	JJ	other
+,	,	,
+better	JJR	good
+movies	NNS	movie
+.	SENT	.

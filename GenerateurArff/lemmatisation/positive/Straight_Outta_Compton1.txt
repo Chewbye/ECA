@@ -1,0 +1,15 @@
+It	PP	it
+plays	VBZ	play
+like	IN	like
+a	DT	a
+Marvel	NP	Marvel
+superhero	NN	superhero
+movie	NN	movie
+had	VBD	have
+Marvel	NP	Marvel
+been	VBN	be
+run	VBN	run
+by	IN	by
+Suge	NP	<unknown>
+Knight	NP	Knight
+.	SENT	.

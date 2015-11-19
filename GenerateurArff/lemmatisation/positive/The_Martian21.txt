@@ -1,0 +1,17 @@
+Damon	NP	Damon
+has	VBZ	have
+never	RB	never
+seemed	VBN	seem
+more	JJR	more
+at	IN	at
+home	NN	home
+than	IN	than
+he	PP	he
+does	VBZ	do
+here	RB	here
+,	,	,
+millions	NNS	million
+of	IN	of
+miles	NNS	mile
+adrift	RB	adrift
+.	SENT	.

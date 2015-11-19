@@ -1,0 +1,8 @@
+It’s	NP	<unknown>
+a	DT	a
+feat	NN	feat
+of	IN	of
+pure	JJ	pure
+cinematic	JJ	cinematic
+necromancy	NN	necromancy
+.	SENT	.

@@ -1,0 +1,15 @@
+For	IN	for
+someone	NN	someone
+of	IN	of
+De	NP	De
+Niro’s	NP	<unknown>
+reputation	NN	reputation
+,	,	,
+this	DT	this
+Intern	NP	<unknown>
+gig	NN	gig
+is	VBZ	be
+a	DT	a
+thankless	JJ	thankless
+job	NN	job
+.	SENT	.

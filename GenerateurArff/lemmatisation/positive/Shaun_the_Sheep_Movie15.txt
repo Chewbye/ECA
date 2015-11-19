@@ -1,0 +1,15 @@
+A	DT	a
+Lower	NP	<unknown>
+key	NN	key
+than	IN	than
+Wallace	NP	Wallace
+and	CC	and
+Gromit	NP	<unknown>
+or	CC	or
+Pirates	NP	<unknown>
+,	,	,
+but	CC	but
+tightly	RB	tightly
+packed	VBN	pack
+with	IN	with
+charm	NN	charm

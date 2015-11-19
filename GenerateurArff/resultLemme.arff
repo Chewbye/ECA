@@ -1,0 +1,1334 @@
+% Ceci représente la classification de critiques de films en fonction de 3 catégories de jugement (mixed, negative, positive).
+
+@relation critiquesFilms
+
+@attribute nom_fichier string
+@attribute contenu string
+@attribute classe {mixed, negative, positive}
+
+@data
+'Underdogs1.txt','player colourful bunch film reference smart football satire sharp delightful moment visual imagination appealing animation ',mixed
+'Scouts_Guide_to_the_Zombie_Apocalypse2.txt','dumb ribald most taste like zombie comedy come ',mixed
+'Sinister_20.txt','sinister perfect nobility rare much modern horror cinema ',mixed
+'The_Martian42.txt','film micromanage fix thing fly lot gruff technocrat personality ',mixed
+'The_Man_from_U.N.C.L.E.26.txt','impossible find popular way old show modern time man immerse thing retro fashion jazzy score action adventure tedious affair fleeting moment cool ',mixed
+'The_Last_Witch_Hunter4.txt','last redeem complex work netherworld stolid performance balance support star power limited scene dream walker earnestness world macho witch hunter plausible ',mixed
+'Minions16.txt','introduce yellow minion own spinoff fine line irritate adorable ',mixed
+'Pan19.txt','point entire film character allow have fun devastating flaw movie suppose be set eternal wonderland play arrest childhood innocence ',mixed
+'The_Transporter_Refueled7.txt','crass nonsensical hard hate movie medical anesthetic administer nightclub fog machine weapon ringed life preserver escape move plane car touch-screen banking software design double-cross ',mixed
+'Ricki_and_the_Flash19.txt','strut most film leather rocker dud much concoction witch uniform taunt way define woman time superannuated hippie ',mixed
+'Maze_Runner__The_Scorch_Trials4.txt','scale catch fizzle Empire Strike ace ',mixed
+'Rock_the_Kasbah6.txt','slapdash funny cross infamous forget ',mixed
+'Ricki_and_the_Flash18.txt','shaggy distractible film expectation charming baffle effect ',mixed
+'Fantastic_Four8.txt','stab revive inherited property less blockbuster age also-ran embarrassment experiment gel ',mixed
+'No_Escape9.txt','no-holds-barred family survival action film inevitable side order xenophobia undimmed indictment faceless corporate chicanery ',mixed
+'Hitman__Agent_477.txt','beat agent click gear ',mixed
+'American_Ultra16.txt','clever standard gore splash distract dearth wit ',mixed
+'Crimson_Peak32.txt','crimson gorgeous mediocrity ',mixed
+'The_Transporter_Refueled8.txt','accent Russian rogue lethal lady car chase less film more violent fashion spread two-fisted rough life original ',mixed
+'Fantastic_Four5.txt','different introductory segment super power whole film standard gear ',mixed
+'Sinister_27.txt','feature none sumptuous pitch-black visual sense creep dread follow-up misbegotten venture turn large part horror sophomore rulebook ',mixed
+'American_Ultra19.txt','clumsy mix courtship gunpowder passion horror lead conclusion end director mean get ',mixed
+'The_Intern25.txt','featherweight comedy coffee ace boss hint irony painful watch anyone thunder use have fingertip ',mixed
+'A_Walk_in_the_Woods9.txt','apex hilarity be movie trailer slapstick one-liner premise old buddy go adventure ',mixed
+'Our_Brand_Is_Crisis20.txt','satiric comedy film effective run energy end ',mixed
+'Fantastic_Four16.txt','ponderous pretentious damn much fun ',mixed
+'Minions19.txt','minion be toy hide battery ',mixed
+'The_Intern14.txt','idea easygoing indulgent good fun go expect nutrition ',mixed
+'Minions18.txt','new team mayhem funny time mayhem be time hilarious movie math work many scene spin control ',mixed
+'Our_Brand_Is_Crisis26.txt','comedy funny drama sharp ',mixed
+'Jem_and_the_Holograms3.txt','movie entertain slip shackle great cultural conformity factory ',mixed
+'Burnt18.txt','thoughtful story beat character moment such predictability slick professionalism whole project smother bland sweetness ',mixed
+'Sinister_26.txt','sinister be much ',mixed
+'Maze_Runner__The_Scorch_Trials14.txt','bad movie several pretty good one ',mixed
+'Fantastic_Four17.txt','cast promising actor generation chemistry sweep wave wave expository dialogue ludicrous exclamation ',mixed
+'The_Perfect_Guy2.txt','nothing wacky grotesque go romantic thriller ',mixed
+'Paranormal_Activity__The_Ghost_Dimension5.txt','only spend more time ghost dimension less time people dimension have have something ',mixed
+'Hotel_Transylvania_29.txt','work gag induce laughter whole thing amiable colorful low gag kill take kid ',mixed
+'Paranormal_Activity__The_Ghost_Dimension3.txt','make everyone see evil come franchise potent pleasure study frame sign trouble little telltale something go wrong sentient inkblot poor substitution sensation ',mixed
+'Black_Mass33.txt','hard shake suspicion play type try replicate kind performance have give same role roll sleeve grasp shape soul aid distracting prosthetics ',mixed
+'The_Walk33.txt','storytelling shortcoming must-see perilous vertiginous finale reminder be remember more ',mixed
+'Pan7.txt','make divert young audience unlikely linger vibrancy temper familiarity tune ',mixed
+'American_Ultra12.txt','action blood-letting place sequence appear more frequency film rangy charm ',mixed
+'Crimson_Peak27.txt','crimson astonishing visual enhance story co-write director encourage stand admire look be involve emotional mechanic lurid tale ',mixed
+'American_Ultra11.txt','part stoner comedy midnight movie outsider love story B-movie intriguing film give real soul star director ambition end be laudable result ',mixed
+'The_Intern28.txt','edge character movie ',mixed
+'Scouts_Guide_to_the_Zombie_Apocalypse3.txt','genre fan close age character depict onscreen be appreciative familiar mix inspired comedy moment smart zinger gag nudity offer apocalypse ',mixed
+'No_Escape11.txt','strict plausibility necessary movie throw window occasional unintended giggle ',mixed
+'Our_Brand_Is_Crisis16.txt','flash insight crib reality nibble edge satire take big bite ',mixed
+'Fantastic_Four12.txt','impressive young cast waste teller company proven talent give depth do force spout dialog clunky ridiculous ',mixed
+'Truth28.txt','truth have feel tragedy story monumental fascinating failure journalism flip side upcoming spotlight Prize-winning investigation sexual abuse Catholic church make blood boil way filmmaker intend ',mixed
+'Rock_the_Kasbah8.txt','careful make Afghan people buffoon good change fact folk cardboard character ',mixed
+'Hotel_Transylvania_25.txt','film day joke please young old ',mixed
+'Black_Mass37.txt','filmmaker actor fine manage solve enduring challenge make criminal interesting exalt ',mixed
+'Black_Mass35.txt','valiant stab part hair thin lighten face harden forget be watch big star do impersonation spirit psychopath camera movie imaginative penetrate shell ',mixed
+'Pan15.txt','movie ground old ',mixed
+'Sinister_28.txt','terrifying Norwegian black metal good find sequel recent memory ',mixed
+'Everest24.txt','insertion attractive star daunting landscape odd contradiction scale story inevitability ',mixed
+'Hitman__Agent_474.txt','offer passable diversion action junkie everyone avoid ',mixed
+'Everest35.txt','first-rate cast story take reality icebound abstract lack gravity genuine tragedy swagger first-rate adventure ',mixed
+'We_Are_Your_Friends22.txt','soulful handheld try convey pensive thoughtfulness person be think much audience anyone screen ',mixed
+'Straight_Outta_Compton37.txt','twisty juicy compelling story staid conventionality political thematic undercurrent be explore hope ',mixed
+'Maze_Runner__The_Scorch_Trials15.txt','workmanlike handling second trilogy keep franchise run rail track be lay swamp clich ',mixed
+'The_Intern30.txt','bulk morass wackiness chain sequence shoot flat predictable manner range tedious idiotic ',mixed
+'American_Ultra21.txt','genre mash amusing think anything do flop deep end conspicuous gore ',mixed
+'Black_Mass36.txt','account mobster be monster dark blob underworld clich bad contact lens ',mixed
+'Burnt20.txt','tasteless concoction gay character misjudge forgettable ',mixed
+'Goosebumps20.txt','content rating percent more visual terror expect presence scary clown trigger special MPAA rating take know be visit bed night ',mixed
+'Hotel_Transylvania_214.txt','end film be edge seat due suspense due utter disdain infantile plot ',mixed
+'Captive6.txt','power piece writing have capture magic make good seller ',mixed
+'Maze_Runner__The_Scorch_Trials5.txt','production design effect apocalyptic terrain way par sort thing evidence high budget have first time ',mixed
+'SPECTRE38.txt','drab anemic machine bring spectacle soul someone phone ',mixed
+'Crimson_Peak34.txt','sheer sepulchral eye candy time year reign misfit king weirdness dust forget ',mixed
+'Maze_Runner__The_Scorch_Trials22.txt','film mad dash place next little time rest recuperation plot development ',mixed
+'Minions17.txt','fun tie inconsequential plot kid explode joy ',mixed
+'Jem_and_the_Holograms9.txt','few sweet moment early Hologram lumbering overstuff unfocused plot have have late exploitation 1980s nostalgia grind ',mixed
+'A_Walk_in_the_Woods13.txt','move delightful spend time titan cinema wobble deliver word meaningful lucky be speak ',mixed
+'The_Green_Inferno3.txt','riff spaghetti flick pastiche gut gore serve wink audience strong stomach ',mixed
+'A_Walk_in_the_Woods21.txt','broad barn door star minimal chemistry much way reflection mortality ',mixed
+'The_Green_Inferno8.txt','many way film regression juvenile polished labor previous effort ',mixed
+'The_Peanuts_Movie24.txt','homage echo heart riskless ',mixed
+'Straight_Outta_Compton40.txt','clear pad thin story real-life legend be unruly dangerous filmmaker become force submission ',mixed
+'Straight_Outta_Compton31.txt','straight soar hour spiral bloated melodramatic mess early ferocity capture powerful be ',mixed
+'Captive7.txt','acquit hint interesting character study have be end only captive left viewer ',mixed
+'The_Peanuts_Movie27.txt','good grief sincere animated feature aim contemporary kid nostalgic adult buy toy market be bill 50th anniversary gang child grandchild ',mixed
+'SPECTRE40.txt','try run film elevate bond movie silly spy movie reason frustrating collapse ambition moment see entire thing burn ground ',mixed
+'Fantastic_Four4.txt','short have low hurdle overcome become good FF movie fantastical aspect movie achieve goal ',mixed
+'American_Ultra26.txt','brilliant unsure footing movie know be ',mixed
+'No_Escape19.txt','preposterous monotonous action saga notable boast miscast lead advance geopolitical fantasy ',mixed
+'Truth29.txt','ferocious performance steely genuine emotion material ',mixed
+'Truth24.txt','high-class cheese fine noisy rally converted pulse race roll eye ',mixed
+'Fantastic_Four15.txt','origin story origin story hollow stale feeling admirable attempt dysfunctional family ',mixed
+'90_Minutes_in_Heaven2.txt','good film ',mixed
+'Sinister_22.txt','sinister be ambitious good idea express dumb unmove repetitive ',mixed
+'SPECTRE33.txt','plot trajectory be make everyone screen be do number ',mixed
+'90_Minutes_in_Heaven0.txt','scene operate influence painkiller earnestness monotonous interest sympathy spite capable support loyal spouse ',mixed
+'Goosebumps22.txt','film many memorable creation noisy sloppiness ',mixed
+'A_Walk_in_the_Woods22.txt','moment movie be something existential epiphany book deal platitude be content be educational entertaining movie be more reveal much less ',mixed
+'Ricki_and_the_Flash17.txt','moment interaction reach laugh poignancy feel flat force ',mixed
+'Our_Brand_Is_Crisis25.txt','toothless exercise miss opportunity cautionary tale political satire insignificant ',mixed
+'Ricki_and_the_Flash32.txt','seek spontaneity release character stick laboriousness want belabor effort gallant own singing play fleeting moment real fun wonder much movie go wrong ',mixed
+'The_Peanuts_Movie23.txt','shiny keep kid engage new improve alienate nostalgic parent movie balance add bell whistle ',mixed
+'Hotel_Transylvania_27.txt','talented director telegraph animated character think do move character way personality ',mixed
+'Sinister_25.txt','sinister bit short creative resource director right entice partial original ',mixed
+'War_Room1.txt','easy laugh arrant contrivance heavy-handed dialogue script pen easy admire persuasive sincerity emotional potency lead performance transcend material imbue conviction ',mixed
+'Woodlawn2.txt','long involve period drama be describe equal part remember revivalist tent meeting balance tip latter final minute overall narrative mix history lesson gridiron action spiritual uplift sustain ',mixed
+'Captive8.txt','actor commit frail anything worth commit ',mixed
+'No_Escape21.txt','flee ',mixed
+'The_Man_from_U.N.C.L.E.31.txt','get few thing go sit same time tone creative feel confident settle bad good ',mixed
+'Truth26.txt','nature promising build-up prosaic ',mixed
+'Sicario40.txt','much fault find level craft performance sputter momentum lack high purpose ',mixed
+'Goosebumps16.txt','least dozen popular beast fiend new movie old name ',mixed
+'Maze_Runner__The_Scorch_Trials7.txt','incomplete middle chapter least boring ',mixed
+'Goosebumps21.txt','everyone remember nothing be gremlin ',mixed
+'Maze_Runner__The_Scorch_Trials16.txt','leave gimmick clich resistance unclear resist zombie movie trope obligatory zombie bite friend scene ',mixed
+'The_Intern31.txt','considerable combined charm forestall aftertaste smug life lesson ',mixed
+'A_Walk_in_the_Woods11.txt','natural performance voice aura be dismiss walk sight gag fool way joke nimble delivery spot-on ',mixed
+'The_Green_Inferno7.txt','savagery root retrograde myth have be easy stomach have cannibalism be position fantastical unleash retribution ',mixed
+'SPECTRE43.txt','load allusion previous film franchise provide much glee bond fan nod quip general formula audience come know weary tire ',mixed
+'Our_Brand_Is_Crisis15.txt','film need edge screenplay deliver unaware fault performance strength ',mixed
+'Burnt5.txt','know head underhanded twist set movie right ',mixed
+'Pan13.txt','have make decent musical kid choral miner kid music ',mixed
+'Straight_Outta_Compton34.txt','party bland all-purpose music video more script signpost serious attempt get be young black gifted wealthy desire good story edge heavy dapple realm ',mixed
+'The_Man_from_U.N.C.L.E.33.txt','style chic locale swank music cue include nod time West score fantastic bad plot lead performance lifeless ',mixed
+'The_Intern27.txt','movie moment mouth stare camera right ',mixed
+'American_Ultra15.txt','clever premise several opportunity least comment skew spy movie fun content generate low-grade buzz deliver true high ',mixed
+'American_Ultra24.txt','meander paranoid guy front amusing most time tire ',mixed
+'Burnt14.txt','doubt redemption end-game claim saving weak sauce case be argue ',mixed
+'Burnt12.txt','tale redemption big screen equivalent sleek well-light trendy restaurant serve creative dish predictable menu ',mixed
+'Black_Mass34.txt','grim appearance grim behaviour quiet complicated subtle pleasure ',mixed
+'Rock_the_Kasbah3.txt','oddball script direct long bring kind flesh dynamic story ',mixed
+'SPECTRE35.txt','familiarity pleasure confused inert sell signature bond stir line ',mixed
+'Our_Brand_Is_Crisis27.txt','have solid arty cinema career go life hit right tone film waterlogged be jaunty cynicism sentimentality keep length ',mixed
+'The_Walk36.txt','patchy wire 3D touching tribute ',mixed
+'Goosebumps14.txt','film base book silly goofy scary little poignant lot fun ',mixed
+'Ricki_and_the_Flash27.txt','film many first-rate artist corner work matter style script make tin ',mixed
+'The_Intern13.txt','idiotic unrealistic wish fulfillment business work level enjoy ',mixed
+'Rock_the_Kasbah13.txt','mainstream comedy boast much talent be amateurish point humor secondary problem more press storytelling incoherence ',mixed
+'SPECTRE39.txt','watch unfold lumber slumber heel franchise high shock much talent coast time ',mixed
+'Hotel_Transylvania_212.txt','brand obvious humor mind noticeable product placement inoffensive sequel predecessor treat ',mixed
+'Fantastic_Four3.txt','be dumb superhero action flick try turn realistic drama director pair screenwriter create comic book movie short humour action ',mixed
+'No_Escape10.txt','xenophobic claptrap high order ',mixed
+'Jem_and_the_Holograms7.txt','screenwriter take fame fascinating most film drab slow drama ',mixed
+'Our_Brand_Is_Crisis21.txt','eclectic director trouble tone cynicism evolve something useful film reason be convincing ',mixed
+'SPECTRE37.txt','open credit movie suppose be silly start orgasmic level kitsch ',mixed
+'The_Visit19.txt','time time laugh odd action snicker mental illness interesting take simple tale ',mixed
+'Goosebumps23.txt','shred cleverness be find predictability ',mixed
+'Burnt10.txt','montage mesmerize couple solid twist education sous-vide trend ',mixed
+'American_Ultra22.txt','action comedic character scene film be take turn bring meaningful way ',mixed
+'Ricki_and_the_Flash28.txt','movie divide sensibility writer director fall muddy gap ',mixed
+'Everest31.txt','hardship trek portray storm crucial leap screen bone ',mixed
+'Burnt13.txt','food be say beautiful be consultant film shortcoming role write be good movie ',mixed
+'Burnt7.txt','real issue everything journey digest toss see be first time ',mixed
+'Scouts_Guide_to_the_Zombie_Apocalypse7.txt','plus side film high energy move zombie gore effect fun reach height climactic battle none scary predictable ',mixed
+'Rock_the_Kasbah10.txt','gap hipster comedy star incipient sentimentality story depressing reality setting provide tonal abyss vast bridge amusing problematic mish-mash rough rocky road ',mixed
+'Everest36.txt','impossible be catch climber life-or-death struggle horrific scenario underwhelming distance way ',mixed
+'Black_Mass39.txt','direction skillful reliant borrowed music cast first-rate film muddle secondhand attitude half-baked idea more costume party costume drama ',mixed
+'Burnt6.txt','director conscience screenwriter fact capable first-rate work minor surprise attractive detail way ',mixed
+'Ricki_and_the_Flash25.txt','only have put microphone let sing have have chance ',mixed
+'The_Walk40.txt','story unbelievable understandable choose leave subtlety door approach film tension crucial moment ',mixed
+'Hotel_Transylvania_211.txt','nice message inclusion crowd big dumb action scene end ',mixed
+'The_Transporter_Refueled10.txt','collaborator devise few nifty sequence ',mixed
+'Fantastic_Four1.txt','first fun shiny leave crumpled mess floor ',mixed
+'The_Visit17.txt','fun kind crazy intense be ',mixed
+'Our_Brand_Is_Crisis12.txt','cute while star pro scene stage character breathe distance other snap ',mixed
+'Crimson_Peak28.txt','actor melodrama fever pitch life weight intensity bauble smear slickness ',mixed
+'Fantastic_Four13.txt','model adventure pulp junk scene medical horror scary kid unpleasant be enjoy anyone ',mixed
+'The_Martian44.txt','new movie fascinating charming cram overstuff curious case hard thing point have be easy ',mixed
+'Maze_Runner__The_Scorch_Trials10.txt','thematic level reprehensible fraudulent piece entertainment least good film day good deal energy ',mixed
+'The_Green_Inferno5.txt','film notion white supremacy such try peddle see replicate formula fact ',mixed
+'We_Are_Your_Friends11.txt','convincing bid movie stardom pretty face flawed entertaining film bit end ',mixed
+'Black_Mass30.txt','movie absorb play snarl hero have much time ordinary folk end gasp air ',mixed
+'The_Man_from_U.N.C.L.E.18.txt','flaunt ware store clerk fawn clothes chair car usual pace crawl actor lot word talent make body car crash space ',mixed
+'A_Walk_in_the_Woods18.txt','difficult picture watch chance enjoy couple veteran actor book comic tone find comfortable equivalent screen ',mixed
+'Minions23.txt','comedy narrative demand more rhythm simply scamper jabber fall minion table ',mixed
+'The_Visit22.txt','be someone first film be okay small sign life annoy film dreadful be late work guy make first impression general public stick gun refuse compromise voice unthinkable ',mixed
+'A_Walk_in_the_Woods16.txt','nature fantasy feel-good ',mixed
+'The_Intern21.txt','know obsession kitchen sun-drenched chic architectural marvel safe haven character new spin trope kitchen ',mixed
+'Ricki_and_the_Flash15.txt','film catnap afternoon dream world logic screwy ',mixed
+'Truth31.txt','present tale light comic touch early stage tone picture overcome final third ',mixed
+'The_Perfect_Guy4.txt','ominous stare inconsistent character boilerplate stalker story more less ',mixed
+'Captive3.txt','drama clunky flat taut visceral performance ',mixed
+'Rock_the_Kasbah5.txt','project misguide star mug shrug way consider top bottom list ',mixed
+'Hotel_Transylvania_26.txt','minor be sure give recent work pleasant surprise ',mixed
+'Maze_Runner__The_Scorch_Trials17.txt','start sprint good long stretch catch breath ',mixed
+'The_Intern12.txt','expect material assurance charm fun be have dynamic film heart ',mixed
+'The_Visit23.txt','amusing horror comedy surprise twist hint heart ',mixed
+'The_Peanuts_Movie21.txt','movie pleasant charming make big-screen adaptation beloved classic genuine touchstone generation adequate feel enough ',mixed
+'The_Man_from_U.N.C.L.E.19.txt','good-looking film hold attention plot lack narrative drive undercut man overall charm ',mixed
+'The_Walk37.txt','recreate crime director crackerjack job thrill so-so laugh least intentional one deep magic ',mixed
+'We_Are_Your_Friends20.txt','friend heart right place shrewd cuddly get few like be good movie sustain sort trancelike sonic ecstasy fan fanatic ',mixed
+'Fantastic_Four6.txt','home run No. point comic fan happy see play error-free ball adaptation ',mixed
+'Scouts_Guide_to_the_Zombie_Apocalypse4.txt','everyone rating folk teen humor splatter zombie gut be disappoint ',mixed
+'Burnt8.txt','structure story personal demon culinary competition couple nice twist throw build material point life cycle genre shopworn ',mixed
+'Pan8.txt','entertaining plenty color action inventive effect unhinge performance great terrible captivate way magic ',mixed
+'Pan14.txt','movie bit twinkle pirate pixie dust stay fresh relevant people have snort ',mixed
+'SPECTRE42.txt','individual stunt action set piece interest story convince own term play series box bond asking martini shake stir be check forget ',mixed
+'We_Are_Your_Friends15.txt','film emotion flash light pulse soundtrack music be entire time story flat ',mixed
+'The_Last_Witch_Hunter8.txt','last pulpy comic-book fun fleet funny detailed be look something middle term plot character action sequence need seek ',mixed
+'American_Ultra10.txt','head trip ambitious long-haired pothead main character sole goal entertain surprise ',mixed
+'Hitman__Agent_472.txt','director project competent precision film rise genre plot muddle basic element chilly European style ',mixed
+'The_Walk39.txt','direct script co-wrote film first act put time big moment ',mixed
+'Paranormal_Activity__The_Ghost_Dimension1.txt','bitter end series wring fun something other invade something familiar ',mixed
+'Goosebumps18.txt','guess say satisfy core audience fan popular child book bear much everyone ',mixed
+'Minions29.txt','OK time delightful minion add ',mixed
+'Steve_Jobs43.txt','screenwriter signature dialogue nonstop blare chop movie large nothing commit ',mixed
+'Maze_Runner__The_Scorch_Trials13.txt','selfish oldster scheme rob young people vital essence sacrifice process movie ',mixed
+'Ricki_and_the_Flash29.txt','mistake regret course redemption little neat familiar convenient belt end ',mixed
+'Crimson_Peak31.txt','ghostly element red black spook wail warning receptive aim atmosphere story crumble English manor ',mixed
+'Everest27.txt','splendid few point murkiness render main character distinct individual ',mixed
+'Underdogs3.txt','kid experience withdrawal symptom be entertain animated oddity ',mixed
+'Burnt21.txt','movie dull focused ',mixed
+'The_Green_Inferno4.txt','co-star aftershock fine genre actress stand cast blonde woman naturalistic performance sign courage initiative ',mixed
+'Everest37.txt','frustrating movie many way lurch shock deliver many be hope engaging character powerful character ',mixed
+'We_Are_Your_Friends18.txt','talk mediocre friend update good movie liberal sprinkling plot element terrible movie call cocktail ',mixed
+'Minions26.txt','minion endear previous movie few bumble find true love sidekick matter loveable material ',mixed
+'Burnt17.txt','do kind golden boy shtick sleep make pleasurable watch flash baby blue fiery temper actor engage performance forgive laziness ',mixed
+'A_Walk_in_the_Woods12.txt','interesting check codger ',mixed
+'The_Visit24.txt','marketable slice hit-and-miss mischief career rebirth side project yield more way nervous laughter quicken pulse ',mixed
+'Hitman__Agent_475.txt','delve story own risk embrace unrepentant stupidity Zen-like joy be find adolescent violence ',mixed
+'Crimson_Peak35.txt','color symbolism ravishing disappointing surface substance sink weight own self-importance sanguine muck ',mixed
+'No_Escape13.txt','stay step misguided politics dramatic storytelling own preposterous climactic denouement ',mixed
+'The_Green_Inferno9.txt','unbridled shock value match similar investment other ingredient have make low rent B-movie worthwhile ',mixed
+'The_Perfect_Guy3.txt','serious imperfection soapy escapism provide least opportune time ',mixed
+'Ricki_and_the_Flash20.txt','classic lamentable news proposition good news department sturdy enjoyable domestic comedy drama ',mixed
+'The_Man_from_U.N.C.L.E.28.txt','period spy thriller man engaging amusing portion movie frustrating cushion enervate befuddle indifferent stuff ',mixed
+'Hotel_Transylvania_215.txt','put stake do ',mixed
+'Scouts_Guide_to_the_Zombie_Apocalypse1.txt','likable high count ',mixed
+'The_Intern19.txt','nobody pleasing funny escapist entertainment rich people try good do right thing good ',mixed
+'Jem_and_the_Holograms10.txt','odd series regular film watchable deliver capable star turn enough flash soul belie artifice credible pop vocal boot ',mixed
+'The_Visit25.txt','many movie more get ',mixed
+'The_Man_from_U.N.C.L.E.30.txt','play robot recent worthwhile be lively time human picture man ',mixed
+'Scouts_Guide_to_the_Zombie_Apocalypse6.txt','gross-out sight boy find hilarious ',mixed
+'American_Ultra20.txt','earnest unsatisfy adaptation cult graphic novel most charm lose translation ',mixed
+'The_Martian45.txt','film idea texture tic human behavior conviction real push eccentricity ',mixed
+'American_Ultra18.txt','appeal last movie much ',mixed
+'Maze_Runner__The_Scorch_Trials23.txt','second installment reason imprisonment similar sense originality urgency undercut familiar characterization dilatory pace ',mixed
+'Jem_and_the_Holograms6.txt','fan cartoon stick sequence dastardly rival band good scene set sequel see ',mixed
+'Crimson_Peak33.txt','film occasional burst ooze red clay cry red tear flaming crimson ball gown infuse gorgeous bore anything red-blooded suspense ',mixed
+'Rock_the_Kasbah15.txt','full mode little effect sassy camp follower hoot many bizarre subplot fall place ',mixed
+'No_Escape15.txt','serve horrific string choice situation breathless chase brutal violence ',mixed
+'The_Green_Inferno6.txt','blood-soaked promotional snuff film deforestation ',mixed
+'Ricki_and_the_Flash23.txt','actor incapable make false move mean incapable make false movie ',mixed
+'Burnt11.txt','action simple conversation harry shot suffice many montage cut pace same numb rhythm ',mixed
+'Everest34.txt','feature film Everest soar visual distant second term storytelling depth narrative impact ',mixed
+'A_Walk_in_the_Woods8.txt','superficial watchable very definition classy fluff ',mixed
+'Pan10.txt','deny ambitious fairy tale be label original adventure new mind necessary ',mixed
+'The_Last_Witch_Hunter6.txt','rumble line silly dialogue voice act go much ',mixed
+'Fantastic_Four2.txt','overstate thing say star remember last time actor appear invest movie team ',mixed
+'Everest26.txt','sprawling mess movie have be great place wind be good ',mixed
+'Truth27.txt','film dodgy tentative uncertain frame own protagonist complicated story journalistic compromise ',mixed
+'Maze_Runner__The_Scorch_Trials18.txt','more action less mystery return director main cast handful sketchy new character efficient uninspire sequel ',mixed
+'The_Visit27.txt','have difficulty director late understandable hope place realm low budget more manageable expectation impress be case time ',mixed
+'Crimson_Peak30.txt','crimson feeling bit make-work project keep visionary filmmaker busy something passion ',mixed
+'No_Escape20.txt','make case be good film first half good second half range bad awful deny have enjoy bit zombie film mind suppose be international thriller contemporary political significance ',mixed
+'Sinister_24.txt','visual stake heighten absurd degree death slide realm ridiculousness ',mixed
+'Maze_Runner__The_Scorch_Trials20.txt','adaptation second book author popular series exact opposite predecessor present sprawling adventure crib more illustrious sci-fi forefather plentiful time flesh dull detail scenario ',mixed
+'The_Walk38.txt','less sum part part good ignore ',mixed
+'Sinister_21.txt','story begin effective more unnecessary retread organic extension original ',mixed
+'The_Intern17.txt','portrait strong independent woman learn embrace own ambition desire future aid old male triumphant fantasy female empowerment conservative paternalistic shade ',mixed
+'Minions20.txt','question minion movie mischievous origin story be harmless despicable welcome way ',mixed
+'The_Intern18.txt','degenerate series monologue ambition relationship have speech goodwill magic ',mixed
+'Woodlawn1.txt','take heart Christian sport drama distance adhere inspirational movie playbook ',mixed
+'Straight_Outta_Compton33.txt','rivet weary up-to-the-minute relevant self-indulgent much heroic origin story anything factory juggle more story line mood handle ',mixed
+'Minions21.txt','episodic stream slapstick gag minion moment piquant absurdity anarchy visual sugar rush preschool set ',mixed
+'The_Transporter_Refueled6.txt','stupid stupid stupid chuckle know silliness sort low-rent franchise deadpan self-awareness legitimize ridiculousness previous film ',mixed
+'No_Escape14.txt','seed social justice emotional nuance be attempt sow undercut melodramatic family value ',mixed
+'Captive2.txt','minimal attempt broaden scope time ',mixed
+'Hotel_Transylvania_213.txt','young crowd work sentence awful lazy live-action fare feed fan year say get easy ',mixed
+'Pan9.txt','conceive irreverent over-serious chock-full strained reference environmentalism drug other thing creepy violence elaborate flight fancy vision compelling spot ',mixed
+'Steve_Jobs42.txt','difficult intricate fantasy acknowledge darkness set hope see real man inspire ',mixed
+'Hitman__Agent_476.txt','end door leave sequel character get be franchise hero film lack personality ',mixed
+'Steve_Jobs41.txt','heighten sense drama good stake align film inform important everything difficult care take place ',mixed
+'Ricki_and_the_Flash16.txt','emotional intensity due performance sympathetic get depth ',mixed
+'No_Escape18.txt','illegible chase scene awkward slow-motion shot fumble attempt political commentary be interesting thank off-beat support turn ',mixed
+'The_Diary_of_a_Teenage_Girl34.txt','material be limit movie think take moral stance tantamount sell be right other respect wrong ',mixed
+'Jem_and_the_Holograms5.txt','credit work legitimize halcyon recollection make material relevant new generation ',mixed
+'The_Martian43.txt','wide-eyed tribute human ingenuity enough pull black hole earnestness fuel partway ',mixed
+'Maze_Runner__The_Scorch_Trials6.txt','scorch world mixed result gripping action so-so script ',mixed
+'The_Man_from_U.N.C.L.E.32.txt','look great problem Everything ',mixed
+'Captive10.txt','bring humanity tension testimonial thriller lose soul find way burst hamper marketing copy masquerade dialogue ',mixed
+'Goosebumps25.txt','overload combine approach horror real danger monster scary result disposable product intend appeal everyone likely resonate ',mixed
+'The_Transporter_Refueled5.txt','goofiness serviceable replacement capable execute elaborate martial fight move glower wheel car act cold detached heart gold ',mixed
+'Minions28.txt','minion idiosyncratic root franchise play way own movie something love be young ',mixed
+'Paranormal_Activity__The_Ghost_Dimension4.txt','activity movie be sensation narrative secondary fortunate seek closure continuity be go disappoint ',mixed
+'The_Visit21.txt','reach sense unbreakable height scriptwriting lively see year sense humor be miss good work time be poke good-natured fun own reputation ',mixed
+'Fantastic_Four9.txt','debut feature put smart new spin superhero trope assemble quartet engaging charismatic performer strand miasma exposition set-up movie ',mixed
+'90_Minutes_in_Heaven1.txt','Christian film genre dramatic leap well-appointed work base bestseller change look sound be write perform record church basement ',mixed
+'Ricki_and_the_Flash21.txt','news come relief role have try movie have be make ',mixed
+'Goosebumps19.txt','movie toy chest character more medium muggy include ',mixed
+'The_Man_from_U.N.C.L.E.17.txt','work hit requisite number hip note dazzle kind surprise ',mixed
+'The_Peanuts_Movie25.txt','film modest visual formula playground courtesy animation studio ',mixed
+'The_Intern23.txt','content make nice movie nice people do good be nice other thing way nice stuff potent rousing entertainment ',mixed
+'Fantastic_Four18.txt','superhero franchise film half first likeable fun second tiresome loud ',mixed
+'Our_Brand_Is_Crisis17.txt','movie stick edgy drama broad comedy most humor land thud ',mixed
+'The_Last_Witch_Hunter9.txt','star last big overblown incomprehensible ',mixed
+'Sicario37.txt','impress own nihilism involve grown-up film director muscular technique impress call pulp same manner plate mince meat ',mixed
+'Minions27.txt','minion product pure simple little kid love grown-up feel be hold hostage test laboratory ',mixed
+'Ricki_and_the_Flash33.txt','story lot bar band cover mediocrity film ',mixed
+'The_Man_from_U.N.C.L.E.27.txt','director instinct audience hold thing entire film loss moment moment emphasize ',mixed
+'The_Transporter_Refueled9.txt','first film year entertaining ludicrous predictable way new driver effortless stoic wit original make difference ',mixed
+'Burnt16.txt','haphazard construction make frustrating material resonant picture ',mixed
+'Pan11.txt','fashion creation myth director writer produce thin story reduce amplify famous character ',mixed
+'No_Escape7.txt','boom size thing movie banking first-rate action drown political ',mixed
+'The_Intern16.txt','lack comic goal write write key emotional scene movie first draft movie two-hour mark ',mixed
+'SPECTRE31.txt','unbalanced entertaining film enthrall deflate equal measure stud moment true old-school glory ',mixed
+'The_Intern22.txt','romantic comedy romance ',mixed
+'Burnt22.txt','energize mouth-watering montage fierce lead turn script acid depth force fine actor include function less ensemble motley sort intervention group ',mixed
+'Minions25.txt','appreciate fleeting cleverness ',mixed
+'The_Visit20.txt','promising premise effective twist low-budget horror film sense own bad enemy choice bring visit screen ',mixed
+'Straight_Outta_Compton39.txt','few flourish outré charge little distinguish movie number overlong music variety ',mixed
+'Ricki_and_the_Flash30.txt','sight 66-year-old gyrate way way block rational thought frightening temporary bad dream movie ',mixed
+'Maze_Runner__The_Scorch_Trials9.txt','visual blasted city impressive reason spend sit theater seat watch bunch underdeveloped character chase zombie inordinate amount time ',mixed
+'American_Ultra23.txt','mere clever conceit action stale humor stale explosion see quip fresh new save stream lazy snow day winter deep sleeper be awake be ',mixed
+'We_Are_Your_Friends23.txt','feature debut director be entrance euphoric pulsate dance song soundtrack empathetic performance impressive nuanced turn distract movie mistake flash probe insight ',mixed
+'The_Martian40.txt','Martian story man peril story man few woman take control uncontrollable confident swagger sci-fi despair kind be elaborate Martian lack poetry ',mixed
+'We_Are_Your_Friends13.txt','movie inventive enough good moment smart move be dismissible strong overcome essential thinness ',mixed
+'We_Are_Your_Friends9.txt','big finish land fairness hard make standing laptop mix tune triumph teen wait be get em foot ',mixed
+'Hotel_Transylvania_210.txt','hater see reprise role cartoon be perfect metaphor suck lifeblood decent entertainment come torch ',mixed
+'Fantastic_Four14.txt','film build-up mount sense excitement dispel downbeat tone conspicuous lack chemistry nobody have fun gloom infectious ',mixed
+'The_Perfect_Guy6.txt','appealing trio lead entice unquenchable thirst thriller clich ',mixed
+'Maze_Runner__The_Scorch_Trials3.txt','good movie fast nutty keep entertain ',mixed
+'The_Intern26.txt','movie outmode style spirit ',mixed
+'Straight_Outta_Compton35.txt','way much money talk simple band apocalyptic vision be plenty ',mixed
+'A_Walk_in_the_Woods14.txt','pleasant enough cinematic comfort food be hungry ',mixed
+'Ricki_and_the_Flash31.txt','talented cast work talented director film height have ',mixed
+'Our_Brand_Is_Crisis19.txt','satire ambition sharp political insight slapstick farce inspirational solid ground genre ',mixed
+'The_Intern15.txt','internship more less fault be rough tough smart film live life work today be yell spoon be knife ',mixed
+'American_Ultra25.txt','turn sweet sadistic make strong impression high ',mixed
+'The_Visit28.txt','be criticize serve borderline silly premise straight face pretentious atmosphere approach favor loose playful dynamic fresh-faced lead ',mixed
+'Goosebumps15.txt','streak old-fashioned B-movie spooky playfulness actual motivated character screen delightful ',mixed
+'The_Transporter_Refueled4.txt','member mansion action sequence next style routine clunky inspire ',mixed
+'Pan17.txt','laugh impose movie restless clamor ',mixed
+'A_Walk_in_the_Woods25.txt','make movie call have look lot ',mixed
+'A_Walk_in_the_Woods24.txt','middling sitcom ',mixed
+'Straight_Outta_Compton32.txt','straight shy ugly side story include claim music lifestyle glorify thug life perpetuate gun violence advocate drug use revel misogyny film ',mixed
+'The_Peanuts_Movie20.txt','live past old stuff new story flimsy glue hold classic bit place ',mixed
+'Crimson_Peak24.txt','curious hybrid grim fairytale gory horror ninth feature striking lack surprise great ghost capable ',mixed
+'The_Man_from_U.N.C.L.E.22.txt','film nothing sensuous rush snappy period costume elegant beauty dapper man kinetic action so-so quip concerned story usual approach ',mixed
+'Burnt3.txt','execute enjoyable film ',mixed
+'Rock_the_Kasbah4.txt','favor breakout performance Palestinian newcomer apropos use ',mixed
+'Straight_Outta_Compton36.txt','first half two-and-a-half hour opus birth west coast rap burst energy exuberance inspiration second half immobilise bloat sanctification ',mixed
+'Black_Mass31.txt','movie intriguing drama sinister snakelike criminal ',mixed
+'Our_Brand_Is_Crisis11.txt','duel dirty trick time subplot involve naive volunteer get heart break strand ambitious movie ',mixed
+'The_Man_from_U.N.C.L.E.34.txt','be pleasant amusing light entertainment save world film wire blow modest assignment ',mixed
+'Black_Mass38.txt','do anything different do Caribbean movie unrecognizable elaborate makeup prosthetics peculiar voice time thick ',mixed
+'SPECTRE28.txt','save grace good bond physical presence formidable unique ability make peevishness compelling subtlety sense humor good aspect ',mixed
+'The_Visit18.txt','other recent film time thing simple story hand ',mixed
+'The_Walk35.txt','rare movie please everyone viewer look thrill enjoy story tall tale wind be poignant ',mixed
+'Rock_the_Kasbah11.txt','lame script look old man funny old man old man see fine old try hard ',mixed
+'The_Man_from_U.N.C.L.E.25.txt','promising first act whim action movie formula nothing priority story ask attend escalate stake dim tone leave wonder happen fun ',mixed
+'The_Perfect_Guy5.txt','substitute cat bunny spoiler fate title generic thriller wind big screen ',mixed
+'Sicario39.txt','prove get strong punch trouble ',mixed
+'Everest28.txt','valiant effort dizzy emotional height require run oxygen final act stunning ',mixed
+'Burnt4.txt','charm impose physique proficient French carry movie prop strong support cast role fascinate exasperate reaction shot carry movie interesting ',mixed
+'Ricki_and_the_Flash24.txt','sour movie masquerade something cheerful attempted deception film help hinder indispensable performance star ',mixed
+'No_Escape16.txt','cruel suspenseful pit white lead citizen honest fear assumption fuel adventure fiction other abstract orc alien ',mixed
+'Ricki_and_the_Flash26.txt','ex real-life daughter fictional version rare grit grace many wrong note ',mixed
+'The_Peanuts_Movie22.txt','recent sharp-witted example interest mock freshen have do doom movie nostalgic type black jagged stripe yellow polo scene scene ',mixed
+'Our_Brand_Is_Crisis23.txt','movie be something see underdog tale mix redemption narrative ',mixed
+'Ricki_and_the_Flash34.txt','music second half film room leave expand character less lived-in ambitious idea ',mixed
+'Crimson_Peak25.txt','crimson lock somnambulist formulaic contented go Gothic motion recourse refresh vigour ',mixed
+'The_Intern24.txt','someone reputation gig thankless job ',mixed
+'Truth25.txt','odd make noble statement journalism brush failure get be busy stress slow document have doubt listen source say be lie tell truth do trust ',mixed
+'Jem_and_the_Holograms4.txt','silly nonsensical movie sweet well-intentioned ',mixed
+'American_Ultra9.txt','divert summer action adventure occasional laugh divert stoner comedy occasional action ',mixed
+'Our_Brand_Is_Crisis22.txt','screenwriter go have speak ',mixed
+'Fantastic_Four7.txt','disaster nation be itch attack significant improvement movie doom please ',mixed
+'Everest30.txt','concern why how efficient build drama help wonderful character study film whole dizzying height subject ',mixed
+'Bridge_of_Spies45.txt','stop-and-go momentum interesting riveting good stuff impressive pedigree feel sum part ',mixed
+'American_Ultra17.txt','filmmaker have opt play thing close vest have be clever be shallow violent exercise ',mixed
+'Burnt19.txt','burnt deal food way brink insanity short generate real urgency surround situation ',mixed
+'SPECTRE34.txt','nothing surprising 24th official title series plan perfect enemy good originality enemy global box office ',mixed
+'Captive4.txt','convincing performance escape killer drug addicted hostage save grace decent dramatic thriller weigh religious message ',mixed
+'Rock_the_Kasbah2.txt','enjoyment depend willingness let word hour movie slight offensive amusing ',mixed
+'Hitman__Agent_479.txt','while try make sense plot sit gape car crash fight scene shooting problem mayhem repetitive ',mixed
+'Fantastic_Four11.txt','weak structure little chemistry be franchise be good lose space ',mixed
+'The_Intern29.txt','give vacuity script be admit something triumph engaging character human superhuman scale ',mixed
+'We_Are_Your_Friends17.txt','maker friend get lose beat ',mixed
+'The_Man_from_U.N.C.L.E.29.txt','bad dull ill-conceived sputter ',mixed
+'Black_Mass40.txt','crime saga potent thematic hook film insular script dwell theme loyalty fraternity ',mixed
+'The_Man_from_U.N.C.L.E.20.txt','make other film find pyrotechnics match chemistry ',mixed
+'American_Ultra14.txt','movie replete bloody encounter sly aside one-liner tone awkward uneven serious structural problem suppose brush ',mixed
+'Paranormal_Activity__The_Ghost_Dimension2.txt','basic level activity formula kick combination creepy video tasteful suburbia create strong unsettling dissonance ',mixed
+'Hotel_Transylvania_24.txt','predecessor high fact pleasant surprise entertaining ',mixed
+'American_Ultra27.txt','artless unpleasant kind swill bad name ',mixed
+'Rock_the_Kasbah12.txt','passion sincerity replace shrug ',mixed
+'Scouts_Guide_to_the_Zombie_Apocalypse5.txt','have laugh killer cast gory giggle B-movie addition genre displace vampire impregnate ',mixed
+'Minions22.txt','enter world minion prime tidal wave lemming tear roof see lead human affair ',mixed
+'Sicario38.txt','aid lean script parched cinematography heart attack score imperative genre try avoid usual cliché easy succeed ',mixed
+'SPECTRE29.txt','grant comfort be find familiarity film effort look advance series fine line pay homage past repeat spectre line ',mixed
+'Burnt15.txt','burnt bad movie melodrama overwrought overdo romance warm cocktail formula shake stir play ',mixed
+'The_Man_from_U.N.C.L.E.35.txt','nice period production design whole thing move anything punch adventure wit distinctiveness ',mixed
+'Pan12.txt','happen noise turn grave ',mixed
+'Rock_the_Kasbah9.txt','end beauty make debut foreign language film lend much-need grace note ',mixed
+'We_Are_Your_Friends14.txt','action dance beat kick facile entertainment ',mixed
+'Truth30.txt','movie importance objectivity bias sanctimonious column ',mixed
+'Captive9.txt','television clip real entire movie feel strange book memory ',mixed
+'The_Intern20.txt','entertaining funny enough smart summarize cultural moment manner ',mixed
+'We_Are_Your_Friends21.txt','performance only thing friend go occasional directorial flourish word screen character address camera painterly drug trip jolt few most welcome ',mixed
+'American_Ultra13.txt','undemanding studio fare face easy ridicule pundit much movie star ',mixed
+'Rock_the_Kasbah7.txt','rock respectful truth funny way ',mixed
+'Captive5.txt','film transformative power faith preach regard importance purchase pastor hit book ',mixed
+'Maze_Runner__The_Scorch_Trials21.txt','nothing new genre least ponderous predecessor many chase ludicrous narrow escape respectable dose adrenaline ',mixed
+'Our_Brand_Is_Crisis14.txt','latest unpredictable addition resume offbeat appeal level funny trenchant have be ',mixed
+'Hotel_Transylvania_28.txt','problem parental remain little girl new grandson conform vampire movie smother heel them ',mixed
+'Sinister_23.txt','drawn-out abrupt get creepiness galore ',mixed
+'Fantastic_Four10.txt','humorless slow film feature bendy boy genius invisible woman human torch talk pile stone ',mixed
+'Hitman__Agent_478.txt','science-fiction action picture base video game sequel idiotic mess dense prologue endless final battle lifeless performance anticlimactic twist degree visual flair ',mixed
+'SPECTRE36.txt','spectre set be finale terrible installment franchise light sin end exit layoff notice give tired trite great hit stunt chase fight early good bond ',mixed
+'Hitman__Agent_473.txt','action movie age bonkers cut ',mixed
+'Burnt9.txt','burnt divert ',mixed
+'Maze_Runner__The_Scorch_Trials19.txt','character development only hint plot advancement function move group motivate character place give much clue whole thing head ',mixed
+'SPECTRE41.txt','general film patch endless script rewrite cohesive vision ',mixed
+'No_Escape8.txt','direct movie fill jittery shot hand-held camera pace helpful race hole paper-thin plot ',mixed
+'The_Man_from_U.N.C.L.E.21.txt','memorable villain central pair fizz film vintage charm third act upswing ',mixed
+'Maze_Runner__The_Scorch_Trials12.txt','lot eye candy pace fast movie short forgive idea middle movie fatigue ',mixed
+'Goosebumps17.txt','funny suspenseful imaginative popular novella ',mixed
+'Our_Brand_Is_Crisis13.txt','dirty business brand stick hand muck be entertaining stinging be ',mixed
+'The_Transporter_Refueled3.txt','strong frequent burst implausible direct mayhem ',mixed
+'The_Green_Inferno2.txt','be offensive unpalatable mainstream audience be similar victim think accuse lack gut find perfect recipe ',mixed
+'Minions31.txt','surprising minion yellow oddball new-found freedom ',mixed
+'Black_Mass32.txt','decent film great part canon ',mixed
+'Minions30.txt','story lack clear narrative emotional connect ',mixed
+'Our_Brand_Is_Crisis24.txt','complicated move countermove major election fodder comic grudge match ',mixed
+'Underdogs2.txt','camera distract haphazard structuring translation ',mixed
+'A_Walk_in_the_Woods17.txt','breezy humor make book delight strip replace predictable joke broad slapstick encounter woman bear pushy grating sentimentality ',mixed
+'We_Are_Your_Friends19.txt','busy fracture focus indulge gimmicky textual graphics tap magnetic appeal debut be film mood spare nothing say ',mixed
+'A_Walk_in_the_Woods26.txt','be rat-a-tat-tat 1930s comedy star rusty comic timing stale setup movie funny likely produce smile chuckle ',mixed
+'Crimson_Peak29.txt','gifted specialist make film bloody bloody stylish unequaled field beauty set costume effect plot surprising scary hoary horror trope decade utilize conventional fresh subversive way ',mixed
+'American_Ultra28.txt','go level blood-soaked dark humor cast game burst violence tiresome plot ludicrous hard swallow ',mixed
+'We_Are_Your_Friends16.txt','worth remember movie have soul filmmaker willing do work find ',mixed
+'Ricki_and_the_Flash14.txt','screenplay lack memorable zinger thank script performance complex self-contradictory person most supporting character ',mixed
+'The_Man_from_U.N.C.L.E.24.txt','stylish fault stray source man 1960s television hit short attention span today movie audience ',mixed
+'No_Escape17.txt','pedestrian gripping ',mixed
+'Paranormal_Activity__The_Ghost_Dimension0.txt','frightening setup well-worn be startle able wring sufficient dread fear ',mixed
+'Ricki_and_the_Flash22.txt','attitude place family society interesting part movie least be be ',mixed
+'A_Walk_in_the_Woods23.txt','trifle compare track similar real-life journey self-discovery rich detail darn easy charm gravelly lack entice ',mixed
+'Our_Brand_Is_Crisis18.txt','attempt create reality wide accommodate extreme absurdity hard political truth piece end rattle bag disparate element ',mixed
+'We_Are_Your_Friends12.txt','terrible premise thank flourish part intriguing performance win persona hurt ',mixed
+'We_Are_Your_Friends10.txt','remake today adult corner whisper debut director good shot result friend sweaty silly people notice ',mixed
+'Woodlawn3.txt','whole enterprise mixed bag film audience go bad ',mixed
+'SPECTRE32.txt','subpar movie worth see successful long-running franchise movie history keep pump time change formula ',mixed
+'Minions15.txt','number laugh be have be uneven likeable dose low-calorie nonsense ',mixed
+'Crimson_Peak26.txt','film busy way gross sustain effective atmosphere dread pastiche be swoon sigh earnest emotion ',mixed
+'The_Last_Witch_Hunter3.txt','shame last crumble generic showdown murky fantasy effect snatch artifact final shot frame door possible sequel ',mixed
+'A_Walk_in_the_Woods19.txt','film less easy paycheck more semi-retirement wisdom come mouth percent pursue role shoot be beautiful pal old friend ',mixed
+'A_Walk_in_the_Woods15.txt','lax lame road movie road journey self-discovery discovery tale friendship chemistry ',mixed
+'Everest25.txt','heroism love death people come care sad story involve ',mixed
+'Pan18.txt','be ultimate hero kid baffle see be appropriate middling adventure ',mixed
+'Jem_and_the_Holograms8.txt','less common source material real-life trajectory generic teen idol move model superior artistic predecessor ',mixed
+'Everest32.txt','case fictionalize true event least fuse real people composite character have result tight storytelling ',mixed
+'The_Last_Witch_Hunter7.txt','favor last terrific production design digital effect movie clog cardboard character flat dialogue sluggish middle act lose fabricate witchy folklore ',mixed
+'War_Room2.txt','succeed attract faithful audience heavy-handed proselytize soap storytelling prove turn-off pray daily basis ',mixed
+'Minions24.txt','have abundant relentless cuteness audience sure accept lieu content people little guy ',mixed
+'The_Man_from_U.N.C.L.E.16.txt','director man hint scene tempt murky option long maker shadowy chic silliness ',mixed
+'Everest29.txt','spectacular well-act same problem situation many people mountain many thread follow affect individual storey lose snow ',mixed
+'Maze_Runner__The_Scorch_Trials8.txt','comic movie more straight hour run scream scream run tired gotta rest ',mixed
+'Straight_Outta_Compton38.txt','run time minute film low energy end internecine battle compete early excitement gifted young kid make big national stage sentimental sudden focus painful decline death ',mixed
+'Goosebumps24.txt','theatrical hammy performance overdo element film rise level perfunctory spectacle ',mixed
+'SPECTRE30.txt','first act great full dark portent bravura film-making flourish final hour many plot twist many character conform type ',mixed
+'Everest33.txt','short same problem overcrowding ',mixed
+'No_Escape12.txt','tense predictable exercise Western xenophobic paranoia guilt ',mixed
+'The_Last_Witch_Hunter5.txt','last first episode would-be series similar endeavor stand-alone story ',mixed
+'Maze_Runner__The_Scorch_Trials11.txt','movie feel consistent first routine ',mixed
+'A_Walk_in_the_Woods10.txt','slight charming comic adventure appealing good set be forty make journey ',mixed
+'The_Visit26.txt','bizarre conflict mess horrify try be funny appeal screw ',mixed
+'A_Walk_in_the_Woods20.txt','charming lively moment many tired listless filmmaker be work checklist thing traveler say do trek wilderness ',mixed
+'The_Martian41.txt','Martian love letter spirit see humanity reach star first place channel spirit witty writing sustain trajectory orbit ',mixed
+'The_Man_from_U.N.C.L.E.23.txt','major something mystery impression curious vacuum center man casting ',mixed
+'The_Perfect_Guy7.txt','kind movie wish cut go deep end nobody fatal attraction serious drama movie tear grim self-important go nut silly slipshod work somber level ',mixed
+'Pan16.txt','go make origin story origin story second thought look tell come ',mixed
+'The_Walk34.txt','antic most part cover lack real story lot distracting quirk foot wire thousand metre ground mesmerise ',mixed
+'Rock_the_Kasbah14.txt','be decent movie focus have be right character ',mixed
+'Rock_the_Kasbah16.txt','film everyone make agree idea be funny have be include suit story ',mixed
+'The_Peanuts_Movie26.txt','disappointing kind cynical unwillingness try anything innovative beloved character ',mixed
+'The_Transporter_Refueled21.txt','overstuff undercooked complicate ',negative
+'90_Minutes_in_Heaven5.txt','move tale film story prosaic fashion imaginable miss single film cliché one-dimensional noble character banal dialogue requisite sermonize ',negative
+'The_Visit33.txt','tardy rehash fairytale trope sometime genre innovator cling abject desperation careworn coattail ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse14.txt','witless retread serve vulgar comedy ',negative
+'Fantastic_Four37.txt','give level talent involve front camera nobody feel much joy righteousness discover late fantastic film catastrophe ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse13.txt','repellent write direct devoid genuine laugh apocalypse film 12-year-old boy derive kind basic entertainment mere sight spurt blood bare breast good appear same time ',negative
+'Paranormal_Activity__The_Ghost_Dimension8.txt','shocking thing hack fight have name list credit screenplay ',negative
+'Pan32.txt','cacophonous assault sense computerized cinematographic mayhem deafen noise hurried pace genuine character development ',negative
+'War_Room10.txt','name life battle be case film large bedroom closet serve command centre ',negative
+'Pan20.txt','drug director have be wrestle ground pulverize material quiver mound dough trust be synthetic single emotional moment entire origin story organic ',negative
+'Paranormal_Activity__The_Ghost_Dimension12.txt','sixth time charm load hooey make lack legitimate scare basic narrative clarity add alleged miracle mix ',negative
+'Rock_the_Kasbah17.txt','star vehicle rickety way make world unsafe comic democracy ',negative
+'Hotel_Transylvania_217.txt','offense put twist tired familial trope such risk be only thing enliven force franchise installment ',negative
+'Hitman__Agent_4712.txt','anonymous title film pretend be action movie real thing be commercial video game ',negative
+'The_Green_Inferno12.txt','good reliable shock system bad bad reprehensible work powerless people number reference go change ',negative
+'Hitman__Agent_4717.txt','movie brutal bond knockoff least stylish tone assure ',negative
+'Steve_Jobs44.txt','humanity grave disappointment passion fan father character come life absorbing fashion real people ',negative
+'War_Room4.txt','preachy begin describe mighty long-winded overwrought domestic drama ',negative
+'Fantastic_Four36.txt','steer clear friend ',negative
+'90_Minutes_in_Heaven7.txt','well-meaning film appeal intend audience spiritual level result sluggish clinical dreary portrait mistake trauma drama ',negative
+'Fantastic_Four21.txt','superhero film power bad special effect rewrite story be tell ',negative
+'Fantastic_Four38.txt','late fantastic cinematic equivalent bad worthless ',negative
+'Maze_Runner__The_Scorch_Trials28.txt','tedious apocalypse come chute recent year series lame lazy entry only trial offer film ordeal watch ',negative
+'The_Transporter_Refueled15.txt','cheap silliness include car chase more loud crash thrill speed ',negative
+'The_Transporter_Refueled14.txt','titular transporter blank slate serve character mayhem surround walk metaphor franchise run gas ',negative
+'Hitman__Agent_4715.txt','agent anything pleasure be location gratuitous image take dip swimming pool sight staggering ',negative
+'The_Green_Inferno14.txt','retread retread ',negative
+'Rock_the_Kasbah29.txt','special variety infuriate bad movie talented people ',negative
+'Captive13.txt','inert left tedious sentiment grace god horrible crisis end violence explosive spark congratulation ',negative
+'Jem_and_the_Holograms14.txt','screenwriting equivalent suck pop vitality produce tune ',negative
+'Hitman__Agent_4726.txt','agent film nothing pass resemblance game spawn surprise anyone cash grab choice wash rinse repeat ',negative
+'The_Last_Witch_Hunter18.txt','smorgasbord empty calorie vehicle last overstuff visual hungry more ',negative
+'Maze_Runner__The_Scorch_Trials27.txt','film make wheeze splutter sound sound profitable franchise run steam ',negative
+'Hotel_Transylvania_219.txt','call scary scary mistake scary reason ',negative
+'Our_Brand_Is_Crisis32.txt','kind film bother commit own cynicism cynical kind film ',negative
+'No_Escape27.txt','film recoil take relief bungle execution impossible ',negative
+'The_Green_Inferno18.txt','empty cynicism substitute well-reasoned critique wind look clueless so-called social justice warrior try satirize ',negative
+'The_Green_Inferno13.txt','film measure execute satiate horror fan bloodlust underlie message repugnant ',negative
+'Fantastic_Four30.txt','more grist mill notion studio hit big red button other state panic ',negative
+'Rock_the_Kasbah18.txt','deadpan gonzo amiable mess save grace curse laid-back riff oil spill story tangible movie latch mirage ',negative
+'Burnt24.txt','sous-vide bag worthy mockery trap plastic air suck ',negative
+'American_Ultra29.txt','combine sweet slack romance slick action flick sound jar ',negative
+'Pan34.txt','joyless bomb imaginable way ',negative
+'The_Last_Witch_Hunter10.txt','messy seam parade sidekick door new threat ',negative
+'Hitman__Agent_4725.txt','dumb dirt generic agent trade brain bullet character windup toy ',negative
+'Truth33.txt','condescending self-righteous sloppy bad film excuse ',negative
+'The_Last_Witch_Hunter12.txt','watch last sit someone game coolness ',negative
+'Rock_the_Kasbah23.txt','walk film have give base fume good work present more think more infuriate see something lazy familiar point ',negative
+'War_Room5.txt','complaint emphasis prayer scintillate stuff watch ',negative
+'The_Man_from_U.N.C.L.E.37.txt','chemistry lead nonexistent channel inner conflict joke funny ',negative
+'Pan30.txt','begin very premise superhero need origin story orphanage boy handbook ',negative
+'Hitman__Agent_4710.txt','plot high-tech fill hole smell last refrigerator content ',negative
+'No_Escape28.txt','offensive make casual xenophobia something take something noxious kick enjoy ride ride great begin ',negative
+'The_Man_from_U.N.C.L.E.36.txt','give several bad performance recent year big surprise man bad ',negative
+'Our_Brand_Is_Crisis30.txt','political satire have hard time keep eccentric vaudeville take place cable news brand close ',negative
+'Fantastic_Four39.txt','lousy script unfocused direction incoherent edit terrible special effect panick studio executive leave talented star muddle dull superhero origin story payoff ',negative
+'Hitman__Agent_4716.txt','concern landscape building office subway station character lose cause interest show exotic architecture ',negative
+'Hitman__Agent_4718.txt','agent austere European aesthetic mindlessness result guilty pleasure pleasure ',negative
+'Pan23.txt','garish generic ',negative
+'Captive15.txt','odd mix be sure full-tilt performance widowed play stone-cold killer turn cornered kidnapper spiritual thriller rise other fare ',negative
+'Rock_the_Kasbah22.txt','way first act turn mushy third ',negative
+'Maze_Runner__The_Scorch_Trials26.txt','trouble somebody mouth remind silly stuff lesser version teen titan industry copy copy copy ',negative
+'Maze_Runner__The_Scorch_Trials24.txt','large predecessor last way cast scope set piece length more convoluted ',negative
+'Underdogs4.txt','bad summer film low thing sink ',negative
+'We_Are_Your_Friends28.txt','end original bit song ',negative
+'Rock_the_Kasbah25.txt','look good acceptable alternate title film be script bad stereotype blow high ',negative
+'The_Visit31.txt','cast strong set dull thud part effective aural design ungainly landing shock joke ',negative
+'Sinister_216.txt','thing killer kid creative ',negative
+'Captive12.txt','terrific chemistry work good film ',negative
+'Paranormal_Activity__The_Ghost_Dimension9.txt','film ',negative
+'War_Room9.txt','keep pray next film be good ',negative
+'The_Transporter_Refueled13.txt','dreadful director English youngster role well-dressed ',negative
+'The_Visit29.txt','dopey chilling uneasy mix horror dark comedy score few point category ',negative
+'The_Perfect_Guy12.txt','lazy bear ',negative
+'Pan33.txt','unpleasant experience ',negative
+'Jem_and_the_Holograms11.txt','reduce teen girl empowerment vehicle show business cliche sacrifice value stardom film non-starter ',negative
+'Burnt23.txt','stake low watch minute slug try crawl twig ',negative
+'The_Transporter_Refueled17.txt','story body sleek curvy luscious body purr action ready let do anything hottie Audi ',negative
+'The_Visit30.txt','script reality show shocker level game show compelling audience yell advice steer trouble spot writer-director hoary provocation ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse10.txt','undo agitation umpteenth quip female body work smile sweet moment involve uniform trio ',negative
+'Pan29.txt','joyless revisionism ',negative
+'Rock_the_Kasbah28.txt','laugh few attempt feel-good catharsis fizzle elaborate performance endless rendition tribal elder flat ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse12.txt','flick artless puerile shadow likes trilogy ',negative
+'The_Green_Inferno15.txt','exploitation flick least interesting component gore cruelty expense other ',negative
+'Fantastic_Four34.txt','someone forget put anything fantastic ',negative
+'War_Room8.txt','turgid non-believer ridiculous ',negative
+'Hitman__Agent_4721.txt','first feature film director blame pair screenwriter creation muddle mess lift fun set piece impressive commercial ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse9.txt','gag puerile uninspired film be dream bunch tired wire insistence little invention ',negative
+'Pan24.txt','dominant emotion desperation pander young audience seem respect understand trust ',negative
+'Paranormal_Activity__The_Ghost_Dimension10.txt','climactic exorcism jamboree relief overwhelming dullness final segment put use last wheeze played-out series ',negative
+'No_Escape22.txt','Asian character ruthless murderer anonymous collateral damage lot local die film order white family survive ',negative
+'Crimson_Peak36.txt','film stylish marvelous vein narrative muck core ',negative
+'Fantastic_Four19.txt','lightweight unnecessary attempt bring cinematic life lesser team ',negative
+'Our_Brand_Is_Crisis33.txt','satire direct screenplay deficit wit wisdom focus filmmak expertise appropriate tone case study nothing start dubious idea make awful ',negative
+'SPECTRE44.txt','license kill license kill new boss 24th film license bore bloated drag do ',negative
+'Sinister_212.txt','retread such brainless shameless lameness imagine anyone beg installment ',negative
+'Sinister_214.txt','moment convincing frightening ',negative
+'The_Man_from_U.N.C.L.E.38.txt','threat mess movie be follow sequel enough make anyone cry uncle ',negative
+'Jem_and_the_Holograms13.txt','nice unmemorable voice vapid storyline fantastic overtone Jem Hologram dimension flat control delete ',negative
+'Minions33.txt','marketing engine minion powerful something design sell toy theme park ticket special can movie eyesore ',negative
+'The_Man_from_U.N.C.L.E.39.txt','slow lethargic lack charm undeserving setting good trait ',negative
+'The_Perfect_Guy9.txt','audience thriller imagine big audience be ',negative
+'Truth32.txt','riveting saddle dialogue mention handful contrived domestic scene ',negative
+'Jem_and_the_Holograms12.txt','saving grace direction inconsistent produce handful gorgeous image cruddy one ',negative
+'Minions32.txt','highlight minion hear get get closing first time hear use movie try form rock band ',negative
+'Fantastic_Four22.txt','direct script write less tale superhero beginning long opening sequence ',negative
+'Sinister_210.txt','nothing close ode dark interior distinguish original ',negative
+'Rock_the_Kasbah31.txt','enervate insult tough settle single pejorative abysmal do ',negative
+'Hotel_Transylvania_218.txt','message need open-mindedness life love muddle slapdash plot take stand favor progressive value employ such feel-good idea unimaginative hyperactive adolescent slapstick ',negative
+'SPECTRE47.txt','goofiness be intentional tell waver tone full thing bad thing come feel drill bit twirl skull ',negative
+'We_Are_Your_Friends26.txt','do few month French house movement 1990s movie ideal track work heart-rate crowd friend break sweat ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse16.txt','disregard rule establish alternative imagine only problem film prove thing being deprive intellect spirit grant living human team produce major studio motion picture ',negative
+'War_Room6.txt','written sermon build same stereotype make rich ',negative
+'The_Transporter_Refueled18.txt','ridiculous ',negative
+'The_Transporter_Refueled22.txt','samurai code be ditch budget slash product placement up roof first threaten trilogy ',negative
+'Fantastic_Four20.txt','people watch collection character trait attitude bring life actor think be hitch ride superhero movie gravy train sign ',negative
+'Our_Brand_Is_Crisis28.txt','clumsy course crass humor sudden drama ',negative
+'Fantastic_Four26.txt','fantastic get act ',negative
+'The_Last_Witch_Hunter14.txt','helm excellent remake crazy film none lunatic flair ghastly previous film serve ',negative
+'Maze_Runner__The_Scorch_Trials25.txt','set piece mind attraction build borrowed part gear reinforce young audience belief adult understand ',negative
+'Rock_the_Kasbah24.txt','film groove circus act ',negative
+'The_Last_Witch_Hunter13.txt','last restless thank untamed direction corral potion talk mythology rationale leap time anything entertaining ',negative
+'Paranormal_Activity__The_Ghost_Dimension7.txt','be new novel way spark audience shiver homeowner use check bump night series patience inclination look ',negative
+'Fantastic_Four31.txt','joyless ',negative
+'Burnt26.txt','cheerless unappetize plate piffle be smash wall least send kitchen ',negative
+'We_Are_Your_Friends29.txt','distance emotional depiction relationship friendship quartet ',negative
+'The_Transporter_Refueled19.txt','chase special ',negative
+'The_Last_Witch_Hunter19.txt','affair derivative script match flat direction fussy unconvincing ',negative
+'Sinister_29.txt','sinister little connection first film save home movie enough horror movie strain recall original ',negative
+'The_Transporter_Refueled20.txt','franchise hit dead end run nothing fume ',negative
+'Hotel_Transylvania_221.txt','ambitious category sequel lacking movie ',negative
+'SPECTRE45.txt','center film man try pull donkey peat bog inexpressive tired try play chap access emotion fear love one be snatch actor quit job ',negative
+'Captive18.txt','inflate moral importance ridiculous movie shove cage fatten sermon platitude ready be serve cold bland ',negative
+'Pan25.txt','ill-conceived number angle origin story script topsy-turvy beloved character ',negative
+'Rock_the_Kasbah21.txt','sexist racist overlong dull ugly bad unfunny cast ',negative
+'Captive14.txt','thin story be stretch feature-film length result see-through sledgehammer moralize ',negative
+'Fantastic_Four33.txt','turn back familiar trope blockbuster comic book movie have clear new identity distinguish result movie rich possibility trap basic structure superhero movie idea circumvent traditional expectation ',negative
+'Our_Brand_Is_Crisis29.txt','validate devotion showmanship current reign poster boy morality ',negative
+'Rock_the_Kasbah20.txt','unholy mess jumble tone-deaf satire vital character introduce disappear return superb actor rely old trick use good effect good film attempt political commentary ham-handed ',negative
+'The_Intern34.txt','spongy subtext movie be serious be viewer be make think be leave tell story lead team-building exercise ',negative
+'Rock_the_Kasbah19.txt','cast old pro include soldier fortune amble enough few laugh make movie come satisfying way ',negative
+'Fantastic_Four23.txt','good cast lead swallow narrative muddle tedious ',negative
+'Rock_the_Kasbah30.txt','rock pander assemble botch play fair Afghan popular culture add insult countless other injury inflict country be bad be screen evidence ',negative
+'Goosebumps26.txt','good literary oeuvre feature character be terrifying paper render toothless ',negative
+'The_Perfect_Guy11.txt','perfect example lame lazy material good actor result movie great ',negative
+'The_Transporter_Refueled23.txt','be put block ',negative
+'Pan21.txt','writer reasonable idea likely be curious origin unreasonable thing ',negative
+'90_Minutes_in_Heaven6.txt','tedium forget cynicism ',negative
+'Hitman__Agent_4724.txt','agent schlock action sequel own epitaph character dusty insult dead know ',negative
+'No_Escape31.txt','film get dreggy dreadful exploitative would-be thriller low-grade trash silly stupid be offensive close be ',negative
+'Hitman__Agent_4720.txt','agent awful kind film lackadaisical screenwriting dull filmmak bore character face dare ask theater operator money ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse8.txt','aim be replace startle gasp shocked guffaw result contrary ',negative
+'The_Intern32.txt','retrograde imply work woman cuddly daddy make world business soft heart soft head ',negative
+'Minions34.txt','bottom line filmmaker work nothing character speak interpersonal relationship story suspense capacity engage script humor wit do ',negative
+'War_Room3.txt','late go marital drama authentic help restore bit faith ',negative
+'Our_Brand_Is_Crisis31.txt','makings find drama comedy make something special leave something bland generic ',negative
+'SPECTRE46.txt','expect film be deep least be dazzle seductive gloss surface stunning opening sequence installment overcompensate dutiful ',negative
+'Hotel_Transylvania_220.txt','play dad harrumph look try hard do ',negative
+'Hitman__Agent_4723.txt','agent tedious soulless film trim runtime never-end ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse15.txt','act crap movie crap movie offer ',negative
+'The_Perfect_Guy10.txt','good thing say geld version fatal attraction lack anything dark dangerous safe guy ',negative
+'Pan31.txt','clear purpose tell story real focus actual storytelling ground ',negative
+'The_Last_Witch_Hunter11.txt','time be opportunity do something fun last other direction create heavy-handed humorless tone story be allow be goofy ',negative
+'Fantastic_Four25.txt','fantastic mediocre title violation truth advertising law ',negative
+'Sinister_211.txt','goofy charm same finesse substitute pedestrian plot graphic gore restraint ',negative
+'Everest38.txt','director be gifted filmmaker be blame case industrial filmmak go wrong culprit elaborate clunker producer studio ',negative
+'The_Last_Witch_Hunter17.txt','main obstacle enjoy last ability buy immortal slayer evildoer ply trade have swallow plot bury avalanche underwhelming effect ',negative
+'No_Escape26.txt','movie fleet tank brother push plot hole rancid mess ',negative
+'Fantastic_Four27.txt','special effect cheap acting wooden shout dialogue throwaway clich B-movie sci-fi jargon chart ',negative
+'No_Escape32.txt','only way film be more racist family hole wait save ',negative
+'Hitman__Agent_4722.txt','choice director indication filmmaker less character actor dubious surface dazzle ',negative
+'Hitman__Agent_4713.txt','few trick sleeve betrayal allegiance enough make care keep third act be mess ',negative
+'No_Escape30.txt','script superior edit enormous amount tension be find service movie reprehensible core ',negative
+'No_Escape23.txt','genuine gestalt southeast Asian player Asian character note driver Everyone nameless victim nameless mob ',negative
+'No_Escape25.txt','ignore racism much impossible artless relic ',negative
+'Paranormal_Activity__The_Ghost_Dimension11.txt','test tolerance watch empty frame anonymous performer hope something jolt mount tedium ',negative
+'Burnt25.txt','rich cast unremarkable ',negative
+'The_Green_Inferno17.txt','enjoy rancid slab red meat appetite slop taste sloppy leftover ',negative
+'We_Are_Your_Friends27.txt','friend heartbeat ',negative
+'The_Visit32.txt','visit have come new ingenious way frighten resort familiar tactic thing frame accompany loud sound effect real sense danger menace ',negative
+'Rock_the_Kasbah32.txt','love melancholy torpor wear thin good circumstance circumstance close bad cast escape unscathed ',negative
+'The_Transporter_Refueled11.txt','high-speed car chase extravagant stunt director franchise punctilious glossy finish uptight ',negative
+'Fantastic_Four35.txt','sense heaviness gloom complete disappointment second half mundane set-up result dramatic sensory dividend ',negative
+'The_Intern33.txt','clumsy comedy write direct implausible intriguing premise tale generational collision old young ',negative
+'Captive11.txt','story appeal save grace get life get ',negative
+'The_Green_Inferno11.txt','finish popcorn go save bucket barf ',negative
+'We_Are_Your_Friends30.txt','good friend try appeal anyone star own kind few people have see ',negative
+'Hitman__Agent_4719.txt','pointless asthma inhaler character advanced lung cancer ',negative
+'A_Walk_in_the_Woods27.txt','help director everything sitcom sense pace theme friendship haze sentiment trail dust ',negative
+'We_Are_Your_Friends25.txt','go buy soundtrack album last thing gonna movie friend let friend pay money see friend ',negative
+'Hotel_Transylvania_222.txt','wooden stake ',negative
+'Paranormal_Activity__The_Ghost_Dimension6.txt','late stage evolution franchise logical lapse filmmak technique undercut integrity format be acceptable weak effort sort mythology concern series demonic ',negative
+'Sinister_215.txt','aura cheap manipulation audience ask rank film character scale root survival destruction ',negative
+'Hotel_Transylvania_223.txt','channel inner child find solace end bite do continued disservice universal monster add soil feather cap mediocrity ',negative
+'Ricki_and_the_Flash35.txt','fine forfeit element stake suspense character piece character vague nothing hang hat headband ',negative
+'Fantastic_Four28.txt','unfortunate movie embarrassing disservice decades-old property frightful waste talent involve ',negative
+'The_Last_Witch_Hunter20.txt','dopey diversion last be more fun extravagant bout silliness hamper desultory plot synthetic ',negative
+'Captive16.txt','leave real catharsis religious emotional captive wind build big nothing ',negative
+'Rock_the_Kasbah27.txt','misjudge comedy deadpan nonchalance result unfunny infuriate tale ',negative
+'The_Last_Witch_Hunter21.txt','deadly dreadful loud obnoxious convoluted irritate horrible dumb ',negative
+'The_Transporter_Refueled16.txt','first deliver unexpected kick courtesy make brood magnetic kinetic action hero inferior stand-in scowl predecessor lack cool coil power ',negative
+'Burnt27.txt','Everything script transform abusive tyrant kitchen head loving functional family ',negative
+'Fantastic_Four24.txt','change sake change ',negative
+'Pan26.txt','fun fall grand old man pirate character plenty fresh unusual wrinkle good other virtue play two-dimensional one-dimensional figure ',negative
+'Sinister_213.txt','shock imagery trapped be maul rat etc. nothing scary ',negative
+'Hitman__Agent_4714.txt','cheap talk importance innovation copy copy copy ',negative
+'Pan28.txt','complete washout joyless pointless idiotic enterprise ',negative
+'The_Green_Inferno16.txt','clear be try say something brave new world social social justice public shame tool change message garble wrap horror package scary suspenseful real shame ',negative
+'Pan22.txt','deliver own promise movie enhance understanding fly boy little thought go craft back story ',negative
+'Fantastic_Four32.txt','fantastic bereft thing superhero movie humor excitement adventure awe drawn-out pilot episode upcoming TV series watch ',negative
+'90_Minutes_in_Heaven8.txt','render miraculous premise dull film uninterested do preach choir ',negative
+'American_Ultra30.txt','leave shellshock stone perfect storm repulsive choice queasy bad trip worth avoid cost ',negative
+'War_Room7.txt','be offensive inept awful offer force humor superficial substance half-baked homily ',negative
+'The_Intern35.txt','commit signature give female protagonist cake let ',negative
+'The_Last_Witch_Hunter15.txt','abortion thriller bomb development count ',negative
+'No_Escape24.txt','propulsive filmmak solid performance escape hand-wringing manipulation pander sense privilege ',negative
+'The_Transporter_Refueled12.txt','be honest storyline stupid theory other film ',negative
+'The_Peanuts_Movie28.txt','sloppy disconnected vignette rehash joke reverse-engineer premise movie thing people like pay see ',negative
+'The_Green_Inferno10.txt','extreme gore unlikable character confuse theme film ode imperialism satire social-justice warrior sketch combination ',negative
+'Scouts_Guide_to_the_Zombie_Apocalypse11.txt','weak premise do high school boy scout ',negative
+'Captive17.txt','movie purpose own ',negative
+'90_Minutes_in_Heaven3.txt','good title be audience find reside entirety dreary slog familiar road pave good intention ',negative
+'Hotel_Transylvania_216.txt','dull ',negative
+'No_Escape29.txt','pain pause unconvincing speechify Western meddling showbiz racism infuriate pass ',negative
+'We_Are_Your_Friends31.txt','movie something appeal attempt explain turn something dramatic ',negative
+'A_Walk_in_the_Woods29.txt','film deal woman contemptuous world way tiresome ',negative
+'Fantastic_Four29.txt','everyone screen flat earnest monotone low-keyed air border give rip ',negative
+'We_Are_Your_Friends24.txt','plethora beat drop note musical fest friend ',negative
+'Rock_the_Kasbah26.txt','air mourning have work counterpoint silliness script have smart gag one-liner one-liner mark feel sorry old be play guy little daughter granddaughter get kinky raucous ',negative
+'90_Minutes_in_Heaven4.txt','professional sheen mile clunky product peddle ilk dull ',negative
+'A_Walk_in_the_Woods28.txt','enthusiasm good effort tedious journey special ',negative
+'Pan27.txt','origin story lose boy be dim deadly myth ',negative
+'The_Perfect_Guy8.txt','cast solid game competent fault audience seek little female empowerment romantic thriller ',negative
+'Hitman__Agent_4711.txt','agent dull disavow predecessor least dullness active turn anyone interesting killing machine ',negative
+'The_Last_Witch_Hunter16.txt','movie leave amaze amaze ',negative
+'Steve_Jobs22.txt','time operatic own good same flawed ingredient rough edge movie iconic subject ',positive
+'Everest1.txt','mountain grim unforgive star ',positive
+'Everest14.txt','base true event fill stunning visual feature half-dozen good actor deliver solid performance high-altitude roller coaster ride leave drain ',positive
+'The_Diary_of_a_Teenage_Girl10.txt','tell sensitive vision result off-putting authentic insight perspective underrepresent American cinema ',positive
+'Everest5.txt','mountain name rock solid big beautiful terrifying merciless character audience ',positive
+'We_Are_Your_Friends5.txt','musical sequence energy friend maintain trajectory momentum flag ',positive
+'Everest17.txt','gun make faux documentary big star good lighting ',positive
+'The_Martian26.txt','anchor great turn smart laugh weird character bit tension huge canvas result enjoyable film age ',positive
+'Sicario19.txt','winner cynical true bleak powerful message blunt force ',positive
+'Straight_Outta_Compton16.txt','movie capture alarming incident contradiction complete story order stress righteous side movie youthful excess flagrant sexism ',positive
+'Truth23.txt','truth famous pettiness hubris work lower-profile gig trust good reason news organization touch pole ',positive
+'Straight_Outta_Compton1.txt','superhero movie have be run ',positive
+'The_Peanuts_Movie7.txt','glossy new look ',positive
+'Minions10.txt','bedtime story make look stop-motion breath ',positive
+'American_Ultra6.txt','lot little bong action comedy earnest be stone movie quirky be action flick beauty director entertain own oddball universe optional ',positive
+'Bridge_of_Spies19.txt','knack create composition lovely look integral idea emotion try express ',positive
+'Shaun_the_Sheep_Movie15.txt','key pack charm ',positive
+'Truth1.txt','dynamo intelligence doggedness real human dimension propulsive drama breathe stellar performance rate good ',positive
+'No_Escape0.txt','throwback era movie genre be define suspense tension interested provide safe harbor comfortable way spend hour vision edgy exhausting most part execution life toss firecracker sleepy post-summer movie doldrums ',positive
+'The_Diary_of_a_Teenage_Girl29.txt','adaptation autobiographical novel cast handle ',positive
+'The_Martian31.txt','Martian work ',positive
+'Black_Mass13.txt','good solid well-executed crime story nothing nothing ',positive
+'The_Walk16.txt','gorgeous act have choose doc solid fictionalize version go documentary ',positive
+'Jem_and_the_Holograms0.txt','Hologram weird big screen adaptation cheap TV cartoon see praise ',positive
+'No_Escape5.txt','essential viewing tense time riveting innocent popcorn check logic door settle pretty good ride ',positive
+'Everest13.txt','star movie Everest shoot high base camp foot sicken actor crew travel top get footage climb be shoot matter Everest ',positive
+'American_Ultra8.txt','movie turn enough be funny bemused eye trope ripe ribbing ',positive
+'Shaun_the_Sheep_Movie8.txt','cut innocuous entertainment side panda video ',positive
+'The_Diary_of_a_Teenage_Girl2.txt','first-person experience approve extreme appreciate honest forthright way journey strip basic emotional element timeless universal ',positive
+'Shaun_the_Sheep_Movie13.txt','sophisticated innocent accessible young fan lack dialogue straightforward breezy story easy follow fun enjoy ',positive
+'The_Martian20.txt','heart stirring celebration ability species solve daunting problem rational thought step step step movie ',positive
+'Minions6.txt','minion life sight gag non-stop ',positive
+'The_Martian22.txt','entertaining movie ',positive
+'Steve_Jobs36.txt','movie series craft tile half-finished mosaic admire piece come feel be deprive whole ',positive
+'The_Peanuts_Movie6.txt','voice work child actor none play part many limit professional experience nail character sound ',positive
+'Bridge_of_Spies17.txt','movie many strength realize good ',positive
+'The_Walk21.txt','write clunky first act save supersede nerve-wracking majestic spectacular finish ',positive
+'Bridge_of_Spies21.txt','do kind role sleep take gift grant movie period piece timely commentary sound faint praise ',positive
+'Everest12.txt','be plenty mountaineer documentary last few year comparison be dramatization realistic effect tell shot aware gut level be film foot sea level ',positive
+'The_Man_from_U.N.C.L.E.4.txt','celebration time secret agent dress banter style have cool toy movie forgettable part pleasure ',positive
+'Truth8.txt','focus intelligence intensity demonstrate screenplay impressive display ',positive
+'A_Walk_in_the_Woods4.txt','plot character development narrative conflict resolution other word destination ',positive
+'Hotel_Transylvania_23.txt','return director creator manage kick energy sequel ',positive
+'The_Walk12.txt','narrative feature do documentary re-create tightrope act full glorious motion edit snap photo dizzying visual big-screen magic ',positive
+'Bridge_of_Spies12.txt','daring study mannered true story genuine cinematic same time good film year ',positive
+'Ricki_and_the_Flash2.txt','movie block character year caricature ',positive
+'The_Walk0.txt','visionary high-wire act ',positive
+'The_Diary_of_a_Teenage_Girl12.txt','great film pocket corduroys second onscreen ',positive
+'Bridge_of_Spies22.txt','form historical whitewash noxious harmful customary American variety like movie lot measure adult film year ',positive
+'Burnt2.txt','something few cooking movie reality ',positive
+'Everest4.txt','offer moviegoer rare taste rarify air compel argument make see movie writ large oversized screen actual movie theater ',positive
+'Straight_Outta_Compton11.txt','time moment potent successful hell case be story worth tell ',positive
+'Sicario12.txt','production include be prepare intense suspense moral ambiguity ending conform norm ',positive
+'Truth13.txt','film verity news story condone sloppiness worth see firebrand performance battler consume righteousness ',positive
+'The_Walk11.txt','hour feel walk wire be agitate exhaust movie be squirm wince few time have close eye find relief ',positive
+'Burnt1.txt','strong cast film right ingredient make perfect meal ',positive
+'Everest18.txt','light want feel watch understand tragedy watch be entertain icy whipping wind reality sting ',positive
+'Sicario23.txt','collapse own grimness pulse care story beating drum next set piece ',positive
+'Crimson_Peak5.txt','surface pleasure demon modern entertainment movie familiar way same time issue plea restraint ',positive
+'Black_Mass23.txt','good annihilate self-consciousness more light-hearted work shine channel other actor nose ',positive
+'The_Last_Witch_Hunter0.txt','most other film expository dialogue bluster way action scene last measure make suspend disbelief ',positive
+'Truth3.txt','debut director write great sense forward motion suspense story ',positive
+'The_Visit0.txt','scary ride jittery tension humor ',positive
+'The_Diary_of_a_Teenage_Girl1.txt','directorial effort incisive universal specific detailed setting ',positive
+'Sicario22.txt','thrill ride enjoyable cast head sinister secret agent flip-flop person uncertain provenance Mexican Colombian scary guy ',positive
+'Straight_Outta_Compton3.txt','moment timeless depiction artist writer transform world angry profane vibrant singular personal expression ',positive
+'Steve_Jobs13.txt','cradle-to-grave mold call mold reason ',positive
+'Sicario26.txt','good borderline fluid indistinct ',positive
+'Everest23.txt','good gruel movie true-life fortune battered group climber high place go ',positive
+'Burnt0.txt','entertaining act photograph write comedy dark undertone culinary addiction be call delicious see check cholesterol ',positive
+'Bridge_of_Spies15.txt','solid uplift extend range day make movie historical character complexity untainted ',positive
+'Bridge_of_Spies36.txt','rousing tale espionage plenty old-fashioned quality doubt ability devise arresting moment movie theme story ',positive
+'Shaun_the_Sheep_Movie18.txt','realize modest scale other feature film absolute delight term set character design sophisticated detail counterbalance crude visual trademark ',positive
+'Our_Brand_Is_Crisis8.txt','horror film wrap political comedy ',positive
+'Steve_Jobs35.txt','first act thing beauty second good enough shame third act ending everything precede ',positive
+'Shaun_the_Sheep_Movie28.txt','charming clever concoction ',positive
+'Sicario27.txt','sure leaven right word enigmatic agent world-weary cynicism least dose dark humor proceeding ',positive
+'SPECTRE14.txt','Anyone tamp youthful yen excitement stay craving grownup glamour foolish equal satisfaction provide throb mystery be explain mere plot ',positive
+'Steve_Jobs18.txt','script clever know point late proceeding everybody drunk task minute event small moment fourth wall slight smart way ',positive
+'Bridge_of_Spies29.txt','name hard be excite project workmanlike production engaging lofty expectation worth see good film ',positive
+'Sicario13.txt','sound urgency sense immediate danger close shot film ',positive
+'Our_Brand_Is_Crisis9.txt','play brand political spin doctor female role last year ',positive
+'Bridge_of_Spies43.txt','most part content allow story tad bit long do talking off-track sappy end reminiscent notion hierarchy American family give film canon be inevitable guy help ',positive
+'Black_Mass11.txt','down dirty crime drama base exploit gangster thrill number reason ',positive
+'Steve_Jobs38.txt','go movie hard fact be nice think get kind truth entertainment handle truth ',positive
+'The_Peanuts_Movie5.txt','film style attitude successful bridge old new matter emotional slimness sight fretful angst kid point ',positive
+'Sicario16.txt','Spanish film term sensational gripping spin covert war drug traffic year ',positive
+'The_Man_from_U.N.C.L.E.15.txt','lithe detach cool pressure ',positive
+'Goosebumps5.txt','perfect scary movie kid ',positive
+'A_Walk_in_the_Woods3.txt','funny gracious wonderful comic face voice posture geezer have tackle healing hike year ',positive
+'Maze_Runner__The_Scorch_Trials0.txt','be queen bee genre fellow satisfying way combine rebellion politics science lot jog broad audience ',positive
+'The_Man_from_U.N.C.L.E.0.txt','fondness genre particular love pop man summer big fizzy drink bubble be go moment theater smile face linger ',positive
+'Straight_Outta_Compton10.txt','straight entertaining film good look listen ',positive
+'Goosebumps8.txt','movie version balance act cheerful nasty delight ',positive
+'The_Man_from_U.N.C.L.E.13.txt','lot energy effort go endeavor say fun tedious say uncle ',positive
+'The_Diary_of_a_Teenage_Girl16.txt','film capture turmoil be teenager ',positive
+'Truth16.txt','commanding figure way argument involve screen presence character staunch resolve straightforward script ',positive
+'SPECTRE1.txt','feat pure cinematic necromancy ',positive
+'Steve_Jobs11.txt','race high gear start finish electric direction theatrical three-act study ',positive
+'Bridge_of_Spies7.txt','secret prisoner exchange tense funny cat-and-mouse game ',positive
+'The_Diary_of_a_Teenage_Girl21.txt','do different let define ruin ',positive
+'The_Man_from_U.N.C.L.E.7.txt','man refusal pander short attention span movie charm spy night ',positive
+'We_Are_Your_Friends2.txt','big dumb broad stroke plot point visible mile music fantastic film central relationship ',positive
+'The_Martian34.txt','lot information Martian be incomprehensible lay audience climax original hell entertaining ride ',positive
+'Minions12.txt','be much good thing ',positive
+'Sicario6.txt','opening pitch impossible sustain build do master kind creep tension audience snake suffocate prey ',positive
+'The_Intern1.txt','be lot less strife starvation disease dread rule world ',positive
+'The_Walk4.txt','different brand spectacle audience come expect recent studio share true story incredible be see be believe oppose imaginary feat full impossible creature ',positive
+'Crimson_Peak4.txt','horror impatient person game day hurry erotic atmosphere performance perfect tune script melodrama ',positive
+'SPECTRE23.txt','sinister magnetic pull movie real stake attitude distinctive flavor mention more mesmeric image expect workmanlike blockbuster franchise ',positive
+'Ricki_and_the_Flash8.txt','breezy touching dysfunctional family real heart genuine musical soul ',positive
+'The_Walk6.txt','watch something make anything happen reality grab case use power good end result stirring spectacular time devastating subtle final line dialogue ',positive
+'Pan2.txt','thing overcrowd sticky final act certain timeless buoyancy bounce ',positive
+'Our_Brand_Is_Crisis4.txt','screenwriter vast terrain self-serving scoundrel trump anything make laugh firing ',positive
+'Bridge_of_Spies1.txt','brawny film script plot point peg tight direction fourth pair furtive face justice masterful ruling ',positive
+'Bridge_of_Spies33.txt','movie wonderful ability tell story visual other filmmaker work today good ',positive
+'The_Diary_of_a_Teenage_Girl25.txt','young woman desire unsinkable uninhibited little make lot bad decision ',positive
+'SPECTRE7.txt','satisfying overall sequence ',positive
+'Shaun_the_Sheep_Movie7.txt','romp shear delight shear perfection ',positive
+'The_Walk2.txt','event kind blockbuster avant-garde game composition movement perspective attune form space do same subtle meticulous 3D ',positive
+'Underdogs0.txt','design laugh kick ',positive
+'The_Martian5.txt','argue plot Martian offer many surprise movie innumerable delightful moment small discovery infectious enthusiasm ',positive
+'Shaun_the_Sheep_Movie6.txt','great silent movie pathos comedy concrete object be animate build elaborate gag involve everyday item transform device character manipulate provide means achieve goal ',positive
+'Sicario21.txt','dramatic thriller spot brain stomach ',positive
+'The_Intern3.txt','day tough find comedy sophistication slot ',positive
+'Straight_Outta_Compton6.txt','smart casting unknown lead packed script feel long social commentary timeless ',positive
+'Straight_Outta_Compton15.txt','sprawling overstuff formulaic entertaining story pop stardom ',positive
+'Black_Mass22.txt','instinct observe underlay keep thing let require big dividend performance convincing previous big gangster role public enemy unexpected welcome point career good ',positive
+'The_Man_from_U.N.C.L.E.12.txt','spectacular Italian location jazzy score vehicular action go third act few stylistic convention era mesmerize clever more style substance ',positive
+'The_Diary_of_a_Teenage_Girl23.txt','uneven be time last minute craft super promising debut idea unlock secret world teenage girl let special little jewel box ',positive
+'Everest2.txt','film spectacle use look trip place time most see ',positive
+'Sicario35.txt','make film fine performance adept direction first-rate photography doltish screenplay start rock band drummer result yield satisfy memorable moment time build momentum project ',positive
+'The_Diary_of_a_Teenage_Girl18.txt','result film funny sad scary sweet disturbing revelatory ',positive
+'Bridge_of_Spies8.txt','consummate professional tribute gifted amateur smooth entertainment strong subtle political subtext potent unexpected ',positive
+'The_Visit9.txt','come unoriginal horror picture demonic charm ',positive
+'The_Intern9.txt','underwritten lose ',positive
+'Sicario0.txt','pull news punch fever pitch perfect mix cerebral visceral thrill director screenwriter bring ',positive
+'Shaun_the_Sheep_Movie19.txt','something refresh old-fashioned way mix silly slapstick sight gag combine gentle heart ',positive
+'Steve_Jobs10.txt','discredit propulsive iconoclastic visionary democratise personal computing dispiriting study capitalistic sense unease upbeat ending ',positive
+'The_Martian0.txt','fascinating film solve problem chief solver stick be funny interesting likable invest predicament moment ',positive
+'A_Walk_in_the_Woods7.txt','guy hold attention grab current film more ',positive
+'Steve_Jobs7.txt','pitch character study ambitious captivate portrait high cost genius ',positive
+'Steve_Jobs28.txt','movie lot person brilliant break heart ',positive
+'Black_Mass6.txt','acting tremendous ',positive
+'The_Man_from_U.N.C.L.E.10.txt','make lot modern trick technology old-fashioned good sense set ',positive
+'Jem_and_the_Holograms1.txt','revisit pop rock quest multiracial group adopt sister suburban make stylish musical fantasy generation ',positive
+'Shaun_the_Sheep_Movie10.txt','Anyone have grand time watch suffer fractured funny bone be reset ',positive
+'SPECTRE18.txt','end much good thing scene wrought little grace majesty romance way piece connect whole bumpy inelegant entertain sure love ',positive
+'The_Visit11.txt','movie be back overseer complete faux documentary complete onscreen title hilarious sequence feature being ',positive
+'The_Peanuts_Movie12.txt','elaborate treatment character receive gentle more other feature neat extension grant need see permanent cloud filth render ',positive
+'The_Visit8.txt','refresh strange genre piece premise willingness accept grown-up weirdness long stability ',positive
+'The_Diary_of_a_Teenage_Girl11.txt','result believable hopeful tender delightful movie rare sensibility make woman confident healthy feminine resilience ',positive
+'The_Man_from_U.N.C.L.E.9.txt','man key vintage edition impossible movie good movie great look ',positive
+'The_Walk29.txt','frustrating work everything be modern classic understanding everything make film need hype explain be ',positive
+'Shaun_the_Sheep_Movie9.txt','be smart moving hilarious inclusion single word dialogue ',positive
+'Everest22.txt','several thing find way make average viewer people mountain ',positive
+'Bridge_of_Spies28.txt','worth fight British comic version Russian spy man steadfast loyalty different cause ',positive
+'Black_Mass12.txt','entertaining inspire more memorable sequence childhood friend loyalty tease secret steak sauce famous funny scene ',positive
+'Hotel_Transylvania_21.txt','spooky thing much funny colorful original second time ',positive
+'Straight_Outta_Compton17.txt','buoy soundtrack crack open recall simple chaotic time life bark bite take ',positive
+'SPECTRE26.txt','revisionism history franchise film recall forbear ',positive
+'Truth6.txt','creep horror professional disgrace fear stigma unfair treatment have be polished professional come seam catch self-incrimination spiral neurosis ',positive
+'Black_Mass18.txt','director underrate make tight tense gangster film pretty straight-ahead entry genre pepper spicy performance ',positive
+'Bridge_of_Spies6.txt','brassy justified confidence own narrative flair ',positive
+'Hotel_Transylvania_20.txt','joke grown up series reactionary bully gag script come clever humane making fun helicopter mom summer camp ',positive
+'Everest10.txt','case character development neglect favor awe-inspiring view time mountain companion man woman populate screen ',positive
+'Rock_the_Kasbah1.txt','screenwriter luck get play loser lose hilarious ',positive
+'Black_Mass27.txt','nothing glossy surface real insight make man tick creepy be man devil ',positive
+'The_Martian23.txt','quality scale story epic personal filmmak soar aerial shot red planet answer intimate landscape face ',positive
+'The_Peanuts_Movie8.txt','genuine happiness door leave open woe ',positive
+'Ricki_and_the_Flash0.txt','people interested remake humanist suburban fable ',positive
+'The_Diary_of_a_Teenage_Girl3.txt','movie concern life mind body dawn self-respect girl run sort risk rare terrific ',positive
+'Truth2.txt','say good grave understatement ',positive
+'American_Ultra7.txt','fun bad way bad fun way late summer ',positive
+'Our_Brand_Is_Crisis5.txt','film good storyline real character justify back room king make campaign need poor majority ',positive
+'The_Martian29.txt','few loose end screenplay faithful detailed source film triumph storytelling tribute power crowd-pleaser ',positive
+'The_Transporter_Refueled2.txt','hard deny hedonistic joy way various toy goofball finale special appearance jet worth wandering dialogue desert ',positive
+'Sicario24.txt','set piece orchestrate aplomb raid tunnel border be particular stand keep ground reality focus small group character plot complex Byzantine intricacy problem obscure motivation operator ',positive
+'Bridge_of_Spies40.txt','want most respectable lark audience notice parallel 1950s today ',positive
+'The_Intern4.txt','thing have share silly moment enjoyable likable movie longtime writer producer take direct put name know irreconcilable difference ',positive
+'Pan5.txt','work screenplay director overwhelm material make care character ',positive
+'Shaun_the_Sheep_Movie12.txt','company give adorable tale sheep comrade big-city adventure pure visual storytelling go see year ',positive
+'Crimson_Peak6.txt','film tactile decadence rich sensory experience suffocate ',positive
+'Jem_and_the_Holograms2.txt','new Jem be pure cubic zirconium mean be part fun night ',positive
+'The_Diary_of_a_Teenage_Girl7.txt','complex close bone bawdy funny package astonishing degree cinematic brio first-time ',positive
+'Straight_Outta_Compton2.txt','vigorous entertainment realism machine machine amplifier money medium scene play crucial role flow power ',positive
+'We_Are_Your_Friends8.txt','past film character know secure future identity ',positive
+'Everest7.txt','perilous central premise gallery individual destine make say disaster movie old sense term feel good thing ',positive
+'American_Ultra5.txt','spoiler alert tip see stay credit end animate provide mini fourth act film little action movie star super simian beautiful human damsel amusing addendum lot American heart comic-book territory ',positive
+'The_Visit2.txt','film entertaining forget scary terror funny film ',positive
+'Steve_Jobs8.txt','portrait photograph succeed make entertaining fashion ',positive
+'The_Walk19.txt','end graceful way pay tribute bravery determination thousand lose building daredevil love ',positive
+'SPECTRE21.txt','bad need wake mid-morning nap bring retirement special ',positive
+'Everest6.txt','convincing world craft film astonishing willing forgive less delicate touch favour compelling depiction be like ascend place heaven moment hell next ',positive
+'Pan3.txt','full non-stop action intriguing new take classic tale old-fashioned swashbuckling mischief lead director heck charming romp ',positive
+'Shaun_the_Sheep_Movie1.txt','have uncover mystery brain way funny bone ',positive
+'The_Diary_of_a_Teenage_Girl14.txt','rare movie subject loss virginity female perspective film unique regard frankness humor artistry ',positive
+'The_Walk26.txt','harness wizardry magnify sheer transporting wonder thrill experience film payoff lumbering setup lade cloy voiceover narration strained whimsy ',positive
+'The_Visit1.txt','witty eleventh feature writer-director good movie tail-end last era good studio horror flick recent year combine immersion simulator crack script surprise good early film ',positive
+'Shaun_the_Sheep_Movie5.txt','movie world-class winner ',positive
+'Shaun_the_Sheep_Movie14.txt','hour have be enough slow patch charm burn ',positive
+'Our_Brand_Is_Crisis3.txt','provocative intelligent bit underwhelming brand crisis inspire documentary same name filmmaker start aspiration challenge ',positive
+'Steve_Jobs24.txt','dichotomy be false genuflect imply guy fascination offer portrait suggestion something heroic wart ',positive
+'Pan6.txt','passable adventure occasional flash real cleverness ',positive
+'The_Diary_of_a_Teenage_Girl33.txt','sex explicit frequent spectrum drug use man have get adapt novel such frank term ',positive
+'Bridge_of_Spies35.txt','riveting film understand word ',positive
+'American_Ultra0.txt','bloody valentine attach bomb violent brash inventive horrific romantic film year ',positive
+'The_Diary_of_a_Teenage_Girl20.txt','true title adaptation semi-autobiographical novel structured unfiltered feel young person diary ',positive
+'Straight_Outta_Compton26.txt','straight entertaining dynamic mean act kind cinematic trophy rest pedestal successful trailblazing member help define hip hop group ',positive
+'Steve_Jobs34.txt','voice discourse film chance catch collective breath give duo credit attempt unconventional structure choice thank contribution stellar ensemble ',positive
+'Minions14.txt','minion tickle young many laugh picture kid ',positive
+'Ricki_and_the_Flash6.txt','movie thing have be do do retro refresh ',positive
+'Pan1.txt','loud colourful busy full idea idea sync most bold eccentric ',positive
+'The_Man_from_U.N.C.L.E.1.txt','own term film pastiche ambition lie direction ',positive
+'The_Intern10.txt','much movie rage bull suit play humor heart be world-class charmer ',positive
+'The_Green_Inferno0.txt','feel-good film particular job do ',positive
+'Crimson_Peak16.txt','film exercise atmosphere question triumph front rich texture tactile visual astonishing ',positive
+'Sicario18.txt','impassioned performance spectacular final scene real standout ',positive
+'Shaun_the_Sheep_Movie17.txt','wonder stop-motion mountain effort require achieve small movement charm notice moment ',positive
+'SPECTRE19.txt','miss unexpected emotional urgency film nostalgia kick sentimental bent ',positive
+'Shaun_the_Sheep_Movie3.txt','bold move movie dialogue whole story noise goofy sound effect sight gag silly spin ecstasy effect cute ',positive
+'A_Walk_in_the_Woods2.txt','odd couple interplay series shamble mishap more easy laugh epiphany ',positive
+'The_Peanuts_Movie9.txt','entertaining combination humor tenderness crowd-pleaser perfect first feature film preschooler ',positive
+'The_Martian37.txt','commercial entertainment Martian expectation smart blockbuster formula simple feel-good drama aim more ambition safe brainy studio effort familiar ground more way ',positive
+'Goosebumps6.txt','fulcrum success be note perfect casting ',positive
+'Crimson_Peak10.txt','thing lurid ghastly enjoyable spectacular thin substantial be meal eat dream ',positive
+'Straight_Outta_Compton21.txt','middle age member believe hype introspective space great benefit film ',positive
+'Straight_Outta_Compton24.txt','energetic acting capture moment transcend hagiography character name production widow fare good onscreen ',positive
+'The_Walk15.txt','marvelous technical achievement director ',positive
+'Steve_Jobs39.txt','movie formidable technical design achievement everything go sense inner life ',positive
+'We_Are_Your_Friends4.txt','time skill convey euphoria dance music context actual movie ',positive
+'Truth0.txt','look same dedication respect journalism bring role ',positive
+'We_Are_Your_Friends3.txt','friend predictable tacky energy unflagging eye candy plentiful make feature debut host catfish sincerity modulate sweetness material ',positive
+'Crimson_Peak19.txt','ghost story superior costume production design work put audience trance tough actor get swallow scenery ',positive
+'SPECTRE15.txt','new movie satisfying final chapter saga saga be less sum part ',positive
+'Black_Mass2.txt','ice-cold dead eye demonic laugh face mask read run give everything get riveting rattlesnake performance gangster ',positive
+'The_Martian24.txt','animate humanism film irreducible wry tribute quality get specie space first place resourcefulness curiosity outsized ridiculous beautiful brain ',positive
+'Steve_Jobs33.txt','sharp slick feel interested entertainment enlightenment ',positive
+'Ricki_and_the_Flash11.txt','sweet likable many punch qualify cathartic memorable crowd-pleaser bit calculated defange tour ',positive
+'Bridge_of_Spies34.txt','be smart engross procedural observed character study intriguing overlook American figure ',positive
+'Sicario17.txt','mind film 1970s one important seamy sweaty thriller slip message violence satisfying cocktail ',positive
+'The_Walk24.txt','master use effect film live different use 3D particular astonish memory silliness go be learn trade wire free liberation contagious ',positive
+'SPECTRE24.txt','spectre unsatisfy experience ',positive
+'Everest15.txt','disappoint look awe-inspiring film big vista stunt act surreal heroism many storey kind look mountain ',positive
+'The_Peanuts_Movie13.txt','failure hover film do comic strip infuse ebullient set piece design sense melancholy ',positive
+'Steve_Jobs31.txt','be sure own integrity story young innovator little make movie stop phonograph lightbulb ',positive
+'The_Martian13.txt','Martian art sort epic intelligent entertainment mainstream film industry forget craft valentine creative collaboration example make grateful ',positive
+'The_Walk23.txt','be swell come computer effect be churlish appreciate have film talk talk walk grateful ',positive
+'The_Diary_of_a_Teenage_Girl24.txt','first thing know young British actress good ',positive
+'Shaun_the_Sheep_Movie4.txt','playful absurd inventive amusing feature mainstay current cartooning golden age ',positive
+'Truth19.txt','screenwriter make debut director heady pulse high-end high-stakes journalism ',positive
+'The_Martian3.txt','sci-fi adventure kind film theater itch tell friend see science problem solve experience ',positive
+'Sicario7.txt','violence inter-American drug trade serve backdrop number film more decade few be powerful make ',positive
+'Black_Mass0.txt','mesmerize performance brace return form star series critical commercial chief selling point recommend sober sprawling engross evocation fiefdom complex relationship agent play impressive skill ',positive
+'Sicario3.txt','unusual mix big-picture issue pulp pure rough entertainment bolster good ensemble year movie fuss ',positive
+'The_Diary_of_a_Teenage_Girl15.txt','honest personal examination blur tricky voyage womanhood ',positive
+'Our_Brand_Is_Crisis1.txt','narrative confidence sharp dialogue screenwriter film unabashed goofiness stoke demonstrate raucous effect ',positive
+'The_Martian28.txt','director screenwriter conventional melodrama inherent situation favor emphasize practical problem be address rational response hysteria knee-jerk patriotism selfish expedience ',positive
+'The_Intern0.txt','insightful dialogue number funny bit physical business small scene allow get know like half-dozen supporting player scene scene moment moment ',positive
+'Black_Mass10.txt','flaw first film eastern promise add anything fresh old school street-level gangster story ',positive
+'Crimson_Peak12.txt','impeccable production design tonal flourish bring film life aid strong performance lead reverent proceeding right amount jolt ',positive
+'The_Intern5.txt','make bright contemporary American comedy lot mind make look effortless ',positive
+'Sicario2.txt','murky hard-edged thriller good film year ',positive
+'Pan0.txt','film lively disloyal source atonement care outcome increase rarity proper film tear earn ',positive
+'Shaun_the_Sheep_Movie23.txt','lack dialogue easy young child world understand film intend demographic ',positive
+'Black_Mass4.txt','final result transcend manner gold standard fault execution oppressive nature underlie material ',positive
+'Black_Mass16.txt','anything director intent portray man monster man soft be ',positive
+'The_Diary_of_a_Teenage_Girl5.txt','novel page screen great girl own story alive voice ',positive
+'A_Walk_in_the_Woods0.txt','terrific showcase durable star ',positive
+'Steve_Jobs29.txt','movie craft artful specification write torrential style act perfection superb ensemble cube obvious question answer ',positive
+'The_Martian2.txt','Martian brainy blockbuster meld genuine science fiction rare popcorn epic watch ',positive
+'Goosebumps3.txt','purpose matter ',positive
+'Sicario30.txt','fall second half settle less ',positive
+'Sicario33.txt','amaze look amaze listen bit underwhelming think Mexican drug cartel drama strong conceivable way story ',positive
+'Straight_Outta_Compton20.txt','overlong sanitize present important part contemporary American culture mainstream audience ',positive
+'Truth14.txt','surprising perspective cast film side ',positive
+'The_Peanuts_Movie2.txt','sweet funny smart genuine movie simple timeless message ',positive
+'The_Walk31.txt','feel storey live cloud job conjure movie magic breathtaking remember ',positive
+'The_Transporter_Refueled0.txt','mindless entertainment enough thrill chuckle make time pass examine anything ',positive
+'Sicario4.txt','bold gambit design frustrate people see strong woman deliver righteous ass kick progressivism root futility despair more valuable shock system ',positive
+'Shaun_the_Sheep_Movie25.txt','sweet charming funny intelligible dialogue ',positive
+'The_Martian11.txt','comforting science fiction film year ',positive
+'Straight_Outta_Compton27.txt','syndrome impulse condense event hit high note provide fan recognizable storey act great hit album second half compelling funny entertaining film beat own ',positive
+'Hotel_Transylvania_22.txt','time great attention be pay story character development scale sight gag substantial result ample voice cast return director sink tooth pleasing result ',positive
+'The_Peanuts_Movie3.txt','funny aim young audience true source material mild-mannered win brand new audience go please people be fond underlie property be big hit studio ',positive
+'The_Peanuts_Movie1.txt','be charming daring experiment human genetics conduct issue character summary back storey fictional pop-culture figure be pass generation next ',positive
+'The_Man_from_U.N.C.L.E.6.txt','take year get property new life result way TV compatriot put way man good fun be ',positive
+'The_Martian17.txt','be market sober straightforward sci-fi drama word home superimpose space helmet smart exhilarate funny return classic adventure yore ',positive
+'Straight_Outta_Compton14.txt','straight nostalgia trip being impala suspension loud stylish ride ',positive
+'Straight_Outta_Compton22.txt','terrific bias side winner history lesson compelling American modern musical biography ',positive
+'Minions9.txt','strong concept story script scale quantity ',positive
+'The_Walk25.txt','last half least dazzling piece work luminous effect actor ',positive
+'Sicario28.txt','point lose worry movie be lose case clear ',positive
+'Minions13.txt','enjoy minion small dose come minion bad good thing ',positive
+'The_Walk20.txt','order make walk order matter comprehend real impossible same lesson ',positive
+'SPECTRE9.txt','spectre traditional bond little light gadget everything ',positive
+'Ricki_and_the_Flash1.txt','wonder convincing rock musician ready open ',positive
+'The_Walk27.txt','film have do anything analyze psyche movie certified daredevil ',positive
+'Straight_Outta_Compton4.txt','weight contemporary historical moment be funny most exhilarate flat-out good movie summer ',positive
+'Everest21.txt','less cautionary adventure movie classy equivalent disaster epic ',positive
+'The_Walk22.txt','problem fatal narrative wire droop opening final sequence ',positive
+'The_Walk13.txt','love letter lunacy unspoken tribute iconic tower tread only god ',positive
+'Maze_Runner__The_Scorch_Trials2.txt','cast overcome cliché gusto ',positive
+'Black_Mass19.txt','banality evil be hypocritical banal evil ',positive
+'Sicario15.txt','dizzying action scene taut script ravish photography musical score knockout ',positive
+'Scouts_Guide_to_the_Zombie_Apocalypse0.txt','film entertaining genre be stale success promising unlikely hero ',positive
+'The_Diary_of_a_Teenage_Girl27.txt','inner life fantasia animation appear dazzling plenty naked emotion sex drug hand-drawn penis ',positive
+'Bridge_of_Spies32.txt','phenomenal compare rest oeuvre spot ',positive
+'The_Visit5.txt','fun affair cult classic smirk air confidant mischievous filmmaker ',positive
+'Steve_Jobs1.txt','smart people smart person nomination relevance grandeur entertaining say user-friendly ',positive
+'The_Intern8.txt','be sort amiable charming big warm bath film ',positive
+'Black_Mass25.txt','flawless effort have be more convey bloodthirsty be stellar cast spot performance interest film ',positive
+'Goosebumps9.txt','superior first hour loose comic rhythm odd would-be blockbuster junk ',positive
+'The_Martian7.txt','film importance use math physics botany chemistry solve problem plot base scientific inquiry audacity exciting unpredictable movie usual brand problem-solve kind punching everyone blow everything ',positive
+'The_Visit12.txt','whole handheld thing kind old thing kind old ',positive
+'SPECTRE11.txt','spectre bad disappointing ',positive
+'The_Diary_of_a_Teenage_Girl28.txt','film honest ',positive
+'SPECTRE2.txt','entertaining end feel guilty enjoy much ',positive
+'The_Peanuts_Movie10.txt','simplicity plot nuance complexity make relatable character people spend lifetime watching ',positive
+'Crimson_Peak21.txt','film ghost head ',positive
+'Truth11.txt','truth have be compelling less sanctimony tough self-examination ',positive
+'We_Are_Your_Friends7.txt','direction energetic take material incorporate text visualization montage creative use animation bring thumping electronic music cinematic life ',positive
+'Minions1.txt','action sequence wild joke sheer sense anything-goes glorious ',positive
+'Black_Mass24.txt','necessity hole dig portrait monster tell flat line ',positive
+'Everest11.txt','cast craft lean narrative tone action excess gloss ',positive
+'Steve_Jobs5.txt','smart entertaining film crackle creative energy standard ',positive
+'The_Diary_of_a_Teenage_Girl17.txt','unsettle contentious moral context underline radical realistic depiction female desire sexual experience ',positive
+'The_Martian19.txt','terrific movie performance scene ',positive
+'The_Martian36.txt','cool sequence film first third communication cut unaware ',positive
+'Ricki_and_the_Flash7.txt','conventional trajectory music interesting fluff surround enough ',positive
+'Truth10.txt','mistake principal drama compelling ',positive
+'Crimson_Peak13.txt','movie own strange rhythm note ',positive
+'Steve_Jobs20.txt','most hour brainy high-speed entertainment filmmaker smart flash old-school movie new-style camouflage ',positive
+'The_Peanuts_Movie14.txt','full psychotherapy soulful recognize heart sister ',positive
+'Woodlawn0.txt','film achieve modest goal deliver feel-good real-life inspirational story engaging fashion ',positive
+'Black_Mass9.txt','great hit other good movie ',positive
+'Crimson_Peak2.txt','fussy compartmentalize construction fill powerful sense repression delusion ',positive
+'Truth20.txt','version truth film valedictory movie other strand show human profession journalism ',positive
+'Shaun_the_Sheep_Movie24.txt','other production great delight relish detail clay figure intricate set craft master model builder ',positive
+'SPECTRE17.txt','spectre fun cast top-flight have be first bond film title role reaction be wow good stuff deep silly bond history slight ',positive
+'Black_Mass7.txt','psychotic turn convict crime lord only tasty thing tale unholy alliance Irish mobster ',positive
+'Straight_Outta_Compton29.txt','song center stage movie wing full story ',positive
+'SPECTRE25.txt','ghost past haunt action adventure big failure look own success ',positive
+'The_Man_from_U.N.C.L.E.11.txt','be delightful ',positive
+'Sicario36.txt','dark nihilism reliance easy solution one be feed decade genre film need justice dispense violent vengeful directness movie clear fetid air drug war end drug ',positive
+'Truth22.txt','develop theme busy disseminate information main character ',positive
+'Bridge_of_Spies27.txt','least showy credible performance ',positive
+'The_Walk8.txt','celebration agility ability outlandish human behavior winning thing get head protagonist try movie ',positive
+'Bridge_of_Spies25.txt','feel-good melodrama absorbing true-life espionage tale handle old pro do ',positive
+'The_Walk18.txt','movie jitter titter way ',positive
+'Ricki_and_the_Flash9.txt','screenwriter winner make good film smart question musical ambition selfish say seven-time dad ',positive
+'The_Diary_of_a_Teenage_Girl30.txt','hear adjective uncomfortable use compliment go come movie uncomfortable true life ',positive
+'No_Escape4.txt','deny skill set create tense twist suspense piece laugh sheer unapologetic insanity ',positive
+'The_Diary_of_a_Teenage_Girl19.txt','sensational blend hilarity heartbreak scene sublime hard-win gravity unique unforgettable movie ',positive
+'The_Walk5.txt','beguil caper movie full comic energy nimble ingenuity ',positive
+'The_Martian4.txt','Martian shoot design computer-generated script level most film ilk look slipshod writer try make important sci-fi movie low blow mark ',positive
+'Bridge_of_Spies44.txt','film streamlined efficiency work master please probe ',positive
+'The_Peanuts_Movie18.txt','strip feel first day new school year reunite classroom full familiar face ',positive
+'Captive0.txt','riveting embody performance material ',positive
+'Truth18.txt','truth movie conflict constant shift granular detail big-picture sweep movie ',positive
+'SPECTRE3.txt','heat heart take bond movie fever dream bond villain effort see life ',positive
+'The_Visit16.txt','trademark twist synthesize anything other director devotion signature gimmick ',positive
+'The_Martian9.txt','suspenseful survival tale core smile face wear way home ',positive
+'Crimson_Peak14.txt','satisfying drama dazzling boast lively time transfix performance blood flow ',positive
+'The_Martian33.txt','Martian look be shoot tone light cheerful thrive chilly dour habitat ',positive
+'Truth5.txt','more most docudramas recent event write act convincing illusion veracity ',positive
+'American_Ultra3.txt','check brain pump lobby enjoy ',positive
+'Steve_Jobs14.txt','original risk-taking subject make American icon ',positive
+'Ricki_and_the_Flash13.txt','effervescent part sassy good voice acoustic cover note out-of-tune ',positive
+'Crimson_Peak0.txt','crimson atmosphere crackle sexual passion dark secret couple monster supernatural human gigantic emotion terrifying thing onscreen ',positive
+'The_Martian12.txt','straightforward thrilling adventure metaphysical emotional trapping say pure fun ',positive
+'Ricki_and_the_Flash12.txt','well feeling script own image ',positive
+'Bridge_of_Spies26.txt','myth-making approach great entertainment young find old-fashioned be right think be first admit be intention play thing classical ',positive
+'Black_Mass15.txt','dramatic thriller trouble get low orbit tremendous scene narrative whole more chronology dastardly dealing epic tale criminal rise fall ',positive
+'Crimson_Peak22.txt','center stage huge black moth watch woman square eye-popping painterly palette feast eye substantial fare mind ',positive
+'The_Martian6.txt','film ',positive
+'Sicario5.txt','taut timely screenplay brilliant action thriller smart message movie ',positive
+'Bridge_of_Spies16.txt','solid work good intention filmmaker world conscience cruise control ',positive
+'Sicario10.txt','cynicism nature depth wide-eyed capable feel pain terrific director heroine alive spend few month asylum be hell-bent seize foreground ',positive
+'Steve_Jobs3.txt','move craft story person name be bring pride arrogance redeem love be story dream desire real do sense guy build sell computer ',positive
+'SPECTRE20.txt','see team do production juggernaut beat calibrate precision be satisfying risk come rote ',positive
+'Steve_Jobs6.txt','rich potent document time expression awe sophisticated new consumer good unease wake arrival audacious energize entertainment powerful challenge lazy convention storytelling feast connoisseur contemporary screen acting ',positive
+'Bridge_of_Spies9.txt','use screenplay polish hone dip territory help think erect searchlight ',positive
+'Bridge_of_Spies10.txt','principled earnestness humor spirited performance certain yield nomination ',positive
+'Black_Mass14.txt','solid piece filmmak subtle beginning excessive end ',positive
+'Sicario34.txt','pervasive dread surround modern drug war good convey thrill creep battlefield complex set interest sustain ',positive
+'The_Martian32.txt','gorgeous film inspire whole new crop astronaut ',positive
+'No_Escape3.txt','movie nervy kinetic good hour family anything average people survive trial have kill human be ',positive
+'Goosebumps4.txt','aid writer energetic cast rise occasion deliver movie lot good creepy fun spite dubious construction ',positive
+'The_Diary_of_a_Teenage_Girl8.txt','unsettling feature-film debut be moment ache other one lock true most coming-of-age storey ',positive
+'Steve_Jobs19.txt','script full kind well-timed zinger clever turn phrase real life ',positive
+'Truth7.txt','closing act film something compelling ',positive
+'Black_Mass28.txt','well-crafted well-paced procedural drama monotonous psychopath ',positive
+'Our_Brand_Is_Crisis2.txt','genius flaw complicate struggle substance abuse mental illness own past regret dark underbelly depth dimension ironic humor brand ',positive
+'Our_Brand_Is_Crisis6.txt','control actor main engine pull material direction formidable performance do alleviate bumpy road screenplay ',positive
+'The_Last_Witch_Hunter2.txt','enough ingredient entertaining fantasy interesting lead character compelling hook ',positive
+'The_Martian15.txt','Martian thing audience drama intimate character study sci-fi comedy rollick space adventure impossible dislike only flaw huge film intention stake quick ',positive
+'Steve_Jobs32.txt','tale man accurate say witty title have be ',positive
+'Crimson_Peak11.txt','Gothic sumptuous violent design inch life ',positive
+'Minions7.txt','good news minion more touch anarchic side typical crusader director well-tune sense absurd ',positive
+'Steve_Jobs9.txt','film tension raft terrific performance everyone good stellar juxtapose public private persona make cheer audience be change world much ',positive
+'Black_Mass21.txt','wind piece work many small part move ease skillful merge telling minute detail big loop scheme ',positive
+'Bridge_of_Spies30.txt','most bewilder moral drama drive insurance lawyer miracle be anyone other be involve ',positive
+'Black_Mass3.txt','show way feature good dramatic performance organized-crime movie ',positive
+'Minions8.txt','minion little yellow different minion mine much comedy provide lead man ',positive
+'The_Man_from_U.N.C.L.E.8.txt','man less caricature period more snap step imaginary intrigue fleeting beautiful ',positive
+'Steve_Jobs27.txt','swift searing attempt pull curtain process investigate relationship myth man ',positive
+'The_Peanuts_Movie0.txt','age digital chaos deep emotional theme thing sweet simple tune quality fan ',positive
+'Steve_Jobs15.txt','myth icon job be smooth smile turtleneck try sell something many way film other movie unnecessary ',positive
+'Our_Brand_Is_Crisis10.txt','entertaining cast lead energetic sharp fair number juicy bit rock whole brand messy affair be hum assured cynical momentum ',positive
+'The_Walk17.txt','rare movie shed clich get ',positive
+'Crimson_Peak7.txt','be overwrought taste borderline camp point partial bit Victorian romance horror big frilly uncommon treat ',positive
+'Crimson_Peak9.txt','seem know be full marvel ',positive
+'Steve_Jobs0.txt','want people dislike indifferent job be everyone ',positive
+'The_Man_from_U.N.C.L.E.5.txt','bear TV show debut element make success ',positive
+'The_Peanuts_Movie4.txt','delightful romp spirit adore comic strip ',positive
+'Black_Mass8.txt','big brash watchable gangster picture take extraordinary true story conceive familiar generic line ',positive
+'Minions4.txt','nutty nonsensical ',positive
+'Shaun_the_Sheep_Movie2.txt','clock slim minute whole thing warm funny feature value high quality visual attention detail ',positive
+'SPECTRE16.txt','robust entertaining midlevel bond movie haunt specter predecessor ',positive
+'The_Perfect_Guy1.txt','convention advantage intriguing play cast choice effective allusion film history ',positive
+'Crimson_Peak1.txt','latest dive darkness sumptuous construct tale archaic inviting ',positive
+'Straight_Outta_Compton8.txt','good musical last year ',positive
+'Hitman__Agent_471.txt','gunplay be minute ',positive
+'No_Escape6.txt','be risible work horror genre amp action keep terror taut ',positive
+'The_Martian14.txt','Martian less engaging more ',positive
+'Sicario11.txt','ambush low-sling film dirty drug war equal measure grim tenacity confound expectation final sequence ',positive
+'Minions5.txt','relentless depiction shenanigan keep little one entrance seat ',positive
+'Straight_Outta_Compton7.txt','entertaining provocative movie ',positive
+'Sicario29.txt','scene calm explosion chilling tension horrific imagery beautiful movie ',positive
+'SPECTRE22.txt','possible create expectation be high match do franchise go big smart bang ',positive
+'Shaun_the_Sheep_Movie26.txt','generous lashing trademark warmth visual inventiveness satisfy Claymation tactility ',positive
+'The_Peanuts_Movie16.txt','familiar cozy make great claim return old friend ',positive
+'Sicario20.txt','procedural complex international mission close-up mission point view participant least ',positive
+'Fantastic_Four0.txt','good bad other superhero movie ',positive
+'The_Visit15.txt','spoiler say cheap thrill be blast make awful start ',positive
+'Straight_Outta_Compton23.txt','performance terrific game explosive look creation message have be deliver only people deliver message timely hear ',positive
+'Truth21.txt','engross move electrify other film press take chief executive ',positive
+'American_Ultra1.txt','screenplay tight main character be buzz proceeding successful film genre movie be go rail ',positive
+'Steve_Jobs23.txt','company have invent change way people view technology something real have trouble do genuine peek man turtleneck process way connect viewer ',positive
+'Ricki_and_the_Flash3.txt','cinematic equivalent album cover tune artist create dazzling original work sweet smart funny confection ',positive
+'Bridge_of_Spies4.txt','other recent movie detailed period piece anxiety past speak present light film weight accrete history sense duty significance ',positive
+'Steve_Jobs4.txt','go interpret film search mind indisputable genius make many move basis triumph write direct act perfection fresh startling conception execution awe ',positive
+'A_Walk_in_the_Woods1.txt','real pleasure be find sweeping shot see character get ',positive
+'Shaun_the_Sheep_Movie27.txt','movie culture old-fashioned animation treat aimless all-too-rare marvel ',positive
+'Crimson_Peak3.txt','digital effect contemporary period homage period film give contemporary notion pace payoff scare arrive unsettling ',positive
+'Hitman__Agent_470.txt','tempting think beauty habit ridiculousness ',positive
+'Minions2.txt','breakout despicable franchise seize spotlight demented guarantee send young fan banana ',positive
+'Straight_Outta_Compton25.txt','movie most ugly behavior side player notorious play most part mission breathe life origin story group influence be feel ',positive
+'Straight_Outta_Compton13.txt','potent visceral depiction street life excess big beat kind ',positive
+'The_Diary_of_a_Teenage_Girl32.txt','debut director spend lot time material write star adaptation confident direction fuse palette soundtrack indelible coming-of-age story ',positive
+'Our_Brand_Is_Crisis7.txt','brand lot clunky note end cornball lively political black comedy see while pace talk boisterous cast ace ',positive
+'Everest8.txt','tragic hero overarching explanation movie offer seem pat take leave ',positive
+'Bridge_of_Spies2.txt','film flawless smart old-school thriller ',positive
+'Black_Mass26.txt','movie dramatic potential dreary atmosphere grisly violence use dubious effect level ',positive
+'The_Diary_of_a_Teenage_Girl22.txt','dedication girl unnecessary specific true ',positive
+'Bridge_of_Spies18.txt','dash ',positive
+'Steve_Jobs37.txt','exhausting impressionistic hollow well-act relevant ',positive
+'Goosebumps1.txt','nonstop mayhem stampede comic terror make exhausting know audience rip ',positive
+'The_Walk1.txt','work script co-write director fabulous trick own deliver mainstream entertainment heart poetic sensibility ',positive
+'Black_Mass17.txt','emotional core strong sociological angle many visceral thrill procedural status aim good absorbing well-made ',positive
+'SPECTRE12.txt','24th bond film middle all-time ranking slick photograph action-packed international thriller number entertain set piece sprinkling dry wit myriad gorgeous woman classic mind like way ',positive
+'The_Walk7.txt','service reality fantasy digital technology potent ',positive
+'Black_Mass5.txt','film direct exceptional flair elegant concision studio specialize psychopathic monster play such star golden age ',positive
+'Goosebumps12.txt','ounce fat film single scene mechanical three-act structure old-fashioned ',positive
+'Straight_Outta_Compton19.txt','straight viewer be mean matter do ',positive
+'The_Martian18.txt','fascinating thing film predictability make show fight ',positive
+'The_Intern6.txt','film serious affect moment lead ',positive
+'We_Are_Your_Friends1.txt','study intoxicant drug youth dangerous impossible leave ',positive
+'The_Man_from_U.N.C.L.E.3.txt','new man be instant masterpiece be good good part hit-and-miss affair brace bit fun anyone give notion major studio offering anything revelatory least ',positive
+'Goosebumps10.txt','keep mix intact successful young adult horror fiction series big screen lively teen result ',positive
+'Everest19.txt','crisp 3D photography way clear fluid thrilling action sequence show mountain impressive way human involve short shrift ',positive
+'The_Walk9.txt','precept good thing worth wait ',positive
+'Our_Brand_Is_Crisis0.txt','movie funny get share laugh angry heart tragedy sad part story true ',positive
+'Straight_Outta_Compton5.txt','straight box show power consequence abuse movie be good do sidestep band misogyny malicious infighting shit amazement electrify piece history ',positive
+'The_Intern2.txt','success film ride alchemy particular actor carry ',positive
+'The_Martian39.txt','spectacular entertaining space rescue procedural Martian failure hit emotional beat amount force feeling require make kind take ',positive
+'Bridge_of_Spies38.txt','overlook ending more overdo last lot like ',positive
+'The_Perfect_Guy0.txt','third act nuttiness have go crazy ',positive
+'Truth9.txt','truth strange interpretation event visual music be nudge direction screenplay performance tell something different ',positive
+'Black_Mass20.txt','performance strong energize anything do screen year ',positive
+'The_Visit3.txt','be complete return form auteur chilling horror concoction define skillful scare significant step right direction ',positive
+'Bridge_of_Spies37.txt','one-third courtroom drama two-thirds thriller engaging watch thank fine actor terrific filmmak issue ',positive
+'The_Martian35.txt','indomitable human spirit belief specie patience common sense way problem film message strike home ',positive
+'No_Escape2.txt','taut thriller American family touch unnamed country violent coup business play prey bad xenophobic tendency ',positive
+'Pan4.txt','film limited mandate provide fast-paced adventure nice eye candy add anything memorable tale ',positive
+'Steve_Jobs17.txt','be say most product wonder behold few irritate glitch ',positive
+'SPECTRE4.txt','sophisticated sugar rush long bond film elegant sense danger outing amp intelligence attitude ',positive
+'SPECTRE27.txt','fill big set big stunt be big moment few land ',positive
+'Steve_Jobs16.txt','Screenwriter director interested offer re-enactment story something ambitious mind goal illustrate tyranny genius great mind mean great person ',positive
+'The_Walk30.txt','satisfy absorbing yarn example journey viewer span foot ethereal now-vanished world ',positive
+'Steve_Jobs26.txt','many way film brilliance scintillate construction product launch own right ',positive
+'The_Martian10.txt','support cast embarrassment rich strong concerned commander mission movie throwback unabashed idealism past ',positive
+'Black_Mass29.txt','solid stellar crime drama put act lack genuine reason exist ',positive
+'The_Walk32.txt','say feel have see man do see say strike honorable good try also-ran lovely thing offer ',positive
+'Black_Mass1.txt','notorious gangster good performance long career co-star questionable agent wrong side law ',positive
+'The_Last_Witch_Hunter1.txt','story expect joy way director earnest goofiness direction showcase full wit script honor inventiveness ',positive
+'Straight_Outta_Compton30.txt','towering accomplishment set piece be brash exhilarate move ',positive
+'Bridge_of_Spies42.txt','standing teeny witty performance line musical ironic irony be forthright refusal deceive world found lie ',positive
+'Steve_Jobs40.txt','many account fact weak humanize protagonist ',positive
+'Crimson_Peak20.txt','unique visual style display story predictable character flat supernatural element red herring paraphrase character ghost story story ghost ',positive
+'Goosebumps13.txt','witty one-liner more affect emotional moment undermine frenzy chaotic excess ',positive
+'Ricki_and_the_Flash10.txt','flimsy emotional interior worthy addition grow canon strong film ',positive
+'SPECTRE8.txt','movie deliver expectation enjoy be please frustrate predictability regard fourth outing second direct be deem solid success stylish grim ',positive
+'Shaun_the_Sheep_Movie16.txt','vision contemporary generous inclusive fast-moving film sheep allow such grandiose ambition inspiring ',positive
+'Shaun_the_Sheep_Movie22.txt','many silent plot minimal ',positive
+'Minions3.txt','demented delight crazy spirited simplistic fusion off-beat adult humour blend sensibility anarchic toddler ',positive
+'Sicario14.txt','craft gripping tale own moral weight easy film watch riveting essential ',positive
+'Shaun_the_Sheep_Movie20.txt','delightful stop-motion animated romp dialogue be beauty animal action word ',positive
+'The_Man_from_U.N.C.L.E.14.txt','have hell year see much part live wire impromptu dance wrestle match something see ',positive
+'Sicario32.txt','film life age modern-day drug war existential nightmare ',positive
+'The_Peanuts_Movie15.txt','melancholy early film importance failure disappointment include storytelling ',positive
+'The_Martian1.txt','genuine master craftsman take something complex difficult make look easy artist great ear take something dense exposition make ',positive
+'Shaun_the_Sheep_Movie11.txt','great amusement park ride enjoyable ',positive
+'The_Visit14.txt','cast unfamiliar actor visit gift elicit strong performance material lack ',positive
+'American_Ultra4.txt','testament lead performance ',positive
+'Straight_Outta_Compton18.txt','mild flaw powerful engaging compelling story challenge change young black man challenge change ',positive
+'Crimson_Peak23.txt','chill bump supernatural suppose be stomach churning violence many shade red blood first spurt crusty dust ',positive
+'Everest3.txt','same constant surprise last year visual poetry movie rare fusion effective craftsmanship focused storytelling ',positive
+'Crimson_Peak15.txt','hour last be ask question giggle squirm scream swoon ',positive
+'Everest0.txt','movie pit stomach watch ',positive
+'We_Are_Your_Friends6.txt','suspend disbelief weak plot point unnecessary use film palatable ',positive
+'Everest20.txt','resemblance story movie adaptation story tell character involve make good faith good faith effort human go ',positive
+'Steve_Jobs21.txt','tension restless energy tendency run place movie ',positive
+'Goosebumps0.txt','movie plenty expect fun parade B-movie creature werewolf giant pray mantis army angry garden gnome sly self-awareness ',positive
+'Straight_Outta_Compton9.txt','interesting why controversial rise fall industry inside snapshot industry grimy club electrify arena concert hotel orgy studio session creative process ',positive
+'The_Diary_of_a_Teenage_Girl13.txt','vibrant frank look precocious emerge sexual life film stuff life coursing vein sex brain ',positive
+'Sicario25.txt','performance edge steel mix confidence bewilderment vulnerability alpha male character high chain command ',positive
+'Bridge_of_Spies14.txt','be please see thriller ode American diplomacy tradition moral movie father line ',positive
+'The_Peanuts_Movie11.txt','effort stay true spirit worth happy dance kid adult ',positive
+'Steve_Jobs12.txt','writer director star give subject brilliant maddening design self-aggrandizing movie ',positive
+'The_Martian30.txt','entertain movie attitude source shortcoming give enormousness subject radical lack awe movie ',positive
+'The_Martian25.txt','bring optimism touch crazy character solo point scraggly space key exuberance ',positive
+'American_Ultra2.txt','genre mishmash clever be dumb ',positive
+'The_Diary_of_a_Teenage_Girl6.txt','adoption point view voice narrative style half girlish womanly outlook life diary teenage girl vibrant hopeful film ',positive
+'Minions0.txt','minion philosophy put smile face keep fizzy beverage hot afternoon ',positive
+'Steve_Jobs25.txt','stage make dynamic cinema dialogue crackle delicious nastiness ',positive
+'Rock_the_Kasbah0.txt','baby wild film ',positive
+'The_Intern11.txt','bright spot blind own privileged perspective life landed gentry ',positive
+'Everest9.txt','nature documentary part disaster movie effective job convey climb mountain hour day spend acclimate practice hike punish physical effect subsequent change altitude ',positive
+'Bridge_of_Spies31.txt','be snooze crowd allergic historical drama dish expert ',positive
+'SPECTRE13.txt','workmanlike devotion out-of-control helicopter good ground do job drive expensive fast car detonate occasional wisecrack enjoy beautiful clothes ',positive
+'Sicario1.txt','tentacled drug cartel thriller grab viewer throat squeeze hour movie convention genre hero gender vagueness morality ',positive
+'Shaun_the_Sheep_Movie21.txt','stop-motion technique fascinate episodic structure true emotional buildup payoff ',positive
+'Bridge_of_Spies3.txt','quaint national luxury road darkness ',positive
+'Straight_Outta_Compton0.txt','straight potent rich showbiz movie make ',positive
+'Bridge_of_Spies11.txt','film anomaly confident square satisfy example craftsmanship star major movie star brandish briefcase handkerchief pistol ',positive
+'The_Martian27.txt','iconic sci-fi match topical craft intelligent heartfelt spectacle gallows die strap ',positive
+'Steve_Jobs30.txt','great film think achievement full flourish breathtaking brilliant one-liner lot character ',positive
+'The_Martian21.txt','seem more home million mile ',positive
+'Truth12.txt','truth journalism horror story something like Men wrong ending plenty blame side frustrating tale onscreen show power win big ',positive
+'Bridge_of_Spies39.txt','exciting intend be satisfy ',positive
+'Crimson_Peak17.txt','crimson chamber piece preoccupy be stunning be scary ',positive
+'Shaun_the_Sheep_Movie0.txt','look exciting no-nonsense tale little kid level simplicity great wisdom beauty ',positive
+'Straight_Outta_Compton12.txt','straight entertaining educational thank textured direction thumping soundtrack rap protest music time ',positive
+'The_Peanuts_Movie17.txt','surprising wondrous crooked line work big-budget gloss ',positive
+'The_Diary_of_a_Teenage_Girl9.txt','impressive direction have deliver something soulless contribution ',positive
+'Ricki_and_the_Flash5.txt','few shortage movie adult trend rock n roll attitude ',positive
+'SPECTRE6.txt','rich compelling sleek overlong entertainment ',positive
+'Sicario31.txt','time satisfying intense examination war rule engagement drive spectacular performance mesmerize cinematography other time middle act be self-indulgent ',positive
+'The_Visit6.txt','first movie long time viewer be tempt see magic trick ',positive
+'The_Peanuts_Movie19.txt','comic late creator approve give progeny ensure film true artistic humanist vision ',positive
+'The_Martian8.txt','enthrall realistic outer-space survival story ',positive
+'Goosebumps7.txt','trip world storey imagination powerful tool inspire kid do scary thing pick book ',positive
+'Sicario8.txt','violence shocking effective soak dry brown landscape ',positive
+'The_Martian38.txt','enjoyable picture make year streamlined narrative consistent pace aid cast make wrongfoot move easy popcorn entertainment ',positive
+'Bridge_of_Spies23.txt','handsome mature entertainment rich novelistic intrigue little exchange reward ',positive
+'No_Escape1.txt','actor play kind fall seediness shady dealing weight emotional scene battle do be laid-back comic foil ',positive
+'The_Visit4.txt','vintage twist ',positive
+'A_Walk_in_the_Woods5.txt','funny time many comedy steam ',positive
+'The_Green_Inferno1.txt','Italian cannibal movie make act skill ',positive
+'The_Diary_of_a_Teenage_Girl4.txt','rare gem movie ',positive
+'The_Diary_of_a_Teenage_Girl31.txt','pleasure sit stretched definition word pleasure work rewarding work truth other movie touch stick thick glove ',positive
+'A_Walk_in_the_Woods6.txt','series episodic encounter misadventure musing redeem part presence scenic wonder unspoiled grandeur spectacular ',positive
+'We_Are_Your_Friends0.txt','fun surprise ',positive
+'The_Martian16.txt','science fiction sophisticated audience such fulfill satisfy experience ',positive
+'Bridge_of_Spies20.txt','suggest everything touch safe encomium American decency be persistent film enjoyable timing sweet atmosphere conjure such skill register complaint help ',positive
+'Goosebumps11.txt','boisterous picture sense spooky fun message ',positive
+'The_Man_from_U.N.C.L.E.2.txt','enough style make louche summer movie cultivate mix action wit suit city analogue digital world ',positive
+'Truth4.txt','engross part gradual grueling retreat story first participant network broadcast ',positive
+'The_Transporter_Refueled1.txt','refuel good movie most metric commit mainlin base pleasure expense damn near everything ',positive
+'The_Walk10.txt','ignore tell focus show spectacular sense ',positive
+'Steve_Jobs2.txt','propel ingenious script give vibrance buoyancy director galvanize viewing experience ',positive
+'SPECTRE0.txt','great satisfaction addition stirring action timely reference secret organization steal personal information believe bond person ',positive
+'The_Visit13.txt','low-budget thriller horror-movie moment pure strangeness comedy effort audience oddball trip grandma house ',positive
+'The_Visit7.txt','film simple well-executed enough ',positive
+'Minions11.txt','many joke obvious be expose pre-release marketing material keep wait clever insightful moment bar set low minion ',positive
+'SPECTRE5.txt','efficient good assassin huge impression bond girl meet hypnotic first real bond woman ',positive
+'Sicario9.txt','turn thrilling disorient drain border zone own devise art film action movie ',positive
+'The_Walk14.txt','walk portion script fact-based thriller full potential suspense uncertainty sequence intensity wonder ',positive
+'War_Room0.txt','gold-plate piece thumping resonate same audience get touch angel cry next tree hackney religious device ',positive
+'Maze_Runner__The_Scorch_Trials1.txt','entertaining action-adventure own limited reward offer ',positive
+'Straight_Outta_Compton28.txt','strong peak tangle complication compromise ',positive
+'Crimson_Peak8.txt','sombre sincerity hypnotic beauty film time cast crew carry single postmodern prod smirk film heart sleeve soul most intestine ',positive
+'Ricki_and_the_Flash4.txt','entertaining diversion good way pass couple hour late summer evening ',positive
+'Shaun_the_Sheep_Movie29.txt','co-director be guiding hand series version experience kind brisk comedy series charming show stand-alone scene ',positive
+'Truth15.txt','burn high flame wounded dignity ',positive
+'The_Diary_of_a_Teenage_Girl0.txt','voice-over deliver microphone tape recorder bedroom motor proud insecure comic drip adolescent wisdom self-absorption ',positive
+'Everest16.txt','make mistake exalt subject extraordinary individual suggest be obey sort noble high calling blunt businesslike long march death zone something achievement ',positive
+'SPECTRE10.txt','business usual business pull brilliant precision choreograph action itinerary boast photogenic spot ',positive
+'Crimson_Peak18.txt','film production design real star ',positive
+'Bridge_of_Spies0.txt','hefty minute solid pace streamlined edit long-time collaborator tremendous ',positive
+'The_Visit10.txt','director fine eye nice natural way actor talent nerve ',positive
+'Goosebumps2.txt','feature adaptation author best-selling series thrill fan story invest casting ',positive
+'Truth17.txt','weirdness involuntary comic value disparity sparse finicky minutia narrative bouffant style presentation ',positive
+'Captive1.txt','film action present compelling ',positive
+'The_Intern7.txt','play seek renew purpose start-up gentle kitten disrespectful want greet icon American cinema snuggle tumbler warm milk ',positive
+'The_Diary_of_a_Teenage_Girl26.txt','busy British newcomer extraordinary teen find identity ',positive
+'The_Walk28.txt','grow accustomed signature touch creative mind see innovative narrative potential lie dormant technical cinematographic advance provide underpinnings great storey movie something see ',positive
+'Bridge_of_Spies5.txt','take important forget action-packed slice turn gripping character study thriller bit adaptation be control ',positive
+'Bridge_of_Spies24.txt','gift civility small large mark late film satisfying spy thriller subdue usual philosophical nail-biter ',positive
+'Bridge_of_Spies13.txt','patient chilling time feel divide muted blue grey memory duck cover age ',positive
+'The_Walk3.txt','sequence majestic simulation real event ship sinking dazzling triumph digital effect mastery pace ',positive
+'Bridge_of_Spies41.txt','movie uncertain ',positive

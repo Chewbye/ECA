@@ -1,0 +1,10 @@
+One	CD	One
+of	IN	of
+the	DT	the
+summer’s	NNS	<unknown>
+most	RBS	most
+entertaining	JJ	entertaining
+and	CC	and
+provocative	JJ	provocative
+movies	NNS	movie
+.	SENT	.

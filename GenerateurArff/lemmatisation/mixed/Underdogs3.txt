@@ -1,0 +1,17 @@
+Kids	NNS	kid
+still	RB	still
+experiencing	VBG	experience
+World	NP	World
+Cup	NP	Cup
+withdrawal	NN	withdrawal
+symptoms	NNS	symptom
+may	MD	may
+be	VB	be
+entertained	VBN	entertain
+by	IN	by
+this	DT	this
+animated	JJ	animated
+oddity	NN	oddity
+from	IN	from
+Argentina	NP	Argentina
+.	SENT	.

@@ -1,0 +1,14 @@
+Ignore	VB	ignore
+the	DT	the
+tell	NN	tell
+and	CC	and
+focus	NN	focus
+on	IN	on
+the	DT	the
+show	NN	show
+,	,	,
+spectacular	JJ	spectacular
+in	IN	in
+every	DT	every
+sense	NN	sense
+.	SENT	.

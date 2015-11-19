@@ -1,0 +1,13 @@
+Much	RB	much
+of	IN	of
+what	WP	what
+follows	VBZ	follow
+is	VBZ	be
+turgid	JJ	turgid
+and	CC	and
+,	,	,
+for	IN	for
+non-believers	NNS	non-believer
+,	,	,
+ridiculous	JJ	ridiculous
+.	SENT	.

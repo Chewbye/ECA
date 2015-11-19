@@ -1,0 +1,13 @@
+Oyelowo	NP	<unknown>
+and	CC	and
+Mara	NP	Mara
+'s	POS	's
+riveting	JJ	riveting
+,	,	,
+embodied	VBN	embody
+performances	NNS	performance
+rise	VBP	rise
+above	IN	above
+the	DT	the
+material	NN	material
+.	SENT	.

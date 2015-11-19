@@ -1,0 +1,17 @@
+The	DT	the
+tension	NN	tension
+between	IN	between
+Boyle’s	NP	<unknown>
+restless	JJ	restless
+energy	NN	energy
+and	CC	and
+Sorkin’s	NP	<unknown>
+tendency	NN	tendency
+to	TO	to
+run	VB	run
+in	IN	in
+place	NN	place
+drives	VBZ	drive
+the	DT	the
+movie	NN	movie
+.	SENT	.

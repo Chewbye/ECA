@@ -1,0 +1,14 @@
+This	DT	this
+is	VBZ	be
+one	CD	one
+of	IN	of
+the	DT	the
+better	JJR	good
+musical	JJ	musical
+biopics	NNS	<unknown>
+of	IN	of
+the	DT	the
+last	JJ	last
+20	CD	@card@
+years	NNS	year
+.	SENT	.

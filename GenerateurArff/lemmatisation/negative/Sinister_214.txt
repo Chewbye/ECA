@@ -1,0 +1,11 @@
+Not	RB	not
+a	DT	a
+moment	NN	moment
+of	IN	of
+Sinister	NP	<unknown>
+2	CD	2
+is	VBZ	be
+convincing	JJ	convincing
+or	CC	or
+frightening	JJ	frightening
+.	SENT	.

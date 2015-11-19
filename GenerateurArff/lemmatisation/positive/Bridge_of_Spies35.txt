@@ -1,0 +1,10 @@
+It’s	NP	<unknown>
+a	DT	a
+riveting	JJ	riveting
+film	NN	film
+and	CC	and
+I	PP	I
+understood	VBD	understand
+every	DT	every
+word	NN	word
+.	SENT	.

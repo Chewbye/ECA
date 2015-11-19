@@ -1,0 +1,10 @@
+The	DT	the
+Intern	NP	<unknown>
+is	VBZ	be
+a	DT	a
+romantic	JJ	romantic
+comedy	NN	comedy
+without	IN	without
+the	DT	the
+romance	NN	romance
+.	SENT	.

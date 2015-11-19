@@ -1,0 +1,14 @@
+A	DT	a
+sprawling	JJ	sprawling
+,	,	,
+overstuffed	VBD	overstuff
+,	,	,
+formulaic	JJ	formulaic
+but	CC	but
+highly	RB	highly
+entertaining	JJ	entertaining
+story	NN	story
+of	IN	of
+pop	JJ	pop
+stardom	NN	stardom
+.	SENT	.

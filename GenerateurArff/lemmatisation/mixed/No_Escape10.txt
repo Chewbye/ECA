@@ -1,0 +1,10 @@
+No	DT	no
+Escape	NP	<unknown>
+is	VBZ	be
+xenophobic	JJ	xenophobic
+claptrap	NN	claptrap
+of	IN	of
+the	DT	the
+highest	JJS	high
+order	NN	order
+.	SENT	.

@@ -1,0 +1,12 @@
+Like	IN	like
+in	IN	in
+so	RB	so
+many	JJ	many
+silents	NNS	silent
+,	,	,
+the	DT	the
+plot	NN	plot
+is	VBZ	be
+joyously	RB	joyously
+minimal	JJ	minimal
+.	SENT	.

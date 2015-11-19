@@ -1,0 +1,14 @@
+The	DT	the
+Peanuts	NP	Peanuts
+Movie	NP	Movie
+delivers	VBZ	deliver
+genuine	JJ	genuine
+happiness	NN	happiness
+with	IN	with
+the	DT	the
+door	NN	door
+left	VBD	leave
+open	JJ	open
+for	IN	for
+woe	NN	woe
+.	SENT	.

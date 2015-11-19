@@ -1,0 +1,12 @@
+Well	RB	well
+,	,	,
+put	VBD	put
+a	DT	a
+stake	NN	stake
+in	IN	in
+it	PP	it
+.	SENT	.
+It	PP	it
+'s	VBZ	be
+done	VBN	do
+.	SENT	.

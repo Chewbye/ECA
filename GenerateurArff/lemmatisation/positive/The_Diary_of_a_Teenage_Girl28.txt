@@ -1,0 +1,8 @@
+What	WP	What
+a	DT	a
+ballsy	JJ	<unknown>
+film	NN	film
+and	CC	and
+honest	JJ	honest
+too	RB	too
+.	SENT	.

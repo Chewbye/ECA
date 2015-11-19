@@ -1,0 +1,5 @@
+A	DT	a
+thoroughly	RB	thoroughly
+unpleasant	JJ	unpleasant
+experience	NN	experience
+.	SENT	.

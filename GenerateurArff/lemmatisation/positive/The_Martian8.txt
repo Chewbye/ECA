@@ -1,0 +1,9 @@
+An	DT	an
+enthralling	VBG	enthrall
+and	CC	and
+rigorously	RB	rigorously
+realistic	JJ	realistic
+outer-space	NN	outer-space
+survival	NN	survival
+story	NN	story
+.	SENT	.

@@ -1,0 +1,11 @@
+Passable	JJ	passable
+adventure	NN	adventure
+that	WDT	that
+offers	VBZ	offer
+the	DT	the
+occasional	JJ	occasional
+flash	NN	flash
+of	IN	of
+real	JJ	real
+cleverness	NN	cleverness
+.	SENT	.

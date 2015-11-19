@@ -1,0 +1,13 @@
+A	DT	a
+marvelous	JJ	marvelous
+technical	JJ	technical
+achievement	NN	achievement
+when	WRB	when
+the	DT	the
+director	NN	director
+finally	RB	finally
+gets	VBZ	get
+around	RP	around
+to	TO	to
+it	PP	it
+.	SENT	.

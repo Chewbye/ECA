@@ -1,0 +1,15 @@
+There	EX	there
+'s	VBZ	be
+hardly	RB	hardly
+a	DT	a
+shred	NN	shred
+of	IN	of
+cleverness	NN	cleverness
+to	TO	to
+be	VB	be
+found	VBN	find
+amid	IN	amid
+all	PDT	all
+the	DT	the
+predictabilities	NNS	predictability
+.	SENT	.

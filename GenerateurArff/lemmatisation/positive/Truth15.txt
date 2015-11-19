@@ -1,0 +1,16 @@
+Blanchett	NP	Blanchett
+burns	NNS	burn
+on	IN	on
+a	DT	a
+high	JJ	high
+flame	NN	flame
+,	,	,
+and	CC	and
+Redford	NP	Redford
+finds	VBZ	find
+the	DT	the
+wounded	JJ	wounded
+dignity	NN	dignity
+in	IN	in
+Rather	RB	rather
+.	SENT	.

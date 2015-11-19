@@ -1,0 +1,7 @@
+The	DT	the
+movie	NN	movie
+is	VBZ	be
+a	DT	a
+world-class	JJ	world-class
+winner	NN	winner
+.	SENT	.

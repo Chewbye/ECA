@@ -1,0 +1,16 @@
+A	DT	a
+Walk	VBP	walk
+in	IN	in
+the	DT	the
+Woods	NP	Woods
+serves	VBZ	serve
+as	IN	as
+a	DT	a
+terrific	JJ	terrific
+showcase	NN	showcase
+for	IN	for
+two	CD	two
+exceptionally	RB	exceptionally
+durable	JJ	durable
+stars	NNS	star
+.	SENT	.

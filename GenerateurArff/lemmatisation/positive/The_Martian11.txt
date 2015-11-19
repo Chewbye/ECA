@@ -1,0 +1,13 @@
+It	PP	it
+'s	VBZ	be
+one	CD	one
+of	IN	of
+the	DT	the
+most	RBS	most
+comforting	JJ	comforting
+science	NN	science
+fiction	NN	fiction
+films	NNS	film
+in	IN	in
+years	NNS	year
+.	SENT	.

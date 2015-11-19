@@ -1,0 +1,12 @@
+A	DT	a
+witless	JJ	witless
+undead	NN	<unknown>
+retread	NN	retread
+served	VBD	serve
+up	RP	up
+as	IN	as
+a	DT	a
+vulgar	JJ	vulgar
+revenge-of-the-dorks	NN	<unknown>
+comedy	NN	comedy
+.	SENT	.

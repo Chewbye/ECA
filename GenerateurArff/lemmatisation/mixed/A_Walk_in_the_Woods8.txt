@@ -1,0 +1,14 @@
+Ultimately	RB	ultimately
+superficial	JJ	superficial
+yet	RB	yet
+watchable	JJ	watchable
+throughout	IN	throughout
+,	,	,
+it’s	NN	<unknown>
+the	DT	the
+very	JJ	very
+definition	NN	definition
+of	IN	of
+classy	JJ	classy
+fluff	NN	fluff
+.	SENT	.

@@ -1,0 +1,8 @@
+The	DT	the
+acting	NN	acting
+in	IN	in
+Black	NP	Black
+Mass	NP	Mass
+is	VBZ	be
+tremendous	JJ	tremendous
+.	SENT	.

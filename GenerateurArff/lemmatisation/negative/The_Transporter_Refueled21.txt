@@ -1,0 +1,10 @@
+it	PP	it
+'s	VBZ	be
+overstuffed	VBN	overstuff
+,	,	,
+undercooked	JJ	undercooked
+,	,	,
+and	CC	and
+needlessly	RB	needlessly
+complicated	VBN	complicate
+.	SENT	.

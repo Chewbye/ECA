@@ -1,0 +1,12 @@
+Impressively	RB	impressively
+designed	VBN	design
+throughout	IN	throughout
+,	,	,
+The	DT	the
+Unbeatables	NP	<unknown>
+also	RB	also
+keeps	VBZ	keep
+the	DT	the
+laughs	NNS	laugh
+kicking	VBG	kick
+.	SENT	.

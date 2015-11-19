@@ -1,0 +1,16 @@
+This	DT	this
+is	VBZ	be
+the	DT	the
+Fantastic	JJ	fantastic
+Four	CD	Four
+.	SENT	.
+Maybe	RB	maybe
+someday	RB	someday
+they	PP	they
+'ll	MD	will
+get	VB	get
+to	TO	to
+act	VB	act
+like	IN	like
+it	PP	it
+.	SENT	.

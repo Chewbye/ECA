@@ -1,0 +1,9 @@
+Ball	NP	Ball
+and	CC	and
+his	PP$	his
+cast	NN	cast
+overcome	VB	overcome
+clichés	NNS	cliché
+with	IN	with
+gusto	NN	gusto
+.	SENT	.

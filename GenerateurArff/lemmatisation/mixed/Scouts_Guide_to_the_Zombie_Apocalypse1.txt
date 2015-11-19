@@ -1,0 +1,10 @@
+A	DT	a
+likable	JJ	likable
+horror-comedy	NN	<unknown>
+with	IN	with
+a	DT	a
+satisfyingly	RB	satisfyingly
+high	JJ	high
+splatter	VBP	splatter
+count	NN	count
+.	SENT	.

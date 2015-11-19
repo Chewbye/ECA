@@ -1,0 +1,14 @@
+Even	RB	even
+with	IN	with
+his	PP$	his
+glossy	JJ	glossy
+new	JJ	new
+look	NN	look
+,	,	,
+Charlie	NP	Charlie
+Brown	NP	Brown
+remains	VBZ	remain
+the	DT	the
+Charlie	NP	Charlie
+Browniest	NP	<unknown>
+.	SENT	.

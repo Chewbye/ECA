@@ -1,0 +1,6 @@
+A	DT	a
+charming	JJ	charming
+and	CC	and
+clever	JJ	clever
+concoction	NN	concoction
+.	SENT	.

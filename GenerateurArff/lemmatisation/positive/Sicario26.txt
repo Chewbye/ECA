@@ -1,0 +1,13 @@
+Sicario	NP	<unknown>
+is	VBZ	be
+at	IN	at
+its	PP$	its
+best	JJS	good
+when	WRB	when
+its	PP$	its
+borderlines	NNS	borderline
+are	VBP	be
+fluid	JJ	fluid
+and	CC	and
+indistinct	JJ	indistinct
+.	SENT	.

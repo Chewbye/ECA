@@ -1,0 +1,17 @@
+This	DT	this
+is	VBZ	be
+a	DT	a
+good	JJ	good
+,	,	,
+solid	JJ	solid
+,	,	,
+well-executed	JJ	well-executed
+crime	NN	crime
+story	NN	story
+.	SENT	.
+Nothing	NN	nothing
+more	RBR	more
+,	,	,
+nothing	NN	nothing
+less	RBR	less
+.	SENT	.

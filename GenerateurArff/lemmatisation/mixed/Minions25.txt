@@ -1,0 +1,11 @@
+You’ll	JJ	<unknown>
+have	VBP	have
+to	TO	to
+appreciate	VB	appreciate
+what	WP	what
+fleeting	JJ	fleeting
+cleverness	NN	cleverness
+you	PP	you
+can	MD	can
+here	RB	here
+.	SENT	.

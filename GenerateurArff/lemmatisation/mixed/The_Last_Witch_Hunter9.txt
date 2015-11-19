@@ -1,0 +1,16 @@
+Like	IN	like
+its	PP$	its
+star	NN	star
+,	,	,
+The	DT	the
+Last	JJ	last
+Witch	NP	<unknown>
+Hunter	NP	Hunter
+is	VBZ	be
+big	JJ	big
+,	,	,
+overblown	JJ	overblown
+and	CC	and
+frequently	RB	frequently
+incomprehensible	JJ	incomprehensible
+.	SENT	.

@@ -1,0 +1,10 @@
+Where	WRB	where
+'s	VBZ	be
+a	DT	a
+wooden	JJ	wooden
+stake	NN	stake
+when	WRB	when
+you	PP	you
+need	VBP	need
+one	PP	one
+?	SENT	?

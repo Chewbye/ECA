@@ -1,0 +1,13 @@
+Truth	NN	truth
+would	MD	would
+have	VB	have
+been	VBN	be
+more	RBR	more
+compelling	JJ	compelling
+with	IN	with
+less	JJR	less
+sanctimony	NN	sanctimony
+and	CC	and
+tougher	JJR	tough
+self-examination	NN	self-examination
+.	SENT	.

@@ -1,0 +1,15 @@
+Bridge	NP	Bridge
+of	IN	of
+Spies	NP	Spies
+has	VBZ	have
+a	DT	a
+brassy	JJ	brassy
+and	CC	and
+justified	JJ	justified
+confidence	NN	confidence
+in	IN	in
+its	PP$	its
+own	JJ	own
+narrative	JJ	narrative
+flair	NN	flair
+.	SENT	.

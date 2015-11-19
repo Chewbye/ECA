@@ -1,0 +1,7 @@
+Crimson	JJ	crimson
+Peak	NP	Peak
+is	VBZ	be
+a	DT	a
+gorgeous	JJ	gorgeous
+mediocrity	NN	mediocrity
+.	SENT	.

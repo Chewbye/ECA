@@ -1,0 +1,17 @@
+As	IN	as
+silly	JJ	silly
+and	CC	and
+sometimes	RB	sometimes
+nonsensical	JJ	nonsensical
+as	IN	as
+it	PP	it
+is	VBZ	be
+,	,	,
+the	DT	the
+movie	NN	movie
+is	VBZ	be
+surprisingly	RB	surprisingly
+sweet	JJ	sweet
+and	CC	and
+well-intentioned	JJ	well-intentioned
+.	SENT	.

@@ -1,0 +1,8 @@
+What	WP	What
+makes	VBZ	make
+The	DT	the
+Martian	JJ	Martian
+work	NN	work
+is	VBZ	be
+Damon	NP	Damon
+.	SENT	.

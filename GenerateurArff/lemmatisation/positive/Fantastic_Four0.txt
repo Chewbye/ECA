@@ -1,0 +1,17 @@
+Perhaps	RB	perhaps
+surprisingly	RB	surprisingly
+,	,	,
+it	PP	it
+'s	VBZ	be
+no	RB	no
+better	JJR	good
+or	CC	or
+worse	JJR	bad
+that	WDT	that
+the	DT	the
+other	JJ	other
+superhero	NN	superhero
+movies	NNS	movie
+of	IN	of
+2015	CD	@card@
+.	SENT	.

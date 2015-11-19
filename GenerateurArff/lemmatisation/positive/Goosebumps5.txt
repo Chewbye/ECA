@@ -1,0 +1,9 @@
+Pretty	RB	pretty
+much	RB	much
+the	DT	the
+perfect	JJ	perfect
+scary	JJ	scary
+movie	NN	movie
+for	IN	for
+kids	NNS	kid
+.	SENT	.

@@ -1,0 +1,17 @@
+The	DT	the
+movie	NN	movie
+version	NN	version
+of	IN	of
+Goosebumps	NP	<unknown>
+replicates	VBZ	replicate
+that	IN	that
+balancing	VBG	balance
+act	NN	act
+.	SENT	.
+It’s	NP	<unknown>
+a	DT	a
+cheerful	JJ	cheerful
+,	,	,
+nasty	JJ	nasty
+delight	NN	delight
+.	SENT	.

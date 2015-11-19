@@ -1,0 +1,12 @@
+The	DT	the
+movie	NN	movie
+gets	VBZ	get
+duller	JJR	dull
+and	CC	and
+less	RBR	less
+focused	JJ	focused
+as	IN	as
+it	PP	it
+wears	VBZ	wear
+on	RP	on
+.	SENT	.

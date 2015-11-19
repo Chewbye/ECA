@@ -1,0 +1,8 @@
+[	SYM	[
+An	NP	An
+]	SYM	]
+enormously	RB	enormously
+fun	NN	fun
+late-summer	NP	late-summer
+surprise	NN	surprise
+.	SENT	.
