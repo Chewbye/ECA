@@ -21,15 +21,45 @@ public class Lemme2ARFF {
 	public Lemme2ARFF(String foldersPath, String targetPath){
 		
 		typesValides = new ArrayList<String>();
-		typesValides.add("NN");
-		typesValides.add("NNS");
-		typesValides.add("VB");
-		typesValides.add("VBN");
-		typesValides.add("VBD");
-		typesValides.add("VBG");
+		//typesValides.add("NN");
+		//typesValides.add("NNS");
+		
+		//Verbes
+//		typesValides.add("VB");
+//		typesValides.add("VBD");
+//		typesValides.add("VBG");
+//		typesValides.add("VBN");
+//		typesValides.add("VBZ");
+//		typesValides.add("VBP");
+//		typesValides.add("VD");
+//		typesValides.add("VDD");
+//		typesValides.add("VDG");
+//		typesValides.add("VDN");
+//		typesValides.add("VDZ");
+//		typesValides.add("VDP");
+//		typesValides.add("VH");
+//		typesValides.add("VHD");
+//		typesValides.add("VHG");
+//		typesValides.add("VHN");
+//		typesValides.add("VHZ");
+//		typesValides.add("VHP");
+//		typesValides.add("VV");
+//		typesValides.add("VVD");
+//		typesValides.add("VVG");
+//		typesValides.add("VVN");
+//		typesValides.add("VVP");
+//		typesValides.add("VVZ");
+		
+		//Adjectifs
 		typesValides.add("JJ");
 		typesValides.add("JJR");
 		typesValides.add("JJS");
+		
+		//Adverbes
+		typesValides.add("RB");
+		typesValides.add("RBR");
+		typesValides.add("RBS");
+		
 		
 		arffContent = "% Ceci represente la classification de critiques de films en fonction de leur jugement.";
 		arffContent += "\n\n@relation critiques";
@@ -58,10 +88,10 @@ public class Lemme2ARFF {
 					{
 						String[] triplet = ligne.split("\t");
 						
-						//if (motValide(triplet))
-						//{
+						if (motValide(triplet))
+						{
 							fileContent = fileContent + triplet[triplet.length-1] + " ";
-						//}
+						}
 						
 						
 						ligne = bf.readLine();

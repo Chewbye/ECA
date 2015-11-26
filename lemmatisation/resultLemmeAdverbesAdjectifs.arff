@@ -1,0 +1,1332 @@
+% Ceci represente la classification de critiques de films en fonction de leur jugement.
+
+@relation critiques
+@attribute contenu string
+@attribute classe {positive, mixed, negative}
+
+@data
+'colourful smart sharp delightful visual appealing ',mixed
+'too dumb ribald most well here ',mixed
+'sinister far perfect rare much modern ',mixed
+'gruff ',mixed
+'last complex aptly further stolid even criminally limited even macho entirely plausible ',mixed
+'yellow now own still fine adorable ',mixed
+'entire rather devastating eternal ',mixed
+'crass nonsensical hard medical ringed expressly ',mixed
+'most almost as much also superannuated ',mixed
+'pretty well respectably Empire back ',mixed
+'sporadically funny infamous mercifully ',mixed
+'shaggy easily distractible consistently charming ',mixed
+'ultimately inherited less not n\'t ',mixed
+'no-holds-barred inevitable undimmed faceless corporate ',mixed
+'consistently off ever ',mixed
+'clever early standard ',mixed
+'crimson gorgeous ',mixed
+'Russian lethal less more most violent all instead two-fisted rough ',mixed
+'pleasantly different introductory once super whole more standard ',mixed
+'sumptuous pitch-black misbegotten large so closely ',mixed
+'clumsy romantically nearly there not quite ',mixed
+'murky long however as shadowy ',mixed
+'painful ',mixed
+'just there old ',mixed
+'nominally satiric only sporadically effective ',mixed
+'ponderous pretentious most just not much ',mixed
+'',mixed
+'quickly easygoing indulgent good just n\'t ',mixed
+'new funny hilarious not too many ',mixed
+'here n\'t very funny n\'t very sharp ',mixed
+'sure well just entertaining enough slightly great cultural ultimately ',mixed
+'thoughtful such slick whole bland ',mixed
+'sinister n\'t n\'t much ',mixed
+'not bad several pretty good ',mixed
+'most promising away expository ludicrous ',mixed
+'nearly so wacky grotesque down romantic ',mixed
+'only more less ',mixed
+'actually whole amiable colorful surprisingly low not ',mixed
+'evil also most potent little about horribly horribly wrong sentient poor ',mixed
+'hard almost as same long ideally distracting ',mixed
+'perilous vertiginous much more ',mixed
+'deftly young unlikely ',mixed
+'relentlessly more much rangy ',mixed
+'crimson astonishing n\'t back emotional lurid ',mixed
+'intriguing real even more laudable ',mixed
+'',mixed
+'close appreciative enjoyably familiar inspired smart ',mixed
+'strict n\'t necessary n\'t completely still occasional unintended ',mixed
+'ever big ',mixed
+'impressive young mostly proven little ridiculous ',mixed
+'impossible popular old modern jazzy mostly tedious fleeting ',mixed
+'monumental fascinating flip upcoming Prize-winning sexual Catholic instead not ',mixed
+'careful not Afghan good n\'t cardboard ',mixed
+'unusually young old ',mixed
+'even n\'t most enduring interesting ',mixed
+'valiant even never big as maybe n\'t imaginative enough ',mixed
+'barely old quickly ',mixed
+'not as terrifying Norwegian black still good recent ',mixed
+'attractive daunting odd ',mixed
+'passable else well ',mixed
+'first-rate icebound strangely abstract genuine first-rate ',mixed
+'as there soulful pensive not much long ',mixed
+'twisty juicy compelling staid political thematic as satisfyingly ',mixed
+'workmanlike mainly completely perilously ',mixed
+'flat predictable tedious idiotic ',mixed
+'mildly amusing n\'t else deep conspicuous ',mixed
+'exactly dark bad ',mixed
+'tasteless gay particularly instantly forgettable ',mixed
+'squarely about more visual probably plus scary automatically special now ',mixed
+'absolutely not due due utter infantile ',mixed
+'good ',mixed
+'apocalyptic much high first around ',mixed
+'drab anemic ',mixed
+'sheer sepulchral most well-nigh ',mixed
+'mad next little ',mixed
+'pretty inconsequential ',mixed
+'few sweet early then unfocused high late slowly away ',mixed
+'unexpectedly occasionally delightful sometimes meaningful lucky enough ',mixed
+'less strong ',mixed
+'broad minimal not much ',mixed
+'many more juvenile less polished less previous ',mixed
+'n\'t so much certainly also dispiritingly riskless ',mixed
+'clear once too too thin as real-life so unruly dangerous ',mixed
+'straight bloated melodramatic still worth early just powerful really ',mixed
+'relatively well here interesting only captive ',mixed
+'good painfully sincere animated less contemporary nostalgic 50th ',mixed
+'more just acceptably silly so frustrating entire ',mixed
+'short very low good so far most fantastical not ',mixed
+'unfortunately frequently brilliant unsure here simply n\'t ',mixed
+'few not same creative never confident not bad not quite good enough either ',mixed
+'preposterous monotonous primarily notable geopolitical ',mixed
+'ferocious steely genuine ',mixed
+'high-class down fine noisy converted even ',mixed
+'hollow stale occasionally admirable dysfunctional ',mixed
+'good there ',mixed
+'sinister ambitious good dumb repetitive ',mixed
+'so often along ',mixed
+'even n\'t often as monotonous still almost capable loyal ',mixed
+'many most memorable noisy ',mixed
+'deeper existential perhaps n\'t content lightly educational mostly just entertaining more only much less really ',mixed
+'even too often flat ',mixed
+'toothless cautionary political oddly insignificant ',mixed
+'n\'t gallant own fleeting real still hard not so much so wrong ',mixed
+'shiny enough not so new nostalgic here there ',mixed
+'n\'t together entire ',mixed
+'talented animated ',mixed
+'sinister short creative probably enough right partial ',mixed
+'easy arrant heavy-handed even easy persuasive emotional lead not so much as ',mixed
+'overly long yet consistently accurately equal revivalist rather too blatantly final overall narrative spiritual effectively satisfyingly ',mixed
+'generally frail indeed barely ',mixed
+'no ',mixed
+'promising prosaic ',mixed
+'good-looking yet narrative overall ',mixed
+'mildly pleasant amusing light n\'t exactly yet even modest ',mixed
+'not much just rather high ',mixed
+'least most popular new rarely old ',mixed
+'woefully incomplete middle least never boring ',mixed
+'kinda ',mixed
+'unclear obligatory ',mixed
+'considerable combined smug ',mixed
+'perfectly too n\'t nimble spot-on ',mixed
+'here retrograde easy fantastical ',mixed
+'previous undoubtedly much general soon weary however ',mixed
+'blissfully unaware expertly ',mixed
+'just underhanded about halfway almost enough ',mixed
+'decent aside choral ',mixed
+'as bland all-purpose more serious young black gifted fabulously wealthy much far good heavy more ',mixed
+'',mixed
+'clever several least not skew only halfheartedly content rather true ',mixed
+'as paranoid sometimes amusing most ',mixed
+'never weak too emphatically unintentionally ',mixed
+'often big sleek trendy mildly creative otherwise predictable ',mixed
+'grim even grim quiet more complicated subtle ',mixed
+'oddball as so long together fully dynamic so desperately ',mixed
+'not so confused inert n\'t even not ',mixed
+'once solid arty right here waterlogged jaunty ',mixed
+'patchy only finally still 3D touching ',mixed
+'pretty much all silly goofy little scary little poignant ',mixed
+'so many first-rate not quite partly mostly ',mixed
+'idiotic unrealistic quite ',mixed
+'rarely mainstream much so structurally amateurish secondary more ',mixed
+'so much ',mixed
+'obvious n\'t noticeable inoffensive just enough ',mixed
+'apparently n\'t dumb movingly realistic never instead comic bizarrely short ',mixed
+'xenophobic high ',mixed
+'more fascinating most drab slow ',mixed
+'eclectic here not n\'t more useful more convincing ',mixed
+'silly almost orgasmic ',mixed
+'competently uncomfortably odd n\'t mental nowhere interesting simple ',mixed
+'hardly ',mixed
+'as convincingly always even solid ',mixed
+'comedic rarely together meaningful ',mixed
+'equally muddy ',mixed
+'vividly particularly never crucial ',mixed
+'beautiful so good ',mixed
+'real back up well first ',mixed
+'plus high quickly nearly climactic really scary though especially so predictable ',mixed
+'incipient gravely depressing tonal simply too vast intermittently amusing dramatically problematic rough rocky ',mixed
+'impossible not somewhat oddly horrific underwhelming ',mixed
+'skillful overly reliant borrowed especially first-rate secondhand half-baked more costume costume ',mixed
+'capable first-rate minor attractive ',mixed
+'only ',mixed
+'admittedly unbelievable so understandable sadly especially crucial ',mixed
+'nice big dumb ',mixed
+'few nifty ',mixed
+'first shiny then crumpled ',mixed
+'crazy undeniably admirably intense ',mixed
+'cute often so other snap ',mixed
+'hard overall ',mixed
+'here n\'t medical too scary too unpleasant ',mixed
+'new fascinating charming curious too seemingly hard wonderfully right then easy ',mixed
+'thematic wholly reprehensible fraudulent least good good ',mixed
+'white such surely not merely fairly slickly ',mixed
+'convincing more just pretty flawed fitfully entertaining even all ',mixed
+'often skillfully n\'t much ordinary left ',mixed
+'not difficult all honestly veteran comic n\'t comfortable ',mixed
+'more simply ',mixed
+'first okay small merely instead completely dreadful late first general unthinkable ',mixed
+'boringly feel-good ',mixed
+'sun-drenched timelessly chic architectural safe new ',mixed
+'yet screwy ',mixed
+'light comic early n\'t final ',mixed
+'very ominous inconsistent pretty well still just more less ',mixed
+'though much flat taut visceral never ',mixed
+'just too ',mixed
+'minor sure recent still pleasant ',mixed
+'good long ',mixed
+'sensuous snappy elegant dapper kinetic so-so even less concerned usual very nearly ',mixed
+'',mixed
+'lightly amusing ',mixed
+'pleasant charming beloved classic genuine adequate n\'t quite enough ',mixed
+'crackerjack so-so least intentional deep altogether ',mixed
+'right shrewd cuddly enough few infinitely good trancelike sonic ',mixed
+'comic just happy error-free mostly ',mixed
+'not gleefully teen n\'t ',mixed
+'decently personal culinary nice mighty shopworn ',mixed
+'not n\'t entertaining inventive either gloriously great gloriously terrible though ',mixed
+'fresh relevant maybe ',mixed
+'individual temporarily not own not ',mixed
+'entire flat ',mixed
+'last pulpy never funny detailed even elsewhere ',mixed
+'no more ambitious long-haired main sole ',mixed
+'competent n\'t basic distinctly chilly European ',mixed
+'first big ',mixed
+'bitter solid other utterly familiar ',mixed
+'core popular pretty much else ',mixed
+'perfectly OK even delightful n\'t ',mixed
+'large not ',mixed
+'selfish young vital basically ',mixed
+'little too neat familiar convenient even quite ',mixed
+'ghostly right red black receptive wildly overboard English ',mixed
+'visually splendid few main distinct ',mixed
+'still animated ',mixed
+'dull less focused ',mixed
+'fine blonde naturalistic ',mixed
+'frustrating many n\'t quite many moderately engaging centrally powerful ',mixed
+'mediocre much very good liberal quite terrible ',mixed
+'n\'t previous maybe few maybe just n\'t true yet maybe loveable just n\'t ',mixed
+'golden n\'t less pleasurable fiery fully almost almost ',mixed
+'certainly interesting ',mixed
+'marketable hit-and-miss n\'t so much more nervous ',mixed
+'own unrepentant all Zen-like adolescent ',mixed
+'aflame awash undeniably ravishing yet ultimately disappointing own sanguine below ',mixed
+'unfortunately n\'t ahead misguided overly dramatic own preposterous climactic ',mixed
+'unfortunately unbridled n\'t similar other low worthwhile ',mixed
+'serious soapy least opportune ',mixed
+'classic classically lamentable good largely sturdy enjoyable domestic ',mixed
+'well ',mixed
+'likable satisfyingly high ',mixed
+'visually pleasing occasionally funny rich good right good ',mixed
+'regular watchable capable enough credible ',mixed
+'not so many more ',mixed
+'down gross-out hilarious else ',mixed
+'too often yet graphic most ',mixed
+'human real ',mixed
+'last not so much ',mixed
+'second similar overly familiar dilatory ',mixed
+'dastardly rival good never ',mixed
+'not even occasional endlessly red red flaming crimson gorgeous red-blooded ',mixed
+'full little sassy just too many narratively bizarre ',mixed
+'horrific breathless brutal ',mixed
+'blood-soaked practically promotional ',mixed
+'incapable false n\'t incapable false ',mixed
+'even simple many same ',mixed
+'distant storytelling narrative ',mixed
+'almost actually requisite hip just n\'t ',mixed
+'ultimately superficial yet watchable very classy ',mixed
+'no ambitious wholly original far new never necessary ',mixed
+'silly as far not much ',mixed
+'n\'t last less ',mixed
+'sprawling great instead up just pretty good ',mixed
+'dodgy tentative uncertain as own complicated journalistic ',mixed
+'more less main sketchy new efficient ',mixed
+'late understandable back low more manageable yet again not ',mixed
+'crimson visionary busy truly ',mixed
+'n\'t good first pretty good second pretty bad truly awful quite never international contemporary political ',mixed
+'visual here absurd ',mixed
+'second popular exact sprawling not liberally more illustrious plentiful dull ',mixed
+'much less so good n\'t ',mixed
+'creepily effective more unnecessary organic original ',mixed
+'strong independent own old male triumphant female distinctly conservative paternalistic ',mixed
+'all mischievous not utterly harmless far despicable welcome too soon ',mixed
+'all so ',mixed
+'heavily Christian almost closely inspirational ',mixed
+'alternately up-to-the-minute relevant as well self-indulgent much heroic more ',mixed
+'episodic piquant mostly visual preschool ',mixed
+'stupid stupid stupid certainly even contentedly here also deadpan somehow previous ',mixed
+'social emotional melodramatic ',mixed
+'largely minimal together ',mixed
+'very young well enough awful lazy off easy ',mixed
+'once thinly maddeningly irreverent over-serious chock-full strained other creepy elaborate strangely compelling ',mixed
+'most difficult intricate not real ',mixed
+'n\'t ',mixed
+'heavily good equally constantly just incredibly important disappointingly difficult truly about ',mixed
+'emotional all due sympathetic ',mixed
+'illegible awkward slow-motion political intermittently interesting off-beat ',mixed
+'not n\'t exactly moral tantamount commercially right other wrong ',mixed
+'hard not only halcyon also relevant new ',mixed
+'great great else ',mixed
+'wide-eyed human enough black even partway ',mixed
+'ambitiously mixed gripping so-so ',mixed
+'testimonial together only ',mixed
+'understandably ever real never too scary disposable likely no ',mixed
+'serviceable capable elaborate martial generally cold detached deep down ',mixed
+'idiosyncratic finally even own mechanically young ',mixed
+'always narrative secondary fortunate home mostly ',mixed
+'n\'t unbreakable lively even good good-natured own ',mixed
+'smart new engaging charismatic ',mixed
+'Christian dramatic forward well-appointed n\'t as ',mixed
+'finally really here not not ',mixed
+'more often not toy more muggy ',mixed
+'disappointingly modest visual ',mixed
+'nice nice good nice other very nice not particularly potent rousing ',mixed
+'first likeable second tiresome loud ',mixed
+'unfortunately edgy broad most ',mixed
+'last big overblown frequently incomprehensible ',mixed
+'occasionally little too own still grown-up muscular same ',mixed
+'pure simple little ',mixed
+'here loud though so ',mixed
+'first moderately entertaining reliably ludicrous predictable new n\'t effortless stoic original ',mixed
+'haphazard more frustrating somewhere much more resonant ',mixed
+'thin rather famous ',mixed
+'about admittedly first-rate political ',mixed
+'comic key emotional late first two-hour ',mixed
+'unbalanced never less entertaining roughly equal true ',mixed
+'romantic ',mixed
+'mouth-watering unsurprisingly fierce fine less motley ',mixed
+'fleeting here ',mixed
+'promising effective low-budget still own bad ',mixed
+'aside few outré symbolically little overlong ',mixed
+'sorry 66-year-old rational frightening temporary bad ',mixed
+'blasted impressive hardly underdeveloped inordinate ',mixed
+'mere clever n\'t enough here stale stale n\'t before fresh new lazy even then deep ',mixed
+'occasionally euphoric even empathetic impressive nuanced n\'t ',mixed
+'only partly mostly few uncontrollable confident not elaborate almost totally ',mixed
+'visually inventive enough good smart never entirely dismissible not strong enough essential ',mixed
+'big n\'t quite hard still n\'t ',mixed
+'there just perfect there again evilly decent now ',mixed
+'almost monotonously downbeat conspicuous infectious ',mixed
+'appealing likely only unquenchable ',mixed
+'n\'t particularly good just fast nutty enough ',mixed
+'strangely ',mixed
+'way too much here simple apocalyptic plenty ',mixed
+'pleasant enough cinematic even so hungry again soon afterward ',mixed
+'talented talented never ',mixed
+'wildly sharp political inspirational never solid ',mixed
+'more no less not rough tough smart much all not ',mixed
+'sweet sadistic silly probably strong high ',mixed
+'long downright silly straight overtly pretentious basically here loose more playful fresh-faced ',mixed
+'old-fashioned spooky here actual motivated delightful ',mixed
+'next modestly ',mixed
+'occasionally restless ',mixed
+'stylish short ',mixed
+'never surely ',mixed
+'middling ',mixed
+'straight n\'t entirely ugly instead ',mixed
+'only intermittently engaging amusing also frustrating conceptually sometimes outright indifferent ',mixed
+'old still new just flimsy classic ',mixed
+'curious grim gory ninth striking sorely great capable so much more ',mixed
+'usual gratefully n\'t often repeatedly ',mixed
+'imperfectly still perfectly enjoyable ',mixed
+'Palestinian maybe most apropos ever ',mixed
+'first two-and-a-half west second ',mixed
+'intriguing ultimately sinister snakelike criminal ',mixed
+'dirty naive less ambitious ',mixed
+'n\'t different here Caribbean once again unrecognizable elaborate peculiar thick ',mixed
+'good not merely physical formidable enough unique dramatically compelling good ',mixed
+'other recent never instead simple ',mixed
+'rare practically just tall up discreetly poignant ',mixed
+'lame old not funny old old fine just old not really up too hard ',mixed
+'here ironically generic somehow big instead ',mixed
+'strong barely ',mixed
+'valiant never quite dizzy emotional final visually though stunning ',mixed
+'proficient French very strong mostly just n\'t anywhere interesting ',mixed
+'sour more cheerful attempted indispensable ',mixed
+'cruel often uncommonly suspenseful white also uncommonly honest here other not away ',mixed
+'real-life fictional rare otherwise too many wrong ',mixed
+'recent sharp-witted nostalgic only black jagged yellow up down ',mixed
+'before ',mixed
+'so wholly second less lived-in more ambitious ',mixed
+'crimson formulaic as contented Gothic ',mixed
+'thankless ',mixed
+'odd noble right busy before now n\'t ',mixed
+'silly sometimes nonsensical surprisingly sweet well-intentioned ',mixed
+'occasional not occasional ',mixed
+'never completely as far satirically ',mixed
+'significant no ',mixed
+'ultimately not grimly efficient wonderful even never quite dizzying ',mixed
+'also more merely interesting riveting still quite good impressive n\'t as quite ',mixed
+'close clever instead gratuitously violent actually ',mixed
+'burnt less short real ',mixed
+'surprising 24th presumably as much good often global ',mixed
+'convincing addicted decent dramatic somewhat mildly religious ',mixed
+'probably heavily approximately slight sometimes outright offensive also intermittently amusing not entirely ',mixed
+'there even quickly repetitive ',mixed
+'weak little good ',mixed
+'always engaging rather superhuman ',mixed
+'halfway there then ',mixed
+'more potent thematic relentlessly insular ',mixed
+'replete bloody sly awkward uneven also serious structural ',mixed
+'most basic still creepy tasteful strong unsettling ',mixed
+'much never too high so pleasant more entertaining ',mixed
+'artless unpleasant bad ',mixed
+'',mixed
+'n\'t gory aplenty ',mixed
+'recent worthwhile twice as lively human ',mixed
+'tidal only once again astray human ',mixed
+'lean parched slow-moving usual not easy n\'t entirely ',mixed
+'back also fine past merely often ',mixed
+'burnt n\'t bad overwrought utterly ',mixed
+'not ',mixed
+'nice whole smoothly unhurriedly never ',mixed
+'up foreign ',mixed
+'slowly periodically not much here facile ',mixed
+'sanctimonious ',mixed
+'real entire strange ',mixed
+'only mildly entertaining never funny enough smart enough cultural ',mixed
+'only occasional directorial painterly few far most welcome ',mixed
+'undemanding easy very much ',mixed
+'n\'t respectful consistently funny ',mixed
+'supposedly transformative very little apart ',mixed
+'new least less ponderous many ludicrous narrow respectable ',mixed
+'late unpredictable offbeat as funny as trenchant ',mixed
+'so intently parental little new especially similarly ',mixed
+'somehow too drawn-out abrupt galore ',mixed
+'shockingly humorless glacially slow bendy invisible human ',mixed
+'vaguely video not idiotic bafflingly dense endless final lifeless anticlimactic visual ',mixed
+'n\'t terrible light tired trite greatest early good ',mixed
+'occasionally bonkers just n\'t anymore ',mixed
+'major before so much here curious almost certainly ',mixed
+'burnt mildly ',mixed
+'virtually only mostly just obliquely much whole ',mixed
+'memorable central never vintage third ',mixed
+'together out endless rather cohesive ',mixed
+'breathlessly jittery hand-held especially helpful paper-thin ',mixed
+'fast somehow short middle ',mixed
+'occasionally funny sometimes suspenseful n\'t particularly imaginative then again popular ',mixed
+'dirty n\'t sufficiently as entertaining stinging ',mixed
+'up strong frequent ludicrously implausible yet coherently ',mixed
+'gleefully offensive unpalatable mainstream more similar even n\'t perfect ',mixed
+'surprising yellow new-found ',mixed
+'ultimately decent great unfortunately short ',mixed
+'clear emotional ',mixed
+'not so much bad dull ill-conceived n\'t so much ',mixed
+'complicated major broadly comic ',mixed
+'temporarily haphazard ',mixed
+'too much breezy away predictable broad pushy grating ',mixed
+'ultimately too busy gimmicky textual really magnetic much ',mixed
+'n\'t rusty comic stale simply n\'t funny more likely even ',mixed
+'gifted very bloody bloody stylish certainly unequaled also conventionally not surprising scary hoary ago conventional rather fresh subversive ',mixed
+'clearly blood-soaked dark tiresome more more ludicrous hard ',mixed
+'worth too willing ',mixed
+'n\'t memorable complex self-contradictory even most supporting ',mixed
+'pedestrian modestly gripping ',mixed
+'n\'t exactly frightening so well-worn now hard particularly able sufficient ',mixed
+'most interesting least not so weirdly ',mixed
+'similar real-life rich easy gravelly n\'t ',mixed
+'wide enough hard political never so disparate ',mixed
+'not as terrible intriguing absurdly n\'t either ',mixed
+'good so sweaty silly not ',mixed
+'whole very much mixed n\'t half bad ',mixed
+'even worth most successful long-running once again ',mixed
+'uneven surprisingly likeable ',mixed
+'too busy too gross effective just earnest ',mixed
+'other n\'t always ',mixed
+'last generic murky final literally possible ',mixed
+'less easy more always beautiful old ',mixed
+'lax lame ',mixed
+'well as here about finally sad though not always dramatically ',mixed
+'ultimate awfully middling ',mixed
+'less common real-life similarly generic teen dully superior artistic ',mixed
+'true least real composite tight ',mixed
+'last terrific digital Less impressively flat sluggish too much witchy ',mixed
+'well literally faithful heavy-handed n\'t daily ',mixed
+'abundant relentless sure little ',mixed
+'spectacular much same too many too many so individual ',mixed
+'as unintentionally comic basically more straight no tired even sometime ',mixed
+'not only low internecine n\'t early gifted young big national ploddingly sentimental sudden painful ',mixed
+'mildly theatrical knowingly hammy perfunctory ',mixed
+'first great full dark however final too many too many ',mixed
+'short same ',mixed
+'tense utterly predictable Western xenophobic ',mixed
+'last first would-be similar stand-alone ',mixed
+'tonally consistent first also overlong thoroughly routine ',mixed
+'slight lightly charming comic most obviously appealing well exotic ',mixed
+'bizarre funny oddly ',mixed
+'charming lively also many just tired listless as ',mixed
+'ultimately first witty then n\'t quite ',mixed
+'just loose deep fatal anymore serious too grim self-important truly too silly slipshod more somber ',mixed
+'chic swank once West fantastic too bad lead so lifeless ',mixed
+'second maybe n\'t ',mixed
+'extremely most real distracting yet quietly ',mixed
+'promising first ostensibly else forward later on simply ',mixed
+'decent here somewhere right ',mixed
+'often so funny not ',mixed
+'disappointing actually cynical even vaguely innovative beloved ',mixed
+'undercooked needlessly ',negative
+'certainly unfortunately most prosaic imaginable single one-dimensional noble banal requisite ',negative
+'tardy sometime abject careworn ',negative
+'witless vulgar ',negative
+'much late fantastic ',negative
+'loud repellent badly indifferently almost completely devoid genuine essentially 12-year-old still basic mere bare good same ',negative
+'most shocking ',negative
+'cacophonous computerized cinematographic hurried genuine ',negative
+'so large ',negative
+'not synthetic not single emotional entire organic ',negative
+'sixth not legitimate basic narrative alleged ',negative
+'rickety unsafe comic ',negative
+'typically tired familial such often only ',negative
+'enough ',negative
+'much anonymous instead real as well video ',negative
+'good reliable bad certainly bad racially reprehensible most powerless ',negative
+'more brutal least consistently stylish less ',negative
+'grave absorbing not real ',negative
+'preachy n\'t mighty long-winded wincingly overwrought domestic ',negative
+'clear ',negative
+'well-meaning spiritual sluggish clinical largely dreary ',negative
+'bad special yet effectively ',negative
+'late fantastic cinematic bad worthless ',negative
+'most tedious recent lame lazy only ',negative
+'cheap more loud ',negative
+'titular now blank ',negative
+'insofar about really about gratuitous staggering ',negative
+'',negative
+'special bad talented ',negative
+'largely inert left tedious horrible ',negative
+'pop deliriously ',negative
+'n\'t all just anyway ',negative
+'empty last hungry not more ',negative
+'profitable ',negative
+'frivolously scary scary scary ',negative
+'n\'t even own most deeply cynical ',negative
+'seriously so almost actively impossible ',negative
+'empty n\'t well-reasoned up more clueless so-called social ',negative
+'effectively yet just so repugnant ',negative
+'more n\'t big red other ',negative
+'deadpan amiable laid-back more tangible all ',negative
+'ultimately so worthy ',negative
+'sweet slack slick probably ',negative
+'joyless just imaginable as well n\'t possibly ',negative
+'messy also new ',negative
+'dumb just as generic ',negative
+'condescending self-righteous sloppy simply bad ',negative
+'last else ',negative
+'purely good present here more more lazy familiar ',negative
+'even dramatically not ',negative
+'very n\'t n\'t really especially heavily ',negative
+'just high-tech last ',negative
+'just plain offensive not well either casual altogether more noxious then back n\'t n\'t n\'t great ',negative
+'even well political hard bizarrely eccentric currently n\'t even ',negative
+'lousy unfocused incoherent shockingly terrible special probably talented dull ',negative
+'often more lost long exotic ',negative
+'austere European guilty ',negative
+'helplessly garish generic ',negative
+'odd sure full-tilt widowed stone-cold cornered spiritual very slightly other more ',negative
+'first mushy third ',negative
+'supremely silly overall much lesser ',negative
+'large last unfortunately more also more convoluted ',negative
+'memorably bad surely as low ',negative
+'though original as easily ',negative
+'especially good acceptable alternate bad high ',negative
+'late well strong dull n\'t effective aural ungainly nearly ',negative
+'creative ',negative
+'terrific perhaps together again good ',negative
+'still not ',negative
+'always next little good ',negative
+'mostly dreadful English well-dressed ',negative
+'dopey only mildly chilling uneasy dark few ',negative
+'lazy ',negative
+'thoroughly unpleasant ',negative
+'teen ',negative
+'so low ',negative
+'sleek curvy luscious ready ',negative
+'compelling hoary ',negative
+'not too umpteenth female even sweet ',negative
+'most joyless ',negative
+'few feel-good limply most elaborate especially endless tribal embarrassingly flat ',negative
+'artless puerile ',negative
+'least interesting ',negative
+'fantastic ',negative
+'much turgid ridiculous ',negative
+'first briefly never more impressive ',negative
+'mostly puerile uninspired tired little ',negative
+'dominant frantically young n\'t ',negative
+'climactic overwhelming final overall last played-out ',negative
+'Asian either ruthless anonymous white ',negative
+'stylish marvelous narrative ',negative
+'lightweight basically unnecessary once again cinematic lesser ',negative
+'appropriate else dubious downright awful ',negative
+'also not new 24th well not as much bloated ',negative
+'such brainless shameless hard ',negative
+'not convincing frightening ',negative
+'sure nice unmemorable vapid fantastic utterly flat ',negative
+'undeniably powerful craftily special not ',negative
+'certainly big really ',negative
+'riveting even not fairly contrived domestic ',negative
+'so wildly inconsistent genuinely gorgeous cruddy ',negative
+'far first ever otherwise out ',negative
+'less very long ',negative
+'literally figuratively dark ',negative
+'insulting tough single abysmal ',negative
+'however slapdash ultimately less progressive superficially such feel-good unimaginative hyperactive adolescent ',negative
+'perhaps intentional n\'t always full oppressively bad ',negative
+'well just few ago French ideal never even ',negative
+'far only fairly handily even major ',negative
+'just clumsily written same rich ',negative
+'ridiculous ',negative
+'first ',negative
+'only fitfully mistakenly ',negative
+'clumsy crass sudden ',negative
+'fantastic maybe someday ',negative
+'excellent back lunatic ghastly previous so easily ',negative
+'borrowed young just n\'t ',negative
+'quickly depressingly ',negative
+'last artlessly restless untamed never back forth remotely entertaining ',negative
+'well new novel inexplicably clearly neither anymore ',negative
+'nonexistent unsuccessfully so much inner n\'t funny ',negative
+'joyless ',negative
+'cheerless least back ',negative
+'emotional particularly ',negative
+'nothing special ',negative
+'relentlessly derivative flat fussy unconvincing ',negative
+'sinister so little first enough ',negative
+'dead ',negative
+'less ambitious creatively ',negative
+'inexpressive obviously tired perhaps never just ',negative
+'so moral ridiculous ready cold bland ',negative
+'ill-conceived beloved ',negative
+'sexist racist overlong dull visually ugly bad unfunny ',negative
+'thin utterly see-through ',negative
+'familiar blockbuster comic n\'t clear new rich basic wholly traditional ',negative
+'only current ',negative
+'unholy tone-deaf seemingly vital then inexplicably never superb old much good much good political as ham-handed ',negative
+'spongy serious also ever too much too much n\'t so much ',negative
+'old amiably enough few here n\'t enough together satisfying ',negative
+'good progressively more tedious ',negative
+'poorly fair Afghan popular only countless other bad ',negative
+'good literary terrifying toothless here ',negative
+'perfect lame lazy good great less so ',negative
+'',negative
+'reasonable all likely curious unreasonable ever after ',negative
+'',negative
+'schlock own dusty dead too just n\'t yet ',negative
+'n\'t much dreggy dreadful creepily exploitative would-be too silly stupid as offensive frequently ',negative
+'aggressively awful lackadaisical dull almost back ',negative
+'here shocked contrary not ',negative
+'bizarrely retrograde only cuddly soft soft ',negative
+'bottom here interpersonal ',negative
+'only late marital somewhat more authentic well ',negative
+'special instead exasperatingly bland almost generic ',negative
+'n\'t deep least seductive aside stunning dutiful ',negative
+'exactly n\'t hard ',negative
+'tedious soulless relatively trim seemingly ',negative
+'still even ',negative
+'good fatal dangerous too safe ',negative
+'clear real actual never ',negative
+'seemingly last other unfortunately heavy-handed humorless little goofy ',negative
+'fantastic so mediocre ',negative
+'goofy n\'t same more graphic ',negative
+'gifted n\'t industrial wrong elaborate usually ',negative
+'main last immortal also underwhelming ',negative
+'really n\'t rancid ',negative
+'special cheap wooden largely throwaway off ',negative
+'only more ',negative
+'less about dubious ',negative
+'few not enough third ',negative
+'superior enormous here unfortunately all reprehensible ',negative
+'genuine completely southeast Asian exactly Asian else nameless equally nameless ',negative
+'even pretty much impossible artless ',negative
+'predominantly empty anonymous scarcely ',negative
+'rich unremarkable otherwise ',negative
+'rancid red not just also sloppy ',negative
+'early ',negative
+'ultimately previously new ingenious familiar suddenly loud sound real ',negative
+'n\'t melancholy thin good pretty close bad unscathed ',negative
+'high-speed extravagant as punctilious little uptight ',negative
+'complete second mundane dramatic sensory whatsoever ',negative
+'clumsy implausible intriguing generational dimly old young alike ',negative
+'remarkably little ',negative
+'early ',negative
+'perhaps good n\'t own few ',negative
+'as pointless advanced ',negative
+'n\'t ',negative
+'actually last n\'t ',negative
+'slow lethargic utterly undeserving good ',negative
+'wooden ',negative
+'even late logical less acceptable however unaccountably weak demonic ',negative
+'merely cheap simply accordingly ',negative
+'inner continued universal ',negative
+'fine vague ',negative
+'unfortunate embarrassing decades-old frightful ',negative
+'certainly enough dopey here last considerably more even most extravagant desultory oppressively synthetic ',negative
+'real religious emotional captive up big ',negative
+'stunningly deadpan singularly unfunny often ',negative
+'just deadly dreadful loud obnoxious convoluted horrible dumb ',negative
+'first unexpected magnetic reliably kinetic inferior ',negative
+'abusive loving fully functional ',negative
+'ultimately rather well ',negative
+'grand old fresh unusual good simply two-dimensional rather one-dimensional ',negative
+'trapped as believably scary ',negative
+'cheap just ',negative
+'complete joyless pointless fundamentally idiotic ',negative
+'clear brave new social social public just n\'t truly scary suspenseful real though ',negative
+'n\'t own n\'t so much little back ',negative
+'fantastic so bereft drawn-out upcoming ever again ',negative
+'miraculous dull relatively uninterested more ',negative
+'blissfully perfect aggressively repulsive queasy bad ',negative
+'not as brazenly offensive not as spectacularly inept still awful superficial half-baked ',negative
+'unquestionably female too ',negative
+'utterly completely so even n\'t ',negative
+'grittily propulsive solid aside no ',negative
+'honest not noticeably stupid other ',negative
+'sloppy disconnected lazily happily ',negative
+'extreme unlikable seriously poorly ',negative
+'weak high even anymore barely anyway ',negative
+'never own ',negative
+'good likely essentially dreary familiar painfully good ',negative
+'all rather dull ',negative
+'unconvincing Western abroad ',negative
+'deeper more dramatic ',negative
+'even n\'t contemptuous rapidly tiresome ',negative
+'flat earnest determinedly low-keyed openly not ',negative
+'little else musical otherwise ',negative
+'smart sorry really too old little not kinky raucous ',negative
+'professional sheen not just dull ',negative
+'good tedious nowhere special ',negative
+'dim deadly ever ',negative
+'solid competent n\'t little female romantic ',negative
+'just slightly less dull least less active n\'t inherently interesting ',negative
+'several bad recent rather n\'t big even bad ',negative
+'n\'t ',negative
+'too operatic own same flawed rough iconic ',positive
+'grim ',positive
+'true stunning more good solid high-altitude ',positive
+'acutely sensitive less off-putting more authentic grossly American ',positive
+'solid big beautiful terrifying merciless ',positive
+'musical ',positive
+'essentially big good ',positive
+'great weird huge most purely enjoyable ',positive
+'here maybe cynical maybe true bleak sometimes powerful blunt ',positive
+'alarming complete most righteous youthful as well flagrant ',positive
+'also famous lower-profile good ',positive
+'',positive
+'even glossy new ',positive
+'well yet away ',positive
+'little too earnest stone too quirky therein own oddball optional ',positive
+'not just lovely integral ',positive
+'tightly ',positive
+'real human propulsive stellar good ',positive
+'admirably own more so never really n\'t ',positive
+'n\'t interested safe comfortable edgy exhausting most sleepy ',positive
+'heavily autobiographical ideally skillfully ',positive
+'Martian ',positive
+'good solid well-executed more less ',positive
+'breathtakingly gorgeous well solid ',positive
+'weird big cheap ',positive
+'hardly essential tense riveting abroad pretty good ',positive
+'only n\'t high around much ',positive
+'just askew enough funny bemused ripe ',positive
+'exactly cut most innocuous ',positive
+'n\'t even honest forthright most basic emotional timeless universal ',positive
+'sophisticated yet innocent always accessible young never straightforward breezy easy ',positive
+'unapologetically stirring even most daunting rational basically human ',positive
+'luckily almost non-stop ',positive
+'enormously entertaining ',positive
+'beautifully meticulously half-finished still ',positive
+'many professional just ',positive
+'many n\'t good over ',positive
+'n\'t cleverly ',positive
+'broadly first arguably entirely nerve-wracking majestic spectacular ',positive
+'luckily n\'t probably timely now faint n\'t not ',positive
+'plenty last few simply as realistic occasionally still aware gut not actually ',positive
+'keenly impressive ',positive
+'n\'t however narrative other ',positive
+'somehow even more ',positive
+'narrative n\'t full glorious rather together surreptitiously dizzying truly magic ',positive
+'mannered true once remarkably genuine deeply cinematic same good ',positive
+'particular big fizzy likely ',positive
+'secret impeccably exceptionally cool almost instantly forgettable ',positive
+'most emotionally ',positive
+'visionary ',positive
+'great long ',positive
+'historical less noxious harmful customary American most most adult ',positive
+'not pretty few ',positive
+'wonderfully rare large oversized actual ',positive
+'potent largely successful ',positive
+'intense moral n\'t ',positive
+'basically not worth mostly ',positive
+'as few even just ',positive
+'strong right n\'t quite perfect ',positive
+'n\'t just also icy whipping ',positive
+'not own next ',positive
+'also modern familiar same ',positive
+'good n\'t quite more light-hearted too often other here there ',positive
+'most other expository last enough ',positive
+'great forward ',positive
+'scary expertly jittery ',positive
+'directorial incisive universal very specific detailed ',positive
+'enjoyable oddly sinister secret uncertain Mexican Colombian approximately scary ever ',positive
+'probably n\'t less more imaginary fleeting often beautiful ',positive
+'undeniably also timeless angry profane vibrant singular personal ',positive
+'cradle-to-grave ',positive
+'good fluid indistinct ',positive
+'fairly good extremely as far true-life battered high yet somehow n\'t far enough ',positive
+'mildly entertaining well sumptuously smartly dark culinary only delicious then ',positive
+'solid n\'t perhaps historical not quite so untainted ',positive
+'rousing appealingly old-fashioned visually arresting far well ',positive
+'more modest other still absolute sophisticated crude visual ',positive
+'really apart short ',positive
+'political ',positive
+'first second good third though retroactively ',positive
+'charming clever ',positive
+'not sure right enigmatic world-weary least very dark ',positive
+'youthful away grownup however foolish equal mere ',positive
+'clever late aloud drunk small fourth slight smart ',positive
+'hard not yet workmanlike solidly engaging short lofty worth not good ',positive
+'never immediate straight ',positive
+'political easily well female last ',positive
+'most admittedly long badly sappy American inevitable just n\'t ',positive
+'down dirty ',positive
+'n\'t hard nice maybe n\'t ',positive
+'successful old new no emotional ultimately never fretful ',positive
+'sensational most gripping covert ago ',positive
+'pretty much perfect scary ',positive
+'funny gracious ever wonderful comic probably earlier ',positive
+'still fellow satisfying broad ',positive
+'straight hugely entertaining good n\'t too closely just ',positive
+'cheerful nasty ',positive
+'often not ',positive
+'commanding staunch much well straightforward ',positive
+'pure cinematic ',positive
+'high electric highly theatrical ',positive
+'secret tense often disarmingly funny ',positive
+'n\'t different ',positive
+'all big dumb broad visible away fantastic central ',positive
+'lower key vintage impossible good great ',positive
+'incomprehensible lay not exactly original entertaining ',positive
+'too much goofily good ',positive
+'impossible alone somehow just that ',positive
+'less ',positive
+'here entirely different recent true so incredible literally as imaginary full impossible ',positive
+'impatient n\'t creepily erotic perfect ',positive
+'sinister magnetic real distinctive not more mesmeric usually workmanlike ',positive
+'breezy touching dysfunctional real genuine musical ',positive
+'up good stirring spectacular devastating subtle final ',positive
+'occasionally little particularly sticky final certain timeless back ',positive
+'sometimes vast self-serving ',positive
+'covertly brawny tight fourth again furtive masterful ',positive
+'wonderful primarily there other good ',positive
+'young too unsinkable uninhibited little bad ',positive
+'even less satisfying good ',positive
+'not ',positive
+'blockbuster almost avant-garde exhilaratingly same subtle meticulous 3D ',positive
+'impressively also ',positive
+'n\'t many innumerable delightful small even more infectious ',positive
+'great silent concrete elaborate everyday sometimes properly ',positive
+'dramatic somewhere ',positive
+'tough even entertainingly ',positive
+'smart uniformly packed not overly long social timeless ',positive
+'sprawling formulaic highly entertaining pop ',positive
+'then big here far more convincing previous big public unexpected very welcome good ',positive
+'as uneven last super promising secret teenage special little ever so briefly ',positive
+'most never ',positive
+'fine adept first-rate doltish even memorable apart ',positive
+'funny sad scary sweet disturbing revelatory ',positive
+'consummate gifted smooth strong subtle political potent unexpected ',positive
+'unoriginal actually demonic ',positive
+'underwritten refreshingly little ',positive
+'perfect cerebral visceral all ',positive
+'old-fashioned silly gentle ',positive
+'propulsive iconoclastic personal dispiriting capitalistic ironically upbeat ',positive
+'so fascinating truly chief so funny interesting infallibly likable ',positive
+'still not just even current more ',positive
+'deliriously ambitious deeply high ',positive
+'astonishingly brilliant not ',positive
+'tremendous ',positive
+'pop multiracial suburban stylish musical ',positive
+'n\'t grand fractured funny reset ',positive
+'just too much good carefully wrought little bumpy inelegant sure hard ',positive
+'refreshingly n\'t so much complete cripplingly hilarious being ',positive
+'more technically ever also gentle more other also neat no permanent more vividly ',positive
+'memorably strange almost entirely grown-up long ',positive
+'believable hopeful tender delightful increasingly rare truly confident healthy feminine ',positive
+'ultimately frustrating modern n\'t just ',positive
+'smart moving hilarious single ',positive
+'several right average ',positive
+'sympathetically worth British surprisingly comic Russian quietly steadfast different ',positive
+'highly entertaining sometimes more perhaps most memorable sardonically secret basically famous funny ',positive
+'spooky much funny colorful more original second around ',positive
+'open marginally simple still chaotic just ',positive
+'centrally frequently ',positive
+'professional however unfair polished apart ',positive
+'out tight tense pretty spicy ',positive
+'brassy justified own narrative ',positive
+'grown reactionary instead clever humane even ',positive
+'spectacular Italian jazzy vehicular finally somewhere third few stylistic clever more ',positive
+'awe-inspiring unfortunately never more ',positive
+'hilarious just ',positive
+'glossy real creepy here not ',positive
+'down personal aerial red intimate ',positive
+'genuine open ',positive
+'genuinely interested as suburban ',positive
+'rare terrific ',positive
+'good here grave ',positive
+'bad bad late ',positive
+'good dangerously real back poor ',positive
+'few loose faithful necessarily less detailed ',positive
+'hard hedonistic various special generally worth ',positive
+'new thankfully good n\'t ',positive
+'particular out tight small complex Byzantine obscure ',positive
+'most respectable ',positive
+'here silly most genuinely enjoyable likable longtime n\'t irreconcilable ',positive
+'',positive
+'adorable big-city most pure visual ',positive
+'tactile rich sensory almost ',positive
+'new pure cubic n\'t n\'t out ',positive
+'morally complex sometimes uncomfortably also lushly bawdy funny together astonishing cinematic first-time ',positive
+'vigorous crucial ',positive
+'away keenly n\'t ',positive
+'perilous central not old n\'t good ',positive
+'not right mini fourth little super simian beautiful human amusing mainly deep ',positive
+'so purely entertaining almost scary extremely funny ',positive
+'after here not wildly entertaining ',positive
+'graceful not only so much ',positive
+'not bad not special ',positive
+'convincing astonishing willing less delicate totally compelling like very next ',positive
+'full non-stop intriguing new classic old-fashioned swashbuckling charming ',positive
+'funny ',positive
+'rare female not only unique also ',positive
+'sheer more lumbering strained ',positive
+'witty eleventh good last good recent good early ',positive
+'world-class ',positive
+'maybe enough even slow ',positive
+'provocative intelligent just underwhelming same as ultimately n\'t up ',positive
+'false still not heroic ',positive
+'passable occasional real ',positive
+'explicit frequent pretty much ever away such frank ',positive
+'riveting ',positive
+'bloody violent brash inventive horrific perhaps most romantic ',positive
+'true semi-autobiographical loosely structured unfiltered young ',positive
+'straight often entertaining dynamic ultimately as cinematic not only successful trailblazing hip ',positive
+'rarely collective unconventional arguably only stellar ',positive
+'very young roughly twice many ',positive
+'well earlier sometimes all too rarely nowadays ',positive
+'loud colourful busy full not most bold winningly eccentric ',positive
+'not much world-class ',positive
+'not exactly feel-good very particular ',positive
+'ultimately rich almost tactile astonishing ',positive
+'impassioned spectacular final real ',positive
+'even small n\'t ',positive
+'unexpected emotional less sentimental ',positive
+'bold altogether whole goofy sound so silly contagiously cute ',positive
+'odd more easy ',positive
+'entertaining n\'t just perfect first preschooler ',positive
+'commercial smart even relatively simple feel-good more safe brainy familiar more ',positive
+'perfect ',positive
+'here lurid ghastly immensely enjoyable frequently spectacular also thin less substantial ',positive
+'now middle no longer introspective great ',positive
+'energetic never good ',positive
+'marvelous technical finally ',positive
+'formidable technical inner ',positive
+'worth actual ',positive
+'n\'t same ',positive
+'predictable sometimes tacky unflagging plentiful skillfully ',positive
+'superior together tough not ',positive
+'new satisfying final even less ',positive
+'ice-cold dead demonic n\'t up then riveting ',positive
+'irreducible wry first outsized ridiculous beautiful ',positive
+'sharp slick more interested ',positive
+'sweet likable too many cathartic even memorable instead calculated earnestly ',positive
+'smart procedural carefully observed particularly intriguing heretofore American ',positive
+'not necessarily important seamy sweaty subtly most satisfying ',positive
+'sometimes n\'t different 3D particular so practically once free contagious ',positive
+'frustratingly ',positive
+'more awe-inspiring big surreal many never again ',positive
+'as much comic even most ebullient ',positive
+'sure own young little somewhere ',positive
+'really truly not necessarily intelligent mainstream supposedly creative as well enough almost grateful ',positive
+'swell together as beautifully also churlish not not definitely grateful ',positive
+'n\'t much live impromptu ',positive
+'first young British staggeringly good ',positive
+'playful absurd endearingly inventive unstoppably amusing current golden ',positive
+'here heady high-end high-stakes ',positive
+'',positive
+'inter-American more few as powerful superbly ',positive
+'critical chief much else sober sprawling deeply complex equally impressive ',positive
+'unusual pure rough good not ',positive
+'honest personal even tricky ',positive
+'narrative quickly as well sharp more importantly unabashed raucous ',positive
+'conventional inherent practical rational rather selfish ',positive
+'genuinely insightful truly funny physical small half-dozen supporting ',positive
+'first truly fresh old street-level ',positive
+'predictably impeccable tonal strong especially otherwise reverent just right ',positive
+'bright contemporary American hard effortless ',positive
+'beautifully murky hard-edged quite simply good ',positive
+'good so far lively more disloyal proper even well ',positive
+'easy young all undeniably demographic ',positive
+'final n\'t emotionally gold not unyieldingly oppressive ',positive
+'so intent not little soft probably ',positive
+'now great own soaringly alive ',positive
+'terrific exceptionally durable ',positive
+'meticulously artful torrential superb yet obvious n\'t satisfactorily ',positive
+'brainy genuine rare actually smarter ',positive
+'',positive
+'n\'t apart second exactly less ',positive
+'yet just underwhelming really about Mexican superlatively strong conceivable ',positive
+'absolutely delightful ',positive
+'overlong important contemporary American mainstream ',positive
+'not surprising n\'t rather not ',positive
+'sweet funny smart genuine simple timeless ',positive
+'up breathtaking ',positive
+'mindless enough painlessly just n\'t too closely ',positive
+'uncommonly bold expressly strong righteous here instead much more valuable ',positive
+'short sweet charming often very funny essentially intelligible n\'t ',positive
+'most comforting ',positive
+'high recognizable essentially great second otherwise compelling funny extremely entertaining own ',positive
+'around great back substantial ample more pleasing ',positive
+'frequently very funny undeniably young true too mild-mannered new already fond big ',positive
+'simultaneously most charming most daring human ever back fictional next solely ',positive
+'sober straightforward home instead smart often disarmingly funny classic ',positive
+'straight undoubtedly being loud stylish ',positive
+'all terrific thoroughly compelling very American utterly modern musical ',positive
+'strong ',positive
+'last least dazzling particularly even so most luminous ',positive
+'n\'t all all clear eventually ',positive
+'too once small well bad too much good ',positive
+'real impossible same ',positive
+'most traditional little else ',positive
+'convincing here ready ',positive
+'more barely certified ',positive
+'contemporary historical also funny most flat-out good ',positive
+'less cautionary classy much more ',positive
+'not fatal narrative final ',positive
+'unspoken iconic like only ',positive
+'',positive
+'never so hypocritical so banal so evil ',positive
+'dizzying taut musical ',positive
+'as entertaining n\'t exactly further stale though unlikely ',positive
+'inner dazzling naked ',positive
+'not phenomenal especially still ',positive
+'genuinely not just yet mischievous ',positive
+'really smart really smart ridiculously entertaining user-friendly ',positive
+'amiable charming big warm ',positive
+'seemingly flawless more just bloodthirsty stellar ',positive
+'especially superior first loose comic would-be ',positive
+'perhaps most importantly not only also scientific just exciting even more unpredictable usual then up ',positive
+'n\'t whole old now n\'t old now too ',positive
+'n\'t not more just tedious already ',positive
+'n\'t bad just slightly disappointing ',positive
+'honest too ',positive
+'deeply silly uproariously entertaining almost guilty all quite so much almost ',positive
+'all relatable ',positive
+'deeply ',positive
+'more compelling less tough ',positive
+'energetic creative thumping electronic cinematic ',positive
+'wild relentlessly sheer anything-goes glorious ',positive
+'never flat ',positive
+'lean ',positive
+'smart hugely entertaining creative not standard ',positive
+'unsettling not just contentious moral just radical realistic female sexual still ',positive
+'terrific ',positive
+'cool first unaware there ',positive
+'conventional more interesting together well enough ',positive
+'so compelling ',positive
+'own strange ',positive
+'most brainy high-speed not quite as smart new-style ',positive
+'still full still soulful enough still ',positive
+'largely modest feel-good real-life inspirational mostly engaging ',positive
+'great other good ',positive
+'fussy most most powerful ',positive
+'new instant consistently as good good even hit-and-miss major truly revelatory least ',positive
+'still never other also human ',positive
+'as other great intricate ',positive
+'still top-flight first likely good way deep silly little slight ',positive
+'psychotic not only tasty unholy Irish ',positive
+'full ',positive
+'past big back own ',positive
+'dark easy violent vengeful fetid just ',positive
+'n\'t too busy main ',positive
+'least showy most credible ',positive
+'outlandish human winning not n\'t really even skyward ',positive
+'feel-good absorbing true-life very smoothly old ',positive
+'there ',positive
+'far good still smart about musical so much more selfish seven-time ',positive
+'n\'t often adjective uncomfortable seldom as uncomfortable yet as true ',positive
+'almost unbearably tense quite sheer unapologetic all ',positive
+'sensational expertly sublime unique unforgettable just ',positive
+'almost magically full comic nimble ',positive
+'computer-generated most slipshod n\'t important low ',positive
+'streamlined rather ',positive
+'well first new full familiar ',positive
+'riveting ',positive
+'curiously constant granular never fully ',positive
+'as far ',positive
+'finally n\'t other ',positive
+'modern old-fashioned good not just ',positive
+'suspenseful ',positive
+'never entirely satisfying visually dazzling lively even ',positive
+'even suspiciously light cheerful chilly more dour ',positive
+'more most about fairly recent so well convincing ',positive
+'',positive
+'original risk-taking differently American ',positive
+'positively effervescent sassy good acoustic rarely ',positive
+'crimson sexual dark supernatural human gigantic most terrifying ',positive
+'straightforward thrilling metaphysical emotional pure ',positive
+'eventually own ',positive
+'great young terribly old-fashioned right so first classical ',positive
+'dramatic low tremendous more dastardly ',positive
+'around huge black painterly not particularly substantial ',positive
+'all around ',positive
+'taut timely brilliant ',positive
+'solid good ',positive
+'not childishly wide-eyed capable still terrific alive few back ',positive
+'magnificently low then real too maybe indirectly definitely not ',positive
+'all before all before carefully deeply satisfying also ',positive
+'rich potent sophisticated new mostly though formally audacious intellectually powerful lazy contemporary ',positive
+'n\'t newly ',positive
+'deeply principled deftly spirited almost certain ',positive
+'solid subtle excessive ',positive
+'pervasive modern good complex ',positive
+'gorgeous whole new ',positive
+'nervy kinetic good never average somehow even ',positive
+'energetic good creepy dubious ',positive
+'as unsettling other away much true most ',positive
+'full well-timed clever never real ',positive
+'far more compelling ',positive
+'well-crafted well-paced procedural monotonous ',positive
+'deeply mental own past dark ironic ',positive
+'wisely main along neither formidable much bumpy ',positive
+'enough reasonably entertaining interesting emotionally compelling ',positive
+'nearly intimate almost impossible perhaps only huge awfully quick ',positive
+'not more accurate not witty ',positive
+'Gothic outrageously sumptuous gruesomely violent ',positive
+'good more unconsciously perhaps also strategically anarchic typical absurd ',positive
+'partly terrific good stellar partly public private backstage not so much ',positive
+'tightly out many small skillful telling minute big ',positive
+'most moral other ',positive
+'good dramatic ',positive
+'certainly little yellow different probably about much ',positive
+'swift searing back ',positive
+'digital deep emotional sweet simple perfectly ',positive
+'just smooth many other unnecessary ',positive
+'though not entertaining energetic sharp fair juicy messy assured cynical ',positive
+'rare ',positive
+'little overwrought borderline partial Victorian big frilly uncommon ',positive
+'n\'t always still full ',positive
+'n\'t indifferent well n\'t markedly well ',positive
+'delightful comic ',positive
+'big brash horribly watchable extraordinary true familiar generic ',positive
+'nutty nonsensical all aboard ',positive
+'slim whole quite pleasingly warm funny high ',positive
+'decently robust entertaining just ',positive
+'intriguing bizarrely effective ',positive
+'late sumptuous beautifully archaic inviting ',positive
+'good musical last ',positive
+'about long ',positive
+'all risible taut ',positive
+'never less engaging often much more ',positive
+'dirty equal grim very final ',positive
+'relentless little ',positive
+'most entertaining provocative ',positive
+'potentially chilling horrific also beautiful ',positive
+'possible too high big smart ',positive
+'generous visual ',positive
+'somehow familiar even cozy n\'t great old ',positive
+'rather procedural complex international least ',positive
+'perhaps surprisingly no good bad other ',positive
+'cheap still not enough awful ',positive
+'temperamentally more lithe eternally cool ',positive
+'terrific often explosive only unfortunately as timely now first ',positive
+'occasionally n\'t other chief ',positive
+'deceptively tight even main aimlessly most successful only ',positive
+'not real genuine ',positive
+'cinematic much more dazzling original sweet smart funny ',positive
+'other recent notably meticulously detailed also also light less maybe ',positive
+'indisputable not too many so fresh startling ',positive
+'real not sweeping ',positive
+'old-fashioned always ambitiously aimless all-too-rare ',positive
+'digital undeniably contemporary otherwise mostly rarely contemporary however effectively unsettling ',positive
+'tempting ',positive
+'despicable enjoyably demented young ',positive
+'most ugly off notorious most still ',positive
+'potent visceral alike big ',positive
+'confident indelible ',positive
+'still lively political black lickety-split boisterous ',positive
+'tragic here overarching either pretty pat just there ',positive
+'good flawless smart ',positive
+'often dramatic dreary grisly dubious however ',positive
+'everywhere unnecessary already so specific true ',positive
+'',positive
+'exhausting impressionistic ultimately hollow extraordinarily not nearly as relevant ',positive
+'nonstop comic ready sure exhausting ',positive
+'fabulous own mainstream poetic ',positive
+'emotional strong sociological many visceral more less procedural pretty good absorbing well-made ',positive
+'24th solidly all-time still beautifully action-packed international wonderfully ludicrously dry myriad gorgeous classic clearly out ',positive
+'rather digital often most potent ',positive
+'exceptional elegant even psychopathic such golden ',positive
+'not forward single little mechanical about almost charmingly old-fashioned ',positive
+'straight not only also still ',positive
+'most fascinating rather ',positive
+'more serious ',positive
+'potentially dangerous yet nearly impossible alone ',positive
+'enough amusingly louche refreshingly digital ',positive
+'entertainingly intact frighteningly successful young big lively teen ',positive
+'crisp 3D clear fluid thrilling immensely impressive short ',positive
+'good worth unquestionably ',positive
+'funny enough angry sad too much true ',positive
+'straight well good n\'t malicious urgently right now ',positive
+'entirely particular there ',positive
+'visually spectacular consistently entertaining procedural only emotional usually really ',positive
+'more last here ',positive
+'third really way crazy ',positive
+'strange sometime even quite different ',positive
+'as strong as ',positive
+'not complete unexpectedly chilling skillful significant right ',positive
+'one-third two-thirds engaging fine terrific not ',positive
+'indomitable human common almost occasionally ',positive
+'taut American unnamed just violent bad xenophobic ',positive
+'limited fast-paced nice memorable ',positive
+'as most few ',positive
+'sophisticated long ever elegant as ',positive
+'big big big few ',positive
+'n\'t interested more ambitious great n\'t always great ',positive
+'absorbing n\'t just also ethereal now-vanished ',positive
+'many sometimes own ',positive
+'particularly strong concerned most definitely unabashed ',positive
+'solid not stellar well together very well only genuine ',positive
+'about never n\'t only honorable good though lovely ',positive
+'notorious good long equally well ethically questionable wrong ',positive
+'earnest not full ',positive
+'most towering brash even occasionally ',positive
+'teeny witty fabulously slightly ironic forthright ',positive
+'many loose weak ',positive
+'unique visual predictable flat supernatural red n\'t so much ',positive
+'witty more emotional chaotic ',positive
+'regardless flimsy emotional worthy strong ',positive
+'about rather fourth solid not darkly stylish not as stupidly grim either ',positive
+'contemporary generous inclusive fast-moving such grandiose genuinely inspiring ',positive
+'so many joyously minimal ',positive
+'surprisingly demented crazy spirited simplistic off-beat anarchic ',positive
+'once again gripping never own moral not easy riveting essential ',positive
+'delightful stop-motion animated not ',positive
+'modern-day existential ',positive
+'never quite early nonetheless always ',positive
+'genuine complex difficult easy also great dense practically ',positive
+'great consistently enjoyable ',positive
+'mostly unfamiliar also well strong even ',positive
+'as well lead ',positive
+'even mild powerful engaging compelling young black in ',positive
+'just supernatural just just many red first crusty ',positive
+'same constant last visual nonetheless rare effective focused ',positive
+'n\'t only ',positive
+'deeply sometimes literally ',positive
+'weak unnecessary palatable ',positive
+'here good good only so far ',positive
+'restless ',positive
+'giant angry also sly ',positive
+'more interesting controversial inside grimy creative ',positive
+'remarkably vibrant frank precocious sexual very much ',positive
+'very well high ',positive
+'not so much American moral ',positive
+'true worth happy alike ',positive
+'star brilliant maddening ingeniously monstrously self-aggrandizing ',positive
+'often also radical ',positive
+'crazy scraggly ',positive
+'very clever dumb ',positive
+'not only narrative girlish womanly vibrant hopeful ',positive
+'there fizzy hot ',positive
+'all too neatly dynamic even delicious ',positive
+'wild not good not either ',positive
+'bright practically own privileged landed ',positive
+'effective like physical subsequent ',positive
+'allergic historical ',positive
+'workmanlike good expensive fast heedlessly occasional beautiful ',positive
+'tentacled continually ',positive
+'stop-motion never episodic true emotional ',positive
+'not quaint national ',positive
+'straight most potent ever ',positive
+'confident slightly square highly major rather ',positive
+'not iconic topical supremely intelligent heartfelt ',positive
+'great n\'t so certainly full breathtaking brilliant ',positive
+'never more here adrift ',positive
+'wrong most frustrating ever usually big ',positive
+'n\'t conventionally exciting n\'t instead thoroughly pleasurably so ',positive
+'crimson so visually stunning scary ',positive
+'exciting no-nonsense little totally great ',positive
+'straight as infectiously entertaining educational richly textured thumping ',positive
+'surprising even wondrous often precisely crooked ',positive
+'impressive soulless ',positive
+'few ',positive
+'though not dramatically rich emotionally compelling still sleek slightly overlong ',positive
+'deeply satisfying intense spectacular typically other especially middle frustratingly self-indulgent ',positive
+'first long just magic ',positive
+'comic late undoubtedly true artistic ',positive
+'rigorously realistic ',positive
+'powerful just scary ',positive
+'shocking effective dry brown ',positive
+'most purely enjoyable streamlined consistent n\'t easy ',positive
+'handsome mature rich novelistic very little ',positive
+'well shady emotional occasionally more laid-back comic ',positive
+'vintage ',positive
+'surprisingly funny many about halfway ',positive
+'Italian n\'t artfully ',positive
+'rare ',positive
+'not not even remotely not even stretched ultimately rewarding other n\'t not even thick ',positive
+'episodic scenic unspoiled spectacular ',positive
+'enormously ',positive
+'sophisticated such ',positive
+'safe American not quite so persistent as enjoyable so sweet such really ',positive
+'goofily wholesomely boisterous spooky readily ',positive
+'most gradual grueling first then ',positive
+'n\'t good most consistently base damn near else ',positive
+'spectacular ',positive
+'ingenious ',positive
+'great stirring timely secret personal ',positive
+'low-budget deftly pure really oddball ',positive
+'simple well-executed ',positive
+'many either obvious clever insightful never pretty low ',positive
+'cruelly efficient good n\'t huge perhaps already far too briefly hypnotic first real ',positive
+'thrilling seemingly own ',positive
+'unevenly fact-based full even ',positive
+'same next many hackneyed religious ',positive
+'actually entertaining not only own more limited ',positive
+'out strong quickly then apart ',positive
+'sombre hypnotic single along most ',positive
+'entertaining good late not much more ',positive
+'guiding brisk charming here stand-alone ',positive
+'high wounded rather ',positive
+'proud insecure profanely comic adolescent ',positive
+'n\'t extraordinary noble high blunt businesslike long ',positive
+'usual even brilliant ingeniously most photogenic ',positive
+'unsurprisingly real ',positive
+'even hefty solid streamlined long-time tremendous ',positive
+'fine nice natural gently ',positive
+'best-selling just as obsessively right down ',positive
+'involuntary comic sparse finicky somewhat bouffant ',positive
+'compelling ',positive
+'gentle disrespectful American warm ',positive
+'busy British extraordinary ',positive
+'now back well creative innovative narrative dormant technical cinematographic not always great almost always quite ',positive
+'important largely hardly action-packed gripping ',positive
+'small large late deeply satisfying more usual more so philosophical expertly ',positive
+'long patient chilling vividly muted ',positive
+'most majestic real dazzling digital ',positive
+'unusually tonally uncertain ',positive
