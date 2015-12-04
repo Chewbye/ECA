@@ -1,0 +1,15 @@
+A	DT	a
+misconceived	VBN	misconceive
+roundelay	NN	roundelay
+that	WDT	that
+crosses	VBZ	cross
+the	DT	the
+thin	JJ	thin
+line	NN	line
+dividing	VBG	divide
+gross-but-funny	NN	<unknown>
+from	IN	from
+just	RB	just
+plain	RB	plain
+gross	JJ	gross
+.	SENT	.

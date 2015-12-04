@@ -1,5 +1,4 @@
-There	EX	there
-'s	VBZ	be
+There�s	NP	<unknown>
 something	NN	something
 refreshing	VBG	refresh
 about	IN	about

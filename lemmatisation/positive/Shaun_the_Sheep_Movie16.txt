@@ -24,7 +24,7 @@ itself	PP	itself
 such	JJ	such
 grandiose	JJ	grandiose
 ambitions	NNS	ambition
-–	NN	<unknown>
+�	NN	<unknown>
 genuinely	RB	genuinely
 inspiring	JJ	inspiring
 .	SENT	.

@@ -1,0 +1,10 @@
+Its	PP$	its
+film	NN	film
+school	NN	school
+aesthetics	NNS	aesthetics
+and	CC	and
+sophomoric	JJ	sophomoric
+storytelling	NN	storytelling
+are	VBP	be
+sense-deadening	VBG	<unknown>
+.	SENT	.

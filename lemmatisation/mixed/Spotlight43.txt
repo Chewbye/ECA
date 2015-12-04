@@ -1,0 +1,17 @@
+Spotlight	NN	spotlight
+never	RB	never
+hits	VBZ	hit
+the	DT	the
+heights	NNS	height
+of	IN	of
+passion	NN	passion
+,	,	,
+but	CC	but
+capably	RB	capably
+and	CC	and
+decently	RB	decently
+tells	VBZ	tell
+an	DT	an
+important	JJ	important
+story	NN	story
+.	SENT	.

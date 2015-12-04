@@ -1,5 +1,5 @@
 This	DT	this
-Guide	NP	Guide
+�Guide�	NN	<unknown>
 is	VBZ	be
 not	RB	not
 for	IN	for
@@ -23,12 +23,10 @@ splattered	VBN	splatter
 with	IN	with
 zombie	NN	zombie
 guts	NNS	gut
-wo	MD	wo
-n't	RB	n't
+won�t	NN	<unknown>
 be	VB	be
 disappointed	VBN	disappoint
 .	SENT	.
-Scout	NP	Scout
-'s	POS	's
-honor	NN	honor
+Scout�s	NNS	<unknown>
+honor	VBP	honor
 .	SENT	.

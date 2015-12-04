@@ -1,0 +1,11 @@
+Shelter	NN	shelter
+is	VBZ	be
+a	DT	a
+well-intentioned	JJ	well-intentioned
+film	NN	film
+that	IN	that
+edges	NNS	edge
+into	IN	into
+misery	NN	misery
+porn	NN	porn
+.	SENT	.

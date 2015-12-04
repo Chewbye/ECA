@@ -10,15 +10,13 @@ first	JJ	first
 third	NN	third
 ,	,	,
 with	IN	with
-Watney	NP	Watney
-'s	POS	's
+Watney�s	NP	<unknown>
 communication	NN	communication
 cut	VBD	cut
 off	RP	off
 and	CC	and
 NASA	NP	NASA
 unaware	JJ	unaware
-he	PP	he
-'s	VBZ	be
+he�s	NNS	<unknown>
 there	RB	there
 .	SENT	.

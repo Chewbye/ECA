@@ -13,7 +13,7 @@ as	IN	as
 it	PP	it
 should	MD	should
 be	VB	be
-–	JJ	<unknown>
+�	JJ	<unknown>
 the	DT	the
 beauty	NN	beauty
 of	IN	of

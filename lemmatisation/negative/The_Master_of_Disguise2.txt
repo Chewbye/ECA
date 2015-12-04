@@ -1,0 +1,3 @@
+Totally	RB	totally
+lame	JJ	lame
+.	SENT	.

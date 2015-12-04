@@ -1,0 +1,15 @@
+Some	DT	some
+Kind	NP	Kind
+Of	IN	of
+Beautiful	NP	<unknown>
+has	VBZ	have
+a	DT	a
+fine	JJ	fine
+cast	NN	cast
+,	,	,
+but	CC	but
+they�re	NN	<unknown>
+stuck	VBD	stick
+doing	VBG	do
+shtick	NN	shtick
+.	SENT	.

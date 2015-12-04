@@ -1,0 +1,6 @@
+The	DT	the
+worst	JJS	bad
+movie	NN	movie
+of	IN	of
+1999	CD	@card@
+.	SENT	.

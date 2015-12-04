@@ -44,8 +44,7 @@ though	RB	though
 ,	,	,
 especially	RB	especially
 since	IN	since
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 so	RB	so
 predictable	JJ	predictable
 .	SENT	.

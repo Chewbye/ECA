@@ -5,13 +5,12 @@ few	JJ	few
 flourishes	NNS	flourish
 of	IN	of
 the	DT	the
-outré	JJ	outré
+outr�	NN	<unknown>
 and	CC	and
 symbolically	RB	symbolically
 charged	VBN	charge
 ,	,	,
-there	EX	there
-'s	VBZ	be
+there�s	RB	<unknown>
 little	JJ	little
 to	TO	to
 distinguish	VB	distinguish

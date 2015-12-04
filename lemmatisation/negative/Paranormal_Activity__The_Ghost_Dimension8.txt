@@ -24,5 +24,4 @@ in	IN	in
 the	DT	the
 credits	NNS	credit
 under	IN	under
-screenplay	NN	screenplay
-.	SENT	.
+�screenplay.�	NN	<unknown>

@@ -7,11 +7,10 @@ story	NN	story
 ,	,	,
 something	NN	something
 like	IN	like
-All	PDT	All
+�All	NN	<unknown>
 the	DT	the
-President	NP	President
-'s	POS	's
-Men	NN	Men
+President�s	NP	<unknown>
+Men�	NP	<unknown>
 but	CC	but
 with	IN	with
 the	DT	the

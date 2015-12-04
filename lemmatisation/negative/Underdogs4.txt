@@ -4,8 +4,7 @@ memorably	RB	memorably
 bad	JJ	bad
 summer	NN	summer
 for	IN	for
-children	NNS	child
-'s	POS	's
+children�s	NN	<unknown>
 films	NNS	film
 ,	,	,
 this	DT	this

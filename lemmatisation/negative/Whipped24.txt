@@ -1,0 +1,3 @@
+Profoundly	RB	profoundly
+depressing	JJ	depressing
+.	SENT	.

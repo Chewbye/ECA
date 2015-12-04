@@ -1,0 +1,7 @@
+It	PP	it
+'s	VBZ	be
+a	DT	a
+damn	RB	damn
+good	JJ	good
+movie	NN	movie
+.	SENT	.

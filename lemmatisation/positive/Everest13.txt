@@ -9,7 +9,7 @@ movie	NN	movie
 :	:	:
 Everest	NN	Everest
 .	SENT	.
-Kormákur	NP	<unknown>
+Korm�kur	NP	<unknown>
 could	MD	could
 n't	RB	n't
 shoot	VB	shoot

@@ -1,0 +1,9 @@
+Provides	VBZ	provide
+scant	JJ	scant
+entertainment	NN	entertainment
+value	NN	value
+,	,	,
+intentional	JJ	intentional
+or	CC	or
+otherwise	RB	otherwise
+.	SENT	.

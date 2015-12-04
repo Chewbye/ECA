@@ -12,9 +12,8 @@ precision	NN	precision
 .	SENT	.
 The	DT	the
 film	NN	film
-does	VBZ	do
-n't	RB	n't
-rise	VB	rise
+doesn�t	NN	<unknown>
+rise	NN	rise
 above	IN	above
 the	DT	the
 genre	NN	genre

@@ -1,0 +1,8 @@
+About	RB	about
+as	IN	as
+endearing	VBG	endear
+as	IN	as
+unanesthetized	JJ	<unknown>
+gum	NN	gum
+surgery	NN	surgery
+.	SENT	.

@@ -7,7 +7,7 @@ a	DT	a
 reasonably	RB	reasonably
 entertaining	JJ	entertaining
 fantasy	NN	fantasy
-adventure—except	NNS	<unknown>
+adventure�except	NNS	<unknown>
 ,	,	,
 that	WDT	that
 is	VBZ	be

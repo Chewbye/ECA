@@ -1,5 +1,4 @@
-Scott	NP	Scott
-'s	POS	's
+Scott�s	NP	<unknown>
 sci-fi	NN	sci-fi
 adventure	NN	adventure
 is	VBZ	be

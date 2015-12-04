@@ -1,0 +1,7 @@
+A	DT	a
+shit	NN	shit
+stain	NN	stain
+on	IN	on
+the	DT	the
+genre	NN	genre
+.	SENT	.

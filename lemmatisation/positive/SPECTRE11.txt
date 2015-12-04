@@ -1,9 +1,0 @@
-Spectre	NN	spectre
-is	VBZ	be
-n't	RB	n't
-bad	JJ	bad
-—	NN	<unknown>
-just	RB	just
-slightly	RB	slightly
-disappointing	JJ	disappointing
-.	SENT	.

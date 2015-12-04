@@ -1,0 +1,16 @@
+Despite	IN	despite
+the	DT	the
+cerebral	JJ	cerebral
+formalism	NN	formalism
+that	WDT	that
+pushes	VBZ	push
+it	PP	it
+forward	RB	forward
+,	,	,
+Mond	NP	<unknown>
+has	VBZ	have
+made	VBN	make
+a	DT	a
+genuine	JJ	genuine
+tearjerker	NN	tearjerker
+.	SENT	.

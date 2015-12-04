@@ -5,8 +5,7 @@ a	DT	a
 cobwebs-and-candelabras	NN	<unknown>
 chamber	NN	chamber
 piece	NN	piece
-that	WDT	that
-'s	VBZ	be
+that�s	NNS	<unknown>
 so	RB	so
 preoccupied	VBN	preoccupy
 with	IN	with

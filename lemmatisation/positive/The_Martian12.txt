@@ -18,12 +18,8 @@ of	IN	of
 ,	,	,
 say	VB	say
 ,	,	,
-Interstellar	NP	<unknown>
-.	SENT	.
-'	''	'
-'	''	'
-It	PP	it
-'s	VBZ	be
+�Interstellar.��	JJ	<unknown>
+It�s	NP	<unknown>
 pure	JJ	pure
 fun	NN	fun
 .	SENT	.

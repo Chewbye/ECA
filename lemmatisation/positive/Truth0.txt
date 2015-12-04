@@ -1,8 +1,7 @@
 Mr.	NP	Mr.
 Redford	NP	Redford
-does	VBZ	do
-n't	RB	n't
-look	VB	look
+doesn�t	NN	<unknown>
+look	NN	look
 like	IN	like
 Dan	NP	Dan
 Rather	NP	Rather
@@ -13,11 +12,11 @@ the	DT	the
 same	JJ	same
 dedication	NN	dedication
 to	TO	to
-—	NN	<unknown>
+�	NN	<unknown>
 and	CC	and
 respect	NN	respect
 for	IN	for
-—	JJ	<unknown>
+�	JJ	<unknown>
 journalism	NN	journalism
 that	IN	that
 he	PP	he
@@ -31,7 +30,6 @@ Woodward	NP	Woodward
 in	IN	in
 All	PDT	All
 the	DT	the
-President	NP	President
-'s	POS	's
-Men	NN	Men
+President�s	NP	<unknown>
+Men	NP	Men
 .	SENT	.

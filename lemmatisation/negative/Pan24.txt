@@ -20,8 +20,7 @@ a	DT	a
 young	JJ	young
 audience	NN	audience
 they	PP	they
-do	VBP	do
-n't	RB	n't
+don�t	VBD	<unknown>
 seem	VB	seem
 to	TO	to
 respect	VB	respect

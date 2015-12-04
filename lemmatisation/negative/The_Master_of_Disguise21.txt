@@ -1,0 +1,16 @@
+The	DT	the
+Master	NP	Master
+of	IN	of
+Disguise	NP	<unknown>
+represents	VBZ	represent
+Adam	NP	Adam
+Sandler	NP	Sandler
+'s	POS	's
+latest	JJS	late
+attempt	NN	attempt
+to	TO	to
+dumb	JJ	dumb
+down	IN	down
+the	DT	the
+universe	NN	universe
+.	SENT	.

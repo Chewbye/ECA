@@ -1,5 +1,0 @@
-The	DT	the
-movie	NN	movie
-'s	VBZ	be
-ridiculous	JJ	ridiculous
-.	SENT	.

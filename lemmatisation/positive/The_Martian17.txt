@@ -1,5 +1,4 @@
-What	WP	What
-'s	VBZ	be
+What�s	NNS	<unknown>
 being	VBG	be
 marketed	VBN	market
 as	IN	as
@@ -12,10 +11,10 @@ drama	NN	drama
 (	(	(
 the	DT	the
 words	NNS	word
-Bring	NP	Bring
+�Bring	VBG	<unknown>
 him	PP	him
-home	RB	home
-superimposed	VBD	superimpose
+home�	NN	<unknown>
+superimposed	VBN	superimpose
 on	IN	on
 an	DT	an
 unsmiling	NP	unsmiling

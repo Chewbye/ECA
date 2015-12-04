@@ -27,13 +27,12 @@ design	NN	design
 ,	,	,
 with	IN	with
 sophisticated	JJ	sophisticated
-blink-and-you'll-miss-it	NN	<unknown>
+blink-and-you�ll-miss-it	NN	<unknown>
 detailing	VBG	detail
 to	TO	to
 counterbalance	VB	counterbalance
 the	DT	the
-franchise	NN	franchise
-'s	POS	's
+franchise�s	NN	<unknown>
 cruder	JJR	crude
 visual	JJ	visual
 trademarks	NNS	trademark

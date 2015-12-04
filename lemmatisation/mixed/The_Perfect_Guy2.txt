@@ -12,9 +12,8 @@ romantic	JJ	romantic
 thriller	NN	thriller
 ,	,	,
 but	CC	but
-you	PP	you
-'ll	MD	will
-wish	VB	wish
+you�ll	NN	<unknown>
+wish	VBP	wish
 it	PP	it
 would	MD	would
 .	SENT	.

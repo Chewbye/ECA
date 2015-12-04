@@ -1,0 +1,15 @@
+Whipped	VBN	whip
+is	VBZ	be
+cinematic	JJ	cinematic
+suicide	NN	suicide
+,	,	,
+if	IN	if
+not	RB	not
+for	IN	for
+actor	NN	actor
+,	,	,
+then	RB	then
+certainly	RB	certainly
+for	IN	for
+audience	NN	audience
+.	SENT	.

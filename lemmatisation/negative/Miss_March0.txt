@@ -1,0 +1,13 @@
+The	DT	the
+problem	NN	problem
+with	IN	with
+Miss	NP	Miss
+March	NP	March
+is	VBZ	be
+that	IN	that
+it	PP	it
+is	VBZ	be
+n't	RB	n't
+very	RB	very
+funny	JJ	funny
+.	SENT	.

@@ -1,0 +1,17 @@
+So	RB	so
+lazy	JJ	lazy
+and	CC	and
+slipshod	JJ	slipshod
+it	PP	it
+confuses	VBZ	confuse
+the	DT	the
+mere	JJ	mere
+flashing	NN	flashing
+of	IN	of
+kinky	JJ	kinky
+soft-core	NNS	soft-core
+imagery	NN	imagery
+with	IN	with
+naughty	JJ	naughty
+fun	NN	fun
+.	SENT	.

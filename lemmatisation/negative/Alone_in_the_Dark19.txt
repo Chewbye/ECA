@@ -1,0 +1,3 @@
+Just	RB	just
+Tara-ble	NP	<unknown>
+.	SENT	.

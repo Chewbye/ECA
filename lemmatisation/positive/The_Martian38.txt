@@ -17,8 +17,7 @@ streamlined	JJ	streamlined
 narrative	NN	narrative
 and	CC	and
 the	DT	the
-film	NN	film
-'s	POS	's
+film�s	NN	<unknown>
 consistent	JJ	consistent
 pacing	VBG	pace
 ,	,	,
@@ -27,8 +26,7 @@ by	IN	by
 a	DT	a
 cast	NN	cast
 who	WP	who
-do	VBP	do
-n't	RB	n't
+don�t	VBD	<unknown>
 make	VB	make
 a	DT	a
 wrongfooted	VBN	wrongfoot

@@ -27,8 +27,7 @@ plays	VBZ	play
 topsy-turvy	NN	topsy-turvy
 with	IN	with
 J.M.	NP	J.M.
-Barrie	NP	Barrie
-'s	POS	's
+Barrie�s	NP	<unknown>
 beloved	JJ	beloved
 characters	NNS	character
 .	SENT	.

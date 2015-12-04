@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 tempting	JJ	tempting
 to	TO	to
 think	VB	think

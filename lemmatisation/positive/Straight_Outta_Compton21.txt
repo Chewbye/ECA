@@ -14,8 +14,7 @@ of	IN	of
 the	DT	the
 hype	NN	hype
 .	SENT	.
-They	PP	they
-'re	VBP	be
+They�re	NN	<unknown>
 in	IN	in
 an	DT	an
 introspective	JJ	introspective

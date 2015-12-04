@@ -5,9 +5,8 @@ can	MD	can
 do	VB	do
 what	WP	what
 the	DT	the
-documentary	NN	documentary
-could	MD	could
-n't	RB	n't
+documentary	JJ	documentary
+couldn�t	NN	<unknown>
 :	:	:
 re-create	VB	re-create
 the	DT	the

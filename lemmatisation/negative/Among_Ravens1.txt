@@ -1,0 +1,10 @@
+Among	IN	among
+Ravens	NP	Ravens
+claws	VBZ	claw
+itself	PP	itself
+to	TO	to
+death	NN	death
+with	IN	with
+sophomoric	JJ	sophomoric
+symbolism	NN	symbolism
+.	SENT	.

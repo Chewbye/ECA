@@ -9,15 +9,13 @@ tenderness	NN	tenderness
 The	DT	the
 Peanuts	NP	Peanuts
 Movie	NP	Movie
-is	VBZ	be
-n't	RB	n't
+isn�t	VBD	<unknown>
 just	RB	just
 an	DT	an
 all-ages	NNS	<unknown>
 crowd-pleaser	NN	crowd-pleaser
 .	SENT	.
-It	PP	it
-'s	VBZ	be
+It�s	NP	<unknown>
 the	DT	the
 perfect	JJ	perfect
 first	JJ	first

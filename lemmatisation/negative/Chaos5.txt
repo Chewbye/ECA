@@ -1,0 +1,15 @@
+Writer-director	NP	writer-director
+David	NP	David
+DeFalco	NP	DeFalco
+'s	POS	's
+ugly	JJ	ugly
+,	,	,
+pointless	JJ	pointless
+and	CC	and
+dishonest	JJ	dishonest
+remake	NN	remake
+of	IN	of
+Craven	NP	Craven
+'s	POS	's
+remake	NN	remake
+.	SENT	.

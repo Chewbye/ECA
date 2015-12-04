@@ -1,0 +1,17 @@
+The	DT	the
+allure	NN	allure
+of	IN	of
+the	DT	the
+road	NN	road
+not	RB	not
+taken	VBN	take
+and	CC	and
+Saoirse	NP	<unknown>
+Ronan	NP	Ronan
+'s	POS	's
+performance	NN	performance
+exert	VB	exert
+a	DT	a
+powerful	JJ	powerful
+pull	NN	pull
+.	SENT	.

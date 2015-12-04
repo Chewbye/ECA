@@ -2,8 +2,7 @@ Featuring	VBG	feature
 none	NN	none
 of	IN	of
 its	PP$	its
-predecessor	NN	predecessor
-'s	POS	's
+predecessor�s	JJ	<unknown>
 sumptuous	JJ	sumptuous
 pitch-black	JJ	pitch-black
 visuals	NNS	visual
@@ -14,8 +13,7 @@ creeping	VBG	creep
 dread	NN	dread
 ,	,	,
 Ciaran	NP	Ciaran
-Foy	NP	Foy
-'s	POS	's
+Foy�s	NP	<unknown>
 follow-up	NN	follow-up
 is	VBZ	be
 a	DT	a

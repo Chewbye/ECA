@@ -1,0 +1,13 @@
+A	DT	a
+black	JJ	black
+comedy	NN	comedy
+that	WDT	that
+never	RB	never
+gets	VBZ	get
+black	JJ	black
+enough	RB	enough
+to	TO	to
+inspire	VB	inspire
+Farrelly-style	NP	<unknown>
+decadence	NN	decadence
+.	SENT	.

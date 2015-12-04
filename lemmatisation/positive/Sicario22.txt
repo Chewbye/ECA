@@ -6,8 +6,7 @@ thrill	NN	thrill
 ride	NN	ride
 through	IN	through
 Dick	NP	Dick
-Cheney	NP	Cheney
-'s	POS	's
+Cheney�s	NP	<unknown>
 Theme	NP	<unknown>
 Park	NP	Park
 on	IN	on

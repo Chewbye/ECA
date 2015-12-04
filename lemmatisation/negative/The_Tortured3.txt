@@ -1,0 +1,17 @@
+A	DT	a
+last-minute	JJ	last-minute
+twist	NN	twist
+implicating	VBG	implicate
+the	DT	the
+audience	NN	audience
+in	IN	in
+the	DT	the
+bloodlust	NN	bloodlust
+is	VBZ	be
+n't	RB	n't
+clever	JJ	clever
+so	RB	so
+much	RB	much
+as	RB	as
+hypocritical	JJ	hypocritical
+.	SENT	.

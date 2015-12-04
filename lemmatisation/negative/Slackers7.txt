@@ -1,0 +1,9 @@
+Awful	JJ	awful
+and	CC	and
+subversively	RB	subversively
+spunky	JJ	spunky
+at	IN	at
+the	DT	the
+same	JJ	same
+time	NN	time
+.	SENT	.

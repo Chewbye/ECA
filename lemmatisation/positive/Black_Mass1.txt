@@ -2,7 +2,7 @@ As	IN	as
 notorious	JJ	notorious
 gangster	NN	gangster
 James	NP	James
-Whitey	NP	Whitey
+�Whitey�	NP	<unknown>
 Bulger	NP	Bulger
 ,	,	,
 Depp	NP	Depp

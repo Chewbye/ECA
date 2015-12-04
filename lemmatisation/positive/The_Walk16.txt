@@ -23,9 +23,8 @@ solid	JJ	solid
 fictionalized	VBN	fictionalize
 version	NN	version
 ,	,	,
-I	PP	I
-'d	MD	will
-say	VB	say
+I�d	NNS	<unknown>
+say	VBP	say
 go	VB	go
 with	IN	with
 the	DT	the

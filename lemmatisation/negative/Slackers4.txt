@@ -1,0 +1,15 @@
+A	DT	a
+disappointing	JJ	disappointing
+venture	NN	venture
+.	SENT	.
+If	IN	if
+only	RB	only
+it	PP	it
+had	VBD	have
+been	VBN	be
+more	RBR	more
+clever	JJ	clever
+,	,	,
+perhaps	RB	perhaps
+darker	JJR	dark
+.	SENT	.

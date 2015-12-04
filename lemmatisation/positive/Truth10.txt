@@ -7,8 +7,7 @@ the	DT	the
 principals	NNS	principal
 do	VBP	do
 .	SENT	.
-That	DT	that
-'s	VBZ	be
+That�s	NNS	<unknown>
 what	WP	what
 makes	VBZ	make
 the	DT	the

@@ -1,0 +1,11 @@
+In	IN	in
+terms	NNS	term
+of	IN	of
+execution	NN	execution
+this	DT	this
+movie	NN	movie
+is	VBZ	be
+careless	JJ	careless
+and	CC	and
+unfocused	JJ	unfocused
+.	SENT	.

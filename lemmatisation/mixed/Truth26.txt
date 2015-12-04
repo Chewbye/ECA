@@ -1,5 +1,4 @@
-That	DT	that
-'s	VBZ	be
+That�s	NP	<unknown>
 the	DT	the
 nature	NN	nature
 of	IN	of

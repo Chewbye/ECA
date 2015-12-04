@@ -8,9 +8,8 @@ of	IN	of
 our	PP$	our
 brains	NNS	brain
 with	IN	with
-Inside	NP	Inside
-Out	NP	Out
-.	SENT	.
+�Inside	NP	<unknown>
+Out.�	NP	<unknown>
 But	CC	but
 Aardman	NP	<unknown>
 knows	VBZ	know

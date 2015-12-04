@@ -1,0 +1,17 @@
+I	PP	I
+was	VBD	be
+consistently	RB	consistently
+aghast	JJ	aghast
+at	IN	at
+how	WRB	how
+unabashedly	RB	unabashedly
+alpha-male	JJ	<unknown>
+,	,	,
+heartless	JJ	heartless
+,	,	,
+and	CC	and
+chauvinistic	JJ	chauvinistic
+this	DT	this
+film	NN	film
+is	VBZ	be
+.	SENT	.

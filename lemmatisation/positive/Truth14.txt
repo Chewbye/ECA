@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 not	RB	not
 surprising	JJ	surprising
 that	IN	that
@@ -10,11 +9,10 @@ perspective	NN	perspective
 that	IN	that
 it	PP	it
 does	VBZ	do
-—	JJ	<unknown>
+�	JJ	<unknown>
 you	PP	you
-do	VBP	do
-n't	RB	n't
-cast	VB	cast
+don�t	VBD	<unknown>
+cast	NN	cast
 Cate	NP	Cate
 Blanchett	NP	Blanchett
 and	CC	and

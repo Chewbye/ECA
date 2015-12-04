@@ -1,9 +1,9 @@
 Director	NP	Director
 Baltasar	NP	Baltasar
-Kormákur	NP	<unknown>
+Korm�kur	NP	<unknown>
 (	(	(
-2	CD	2
-Guns	NNS	gun
+�2	NP	<unknown>
+Guns�	NP	<unknown>
 )	)	)
 and	CC	and
 his	PP$	his

@@ -24,7 +24,6 @@ Visually	RB	visually
 ,	,	,
 though	RB	though
 ,	,	,
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 stunning	JJ	stunning
 .	SENT	.

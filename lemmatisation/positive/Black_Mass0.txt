@@ -1,10 +1,9 @@
 If	IN	if
 Johnny	NP	Johnny
-Depp	NP	Depp
-'s	POS	's
+Depp�s	NP	<unknown>
 mesmerizing	VBG	mesmerize
 performance	NN	performance
-—	NN	<unknown>
+�	NN	<unknown>
 a	DT	a
 bracing	VBG	brace
 return	NN	return
@@ -21,7 +20,7 @@ critical	JJ	critical
 and	CC	and
 commercial	NN	commercial
 misfires	VBZ	misfire
-—	NN	<unknown>
+�	NN	<unknown>
 is	VBZ	be
 the	DT	the
 chief	JJ	chief
@@ -46,8 +45,7 @@ deeply	RB	deeply
 engrossing	VBG	engross
 evocation	NN	evocation
 of	IN	of
-Bulger	NP	Bulger
-'s	POS	's
+Bulger�s	NP	<unknown>
 South	NP	South
 Boston	NP	Boston
 fiefdom	NN	fiefdom

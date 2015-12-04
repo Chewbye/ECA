@@ -1,0 +1,13 @@
+Exuberantly	RB	exuberantly
+rude	JJ	rude
+and	CC	and
+crude	JJ	crude
+,	,	,
+but	CC	but
+generally	RB	generally
+more	RBR	more
+frantic	JJ	frantic
+than	IN	than
+genuinely	RB	genuinely
+funny	JJ	funny
+.	SENT	.

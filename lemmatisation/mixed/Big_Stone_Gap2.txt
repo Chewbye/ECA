@@ -1,0 +1,16 @@
+The	DT	the
+plot	NN	plot
+itself	PP	itself
+has	VBZ	have
+little	JJ	little
+momentum	NN	momentum
+,	,	,
+and	CC	and
+what	WP	what
+should	MD	should
+feel	VB	feel
+dramatic	JJ	dramatic
+instead	RB	instead
+feels	VBZ	feel
+inert	JJ	inert
+.	SENT	.

@@ -10,8 +10,7 @@ it	PP	it
 has	VBZ	have
 a	DT	a
 nobility	NN	nobility
-that	WDT	that
-'s	VBZ	be
+that�s	NNS	<unknown>
 rare	JJ	rare
 in	IN	in
 much	JJ	much

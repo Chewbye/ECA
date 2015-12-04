@@ -11,8 +11,8 @@ director	NN	director
 Robert	NP	Robert
 Zemeckis	NP	Zemeckis
 (	(	(
-Forrest	NP	Forrest
-Gump	NP	Gump
+�Forrest	NP	<unknown>
+Gump�	NP	<unknown>
 )	)	)
 pulls	VBZ	pull
 off	RP	off

@@ -1,0 +1,15 @@
+Schwartzman	NP	Schwartzman
+steals	VBZ	steal
+Slackers	NNS	slacker
+without	IN	without
+much	JJ	much
+effort	NN	effort
+,	,	,
+but	CC	but
+it	PP	it
+'s	VBZ	be
+not	RB	not
+worth	JJ	worth
+the	DT	the
+theft	NN	theft
+.	SENT	.

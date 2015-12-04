@@ -1,0 +1,14 @@
+So	RB	so
+unremittingly	RB	unremittingly
+awful	JJ	awful
+that	IN	that
+labeling	VBG	label
+it	PP	it
+a	DT	a
+dog	NN	dog
+probably	RB	probably
+constitutes	VBZ	constitute
+cruelty	NN	cruelty
+to	TO	to
+canines	NNS	canine
+.	SENT	.

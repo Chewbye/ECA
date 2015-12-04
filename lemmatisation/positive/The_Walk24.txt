@@ -10,8 +10,7 @@ but	CC	but
 his	PP$	his
 films	NNS	film
 sometimes	RB	sometimes
-do	VBP	do
-n't	RB	n't
+don�t	VBD	<unknown>
 live	VB	live
 up	RP	up
 to	TO	to

@@ -1,0 +1,11 @@
+A	DT	a
+loathsome	JJ	loathsome
+shocker	NN	shocker
+...	:	...
+Watching	VBG	watch
+it	PP	it
+almost	RB	almost
+turned	VBD	turn
+my	PP$	my
+stomach	NN	stomach
+.	SENT	.

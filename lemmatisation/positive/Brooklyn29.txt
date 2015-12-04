@@ -1,0 +1,16 @@
+Brooklyn	NP	Brooklyn
+doesn�t	VBD	<unknown>
+quite	RB	quite
+capture	VB	capture
+Brooklyn	NP	Brooklyn
+,	,	,
+but	CC	but
+its	PP$	its
+ambivalence	NN	ambivalence
+about	IN	about
+being	VBG	be
+Irish	JJ	Irish
+is	VBZ	be
+gloriously	RB	gloriously
+epic	NN	epic
+.	SENT	.

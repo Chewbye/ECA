@@ -1,6 +1,5 @@
 The	DT	the
-movie	NN	movie
-'s	POS	's
+movie�s	JJ	<unknown>
 climactic	JJ	climactic
 exorcism	NN	exorcism
 jamboree	NN	jamboree
@@ -9,8 +8,7 @@ some	DT	some
 relief	NN	relief
 from	IN	from
 the	DT	the
-movie	NN	movie
-'s	POS	's
+movie�s	JJ	<unknown>
 overwhelming	JJ	overwhelming
 dullness	NN	dullness
 ,	,	,
@@ -20,8 +18,7 @@ final	JJ	final
 segments	NNS	segment
 put	VBD	put
 the	DT	the
-movie	NN	movie
-'s	VBZ	be
+movie�s	NNS	<unknown>
 3-D	JJ	<unknown>
 to	TO	to
 use	VB	use

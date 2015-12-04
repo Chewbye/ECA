@@ -5,7 +5,7 @@ mostly	RB	mostly
 puerile	JJ	puerile
 and	CC	and
 uninspired	JJ	uninspired
-—	NN	<unknown>
+�	NN	<unknown>
 like	IN	like
 the	DT	the
 film	NN	film

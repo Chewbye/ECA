@@ -1,0 +1,12 @@
+If	IN	if
+all-out	JJ	all-out
+headache-nausea-braindeath	NN	<unknown>
+is	VBZ	be
+what	WP	what
+you	PP	you
+crave	VBP	crave
+,	,	,
+Whipped	NP	<unknown>
+'s	VBZ	be
+available	JJ	available
+.	SENT	.

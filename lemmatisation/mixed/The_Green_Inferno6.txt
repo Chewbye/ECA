@@ -1,6 +1,6 @@
 The	DT	the
 blood-soaked	JJ	blood-soaked
-Inferno	NP	<unknown>
+�Inferno�	NN	<unknown>
 practically	RB	practically
 ends	VBZ	end
 up	RP	up

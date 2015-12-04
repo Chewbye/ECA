@@ -6,9 +6,8 @@ with	IN	with
 a	DT	a
 reasonable	JJ	reasonable
 idea	NN	idea
-–	NN	<unknown>
-we	PP	we
-'re	VBP	be
+�	NN	<unknown>
+we�re	NN	<unknown>
 all	RB	all
 likely	JJ	likely
 to	TO	to
@@ -20,7 +19,7 @@ origins	NNS	origin
 of	IN	of
 Peter	NP	Peter
 Pan	NP	Pan
-–	NN	<unknown>
+�	NN	<unknown>
 and	CC	and
 does	VBZ	do
 unreasonable	JJ	unreasonable

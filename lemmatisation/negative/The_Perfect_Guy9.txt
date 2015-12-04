@@ -1,5 +1,4 @@
-There	EX	there
-'s	VBZ	be
+There�s	RB	<unknown>
 certainly	RB	certainly
 an	DT	an
 audience	NN	audience

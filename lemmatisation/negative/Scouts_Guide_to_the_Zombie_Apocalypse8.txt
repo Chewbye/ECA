@@ -19,7 +19,7 @@ contrary	JJ	contrary
 to	TO	to
 Scout	NP	Scout
 Law	NP	Law
-—	NN	<unknown>
+�	NN	<unknown>
 not	RB	not
 Kind	NP	Kind
 ,	,	,

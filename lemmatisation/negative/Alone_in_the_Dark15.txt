@@ -1,0 +1,14 @@
+Tedious	JJ	tedious
+,	,	,
+derivative	JJ	derivative
+exercise	NN	exercise
+,	,	,
+stolen	VBN	steal
+from	IN	from
+a	DT	a
+dozen	NN	dozen
+or	CC	or
+so	RB	so
+horror/action	NN	<unknown>
+films	NNS	film
+.	SENT	.

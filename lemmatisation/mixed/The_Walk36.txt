@@ -21,8 +21,7 @@ the	DT	the
 3D	JJ	3D
 showboating	NN	<unknown>
 ,	,	,
-it	PP	it
-'s	VBZ	be
+it�s	NN	<unknown>
 a	DT	a
 touching	JJ	touching
 tribute	NN	tribute

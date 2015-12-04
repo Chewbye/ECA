@@ -7,7 +7,7 @@ films	NNS	film
 of	IN	of
 the	DT	the
 1970s	NNS	1970s
-—	NN	<unknown>
+�	NN	<unknown>
 not	RB	not
 necessarily	RB	necessarily
 the	DT	the

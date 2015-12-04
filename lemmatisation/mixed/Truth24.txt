@@ -8,8 +8,7 @@ slips	VBZ	slip
 down	RB	down
 fine	JJ	fine
 .	SENT	.
-It	PP	it
-'s	VBZ	be
+It�s	NP	<unknown>
 a	DT	a
 noisy	JJ	noisy
 ,	,	,
@@ -25,8 +24,7 @@ pulse	NN	pulse
 racing	VBG	race
 even	RB	even
 if	IN	if
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 rolling	VBG	roll
 your	PP$	your
 eyes	NNS	eye

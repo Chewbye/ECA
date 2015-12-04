@@ -1,0 +1,10 @@
+Most	JJS	most
+of	IN	of
+this	DT	this
+is	VBZ	be
+tedious	JJ	tedious
+instead	RB	instead
+of	IN	of
+unintentionally	RB	unintentionally
+amusing	JJ	amusing
+.	SENT	.

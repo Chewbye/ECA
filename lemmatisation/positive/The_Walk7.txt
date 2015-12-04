@@ -2,8 +2,7 @@ Zemeckis	NP	Zemeckis
 reminds	VBZ	remind
 us	PP	us
 that	IN	that
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 in	IN	in
 the	DT	the
 service	NN	service

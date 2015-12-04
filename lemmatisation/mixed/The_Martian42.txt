@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NP	<unknown>
 a	DT	a
 film	NN	film
 about	IN	about
@@ -15,8 +14,7 @@ and	CC	and
 a	DT	a
 lot	NN	lot
 of	IN	of
-Ridley	NP	Ridley
-'s	POS	's
+Ridley�s	NP	<unknown>
 gruff	JJ	gruff
 ,	,	,
 technocrat	NN	technocrat

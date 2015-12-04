@@ -40,8 +40,7 @@ arrive	VB	arrive
 ,	,	,
 however	RB	however
 ,	,	,
-they	PP	they
-'re	VBP	be
+they�re	RB	<unknown>
 effectively	RB	effectively
 unsettling	JJ	unsettling
 .	SENT	.

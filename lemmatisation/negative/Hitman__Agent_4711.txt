@@ -9,7 +9,7 @@ than	IN	than
 its	PP$	its
 disavowed	VBN	disavow
 predecessor	NN	predecessor
-—	NN	<unknown>
+�	NN	<unknown>
 or	CC	or
 at	IN	at
 least	JJS	least
@@ -21,8 +21,7 @@ active	JJ	active
 ,	,	,
 because	IN	because
 it	PP	it
-does	VBZ	do
-n't	RB	n't
+doesn�t	VBD	<unknown>
 turn	VB	turn
 anyone	NN	anyone
 as	IN	as

@@ -10,7 +10,7 @@ well	RB	well
 as	IN	as
 self-mythologizingly	RB	<unknown>
 self-indulgent	JJ	self-indulgent
-—	NN	<unknown>
+�	NN	<unknown>
 as	IN	as
 much	JJ	much
 of	IN	of
@@ -25,7 +25,7 @@ of	IN	of
 the	DT	the
 Marvel	NP	Marvel
 factory	NN	factory
-—	NN	<unknown>
+�	NN	<unknown>
 Straight	NP	Straight
 Outta	NP	<unknown>
 Compton	NP	Compton

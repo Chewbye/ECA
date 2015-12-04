@@ -1,0 +1,8 @@
+Spotlight	NN	spotlight
+provides	VBZ	provide
+a	DT	a
+wealth	NN	wealth
+of	IN	of
+exceptional	JJ	exceptional
+performances	NNS	performance
+.	SENT	.

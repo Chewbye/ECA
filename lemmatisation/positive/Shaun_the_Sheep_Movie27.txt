@@ -16,7 +16,7 @@ is	VBZ	be
 always	RB	always
 a	DT	a
 treat	NN	treat
-—	NN	<unknown>
+�	NN	<unknown>
 and	CC	and
 a	DT	a
 romp	VBP	romp

@@ -11,8 +11,8 @@ for fichier in $1/*; do
 			contenuFichier=`cat $fichier2`;
 			contenuFichier=`echo "${contenuFichier//\“/}"`;
 			contenuFichier=`echo "${contenuFichier//\”/}"`;
-			contenuFichier=`echo "${contenuFichier//\’/'}"`;
-			contenuFichier=`echo "${contenuFichier//\‘/'}"`;
+			contenuFichier=`echo "${contenuFichier//\’/\'}"`;
+			contenuFichier=`echo "${contenuFichier//\‘/\'}"`;
 			contenuFichier=`echo "${contenuFichier//\"/}"`;
 			echo $contenuFichier | tree-tagger-english >> lemmatisation/$nomDossier/$nomFichier;
 		done

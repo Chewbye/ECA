@@ -1,7 +1,6 @@
 Besides	IN	besides
 the	DT	the
-movie	NN	movie
-'s	POS	's
+movie�s	JJ	<unknown>
 weight	NN	weight
 in	IN	in
 our	PP$	our

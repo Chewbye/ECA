@@ -1,0 +1,7 @@
+Reeks	NP	Reeks
+as	RB	as
+badly	RB	badly
+as	IN	as
+it	PP	it
+sounds	VBZ	sound
+.	SENT	.

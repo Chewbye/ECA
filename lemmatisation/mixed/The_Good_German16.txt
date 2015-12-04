@@ -1,0 +1,9 @@
+Fascinating	JJ	fascinating
+in	IN	in
+concept	NN	concept
+but	CC	but
+a	DT	a
+disaster	NN	disaster
+in	IN	in
+execution	NN	execution
+.	SENT	.

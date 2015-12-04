@@ -1,8 +1,0 @@
-It	PP	it
-turns	VBZ	turn
-out	RP	out
-to	TO	to
-be	VB	be
-absolutely	RB	absolutely
-delightful	JJ	delightful
-.	SENT	.

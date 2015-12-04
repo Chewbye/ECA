@@ -1,0 +1,15 @@
+Grotesquely	RB	grotesquely
+smutty	JJ	smutty
+and	CC	and
+obnoxiously	RB	obnoxiously
+overbearing	JJ	overbearing
+,	,	,
+this	DT	this
+is	VBZ	be
+a	DT	a
+pitiful	JJ	pitiful
+excuse	NN	excuse
+for	IN	for
+a	DT	a
+comedy	NN	comedy
+.	SENT	.

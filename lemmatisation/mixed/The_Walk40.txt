@@ -12,8 +12,7 @@ unbelievable	JJ	unbelievable
 one	CD	one
 ,	,	,
 so	RB	so
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 understandable	JJ	understandable
 Zemeckis	NP	Zemeckis
 should	MD	should

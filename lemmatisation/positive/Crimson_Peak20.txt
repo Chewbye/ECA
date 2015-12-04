@@ -1,8 +1,7 @@
 Director	NP	Director
 Guillermo	NP	Guillermo
 del	NP	del
-Toro	NP	Toro
-'s	POS	's
+Toro�s	NP	<unknown>
 unique	JJ	unique
 visual	JJ	visual
 style	NN	style
@@ -34,8 +33,7 @@ a	DT	a
 character	NN	character
 ,	,	,
 this	DT	this
-is	VBZ	be
-n't	RB	n't
+isn�t	NN	<unknown>
 so	RB	so
 much	RB	much
 a	DT	a
@@ -45,7 +43,6 @@ as	IN	as
 it	PP	it
 is	VBZ	be
 a	DT	a
-story	NN	story
+�story	NN	<unknown>
 with	IN	with
-ghosts	NNS	ghost
-.	SENT	.
+ghosts.�	NN	<unknown>

@@ -16,9 +16,8 @@ job	NN	job
 of	IN	of
 conveying	VBG	convey
 what	WP	what
-it	PP	it
-'s	VBZ	be
-like	JJ	like
+it�s	NNS	<unknown>
+like	VBP	like
 to	TO	to
 climb	VB	climb
 the	DT	the

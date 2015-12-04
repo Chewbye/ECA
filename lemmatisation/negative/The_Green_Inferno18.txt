@@ -1,7 +1,6 @@
 Empty	JJ	empty
 cynicism	NN	cynicism
-is	VBZ	be
-n't	RB	n't
+isn�t	VBD	<unknown>
 a	DT	a
 substitute	NN	substitute
 for	IN	for
@@ -18,11 +17,10 @@ clueless	JJ	clueless
 than	IN	than
 the	DT	the
 so-called	JJ	so-called
-social	JJ	social
+�social	JJ	<unknown>
 justice	NN	justice
-warriors	NNS	warrior
-he	PP	he
-'s	VBZ	be
+warriors�	NN	<unknown>
+he�s	NNS	<unknown>
 trying	VBG	try
 to	TO	to
 satirize	VB	satirize

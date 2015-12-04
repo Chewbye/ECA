@@ -1,0 +1,16 @@
+A	DT	a
+treadmill	NN	treadmill
+sex	NN	sex
+comedy	NN	comedy
+,	,	,
+huffing	VBG	huff
+and	CC	and
+puffing	VBG	puff
+in	IN	in
+place	NN	place
+until	IN	until
+its	PP$	its
+time	NN	time
+is	VBZ	be
+up	RP	up
+.	SENT	.

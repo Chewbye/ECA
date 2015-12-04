@@ -44,8 +44,7 @@ more	RBR	more
 unpredictable	JJ	unpredictable
 as	IN	as
 the	DT	the
-movies	NNS	movie
-'	POS	'
+movies�	JJ	<unknown>
 usual	JJ	usual
 brand	NN	brand
 of	IN	of

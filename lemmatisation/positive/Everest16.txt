@@ -1,6 +1,5 @@
 Kormakur	NP	<unknown>
-does	VBZ	do
-n't	RB	n't
+doesn�t	NP	<unknown>
 make	VB	make
 the	DT	the
 mistake	NN	mistake
@@ -31,7 +30,7 @@ blunt	JJ	blunt
 ,	,	,
 businesslike	JJ	businesslike
 and	CC	and
-—	JJ	<unknown>
+�	JJ	<unknown>
 as	IN	as
 it	PP	it
 begins	VBZ	begin
@@ -42,7 +41,7 @@ through	IN	through
 the	DT	the
 death	NN	death
 zone	NN	zone
-—	NN	<unknown>
+�	NN	<unknown>
 something	NN	something
 of	IN	of
 an	DT	an

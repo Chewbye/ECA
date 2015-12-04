@@ -1,0 +1,9 @@
+The	DT	the
+meanest	JJS	mean
+and	CC	and
+least	RBS	least
+inspired	JJ	inspired
+kids	NNS	kid
+U	NN	U
+know	VBP	know
+.	SENT	.

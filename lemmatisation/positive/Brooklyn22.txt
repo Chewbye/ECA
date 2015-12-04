@@ -1,0 +1,11 @@
+It	PP	it
+'s	VBZ	be
+one	CD	one
+of	IN	of
+the	DT	the
+most	RBS	most
+satisfying	JJ	satisfying
+films	NNS	film
+of	IN	of
+2015	CD	@card@
+.	SENT	.

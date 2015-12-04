@@ -1,0 +1,12 @@
+A	DT	a
+stupid	JJ	stupid
+comedy	NN	comedy
+with	IN	with
+toddlers	NNS	toddler
+talking	VBG	talk
+like	IN	like
+hip	NN	hip
+'	POS	'
+90s	NN	<unknown>
+grown-ups	NNS	grown-up
+.	SENT	.

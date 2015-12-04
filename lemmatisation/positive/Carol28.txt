@@ -1,0 +1,17 @@
+A	DT	a
+beautiful	JJ	beautiful
+entity	NN	entity
+,	,	,
+near	IN	near
+flawless	JJ	flawless
+in	IN	in
+design	NN	design
+,	,	,
+any	DT	any
+talk	NN	talk
+of	IN	of
+accolades	NNS	accolade
+certainly	RB	certainly
+seems	VBZ	seem
+justified	JJ	justified
+.	SENT	.

@@ -22,9 +22,8 @@ solid	JJ	solid
 performances	NNS	performance
 ,	,	,
 Baltasar	NP	Baltasar
-Kormakur	NP	<unknown>
-'s	POS	's
-Everest	NN	Everest
+Kormakur�s	NP	<unknown>
+Everest	NP	Everest
 is	VBZ	be
 a	DT	a
 high-altitude	JJ	high-altitude

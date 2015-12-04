@@ -1,0 +1,11 @@
+Murphy	NP	Murphy
+slogs	VBZ	slog
+his	PP$	his
+way	NN	way
+through	IN	through
+this	DT	this
+dismally	RB	dismally
+dull	JJ	dull
+sci-fi	NN	sci-fi
+comedy	NN	comedy
+.	SENT	.

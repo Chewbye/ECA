@@ -1,0 +1,12 @@
+It	PP	it
+does	VBZ	do
+get	VB	get
+mired	VBN	mire
+in	IN	in
+its	PP$	its
+obsession	NN	obsession
+with	IN	with
+its	PP$	its
+own	JJ	own
+style	NN	style
+.	SENT	.

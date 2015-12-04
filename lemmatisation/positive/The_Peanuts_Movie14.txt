@@ -18,13 +18,11 @@ enough	RB	enough
 to	TO	to
 recognize	VB	recognize
 his	PP$	his
-friend	NN	friend
-'s	POS	's
+friend�s	NN	<unknown>
 heart	NN	heart
 .	SENT	.
 And	CC	and
-Charlie	NP	Charlie
-'s	POS	's
+Charlie�s	NP	<unknown>
 sister	NN	sister
 Sally	NP	Sally
 (	(	(
@@ -36,6 +34,5 @@ assumes	VBZ	assume
 Linus	NP	Linus
 is	VBZ	be
 her	PP$	her
-Sweet	NP	Sweet
-Baboo	NP	<unknown>
-.	SENT	.
+�Sweet	NN	<unknown>
+Baboo.�	NP	<unknown>

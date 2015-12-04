@@ -19,8 +19,7 @@ scope	NN	scope
 beyond	IN	beyond
 Smith	NP	Smith
 and	CC	and
-Nichols	NP	Nichols
-'	POS	'
+Nichols�	NP	<unknown>
 time	NN	time
 together	RB	together
 .	SENT	.

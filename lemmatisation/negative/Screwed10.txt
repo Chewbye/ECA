@@ -1,0 +1,9 @@
+Gives	VBZ	give
+stupid	JJ	stupid
+,	,	,
+vulgar	JJ	vulgar
+comedy	NN	comedy
+a	DT	a
+bad	JJ	bad
+name	NN	name
+.	SENT	.

@@ -1,0 +1,7 @@
+A	DT	a
+turkey	NN	turkey
+with	IN	with
+all	PDT	all
+the	DT	the
+trimmings	NNS	trimming
+.	SENT	.

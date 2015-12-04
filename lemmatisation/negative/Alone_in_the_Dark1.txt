@@ -1,0 +1,12 @@
+Here	RB	here
+is	VBZ	be
+the	DT	the
+horror-action	NN	<unknown>
+genre	NN	genre
+at	IN	at
+its	PP$	its
+silliest	JJS	silly
+and	CC	and
+most	RBS	most
+uninspired	JJ	uninspired
+.	SENT	.

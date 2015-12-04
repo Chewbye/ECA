@@ -1,5 +1,4 @@
-There	EX	there
-'s	VBZ	be
+There�s	RB	<unknown>
 a	DT	a
 resemblance	NN	resemblance
 here	RB	here
@@ -16,10 +15,9 @@ the	DT	the
 story	NN	story
 told	VBD	tell
 in	IN	in
-The	DT	the
+�The	NN	<unknown>
 Perfect	NP	Perfect
-Storm	NP	Storm
-.	SENT	.
+Storm.�	NP	<unknown>
 The	DT	the
 characters	NNS	character
 involved	VBN	involve
@@ -28,7 +26,7 @@ making	VBG	make
 a	DT	a
 good	JJ	good
 faith	NN	faith
-effort—but	NN	<unknown>
+effort�but	NN	<unknown>
 good	JJ	good
 faith	NN	faith
 efforts	NNS	effort

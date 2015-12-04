@@ -35,7 +35,7 @@ is	VBZ	be
 a	DT	a
 movie	NN	movie
 torn	VBN	tear
-—	NN	<unknown>
+�	NN	<unknown>
 too	RB	too
 grim	JJ	grim
 and	CC	and

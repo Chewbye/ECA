@@ -28,8 +28,7 @@ Spotlight	NN	spotlight
 about	IN	about
 the	DT	the
 Boston	NP	Boston
-Globe	NP	Globe
-'s	POS	's
+Globe�s	NP	<unknown>
 Pulitzer	NP	Pulitzer
 Prize-winning	JJ	Prize-winning
 investigation	NN	investigation
@@ -53,7 +52,7 @@ boil	NN	boil
 .	SENT	.
 It	PP	it
 succeeds	VBZ	succeed
-—	NN	<unknown>
+�	NN	<unknown>
 but	CC	but
 not	RB	not
 in	IN	in

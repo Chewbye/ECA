@@ -1,0 +1,15 @@
+A	DT	a
+limp	JJ	limp
+Eddie	NP	Eddie
+Murphy	NP	Murphy
+vehicle	NN	vehicle
+that	IN	that
+even	RB	even
+he	PP	he
+seems	VBZ	seem
+embarrassed	VBN	embarrass
+to	TO	to
+be	VB	be
+part	NN	part
+of	IN	of
+.	SENT	.

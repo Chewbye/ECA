@@ -4,8 +4,7 @@ no	DT	no
 complaint	NN	complaint
 against	IN	against
 the	DT	the
-film	NN	film
-'s	POS	's
+film�s	JJ	<unknown>
 emphasis	NN	emphasis
 on	IN	on
 prayer	NN	prayer
@@ -15,8 +14,7 @@ if	IN	if
 ,	,	,
 dramatically	RB	dramatically
 ,	,	,
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 not	RB	not
 scintillating	VBG	scintillate
 stuff	NN	stuff

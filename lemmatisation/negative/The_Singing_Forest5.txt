@@ -1,0 +1,4 @@
+Bare-bones	JJ	bare-bones
+vanity	NN	vanity
+project	NN	project
+.	SENT	.

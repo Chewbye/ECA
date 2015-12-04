@@ -1,13 +1,12 @@
 If	IN	if
-Compton	NP	Compton
+�Compton�	NN	<unknown>
 is	VBZ	be
 undeniably	RB	undeniably
 of	IN	of
 the	DT	the
 moment	NN	moment
 ,	,	,
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 also	RB	also
 timeless	JJ	timeless
 in	IN	in

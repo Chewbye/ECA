@@ -7,8 +7,7 @@ soaring	VBG	soar
 visuals	NNS	visual
 ,	,	,
 but	CC	but
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 a	DT	a
 distant	JJ	distant
 second	NN	second

@@ -1,0 +1,11 @@
+Amateurish	JJ	amateurish
+,	,	,
+undramatic	NP	undramatic
+and	CC	and
+bereft	VBN	bereave
+of	IN	of
+any	DT	any
+sense	NN	sense
+of	IN	of
+pacing	VBG	pace
+.	SENT	.

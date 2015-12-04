@@ -1,0 +1,6 @@
+A	DT	a
+dumb	JJ	dumb
+and	CC	and
+sloppy	JJ	sloppy
+movie	NN	movie
+.	SENT	.

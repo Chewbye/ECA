@@ -12,14 +12,12 @@ heroes	NNS	hero
 for	IN	for
 kids	NNS	kid
 ,	,	,
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 baffling	VBG	baffle
 to	TO	to
 see	VB	see
 how	WRB	how
-he	PP	he
-'s	VBZ	have
+he�s	NNS	<unknown>
 been	VBN	be
 appropriated	VBN	appropriate
 for	IN	for

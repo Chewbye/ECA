@@ -14,7 +14,7 @@ system	NN	system
 .	SENT	.
 At	IN	at
 worst	JJS	bad
-—	JJ	<unknown>
+�	JJ	<unknown>
 and	CC	and
 it	PP	it
 certainly	RB	certainly
@@ -22,9 +22,8 @@ veers	VBZ	veer
 toward	IN	toward
 the	DT	the
 worst	JJS	bad
-—	NN	<unknown>
-it	PP	it
-'s	VBZ	be
+�	NN	<unknown>
+it�s	NNS	<unknown>
 a	DT	a
 racially	RB	racially
 reprehensible	JJ	reprehensible
@@ -34,8 +33,7 @@ exploits	VBZ	exploit
 one	CD	one
 of	IN	of
 the	DT	the
-world	NN	world
-'s	POS	's
+world�s	NNS	<unknown>
 most	RBS	most
 powerless	JJ	powerless
 peoples	NNS	people
@@ -47,8 +45,8 @@ of	IN	of
 movie-geek	NN	<unknown>
 references	NNS	reference
 to	TO	to
-Cannibal	NP	<unknown>
-Holocaust	NP	<unknown>
+�Cannibal	NP	<unknown>
+Holocaust�	NP	<unknown>
 is	VBZ	be
 going	VBG	go
 to	TO	to

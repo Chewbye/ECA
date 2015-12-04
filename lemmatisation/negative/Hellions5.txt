@@ -1,0 +1,11 @@
+Hellions	NNS	hellion
+is	VBZ	be
+unsettling	JJ	unsettling
+,	,	,
+but	CC	but
+in	IN	in
+all	PDT	all
+the	DT	the
+wrong	JJ	wrong
+ways	NNS	way
+.	SENT	.

@@ -11,8 +11,7 @@ around	RB	around
 like	IN	like
 one	CD	one
 of	IN	of
-Allerdale	NP	<unknown>
-'s	POS	's
+Allerdale�s	NP	<unknown>
 huge	JJ	huge
 black	JJ	black
 moths	NNS	moth
@@ -23,9 +22,8 @@ women	NNS	woman
 square	NN	square
 off	RP	off
 within	IN	within
-del	NP	del
-Toro	NP	Toro
-'s	POS	's
+del	DT	del
+Toro�s	NP	<unknown>
 eye-popping	NN	eye-popping
 ,	,	,
 painterly	JJ	painterly

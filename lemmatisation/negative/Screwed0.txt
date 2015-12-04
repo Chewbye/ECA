@@ -1,0 +1,5 @@
+Clumsy	JJ	clumsy
+on	IN	on
+every	DT	every
+level	NN	level
+.	SENT	.

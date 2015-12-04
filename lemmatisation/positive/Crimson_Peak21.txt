@@ -15,7 +15,6 @@ them	PP	them
 are	VBP	be
 in	IN	in
 its	PP$	its
-director	NN	director
-'s	POS	's
+director�s	NN	<unknown>
 head	NN	head
 .	SENT	.

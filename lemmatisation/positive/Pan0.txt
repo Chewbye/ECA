@@ -1,6 +1,5 @@
-Wright	NP	Wright
-'s	POS	's
-best	JJS	good
+Wright�s	NNS	<unknown>
+best	VBP	best
 film	NN	film
 so	RB	so
 far	RB	far
@@ -13,13 +12,13 @@ to	TO	to
 its	PP$	its
 source	NN	source
 than	IN	than
-Atonement	NP	<unknown>
+�Atonement�	NN	<unknown>
 or	CC	or
-Pride	NP	Pride
+�Pride	NN	<unknown>
 and	CC	and
-Prejudice	NP	<unknown>
-—	NN	<unknown>
-crams	VBZ	cram
+Prejudice�	JJ	<unknown>
+�	JJ	<unknown>
+crams	NNS	cram
 without	IN	without
 a	DT	a
 care	NN	care
@@ -33,8 +32,7 @@ rarity	NN	rarity
 ,	,	,
 a	DT	a
 proper	JJ	proper
-children	NNS	child
-'s	POS	's
+children�s	NN	<unknown>
 film	NN	film
 ;	:	;
 even	RB	even

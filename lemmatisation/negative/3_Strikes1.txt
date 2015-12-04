@@ -1,0 +1,5 @@
+Empty	JJ	empty
+jokes	NNS	joke
+hang	VBP	hang
+heavy	JJ	heavy
+.	SENT	.

@@ -1,0 +1,10 @@
+As	RB	as
+bad	JJ	bad
+as	IN	as
+the	DT	the
+title	NN	title
+,	,	,
+and	CC	and
+much	RB	much
+longer	RBR	longer
+.	SENT	.

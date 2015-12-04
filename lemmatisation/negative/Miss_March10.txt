@@ -1,0 +1,13 @@
+Even	RB	even
+a	DT	a
+15-year-old	JJ	<unknown>
+boy	NN	boy
+would	MD	would
+find	VB	find
+this	DT	this
+movie	NN	movie
+to	TO	to
+be	VB	be
+a	DT	a
+chore	NN	chore
+.	SENT	.

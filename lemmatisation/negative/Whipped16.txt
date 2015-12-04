@@ -1,0 +1,3 @@
+Puerile	JJ	puerile
+bluster	NN	bluster
+.	SENT	.

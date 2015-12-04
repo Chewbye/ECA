@@ -9,9 +9,8 @@ you	PP	you
 feel	VBP	feel
 lost	VBN	lose
 ,	,	,
-do	VBP	do
-n't	RB	n't
-worry	VB	worry
+don�t	JJ	<unknown>
+worry	NN	worry
 about	IN	about
 it	PP	it
 .	SENT	.

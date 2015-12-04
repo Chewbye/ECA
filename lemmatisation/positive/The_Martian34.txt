@@ -16,7 +16,7 @@ audience	NN	audience
 and	CC	and
 the	DT	the
 climax	NN	climax
-is…well	NN	<unknown>
+is�well	NN	<unknown>
 ,	,	,
 not	RB	not
 exactly	RB	exactly

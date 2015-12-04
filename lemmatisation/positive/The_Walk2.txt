@@ -7,9 +7,9 @@ a	DT	a
 kind	NN	kind
 of	IN	of
 blockbuster	JJ	blockbuster
-Cinéma	NP	<unknown>
+Cin�ma	NP	<unknown>
 Pur	NP	<unknown>
-–	NN	<unknown>
+�	NN	<unknown>
 an	DT	an
 almost	RB	almost
 avant-garde	JJ	avant-garde

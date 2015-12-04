@@ -1,0 +1,11 @@
+A	DT	a
+discordant	JJ	discordant
+comedy	NN	comedy
+that	WDT	that
+gives	VBZ	give
+bad	JJ	bad
+taste	NN	taste
+a	DT	a
+bad	JJ	bad
+name	NN	name
+.	SENT	.

@@ -1,0 +1,9 @@
+This	DT	this
+movie	NN	movie
+has	VBZ	have
+straight-to-video	RB	<unknown>
+written	VBN	write
+all	RB	all
+over	IN	over
+it	PP	it
+.	SENT	.

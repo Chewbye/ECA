@@ -1,0 +1,6 @@
+Bottom-feeding	JJ	<unknown>
+monstrosity	NN	monstrosity
+of	IN	of
+a	DT	a
+comedy	NN	comedy
+.	SENT	.

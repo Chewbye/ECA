@@ -29,8 +29,7 @@ than	IN	than
 amplify	VB	amplify
 ,	,	,
 J.M.	NP	J.M.
-Barrie	NP	Barrie
-'s	POS	's
+Barrie�s	NP	<unknown>
 famous	JJ	famous
 characters	NNS	character
 .	SENT	.

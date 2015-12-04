@@ -1,0 +1,14 @@
+Son	NN	son
+Of	IN	of
+A	DT	a
+Gun	NP	Gun
+has	VBZ	have
+the	DT	the
+gritty	JJ	gritty
+,	,	,
+rough	JJ	rough
+feel	NN	feel
+of	IN	of
+1970s	NNS	1970s
+heist/hit	NN	<unknown>
+picture	NN	picture

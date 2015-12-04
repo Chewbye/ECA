@@ -22,8 +22,7 @@ performances	NNS	performance
 that	WDT	that
 keep	VBP	keep
 the	DT	the
-story	NN	story
-'s	POS	's
+story�s	NN	<unknown>
 blood	NN	blood
 flowing	VBG	flow
 .	SENT	.

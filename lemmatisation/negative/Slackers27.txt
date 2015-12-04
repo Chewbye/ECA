@@ -1,0 +1,15 @@
+Stinks	NNS	stink
+like	IN	like
+a	DT	a
+cat	NN	cat
+box	NN	box
+that	WDT	that
+has	VBZ	have
+n't	RB	n't
+been	VBN	be
+changed	VBN	change
+in	IN	in
+a	DT	a
+hundred	CD	hundred
+years	NNS	year
+.	SENT	.

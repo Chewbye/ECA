@@ -1,0 +1,16 @@
+A	DT	a
+cynical	JJ	cynical
+sex	NN	sex
+comedy	NN	comedy
+that	WDT	that
+manages	VBZ	manage
+to	TO	to
+be	VB	be
+infantile	JJ	infantile
+and	CC	and
+jaded	JJ	jaded
+at	IN	at
+the	DT	the
+same	JJ	same
+time	NN	time
+.	SENT	.

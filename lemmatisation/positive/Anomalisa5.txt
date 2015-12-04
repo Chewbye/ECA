@@ -1,0 +1,8 @@
+It�s	NP	<unknown>
+both	CC	both
+soaringly	RB	soaringly
+romantic	JJ	romantic
+and	CC	and
+truly	RB	truly
+sad	JJ	sad
+.	SENT	.

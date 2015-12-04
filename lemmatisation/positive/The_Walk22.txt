@@ -1,9 +1,9 @@
 The	DT	the
 problem	NN	problem
-—	NN	<unknown>
+�	NN	<unknown>
 not	RB	not
 fatal	JJ	fatal
-—	NN	<unknown>
+�	NN	<unknown>
 with	IN	with
 The	DT	the
 Walk	NP	Walk
@@ -15,8 +15,7 @@ wire	NN	wire
 droops	NNS	droop
 between	IN	between
 the	DT	the
-movie	NN	movie
-'s	POS	's
+movie�s	NNS	<unknown>
 opening	NN	opening
 and	CC	and
 final	JJ	final

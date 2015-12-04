@@ -1,0 +1,11 @@
+There	EX	there
+'s	VBZ	be
+simply	RB	simply
+too	RB	too
+much	RB	much
+going	VBG	go
+on	IN	on
+to	TO	to
+establish	VB	establish
+characters	NNS	character
+.	SENT	.

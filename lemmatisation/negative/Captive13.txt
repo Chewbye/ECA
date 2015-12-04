@@ -13,11 +13,11 @@ a	DT	a
 tedious	JJ	tedious
 sentiment	NN	sentiment
 :	:	:
-by	IN	by
+�by	RB	<unknown>
 the	DT	the
 grace	NN	grace
 of	IN	of
-god	NN	god
+god�	NN	<unknown>
 this	DT	this
 horrible	JJ	horrible
 crisis	NN	crisis

@@ -1,7 +1,6 @@
 Guillermo	NP	Guillermo
 del	NP	del
-Toro	NP	Toro
-'s	POS	's
+Toro�s	NP	<unknown>
 gothic	JJ	Gothic
 fantasy-romance	NN	<unknown>
 Crimson	NP	<unknown>

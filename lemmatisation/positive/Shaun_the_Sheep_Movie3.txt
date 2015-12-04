@@ -27,11 +27,10 @@ effects	NNS	effect
 and	CC	and
 sight	NN	sight
 gags	NNS	gag
-so	RB	so
-silly	RB	silly
-they	PP	they
-'d	MD	will
-make	VB	make
+so	IN	so
+silly	JJ	silly
+they�d	NNS	<unknown>
+make	VBP	make
 Benny	NP	Benny
 Hill	NP	Hill
 spin	NN	spin

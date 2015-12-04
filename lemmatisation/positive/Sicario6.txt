@@ -33,8 +33,7 @@ do	VB	do
 just	RB	just
 that	RB	that
 .	SENT	.
-He	PP	he
-'s	VBZ	be
+He�s	NP	<unknown>
 a	DT	a
 master	NN	master
 of	IN	of

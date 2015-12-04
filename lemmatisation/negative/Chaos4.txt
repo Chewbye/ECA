@@ -1,0 +1,14 @@
+Plunges	NNS	plunge
+into	IN	into
+an	DT	an
+abyss	NN	abyss
+of	IN	of
+gruesome	JJ	gruesome
+imagery	NN	imagery
+so	RB	so
+repulsive	JJ	repulsive
+it	PP	it
+precludes	VBZ	preclude
+further	JJR	further
+watching	NN	watching
+.	SENT	.

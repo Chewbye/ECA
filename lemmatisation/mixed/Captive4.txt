@@ -6,7 +6,7 @@ Oyelowo	NP	<unknown>
 and	CC	and
 Kate	NP	Kate
 Mara	NP	Mara
-–	NN	<unknown>
+�	NN	<unknown>
 as	IN	as
 an	DT	an
 escaped	VBN	escape
@@ -16,7 +16,7 @@ his	PP$	his
 drug	NN	drug
 addicted	JJ	addicted
 hostage	NN	hostage
-–	NN	<unknown>
+�	NN	<unknown>
 are	VBP	be
 the	DT	the
 saving	VBG	save

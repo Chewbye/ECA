@@ -18,7 +18,7 @@ also	RB	also
 why	WRB	why
 they	PP	they
 mattered	VBD	matter
-—	NN	<unknown>
+�	NN	<unknown>
 and	CC	and
 still	RB	still
 do	VB	do

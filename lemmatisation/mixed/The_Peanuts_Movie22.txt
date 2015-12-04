@@ -10,8 +10,7 @@ Movie	NP	Movie
 and	CC	and
 Paddington	NP	Paddington
 ,	,	,
-there	EX	there
-'s	VBZ	be
+there�s	RB	<unknown>
 zero	CD	zero
 interest	NN	interest
 in	IN	in
@@ -20,7 +19,7 @@ or	CC	or
 freshening	VBG	freshen
 up	RP	up
 the	DT	the
-material—think	NN	<unknown>
+material�think	NN	<unknown>
 what	WP	what
 Wes	NP	Wes
 Anderson	NP	Anderson
@@ -28,7 +27,7 @@ might	MD	might
 have	VB	have
 done	VBN	do
 with	IN	with
-this—thus	NN	<unknown>
+this�thus	NN	<unknown>
 dooming	VBG	doom
 the	DT	the
 movie	NN	movie
@@ -48,8 +47,7 @@ jagged	JJ	jagged
 stripe	NN	stripe
 on	IN	on
 our	PP$	our
-hero	NN	hero
-'s	POS	's
+hero�s	JJ	<unknown>
 yellow	JJ	yellow
 polo	NN	polo
 :	:	:

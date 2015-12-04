@@ -1,5 +1,4 @@
-What	WP	What
-'s	VBZ	be
+What�s	NNS	<unknown>
 so	RB	so
 fascinating	JJ	fascinating
 about	IN	about
@@ -36,8 +35,7 @@ and	CC	and
 infallibly	RB	infallibly
 likable	JJ	likable
 that	IN	that
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 invested	VBN	invest
 in	IN	in
 his	PP$	his

@@ -1,0 +1,11 @@
+The	DT	the
+real	JJ	real
+disappointment	NN	disappointment
+is	VBZ	be
+Danny	NP	Danny
+DeVito	NP	DeVito
+as	IN	as
+a	DT	a
+creepy	JJ	creepy
+coroner	NN	coroner
+.	SENT	.

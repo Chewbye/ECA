@@ -16,8 +16,7 @@ well	RB	well
 as	IN	as
 some	DT	some
 you	PP	you
-could	MD	could
-n't	RB	n't
+couldn�t	NNS	<unknown>
 possibly	RB	possibly
-imagine	VB	imagine
+imagine	VBP	imagine
 .	SENT	.

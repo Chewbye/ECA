@@ -1,0 +1,14 @@
+How	WRB	How
+bad	RB	bad
+is	VBZ	be
+it	PP	it
+?	SENT	?
+Let	VB	let
+me	PP	me
+count	VB	count
+just	RB	just
+some	DT	some
+of	IN	of
+the	DT	the
+ways	NNS	way
+.	SENT	.

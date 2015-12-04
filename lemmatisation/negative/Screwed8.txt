@@ -1,0 +1,10 @@
+Latenight	JJ	<unknown>
+cable	NN	cable
+TV	NN	TV
+filler	NN	filler
+disguised	VBN	disguise
+as	IN	as
+a	DT	a
+feature	NN	feature
+film	NN	film
+.	SENT	.

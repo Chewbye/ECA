@@ -1,0 +1,8 @@
+Brain-dead	JJ	brain-dead
+adaptation	NN	adaptation
+of	IN	of
+a	DT	a
+popular	JJ	popular
+video	NN	video
+game	NN	game
+.	SENT	.

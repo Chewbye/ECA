@@ -1,8 +1,7 @@
 Sinister	JJ	sinister
 2	CD	2
-does	VBZ	do
-n't	RB	n't
-know	VB	know
+doesn�t	NN	<unknown>
+know	VBP	know
 what	WP	what
 it	PP	it
 wants	VBZ	want
@@ -10,9 +9,8 @@ to	TO	to
 be	VB	be
 ,	,	,
 and	CC	and
-does	VBZ	do
-n't	RB	n't
-add	VB	add
+doesn�t	NN	<unknown>
+add	VBP	add
 up	RP	up
 to	TO	to
 much	JJ	much

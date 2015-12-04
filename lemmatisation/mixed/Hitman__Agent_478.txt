@@ -14,9 +14,8 @@ not	RB	not
 a	DT	a
 sequel	NN	sequel
 to	TO	to
-2007	CD	@card@
-'s	POS	's
-Hitman	NN	<unknown>
+2007�s	NP	<unknown>
+Hitman	NP	hitman
 )	)	)
 is	VBZ	be
 an	DT	an

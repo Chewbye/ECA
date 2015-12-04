@@ -9,11 +9,10 @@ action	NN	action
 movie	NN	movie
 age	NN	age
 ,	,	,
-occasionally	RB	occasionally
-bonkers	JJ	bonkers
+�occasionally	RB	<unknown>
+bonkers�	NN	<unknown>
 just	RB	just
-does	VBZ	do
-n't	RB	n't
+doesn�t	VBD	<unknown>
 cut	VB	cut
 it	PP	it
 anymore	RB	anymore

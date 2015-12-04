@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NP	<unknown>
 an	DT	an
 unusual	JJ	unusual
 mix	NN	mix

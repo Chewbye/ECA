@@ -34,8 +34,7 @@ however	RB	however
 ,	,	,
 is	VBZ	be
 the	DT	the
-film	NN	film
-'s	VBZ	be
+film�s	NN	<unknown>
 unaccountably	RB	unaccountably
 weak	JJ	weak
 effort	NN	effort

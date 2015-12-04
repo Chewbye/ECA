@@ -7,8 +7,7 @@ loose	JJ	loose
 ends	NNS	end
 in	IN	in
 Drew	NP	Drew
-Goddard	NP	Goddard
-'s	POS	's
+Goddard�s	NP	<unknown>
 screenplay	NN	screenplay
 ,	,	,
 which	WDT	which

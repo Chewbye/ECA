@@ -1,0 +1,16 @@
+Despite	IN	despite
+the	DT	the
+surface	NN	surface
+sheen	NN	sheen
+,	,	,
+and	CC	and
+some	DT	some
+enterprising	JJ	enterprising
+plot	NN	plot
+twists	NNS	twist
+,	,	,
+it	PP	it
+doesn�t	VBD	<unknown>
+entirely	RB	entirely
+convince	VB	convince
+.	SENT	.

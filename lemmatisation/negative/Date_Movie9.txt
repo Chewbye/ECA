@@ -1,0 +1,6 @@
+A	DT	a
+lowest	JJS	low
+common	JJ	common
+denominator	NN	denominator
+spoof	NN	spoof
+.	SENT	.

@@ -1,0 +1,17 @@
+A	DT	a
+kind	NN	kind
+of	IN	of
+mad	JJ	mad
+coming-of-age	NN	coming-of-age
+yarn	NN	yarn
+embellished	VBN	embellish
+with	IN	with
+lightning	NN	lightning
+bolts	NNS	bolt
+and	CC	and
+monsters	NNS	monster
+made	VBN	make
+of	IN	of
+cadaverous	JJ	cadaverous
+flesh	NN	flesh
+.	SENT	.

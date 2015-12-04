@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 when	WRB	when
 the	DT	the
 walk	NN	walk

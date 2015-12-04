@@ -1,0 +1,10 @@
+The	DT	the
+film	NN	film
+is	VBZ	be
+as	RB	as
+thin	JJ	thin
+as	IN	as
+a	DT	a
+picture	NN	picture
+postcard	NN	postcard
+.	SENT	.

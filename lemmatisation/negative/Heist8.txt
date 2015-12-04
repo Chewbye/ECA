@@ -1,0 +1,14 @@
+There�s	RB	<unknown>
+actually	RB	actually
+a	DT	a
+not-too	NP	<unknown>
+bad	JJ	bad
+caper	NN	caper
+plot	NN	plot
+underneath	IN	underneath
+the	DT	the
+incoherent	JJ	incoherent
+over-direction	NN	<unknown>
+from	IN	from
+Mann	NP	Mann
+.	SENT	.

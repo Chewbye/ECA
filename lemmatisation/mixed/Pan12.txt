@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 not	RB	not
 about	IN	about
 Peter	NP	Peter

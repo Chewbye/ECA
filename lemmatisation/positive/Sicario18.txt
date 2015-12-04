@@ -3,8 +3,7 @@ starts	VBZ	start
 and	CC	and
 ends	VBZ	end
 with	IN	with
-Blunt	NP	Blunt
-'s	POS	's
+Blunt�s	NP	<unknown>
 impassioned	JJ	impassioned
 performance	NN	performance
 (	(	(
@@ -19,8 +18,7 @@ scene	NN	scene
 )	)	)
 ,	,	,
 but	CC	but
-it	PP	it
-'s	VBZ	be
+it�s	NP	<unknown>
 Del	NP	Del
 Toro	NP	Toro
 who	WP	who

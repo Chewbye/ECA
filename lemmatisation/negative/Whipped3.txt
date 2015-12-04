@@ -1,0 +1,7 @@
+Lewd	JJ	lewd
+,	,	,
+crude	JJ	crude
+,	,	,
+blessedly	RB	blessedly
+brief	JJ	brief
+.	SENT	.

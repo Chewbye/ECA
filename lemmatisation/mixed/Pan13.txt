@@ -16,8 +16,8 @@ Nirvana	NP	<unknown>
 and	CC	and
 a	DT	a
 choral	JJ	choral
-Blitzkrieg	NP	<unknown>
-Bop	NP	<unknown>
+�Blitzkrieg	NN	<unknown>
+Bop�	NP	<unknown>
 by	IN	by
 the	DT	the
 miner	NN	miner

@@ -1,7 +1,6 @@
 The	DT	the
 comic	JJ	comic
-strip	NN	strip
-'s	POS	's
+strip�s	NNS	<unknown>
 late	JJ	late
 creator	NN	creator
 Charles	NP	Charles

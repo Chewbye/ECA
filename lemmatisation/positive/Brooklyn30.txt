@@ -1,0 +1,17 @@
+Gradually	RB	gradually
+the	DT	the
+film	NN	film
+turns	VBZ	turn
+its	PP$	its
+very	RB	very
+specific	JJ	specific
+story	NN	story
+of	IN	of
+one	CD	one
+immigrant	NN	immigrant
+into	IN	into
+a	DT	a
+moving	VBG	move
+group	NN	group
+portrait	NN	portrait
+.	SENT	.

@@ -21,7 +21,7 @@ Fury	NP	Fury
 Road	NP	Road
 ,	,	,
 but	CC	but
-Kormákur	NP	<unknown>
+Korm�kur	NP	<unknown>
 's	POS	's
 movie	NN	movie
 nonetheless	RB	nonetheless

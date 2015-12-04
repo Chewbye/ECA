@@ -2,7 +2,7 @@ The	DT	the
 actors	NNS	actor
 are	VBP	be
 committed	VBN	commit
-–	NP	<unknown>
+�	NP	<unknown>
 Mara	NP	Mara
 ,	,	,
 generally	RB	generally
@@ -11,10 +11,9 @@ waif-like	JJ	<unknown>
 appears	VBZ	appear
 frail	JJ	frail
 indeed	RB	indeed
-–	JJ	<unknown>
+�	JJ	<unknown>
 but	CC	but
-there	EX	there
-'s	VBZ	be
+there�s	RB	<unknown>
 barely	RB	barely
 anything	NN	anything
 worth	NN	worth

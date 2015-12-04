@@ -44,7 +44,7 @@ fancy	NN	fancy
 with	IN	with
 no	DT	no
 vision	NN	vision
-—	NN	<unknown>
+�	NN	<unknown>
 which	WDT	which
 makes	VBZ	make
 it	PP	it

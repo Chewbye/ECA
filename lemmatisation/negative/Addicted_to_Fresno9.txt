@@ -1,0 +1,13 @@
+A	DT	a
+mean-spirited	JJ	mean-spirited
+farce	NN	farce
+whose	WP$	whose
+strenuous	JJ	strenuous
+bad	JJ	bad
+taste	NN	taste
+seldom	RB	seldom
+translates	VBZ	translate
+into	IN	into
+actual	JJ	actual
+laughs	NNS	laugh
+.	SENT	.

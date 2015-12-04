@@ -1,6 +1,5 @@
 While	IN	while
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 impossible	JJ	impossible
 not	RB	not
 to	TO	to
@@ -10,8 +9,7 @@ caught	VBN	catch
 up	RP	up
 in	IN	in
 these	DT	these
-climbers	NNS	climber
-'	POS	'
+climbers�	JJ	<unknown>
 life-or-death	NN	life-or-death
 struggle	NN	struggle
 ,	,	,
@@ -19,7 +17,7 @@ Everest	NP	Everest
 is	VBZ	be
 oddly	RB	oddly
 uninvolving	JJ	<unknown>
-—	NN	<unknown>
+�	NN	<unknown>
 it	PP	it
 depicts	VBZ	depict
 a	DT	a

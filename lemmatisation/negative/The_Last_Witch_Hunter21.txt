@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 just	RB	just
 deadly	JJ	deadly
 and	CC	and

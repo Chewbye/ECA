@@ -1,0 +1,12 @@
+No	DT	no
+need	NN	need
+to	TO	to
+bury	VB	bury
+the	DT	the
+lede	NN	<unknown>
+:	:	:
+Spotlight	NN	spotlight
+is	VBZ	be
+a	DT	a
+masterpiece	NN	masterpiece
+.	SENT	.

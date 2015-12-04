@@ -20,8 +20,7 @@ to	TO	to
 peddle	VB	peddle
 them	PP	them
 .	SENT	.
-He	PP	he
-'s	VBZ	be
+He�s	NNS	<unknown>
 merely	RB	merely
 seeing	VBG	see
 if	IN	if

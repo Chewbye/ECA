@@ -1,0 +1,14 @@
+Like	IN	like
+its	PP$	its
+subject	NN	subject
+,	,	,
+the	DT	the
+movie	NN	movie
+is	VBZ	be
+not	RB	not
+as	IN	as
+calculating	VBG	calculate
+as	IN	as
+it	PP	it
+seems	VBZ	seem
+.	SENT	.

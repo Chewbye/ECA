@@ -5,13 +5,12 @@ film	NN	film
 had	VBD	have
 done	VBN	do
 more	RBR	more
-–	JJ	<unknown>
+�	JJ	<unknown>
 anything	NN	anything
-–	NN	<unknown>
+�	NN	<unknown>
 to	TO	to
 analyze	VB	analyze
-Petit	NP	Petit
-'s	POS	's
+Petit�s	NP	<unknown>
 psyche	NN	psyche
 .	SENT	.
 But	CC	but

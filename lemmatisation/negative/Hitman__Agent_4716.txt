@@ -2,8 +2,8 @@ It	PP	it
 often	RB	often
 seems	VBZ	seem
 that	IN	that
-Agent	NP	Agent
-47	CD	@card@
+�Agent	NN	<unknown>
+47�	JJ	<unknown>
 is	VBZ	be
 more	RBR	more
 concerned	VBN	concern
@@ -22,10 +22,9 @@ is	VBZ	be
 with	IN	with
 characters	NNS	character
 .	SENT	.
-It	PP	it
-'s	VBZ	be
+It�s	NP	<unknown>
 a	DT	a
-lost	JJ	lost
+lost	VBN	lose
 cause	NN	cause
 and	CC	and
 we	PP	we
@@ -33,8 +32,7 @@ lose	VBP	lose
 interest	NN	interest
 long	RB	long
 before	IN	before
-we	PP	we
-'re	VBP	be
+we�re	NN	<unknown>
 shown	VBN	show
 the	DT	the
 exotic	JJ	exotic

@@ -19,8 +19,7 @@ effects	NNS	effect
 Less	RBR	Less
 impressively	RB	impressively
 ,	,	,
-Eisner	NP	Eisner
-'s	POS	's
+Eisner�s	NP	<unknown>
 movie	NN	movie
 is	VBZ	be
 clogged	VBN	clog

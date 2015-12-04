@@ -1,0 +1,9 @@
+A	DT	a
+crass	JJ	crass
+,	,	,
+witless	JJ	witless
+knockoff	NN	knockoff
+of	IN	of
+better	JJR	good
+films	NNS	film
+.	SENT	.

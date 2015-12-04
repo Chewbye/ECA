@@ -2,14 +2,12 @@ The	DT	the
 animating	VBG	animate
 humanism	NN	humanism
 of	IN	of
-Scott	NP	Scott
-'s	POS	's
+Scott�s	NP	<unknown>
 film	NN	film
 is	VBZ	be
 irreducible	JJ	irreducible
 .	SENT	.
-It	PP	it
-'s	VBZ	be
+It�s	NP	<unknown>
 a	DT	a
 wry	JJ	wry
 tribute	NN	tribute

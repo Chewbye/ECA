@@ -9,11 +9,10 @@ new	JJ	new
 take	NN	take
 on	IN	on
 J.M.	NP	J.M.
-Barrie	NP	Barrie
-'s	POS	's
+Barrie�s	NP	<unknown>
 classic	JJ	classic
-Peter	NP	Peter
-Pan	NP	Pan
+�Peter	NN	<unknown>
+Pan�	NP	<unknown>
 tale	NN	tale
 and	CC	and
 some	DT	some
@@ -28,8 +27,7 @@ Jackman	NP	Jackman
 ,	,	,
 director	NN	director
 Joe	NP	Joe
-Wright	NP	Wright
-'s	POS	's
+Wright�s	NP	<unknown>
 Pan	NP	Pan
 is	VBZ	be
 one	CD	one

@@ -14,7 +14,7 @@ the	DT	the
 situation	NN	situation
 it	PP	it
 depicts	VBZ	depict
-—	NN	<unknown>
+�	NN	<unknown>
 too	RB	too
 many	JJ	many
 people	NNS	people

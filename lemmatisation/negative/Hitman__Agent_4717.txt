@@ -1,6 +1,6 @@
 The	DT	the
 movie	NN	movie
-—	NN	<unknown>
+�	NN	<unknown>
 which	WDT	which
 looks	VBZ	look
 and	CC	and
@@ -11,7 +11,7 @@ more	RBR	more
 brutal	JJ	brutal
 Bond	NN	bond
 knockoff	NN	knockoff
-—	NN	<unknown>
+�	NN	<unknown>
 is	VBZ	be
 at	IN	at
 least	JJS	least

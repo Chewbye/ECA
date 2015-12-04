@@ -1,7 +1,7 @@
 Rather	RB	rather
 than	IN	than
 a	DT	a
-birds'-eye	NN	<unknown>
+birds�-eye	NN	<unknown>
 procedural	JJ	procedural
 about	IN	about
 a	DT	a
@@ -9,8 +9,7 @@ complex	JJ	complex
 international	JJ	international
 mission	NN	mission
 ,	,	,
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 a	DT	a
 close-up	NN	close-up
 of	IN	of

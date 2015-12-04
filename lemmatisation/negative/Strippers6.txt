@@ -1,0 +1,4 @@
+Unbelievably	RB	unbelievably
+awful	JJ	awful
+celluloid-waster	NN	<unknown>
+.	SENT	.

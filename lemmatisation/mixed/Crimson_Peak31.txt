@@ -34,8 +34,7 @@ story	NN	story
 shifts	VBZ	shift
 to	TO	to
 the	DT	the
-Sharpes	NP	Sharpes
-'	POS	'
+Sharpes�	NP	<unknown>
 crumbling	VBG	crumble
 English	JJ	English
 manor	NN	manor

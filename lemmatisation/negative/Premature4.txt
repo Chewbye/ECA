@@ -1,0 +1,10 @@
+A	DT	a
+rapidly	RB	rapidly
+wearying	VBG	weary
+comedy	NN	comedy
+that	WDT	that
+mistakes	VBZ	mistake
+crudeness	NN	crudeness
+with	IN	with
+humor	NN	humor
+.	SENT	.

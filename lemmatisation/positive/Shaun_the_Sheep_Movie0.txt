@@ -12,7 +12,7 @@ tale	NN	tale
 for	IN	for
 little	JJ	little
 kids	NNS	kid
-—	NN	<unknown>
+�	NN	<unknown>
 and	CC	and
 it	PP	it
 totally	RB	totally
@@ -21,7 +21,7 @@ is	VBZ	be
 on	IN	on
 one	CD	one
 level	NN	level
-—	NN	<unknown>
+�	NN	<unknown>
 but	CC	but
 beneath	IN	beneath
 its	PP$	its

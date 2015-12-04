@@ -1,0 +1,12 @@
+One	CD	One
+of	IN	of
+the	DT	the
+most	RBS	most
+egregiously	RB	egregiously
+awful	JJ	awful
+horror	NN	horror
+films	NNS	film
+in	IN	in
+recent	JJ	recent
+memory	NN	memory
+.	SENT	.

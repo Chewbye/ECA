@@ -1,0 +1,14 @@
+A	DT	a
+confusedly	RB	confusedly
+misconceived	VBN	misconceive
+hybrid	NN	hybrid
+of	IN	of
+interracial	JJ	interracial
+buddy	NN	buddy
+comedy	NN	comedy
+and	CC	and
+imitation	NN	imitation
+Marx	NP	Marx
+Brothers	NPS	Brothers
+farce	NN	farce
+.	SENT	.

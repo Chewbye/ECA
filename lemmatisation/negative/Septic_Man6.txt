@@ -1,0 +1,13 @@
+Beyond	IN	beyond
+its	PP$	its
+mere	JJ	mere
+unfunniness	NN	<unknown>
+and	CC	and
+stupidity	NN	stupidity
+,	,	,
+Septic	NP	<unknown>
+Man	NP	Man
+is	VBZ	be
+criminally	RB	criminally
+unimaginative	JJ	unimaginative
+.	SENT	.

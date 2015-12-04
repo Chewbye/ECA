@@ -1,0 +1,5 @@
+Cheesy	JJ	cheesy
+,	,	,
+amateurish	JJ	amateurish
+film	NN	film
+.	SENT	.

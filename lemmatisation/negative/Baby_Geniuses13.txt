@@ -1,0 +1,15 @@
+A	DT	a
+horrible	JJ	horrible
+,	,	,
+horrible	JJ	horrible
+film	NN	film
+that	WDT	that
+wears	VBZ	wear
+out	RP	out
+its	PP$	its
+welcome	NN	welcome
+before	IN	before
+its	PP$	its
+opening	NN	opening
+credits	NNS	credit
+.	SENT	.

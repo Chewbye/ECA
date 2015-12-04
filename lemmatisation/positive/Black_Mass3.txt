@@ -1,7 +1,6 @@
 This	DT	this
 is	VBZ	be
-Depp	NP	Depp
-'s	POS	's
+Depp�s	NP	<unknown>
 show	VB	show
 all	PDT	all
 the	DT	the
@@ -17,8 +16,6 @@ another	DT	another
 organized-crime	NN	organized-crime
 movie	NN	movie
 ,	,	,
-1997	NP	@card@
-'s	POS	's
-Donnie	NP	Donnie
-Brasco	NP	<unknown>
-.	SENT	.
+1997�s	NP	<unknown>
+�Donnie	NP	<unknown>
+Brasco.�	NP	<unknown>

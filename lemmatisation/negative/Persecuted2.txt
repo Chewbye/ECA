@@ -1,0 +1,6 @@
+A	DT	a
+confused	JJ	confused
+and	CC	and
+confusing	JJ	confusing
+thriller	NN	thriller
+.	SENT	.

@@ -1,7 +1,6 @@
 Anyone	NN	Anyone
 who	WP	who
-does	VBZ	do
-n't	RB	n't
+doesn�t	VBD	<unknown>
 have	VB	have
 a	DT	a
 grand	JJ	grand

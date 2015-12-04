@@ -1,0 +1,15 @@
+The	DT	the
+laughs	NNS	laugh
+are	VBP	be
+few	JJ	few
+,	,	,
+far	RB	far
+between	IN	between
+and	CC	and
+pretty	RB	pretty
+darn	RB	darn
+faint	JJ	faint
+in	IN	in
+this	DT	this
+comedy	NN	comedy
+.	SENT	.

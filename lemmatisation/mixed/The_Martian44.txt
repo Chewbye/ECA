@@ -13,8 +13,7 @@ and	CC	and
 overstuffed	VBN	overstuff
 ,	,	,
 and	CC	and
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 a	DT	a
 curious	JJ	curious
 case	NN	case

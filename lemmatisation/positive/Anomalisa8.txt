@@ -1,0 +1,4 @@
+Singular	JJ	singular
+and	CC	and
+stunning	JJ	stunning
+.	SENT	.

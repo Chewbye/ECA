@@ -1,0 +1,12 @@
+Ugly	JJ	ugly
+.	SENT	.
+..and	NN	<unknown>
+unpleasant	JJ	unpleasant
+--	:	--
+and	CC	and
+clueless	JJ	clueless
+on	IN	on
+a	DT	a
+grand	JJ	grand
+scale	NN	scale
+.	SENT	.

@@ -1,0 +1,16 @@
+It	PP	it
+'s	VBZ	be
+bluntly	RB	bluntly
+written	VBN	write
+,	,	,
+poorly	RB	poorly
+shot	VBN	shoot
+and	CC	and
+edited	VBN	edit
+,	,	,
+and	CC	and
+cruel	JJ	cruel
+without	IN	without
+being	VBG	be
+clever	JJ	clever
+.	SENT	.

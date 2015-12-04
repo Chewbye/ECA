@@ -1,0 +1,14 @@
+A	DT	a
+caustic	JJ	caustic
+,	,	,
+raunchy	JJ	raunchy
+,	,	,
+often	RB	often
+hilarious	JJ	hilarious
+examination	NN	examination
+of	IN	of
+how	WRB	how
+men	NNS	man
+use	VBP	use
+women	NNS	woman
+.	SENT	.

@@ -1,0 +1,7 @@
+Painfully	RB	painfully
+unfunny	JJ	unfunny
+and	CC	and
+misguided	JJ	misguided
+to	TO	to
+boot	VB	boot
+.	SENT	.

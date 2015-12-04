@@ -20,9 +20,8 @@ lets	VBZ	let
 you	PP	you
 feel	VBP	feel
 what	WP	what
-it	PP	it
-'s	VBZ	be
-like	JJ	like
+it�s	NNS	<unknown>
+like	VBP	like
 to	TO	to
 tread	VB	tread
 where	WRB	where

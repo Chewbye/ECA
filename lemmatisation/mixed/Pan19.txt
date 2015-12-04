@@ -25,8 +25,7 @@ flaw	NN	flaw
 for	IN	for
 a	DT	a
 movie	NN	movie
-that	WDT	that
-'s	VBZ	be
+that�s	NNS	<unknown>
 supposed	VBN	suppose
 to	TO	to
 be	VB	be

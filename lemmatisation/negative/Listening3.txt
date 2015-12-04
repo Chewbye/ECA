@@ -1,0 +1,8 @@
+To	TO	To
+call	VB	call
+it	PP	it
+amateurish	JJ	amateurish
+would	MD	would
+be	VB	be
+kind	JJ	kind
+.	SENT	.

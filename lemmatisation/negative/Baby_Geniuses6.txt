@@ -1,0 +1,13 @@
+The	DT	the
+hokey	NP	hokey
+dialogue	NN	dialogue
+and	CC	and
+witless	JJ	witless
+physical	JJ	physical
+gags	NNS	gag
+keep	VBP	keep
+everything	NN	everything
+painful	JJ	painful
+and	CC	and
+hectoring	VBG	hector
+.	SENT	.

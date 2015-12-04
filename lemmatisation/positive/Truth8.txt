@@ -13,7 +13,7 @@ in	IN	in
 his	PP$	his
 screenplay	NN	screenplay
 for	IN	for
-Zodiac	NP	<unknown>
+�Zodiac�	NN	<unknown>
 are	VBP	be
 on	IN	on
 impressive	JJ	impressive

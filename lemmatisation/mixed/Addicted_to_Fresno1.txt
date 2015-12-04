@@ -1,0 +1,11 @@
+The	DT	the
+laughs	NNS	laugh
+are	VBP	be
+mild	JJ	mild
+,	,	,
+but	CC	but
+at	IN	at
+least	JJS	least
+some	DT	some
+exist	VBP	exist
+.	SENT	.

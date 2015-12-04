@@ -18,8 +18,7 @@ drama	NN	drama
 to	TO	to
 breathe	VB	breathe
 ;	:	;
-it	PP	it
-'s	VBZ	be
+it�s	NN	<unknown>
 another	DT	another
 stellar	JJ	stellar
 performance	NN	performance

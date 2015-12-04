@@ -1,10 +1,10 @@
 What	WP	What
 's	VBZ	be
 surprising	JJ	surprising
-—	NN	<unknown>
+�	NN	<unknown>
 even	RB	even
 wondrous	JJ	wondrous
-—	NN	<unknown>
+�	NN	<unknown>
 is	VBZ	be
 how	WRB	how
 often	RB	often

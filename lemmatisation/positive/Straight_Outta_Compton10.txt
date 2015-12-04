@@ -11,8 +11,7 @@ works	VBZ	work
 best	JJS	good
 if	IN	if
 you	PP	you
-do	VBP	do
-n't	RB	n't
+don�t	VBD	<unknown>
 look	VB	look
 at	IN	at
 it	PP	it

@@ -1,6 +1,5 @@
-It	PP	it
-'s	VBZ	be
-all	DT	all
+It�s	NP	<unknown>
+all	RB	all
 too	RB	too
 dumb	JJ	dumb
 and	CC	and
@@ -23,8 +22,7 @@ before	IN	before
 ,	,	,
 well	RB	well
 ,	,	,
-here	RB	here
-'s	VBZ	be
+here�s	RB	<unknown>
 another	DT	another
 one	CD	one
 .	SENT	.

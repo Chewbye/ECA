@@ -1,0 +1,8 @@
+Tedious	JJ	tedious
+,	,	,
+amateurish	JJ	amateurish
+and	CC	and
+hilariously	RB	hilariously
+ill-timed	JJ	ill-timed
+film	NN	film
+.	SENT	.

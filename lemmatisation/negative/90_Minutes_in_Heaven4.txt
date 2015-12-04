@@ -16,8 +16,7 @@ peddled	VBN	peddle
 by	IN	by
 PureFlix	NP	<unknown>
 (	(	(
-God	NP	God
-'s	POS	's
+God�s	NP	<unknown>
 Not	RB	not
 Dead	NP	Dead
 )	)	)

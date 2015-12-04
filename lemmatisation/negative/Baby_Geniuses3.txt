@@ -1,0 +1,5 @@
+Formulaic	JJ	formulaic
+and	CC	and
+deeply	RB	deeply
+unfunny	JJ	unfunny
+.	SENT	.

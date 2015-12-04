@@ -1,0 +1,14 @@
+My	PP$	my
+All	NP	All
+American	NP	American
+plays	VBZ	play
+like	IN	like
+an	DT	an
+extended	JJ	extended
+highlights	NNS	highlight
+reel	NN	reel
+,	,	,
+not	RB	not
+a	DT	a
+movie	NN	movie
+.	SENT	.

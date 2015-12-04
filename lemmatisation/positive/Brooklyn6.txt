@@ -1,0 +1,17 @@
+A	DT	a
+sensitive	JJ	sensitive
+,	,	,
+dewy-eyed	JJ	dewy-eyed
+yet	CC	yet
+mature	JJ	mature
+performance	NN	performance
+by	IN	by
+Saoirse	NP	<unknown>
+Ronan	NP	Ronan
+is	VBZ	be
+the	DT	the
+appealing	JJ	appealing
+centerpiece	NN	centerpiece
+of	IN	of
+Brooklyn	NP	Brooklyn
+.	SENT	.

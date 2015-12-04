@@ -1,0 +1,6 @@
+A	DT	a
+singularly	RB	singularly
+distasteful	JJ	distasteful
+campus	NN	campus
+romp	NN	romp
+.	SENT	.

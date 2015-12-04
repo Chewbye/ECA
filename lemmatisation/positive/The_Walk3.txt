@@ -16,7 +16,7 @@ the	DT	the
 ship	NN	ship
 sinking	NN	sinking
 in	IN	in
-Titanic—a	NP	<unknown>
+Titanic�a	NP	<unknown>
 dazzling	JJ	dazzling
 triumph	NN	triumph
 of	IN	of
@@ -26,8 +26,7 @@ effects	NNS	effect
 ,	,	,
 which	WDT	which
 exhibits	VBZ	exhibit
-Zemeckis	NP	Zemeckis
-'	POS	'
+Zemeckis�	JJ	<unknown>
 mastery	NN	mastery
 of	IN	of
 both	DT	both

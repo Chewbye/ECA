@@ -7,8 +7,7 @@ remake	NN	remake
 of	IN	of
 George	NP	George
 R.	NP	R.
-Romero	NP	Romero
-'s	VBZ	be
+Romero�s	NP	<unknown>
 The	DT	the
 Crazies	NNS	crazy
 back	RB	back

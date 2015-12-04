@@ -1,8 +1,7 @@
 The	DT	the
 Peanuts	NP	Peanuts
 Movie	NP	Movie
-is	VBZ	be
-n't	RB	n't
+isn�t	VBD	<unknown>
 so	RB	so
 much	RB	much
 an	DT	an

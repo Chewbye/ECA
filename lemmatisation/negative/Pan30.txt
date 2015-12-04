@@ -10,13 +10,11 @@ off	RP	off
 .	SENT	.
 Peter	NP	Peter
 Pan	NP	Pan
-is	VBZ	be
-n't	RB	n't
+isn�t	VBD	<unknown>
 a	DT	a
 superhero	NN	superhero
 and	CC	and
-does	VBZ	do
-n't	RB	n't
+doesn�t	VBD	<unknown>
 really	RB	really
 need	VB	need
 an	DT	an
@@ -41,7 +39,7 @@ borrows	VBZ	borrow
 heavily	RB	heavily
 from	IN	from
 the	DT	the
-Oliver	NP	Oliver
-Twist	NP	Twist
+�Oliver	NP	<unknown>
+Twist�	NP	<unknown>
 handbook	NN	handbook
 .	SENT	.

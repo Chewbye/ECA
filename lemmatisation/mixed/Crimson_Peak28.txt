@@ -27,7 +27,7 @@ and	CC	and
 intensity	NN	intensity
 :	:	:
 a	DT	a
-Brontë-esque	NP	<unknown>
+Bront�-esque	NP	<unknown>
 bauble	NN	bauble
 smeared	VBN	smear
 in	IN	in

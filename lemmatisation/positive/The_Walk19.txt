@@ -14,12 +14,11 @@ tribute	NN	tribute
 not	RB	not
 only	RB	only
 to	TO	to
-Petit	NP	Petit
-'s	POS	's
+Petit�s	NP	<unknown>
 bravery	NN	bravery
 and	CC	and
 determination	NN	determination
-—	NN	<unknown>
+�	NN	<unknown>
 but	CC	but
 to	TO	to
 the	DT	the

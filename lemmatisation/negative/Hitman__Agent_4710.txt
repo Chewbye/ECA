@@ -13,8 +13,7 @@ and	CC	and
 smelling	VBG	smell
 like	IN	like
 last	JJ	last
-week	NN	week
-'s	POS	's
+week�s	NNS	<unknown>
 refrigerator	NN	refrigerator
 contents	NNS	content
 .	SENT	.

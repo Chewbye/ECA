@@ -33,8 +33,7 @@ by	IN	by
 desultory	JJ	desultory
 plotting	VBG	plot
 and	CC	and
-Eisner	NP	Eisner
-'s	POS	's
+Eisner�s	NP	<unknown>
 oppressively	RB	oppressively
 synthetic	JJ	synthetic
 mise-en-scene	NN	<unknown>

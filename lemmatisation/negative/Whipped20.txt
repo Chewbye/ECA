@@ -1,0 +1,15 @@
+Breaks	NNS	break
+new	JJ	new
+ground	NN	ground
+both	CC	both
+as	IN	as
+an	DT	an
+abominable	JJ	abominable
+enterprise	NN	enterprise
+in	IN	in
+guy-talk	NN	<unknown>
+and	CC	and
+as	IN	as
+no-budget	NN	<unknown>
+hackwork	NN	<unknown>
+.	SENT	.

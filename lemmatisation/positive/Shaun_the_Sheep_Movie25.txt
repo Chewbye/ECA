@@ -18,8 +18,7 @@ no	DT	no
 intelligible	JJ	intelligible
 dialogue	NN	dialogue
 and	CC	and
-does	VBZ	do
-n't	RB	n't
-need	VB	need
+doesn�t	NN	<unknown>
+need	VBP	need
 any	DT	any
 .	SENT	.

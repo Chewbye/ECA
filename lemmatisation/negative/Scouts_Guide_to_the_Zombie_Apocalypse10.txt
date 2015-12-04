@@ -1,14 +1,12 @@
 If	IN	if
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 not	RB	not
 too	RB	too
 undone	VBN	undo
 by	IN	by
 agitation	NN	agitation
 with	IN	with
-Carter	NP	Carter
-'s	POS	's
+Carter�s	NP	<unknown>
 umpteenth	JJ	umpteenth
 quip	NN	quip
 about	IN	about

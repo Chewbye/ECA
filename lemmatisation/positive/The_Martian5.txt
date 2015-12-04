@@ -6,10 +6,9 @@ the	DT	the
 plot	NN	plot
 of	IN	of
 The	DT	the
-Martian	NN	Martian
-does	VBZ	do
-n't	RB	n't
-offer	VB	offer
+Martian	JJ	Martian
+doesn�t	NN	<unknown>
+offer	NN	offer
 many	JJ	many
 surprises	NNS	surprise
 ,	,	,

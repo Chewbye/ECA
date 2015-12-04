@@ -1,0 +1,10 @@
+Slackers	NNS	slacker
+is	VBZ	be
+,	,	,
+well	RB	well
+,	,	,
+consummately	RB	consummately
+cheesy	JJ	cheesy
+.	SENT	.
+Ugh	NN	<unknown>
+.	SENT	.

@@ -1,0 +1,16 @@
+As	IN	as
+it	PP	it
+stands	VBZ	stand
+,	,	,
+it�s	NP	<unknown>
+one	CD	one
+of	IN	of
+the	DT	the
+worst	JJS	bad
+films	NNS	film
+you	PP	you
+won�t	VBD	<unknown>
+see	VB	see
+in	IN	in
+2015	CD	@card@
+.	SENT	.

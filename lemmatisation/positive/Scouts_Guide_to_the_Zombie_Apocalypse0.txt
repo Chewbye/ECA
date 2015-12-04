@@ -7,8 +7,7 @@ as	IN	as
 it	PP	it
 is	VBZ	be
 ,	,	,
-does	VBZ	do
-n't	RB	n't
+doesn�t	VBD	<unknown>
 exactly	RB	exactly
 further	RBR	further
 a	DT	a
@@ -27,9 +26,8 @@ Warm	NP	Warm
 Bodies	NP	<unknown>
 ...	:	...
 .	SENT	.
-What	WP	What
-'s	VBZ	be
-promising	VBG	promise
+What�s	NNS	<unknown>
+promising	JJ	promising
 about	IN	about
 Scouts	NP	<unknown>
 Guide	NP	Guide

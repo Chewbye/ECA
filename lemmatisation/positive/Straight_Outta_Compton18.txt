@@ -1,8 +1,7 @@
 Even	RB	even
 with	IN	with
 the	DT	the
-film	NN	film
-'s	POS	's
+film�s	JJ	<unknown>
 mild	JJ	mild
 flaws	NNS	flaw
 and	CC	and

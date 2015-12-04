@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 only	RB	only
 in	IN	in
 the	DT	the
@@ -21,8 +20,7 @@ a	DT	a
 bit	NN	bit
 of	IN	of
 the	DT	the
-audience	NN	audience
-'s	POS	's
+audience�s	NNS	<unknown>
 ,	,	,
 well	RB	well
 ,	,	,

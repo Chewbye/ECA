@@ -4,8 +4,7 @@ occasionally	RB	occasionally
 moving	VBG	move
 ,	,	,
 it	PP	it
-does	VBZ	do
-n't	RB	n't
+doesn�t	VBD	<unknown>
 electrify	VB	electrify
 like	IN	like
 that	DT	that
@@ -21,12 +20,10 @@ chief	JJ	chief
 executive	NN	executive
 ,	,	,
 Alan	NP	Alan
-Pakula	NP	Pakula
-'s	VBZ	be
-All	PDT	All
+Pakula�s	NP	<unknown>
+�All	NN	<unknown>
 the	DT	the
-President	NP	President
-'s	POS	's
-Men	NN	Men
+President�s	NP	<unknown>
+Men�	NP	<unknown>
 (1976)	NN	<unknown>
 .	SENT	.

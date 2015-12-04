@@ -1,13 +1,13 @@
 The	DT	the
 film	NN	film
 proves	VBZ	prove
-—	NN	<unknown>
+�	NN	<unknown>
 in	IN	in
 both	DT	both
 style	NN	style
 and	CC	and
 attitude	NN	attitude
-—	NN	<unknown>
+�	NN	<unknown>
 a	DT	a
 successful	JJ	successful
 bridge	NN	bridge

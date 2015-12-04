@@ -1,0 +1,15 @@
+This	DT	this
+is	VBZ	be
+Soderbergh	NP	Soderbergh
+'s	POS	's
+show	NN	show
+,	,	,
+and	CC	and
+a	DT	a
+haunting	NN	haunting
+and	CC	and
+hypnotic	JJ	hypnotic
+show	VBP	show
+it	PP	it
+is	VBZ	be
+.	SENT	.

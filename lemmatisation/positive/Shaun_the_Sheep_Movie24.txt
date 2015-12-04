@@ -23,8 +23,7 @@ sets	NNS	set
 crafted	VBN	craft
 by	IN	by
 the	DT	the
-studio	NN	studio
-'s	POS	's
+studio�s	NN	<unknown>
 master	NN	master
 model	NN	model
 builders	NNS	builder

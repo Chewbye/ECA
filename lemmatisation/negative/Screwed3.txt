@@ -1,0 +1,16 @@
+It	PP	it
+'s	VBZ	be
+just	RB	just
+a	DT	a
+matter	NN	matter
+of	IN	of
+holding	VBG	hold
+your	PP$	your
+nose	NN	nose
+until	IN	until
+the	DT	the
+whole	JJ	whole
+thing	NN	thing
+is	VBZ	be
+over	RP	over
+.	SENT	.

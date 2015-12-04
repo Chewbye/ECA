@@ -8,8 +8,7 @@ Compton	NP	Compton
 ,	,	,
 F	NP	F
 Gary	NP	Gary
-Gray	NP	Gray
-'s	POS	's
+Gray�s	NP	<unknown>
 two-and-a-half	JJ	two-and-a-half
 hour	NN	hour
 opus	NN	opus

@@ -1,6 +1,5 @@
 The	DT	the
-film	NN	film
-'s	VBZ	be
+film�s	NNS	<unknown>
 so	RB	so
 inflated	VBN	inflate
 with	IN	with

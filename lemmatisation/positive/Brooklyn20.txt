@@ -1,0 +1,17 @@
+Although	IN	although
+not	RB	not
+without	IN	without
+moments	NNS	moment
+of	IN	of
+sadness	NN	sadness
+and	CC	and
+tragedy	NN	tragedy
+,	,	,
+Brooklyn	NP	Brooklyn
+is	VBZ	be
+sublimely	RB	sublimely
+uplifting	VBG	uplift
+and	CC	and
+life	NN	life
+affirming	VBG	affirm
+.	SENT	.

@@ -1,0 +1,7 @@
+A	DT	a
+lame	JJ	lame
+pastiche	NN	pastiche
+of	IN	of
+Hollywood	NP	Hollywood
+romances	NNS	romance
+.	SENT	.

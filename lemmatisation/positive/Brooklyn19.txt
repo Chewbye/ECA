@@ -1,0 +1,15 @@
+If	IN	if
+you�re	NN	<unknown>
+yearning	NN	yearning
+to	TO	to
+take	VB	take
+a	DT	a
+sentimental	JJ	sentimental
+journey	NN	journey
+,	,	,
+Brooklyn	NP	Brooklyn
+is	VBZ	be
+the	DT	the
+perfect	JJ	perfect
+destination	NN	destination
+.	SENT	.

@@ -1,0 +1,17 @@
+Feels	NNS	feel
+like	IN	like
+a	DT	a
+very	RB	very
+long	JJ	long
+late-night	JJ	late-night
+comedy	NN	comedy
+sketch	NN	sketch
+that	WDT	that
+occasionally	RB	occasionally
+veers	VBZ	veer
+beyond	IN	beyond
+tastelessness	NN	tastelessness
+toward	IN	toward
+something	NN	something
+worse	RBR	worse
+.	SENT	.

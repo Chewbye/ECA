@@ -69,9 +69,9 @@ public class Lemme2ARFF {
 		
 		File file = new File("");
 		ArrayList<String> folderNames = new ArrayList<String>();
+		folderNames.add("positive");
 		folderNames.add("mixed");
 		folderNames.add("negative");
-		folderNames.add("positive");
 		
 		for(String folderName: folderNames){
 			File[] files= getListOfFiles(foldersPath + "/" + folderName);
@@ -98,7 +98,7 @@ public class Lemme2ARFF {
 					}
 					
 					arffContent += "\n\'" + fileContent.replace("\'", "\\'") + "\'," + folderName;
-					System.out.println(arffContent);
+					//System.out.println(arffContent);
 					
 					bf.close();
 					
@@ -141,12 +141,12 @@ public class Lemme2ARFF {
 	public static File[] getListOfFiles(String folderPath){
 		File folder = new File(folderPath);
 		File[] listOfFiles = folder.listFiles();
-		System.out.println(folderPath);
+		//System.out.println(folderPath);
 	    for (int i = 0; i < listOfFiles.length; i++) {
 	      if (listOfFiles[i].isFile()) {
 	        System.out.println("File " + listOfFiles[i].getName());
 	      } else if (listOfFiles[i].isDirectory()) {
-	        System.out.println("Directory " + listOfFiles[i].getName());
+	        //System.out.println("Directory " + listOfFiles[i].getName());
 	      }
 	    }	
 	    

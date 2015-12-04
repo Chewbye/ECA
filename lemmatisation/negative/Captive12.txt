@@ -6,12 +6,11 @@ terrific	JJ	terrific
 chemistry	NN	chemistry
 .	SENT	.
 Perhaps	RB	perhaps
-they	PP	they
-'ll	MD	will
-work	VB	work
+they�ll	JJ	<unknown>
+work	NN	work
 together	RB	together
 again	RB	again
-—	JJ	<unknown>
+�	JJ	<unknown>
 in	IN	in
 a	DT	a
 better	JJR	good

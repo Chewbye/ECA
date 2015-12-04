@@ -10,7 +10,7 @@ far	RB	far
 as	IN	as
 it	PP	it
 goes	VBZ	go
-—	NN	<unknown>
+�	NN	<unknown>
 tracks	VBZ	track
 the	DT	the
 true-life	JJ	true-life

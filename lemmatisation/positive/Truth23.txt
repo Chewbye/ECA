@@ -1,8 +1,7 @@
 Truth	NN	truth
 also	RB	also
 ignores	VBZ	ignore
-Rather	NP	Rather
-'s	POS	's
+Rather�s	NP	<unknown>
 famous	JJ	famous
 showboating	NN	<unknown>
 ,	,	,
@@ -10,9 +9,8 @@ pettiness	NN	pettiness
 and	CC	and
 hubris	NN	hubris
 .	SENT	.
-He	PP	he
-'s	VBZ	be
-worked	VBN	work
+He�s	NNS	<unknown>
+worked	VBD	work
 in	IN	in
 lower-profile	JJ	lower-profile
 gigs	NNS	gig
@@ -22,8 +20,7 @@ but	CC	but
 trust	VB	trust
 me	PP	me
 ,	,	,
-there	EX	there
-'s	VBZ	be
+there�s	RB	<unknown>
 a	DT	a
 good	JJ	good
 reason	NN	reason

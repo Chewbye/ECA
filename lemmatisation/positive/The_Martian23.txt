@@ -1,11 +1,9 @@
 Mr.	NP	Mr.
-Damon	NP	Damon
-'s	POS	's
+Damon�s	NP	<unknown>
 Everyman	NP	Everyman
 quality	NN	quality
 (	(	(
-he	PP	he
-'s	VBZ	be
+he�s	NNS	<unknown>
 our	PP$	our
 Jimmy	NP	Jimmy
 Stewart	NP	Stewart
@@ -24,8 +22,7 @@ epic	NN	epic
 personal	JJ	personal
 is	VBZ	be
 Mr.	NP	Mr.
-Scott	NP	Scott
-'s	VBZ	be
+Scott�s	NP	<unknown>
 filmmaking	VBG	filmmak
 ,	,	,
 in	IN	in

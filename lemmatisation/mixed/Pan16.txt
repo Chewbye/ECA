@@ -1,6 +1,5 @@
 If	IN	if
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 going	VBG	go
 to	TO	to
 make	VB	make
@@ -18,8 +17,7 @@ second	JJ	second
 thought	NN	thought
 ,	,	,
 if	IN	if
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 Joe	NP	Joe
 Wright	NP	Wright
 looking	VBG	look
@@ -36,6 +34,5 @@ came	VBD	come
 from	IN	from
 ,	,	,
 maybe	RB	maybe
-do	VBP	do
-n't	RB	n't
+don�t	JJ	<unknown>
 .	SENT	.

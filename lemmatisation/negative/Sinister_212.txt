@@ -7,9 +7,8 @@ brainless	JJ	brainless
 shameless	JJ	shameless
 lameness	NN	lameness
 that	IN	that
-it	PP	it
-'s	VBZ	be
-hard	JJ	hard
+it�s	NNS	<unknown>
+hard	RB	hard
 to	TO	to
 imagine	VB	imagine
 anyone	NN	anyone

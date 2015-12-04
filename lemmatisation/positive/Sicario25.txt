@@ -1,5 +1,4 @@
-Blunt	NP	Blunt
-'s	POS	's
+Blunt�s	NP	<unknown>
 performance	NN	performance
 has	VBZ	have
 an	DT	an

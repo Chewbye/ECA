@@ -6,7 +6,6 @@ these	DT	these
 killer	NN	killer
 kids	NNS	kid
 :	:	:
-they	PP	they
-'re	VBP	be
+they�re	NN	<unknown>
 creative	JJ	creative
 .	SENT	.

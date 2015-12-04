@@ -14,8 +14,7 @@ narrative	JJ	narrative
 through-line	NN	<unknown>
 secondary	JJ	secondary
 .	SENT	.
-That	DT	that
-'s	VBZ	be
+That�s	NNS	<unknown>
 fortunate	JJ	fortunate
 ,	,	,
 because	IN	because

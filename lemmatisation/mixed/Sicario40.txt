@@ -1,5 +1,4 @@
-There	EX	there
-'s	VBZ	be
+There�s	RB	<unknown>
 not	RB	not
 much	JJ	much
 fault	NN	fault

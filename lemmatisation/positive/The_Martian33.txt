@@ -14,8 +14,7 @@ Mars	NP	Mars
 even	RB	even
 though	IN	though
 the	DT	the
-film	NN	film
-'s	POS	's
+film�s	NN	<unknown>
 tone	NN	tone
 is	VBZ	be
 suspiciously	RB	suspiciously

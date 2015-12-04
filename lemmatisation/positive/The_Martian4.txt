@@ -27,13 +27,12 @@ and	CC	and
 writer	NN	writer
 Drew	NP	Drew
 Goddard	NP	Goddard
-are	VBP	be
-n't	RB	n't
+aren�t	NN	<unknown>
 trying	VBG	try
 to	TO	to
 make	VB	make
 an	DT	an
-important	JJ	important
+�important�	JJ	<unknown>
 sci-fi	NN	sci-fi
 movie	NN	movie
 like	IN	like

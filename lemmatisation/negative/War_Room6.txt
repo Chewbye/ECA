@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NP	<unknown>
 just	RB	just
 a	DT	a
 clumsily	RB	clumsily

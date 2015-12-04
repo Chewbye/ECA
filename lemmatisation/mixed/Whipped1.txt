@@ -1,0 +1,12 @@
+A	DT	a
+decent	JJ	decent
+idea	NN	idea
+that	WDT	that
+never	RB	never
+goes	VBZ	go
+deep	RB	deep
+enough	RB	enough
+for	IN	for
+genuine	JJ	genuine
+satisfaction	NN	satisfaction
+.	SENT	.

@@ -1,5 +1,4 @@
-Here	RB	here
-'s	VBZ	be
+Here�s	NP	<unknown>
 the	DT	the
 thing	NN	thing
 about	IN	about

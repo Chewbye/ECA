@@ -1,0 +1,12 @@
+McCarthy	NP	McCarthy
+and	CC	and
+his	PP$	his
+brilliant	JJ	brilliant
+cast	NN	cast
+make	VB	make
+hard	JJ	hard
+work	NN	work
+and	CC	and
+truth-telling	NN	truth-telling
+inspiring	JJ	inspiring
+.	SENT	.

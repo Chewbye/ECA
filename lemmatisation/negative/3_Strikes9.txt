@@ -1,0 +1,17 @@
+The	DT	the
+bad	JJ	bad
+news	NN	news
+is	VBZ	be
+that	IN	that
+it	PP	it
+'s	VBZ	be
+also	RB	also
+vile	JJ	vile
+,	,	,
+not	RB	not
+to	TO	to
+mention	VB	mention
+sophomoric	JJ	sophomoric
+and	CC	and
+unfunny	JJ	unfunny
+.	SENT	.

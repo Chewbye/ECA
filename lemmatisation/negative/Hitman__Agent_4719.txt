@@ -1,6 +1,5 @@
-It	PP	it
-'s	VBZ	be
-all	DT	all
+It�s	NP	<unknown>
+all	RB	all
 as	RB	as
 pointless	JJ	pointless
 as	IN	as

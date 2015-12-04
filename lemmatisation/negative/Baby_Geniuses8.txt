@@ -1,0 +1,16 @@
+A	DT	a
+thoroughly	RB	thoroughly
+misguided	JJ	misguided
+,	,	,
+unfunny	JJ	unfunny
+film	NN	film
+that	WDT	that
+proves	VBZ	prove
+you	PP	you
+should	MD	should
+n't	RB	n't
+beat	VB	beat
+a	DT	a
+dead	JJ	dead
+horse	NN	horse
+.	SENT	.

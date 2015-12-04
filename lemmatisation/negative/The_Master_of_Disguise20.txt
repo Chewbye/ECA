@@ -1,0 +1,10 @@
+A	DT	a
+film	NN	film
+about	RB	about
+as	RB	as
+funny	JJ	funny
+as	IN	as
+a	DT	a
+seeping	VBG	seep
+wound	NN	wound
+.	SENT	.

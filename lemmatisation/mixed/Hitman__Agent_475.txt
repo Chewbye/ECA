@@ -16,8 +16,7 @@ of	IN	of
 it	PP	it
 all	RB	all
 and	CC	and
-there	EX	there
-'s	VBZ	be
+there�s	RB	<unknown>
 a	DT	a
 zen-like	JJ	Zen-like
 joy	NN	joy

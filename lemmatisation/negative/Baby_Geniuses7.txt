@@ -1,0 +1,10 @@
+There	EX	there
+are	VBP	be
+ticklish	JJ	ticklish
+moments	NNS	moment
+,	,	,
+but	CC	but
+no	DT	no
+real	JJ	real
+laughs	NNS	laugh
+.	SENT	.

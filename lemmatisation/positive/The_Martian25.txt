@@ -12,7 +12,7 @@ his	PP$	his
 character	NN	character
 's	POS	's
 solo	NN	solo
-ordeal—at	NN	<unknown>
+ordeal�at	NN	<unknown>
 one	CD	one
 point	NN	point
 ,	,	,
@@ -21,14 +21,13 @@ Watney	NP	Watney
 calls	VBZ	call
 himself	PP	himself
 a	DT	a
-space	NN	space
-pirate—Damon	NN	<unknown>
+�space	NN	<unknown>
+pirate��Damon	NN	<unknown>
 is	VBZ	be
 the	DT	the
 key	NN	key
 to	TO	to
 the	DT	the
-movie	NN	movie
-'s	POS	's
+movie�s	NN	<unknown>
 exuberance	NN	exuberance
 .	SENT	.

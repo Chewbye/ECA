@@ -1,0 +1,16 @@
+Pizzo	NP	Pizzo
+finds	VBZ	find
+nearly	RB	nearly
+no	DT	no
+drama	NN	drama
+in	IN	in
+Freddie	NP	Freddie
+'s	POS	's
+path	NN	path
+from	IN	from
+high	JJ	high
+school	NN	school
+to	TO	to
+college	NN	college
+ball	NN	ball
+.	SENT	.

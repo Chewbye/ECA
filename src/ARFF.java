@@ -32,14 +32,14 @@ public class ARFF {
 		folderNames.add("negative");
 		
 		for(String folderName: folderNames){
-			File[] files= getListOfFiles(foldersPath + "\\" + folderName);
+			File[] files= getListOfFiles(foldersPath + "/" + folderName);
 			for(File f: files){
 				try {
 					//Path p = Paths.get(filePath);
 					String fileName = f.getAbsolutePath();
 					String fileContent = readFile(fileName, Charset.defaultCharset());
 					//System.out.println(Charset.defaultCharset());
-					arffContent += "\n\'" + fileContent.replace("\'", "\\'").replace("’", "\\'").replace("\n", "").replace("“", "").replace("”", "").replace("\"", "") 
+					arffContent += "\n\'" + fileContent.replace("\'", "\\'").replace("ï¿½", "\\'").replace("\n", "").replace("ï¿½", "").replace("ï¿½", "").replace("\"", "") 
 								+ "\'," + folderName;
 					
 				} catch (IOException e) {

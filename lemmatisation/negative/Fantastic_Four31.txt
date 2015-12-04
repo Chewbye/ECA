@@ -1,6 +1,0 @@
-It	PP	it
-'s	VBZ	be
-a	DT	a
-joyless	JJ	joyless
-relaunch/re-imaging	NN	<unknown>
-.	SENT	.

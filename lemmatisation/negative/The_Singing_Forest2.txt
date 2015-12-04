@@ -1,0 +1,6 @@
+Amateurish	JJ	amateurish
+,	,	,
+irritatingly	JJ	<unknown>
+gabby	JJ	gabby
+indie	NN	<unknown>
+.	SENT	.

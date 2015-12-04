@@ -1,0 +1,13 @@
+Peet	NP	Peet
+does	VBZ	do
+it	PP	it
+with	IN	with
+a	DT	a
+twinkle	NN	twinkle
+,	,	,
+finding	VBG	find
+class	NN	class
+among	IN	among
+the	DT	the
+crass	JJ	crass
+.	SENT	.

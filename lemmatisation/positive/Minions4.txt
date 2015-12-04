@@ -1,9 +1,0 @@
-All	DT	all
-nutty	JJ	nutty
-,	,	,
-all	DT	all
-nonsensical	JJ	nonsensical
-,	,	,
-all	RB	all
-aboard	RB	aboard
-.	SENT	.

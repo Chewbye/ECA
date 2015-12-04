@@ -27,8 +27,7 @@ this	DT	this
 is	VBZ	be
 most	RBS	most
 definitely	RB	definitely
-Damon	NP	Damon
-'s	POS	's
+Damon�s	NP	<unknown>
 movie	NN	movie
 and	CC	and
 a	DT	a

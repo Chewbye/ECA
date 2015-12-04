@@ -1,0 +1,13 @@
+So	RB	so
+mind-blowingly	RB	<unknown>
+horrible	JJ	horrible
+that	IN	that
+it	PP	it
+teeters	VBZ	teeter
+on	IN	on
+the	DT	the
+edge	NN	edge
+of	IN	of
+cinematic	JJ	cinematic
+immortality	NN	immortality
+.	SENT	.

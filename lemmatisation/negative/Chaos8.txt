@@ -1,0 +1,4 @@
+Revolting	JJ	revolting
+exploitation	NN	exploitation
+feature	NN	feature
+.	SENT	.

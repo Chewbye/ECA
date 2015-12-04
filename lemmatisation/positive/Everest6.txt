@@ -1,10 +1,10 @@
-Kormákur	NP	<unknown>
+Korm�kur	NP	<unknown>
 creates	VBZ	create
 such	PDT	such
 a	DT	a
 convincing	JJ	convincing
 world	NN	world
-–	NN	<unknown>
+�	NN	<unknown>
 the	DT	the
 craft	NN	craft
 of	IN	of
@@ -12,10 +12,9 @@ this	DT	this
 film	NN	film
 is	VBZ	be
 astonishing	JJ	astonishing
-–	NN	<unknown>
+�	NN	<unknown>
 that	IN	that
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 willing	JJ	willing
 to	TO	to
 forgive	VB	forgive
@@ -41,8 +40,7 @@ ascend	VB	ascend
 into	IN	into
 a	DT	a
 place	NN	place
-that	WDT	that
-'s	VBZ	be
+that�s	NNS	<unknown>
 heaven	NN	heaven
 one	CD	one
 moment	NN	moment

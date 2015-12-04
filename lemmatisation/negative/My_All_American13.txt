@@ -1,0 +1,11 @@
+My	PP$	my
+All	NP	All
+American	NP	American
+offers	VBZ	offer
+viewers	NNS	viewer
+a	DT	a
+thoroughly	RB	thoroughly
+shameless	JJ	shameless
+hero	NN	hero
+piece	NN	piece
+.	SENT	.

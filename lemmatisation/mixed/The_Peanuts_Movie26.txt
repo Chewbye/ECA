@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 disappointing	JJ	disappointing
 and	CC	and
 actually	RB	actually

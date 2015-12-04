@@ -1,0 +1,11 @@
+There	EX	there
+are	VBP	be
+laughs	NNS	laugh
+here	RB	here
+,	,	,
+but	CC	but
+easily	RB	easily
+as	IN	as
+many	JJ	many
+groans	NNS	groan
+.	SENT	.

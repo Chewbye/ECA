@@ -18,7 +18,7 @@ ideas	NNS	idea
 work	VBP	work
 in	IN	in
 sync	NN	sync
-–	NN	<unknown>
+�	NN	<unknown>
 but	CC	but
 most	JJS	most
 are	VBP	be

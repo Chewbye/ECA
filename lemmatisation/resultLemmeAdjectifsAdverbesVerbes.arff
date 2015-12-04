@@ -1,0 +1,1244 @@
+% Ceci represente la classification de critiques de films en fonction de leur jugement.
+
+@relation critiques
+@attribute contenu string
+@attribute classe {positive, mixed, negative}
+
+@data
+'grim unforgive remain ',positive
+'base true fill stunning feature more good deliver solid be high-altitude leave drain ',positive
+'name be solid big beautiful terrifying merciless ',positive
+'be damn good ',positive
+'classily classically craft good superbly act romantic be set early provide be lift different altogether so transport be social ',positive
+'essentially make big good ',positive
+'anchor great mix weird huge be most purely enjoyable ',positive
+'singular stunning ',positive
+'be here maybe cynical maybe true bleak sometimes powerful deliver blunt ',positive
+'few self-conscious make earnest return American filmmak pay fascinating ',positive
+'capture alarming make complete stress most righteous downplay youthful as well flagrant ',positive
+'be great American perhaps serve ultimate outspoken ',positive
+'also ignore famous work lower-profile trust good touch ',positive
+'play have be run ',positive
+'even glossy new remain ',positive
+'wisely keep often let feel first maybe second overlap familiar new different ',positive
+'tightly pack ',positive
+'give real human allow propulsive breathe stellar good ',positive
+'make Martian be ',positive
+'down dirty base be thrill ',positive
+'breathtakingly gorgeous well act walk be have choose solid fictionalize say go ',positive
+'be only n\'t shoot high around sicken travel get much climb be shoot watch believe ',positive
+'deliver exactly promise cut most innocuous ',positive
+'be sophisticated yet innocent always accessible young never suffer straightforward breezy easy follow fun enjoy ',positive
+'be unapologetically stirring solve even most daunting rational basically ',positive
+'more subtle damn implicate as much legal other systematic wide cultural describe ',positive
+'enormously entertaining ',positive
+'be other new n\'t get already early more ambitious deliver effective do enough avant show temper good ',positive
+'brilliantly act most carefully assemble be good show just hard be uncover painful ',positive
+'be have play many have limit professional nail sound just expect sound ',positive
+'walk be broadly write first be save arguably supersede entirely nerve-wracking majestic spectacular ',positive
+'have be plenty mountaineer last few suffer simply be as realistic be occasionally tell be be still aware gut be not actually film ',positive
+'keenly focus demonstrate be impressive ',positive
+'then now make romantic cut deep be very good ',positive
+'nuanced mutual reflect cast operate render complex strikingly personal ',positive
+'narrative do documentary re-create full glorious rather edit together surreptitiously snap dizzying truly be magic ',positive
+'balance melodramatic several light ',positive
+'fellow strike right here deftly mix spiritual painful biting ',positive
+'walk be visionary ',positive
+'succeed wonderfully offer rare rarify compel make see large oversized actual ',positive
+'be potent largely successful make be tell ',positive
+'go include be prepare intense moral do n\'t conform ',positive
+'basically uphold not condone see mostly consume ',positive
+'walk feel as walk be agitate exhaust be squirm wince few even have close just find ',positive
+'come want feel watch want understand just watch want be entertain also want icy whipping sting ',positive
+'do not collapse own be keep steady next ',positive
+'also confront modern frighten surprise familiar same ',positive
+'be tightly wind out keep many small move be skillful merge telling minute big loop ',positive
+'most other sprint expository bluster last be measure enough make want suspend ',positive
+'debut write have great forward wring ',positive
+'be enjoyable head oddly sinister secret uncertain be Mexican be Colombian be be approximately scary ever ',positive
+'manage sustain outrageous do n\'t take underlie grant instead build crass constant inspired ',positive
+'cerebral push forward have make genuine ',positive
+'have pull remarkable here wink be long have see pure burn slowly steadily lead unexpectedly move ',positive
+'be undeniably also timeless transform angry profane vibrant singular personal ',positive
+'crackle fizz fresh be thrilling reinvigorate well-worn ',positive
+'be good be fluid indistinct ',positive
+'fairly good extremely gruel as far go track true-life battered high yet somehow do n\'t go far enough ',positive
+'heartbreaking poignant sacrifice be superb luminous bittersweet be come call ',positive
+'creative costume build cinematic ache lose find be beautiful experience ',positive
+'realize more modest other be still absolute sophisticated detail counterbalance crude visual ',positive
+'charming clever ',positive
+'be not sure leaven be right enigmatic world-weary provide least very dark ',positive
+'be most satisfying ',positive
+'tautly direct hum tense procedural heartbreaking handle personal respectfully lose big more damn ',positive
+'never lose immediate straight close ',positive
+'dare consider seem too good be true not be ',positive
+'be great other good ',positive
+'prove successful old new no matter emotional ultimately never lose fretful contend ',positive
+'mean be sensational most gripping covert ago ',positive
+'be analyze put essential know all about great take already know make feel ',positive
+'straight be hugely entertaining work good look too closely just listen ',positive
+'take clear-eyed digital honor constant need stay alive relevant fight ',positive
+'be minor multiple fund give creep low-key dark warm human surprisingly ',positive
+'commanding scowl give involve elaborate staunch much well straightforward ',positive
+'robust romantic rich full fill once specialize use well-read respected tenderly observed ',positive
+'be wonderfully odd human all ask emotional creep subtle leave subcutaneous linger long be ',positive
+'be rare just enough simply feel right speak ',positive
+'even high quite prepare startling exquisitely draw deeply feel tease inner supreme breathtaking filmmak most sophisticated accessible ',positive
+'be incomprehensible lay not exactly original make entertaining ',positive
+'unfold seem impossible sustain let alone build somehow manage do just that creep coil suffocate ',positive
+'deliver here be entirely different have come expect recent share true so incredible literally be see be believe as oppose imaginary full impossible ',positive
+'run least work there have expose global help end have good permanent cinematic fine ',positive
+'be impatient be n\'t hurry seduce creepily erotic perfect ',positive
+'be watch make happen be up have use good be stirring spectacular devastating subtle final ',positive
+'occasionally get little overcrowd particularly sticky final have certain timeless keep bounce back ',positive
+'be entitle self-centered be still honest move occasionally even funny happen cripplingly immature young get hit ',positive
+'great call not only obvious similar sometimes crushingly boring also shout adjacent ',positive
+'be not ',positive
+'turn blockbuster almost avant-garde exhilaratingly attune do same be subtle meticulous 3D ',positive
+'impressively design also keep kick ',positive
+'argue Martian many be innumerable delightful small even more infectious ',positive
+'once ardent analytical cerebral swoon be human sparse restrained be ',positive
+'great silent create concrete be animate build elaborate involve everyday transform sometimes entrap properly manipulate provide achieve ',positive
+'dramatic find somewhere drill ',positive
+'go smart click uniformly packed manage not feel overly long social be timeless ',positive
+'sprawling overstuff formulaic highly entertaining pop ',positive
+'be as strong as energize be do ',positive
+'be film use look most never see ',positive
+'grab hold move own emotionally ',positive
+'make fine adept first-rate doltish be start yield satisfy even memorable try build fall apart ',positive
+'celebrate actually show do ',positive
+'terrific great do n\'t have enough hold linger long ',positive
+'be be have raw intimate human be instead rare more valuable urgently personal filmmak stunning ',positive
+'pull punch represent perfect cerebral visceral all bring ',positive
+'refresh old-fashioned entertain silly combine gentle ',positive
+'so fascinating be truly turn solve chief stick manage be so funny interesting infallibly likable invest ',positive
+'final do n\'t transcend emotionally gold be not unyieldingly oppressive underlie ',positive
+'have grand watch be suffer fractured funny need be reset ',positive
+'make unforgettable beautiful ',positive
+'more technically elaborate have ever receive also gentle more other also neat grant no see permanent render more vividly ',positive
+'be expect visual be present account vibrant ',positive
+'be ultimately frustrating have need be modern have need make do n\'t need explain just be ',positive
+'manage be smart moving hilarious single ',positive
+'get several right fail find make average relate ',positive
+'be first have add truly fresh old street-level ',positive
+'buoy have crack open recall marginally simple still chaotic be just take ',positive
+'make feel creep professional however unfair argue have be watch polished come apart catch spiral ',positive
+'be so intent portray not come little soft be probably ',positive
+'be neglect awe-inspiring be feel be unfortunately populate be never more ',positive
+'seemingly flawless have be more convey just bloodthirsty be excel be stellar keep move ',positive
+'set postwar involve black visual make pretty engross be R-rated ',positive
+'help scale down make personal be filmmak soar aerial red be answer intimate ',positive
+'deliver genuine leave open ',positive
+'unashamedly romantic achieve beautifully subtle old-fashioned graceful ripe ',positive
+'be as grim unyielding as have yet be make cinematically overwork subject masterful narrative sensory recast familiar daringly existential ',positive
+'happen particular do n\'t try glamorize make large all mean refuse do so celebrate become special ',positive
+'ultimately though be steal steal do conjure be chaotically charismatic hugely affect well worse thoroughly real ',positive
+'say be good here be grave ',positive
+'be few loose be faithful necessarily less detailed be ',positive
+'be orchestrate be particular out be keep ground keep tight small be complex fit Byzantine obscure ',positive
+'really dig be affect lose ',positive
+'fuel love be make so excessive be reveal be big usually be ',positive
+'work seem overwhelm fail make care ',positive
+'give adorable lead big-city be most pure visual go see ',positive
+'be tactile rich sensory be almost suffocate ',positive
+'vigorous be play crucial ',positive
+'good come late hold die know never get see ',positive
+'perilous central be destine not make say be old do n\'t feel be good ',positive
+'inspiring all back before scrappy determine get topple ',positive
+'soaringly romantic truly sad ',positive
+'do n\'t call be self-effacing accomplished be intentionally low encourage fistful top blend eloquent ',positive
+'find graceful pay not only lose love so much ',positive
+'create convincing be astonishing willing forgive less delicate totally compelling be like ascend very next ',positive
+'full non-stop intriguing new classic old-fashioned swashbuckling lead be charming ',positive
+'have uncover know funny ',positive
+'harness magnify sheer more compensate lumbering lade cloy strained ',positive
+'be world-class ',positive
+'maybe have be enough even slow have burn ',positive
+'passable offer occasional real ',positive
+'take sentimental be perfect ',positive
+'straight often entertaining dynamic ultimately feel as mean act cinematic rest celebrate not only successful trailblazing help define hip ',positive
+'be loud colourful busy full not work most be bold be winningly eccentric ',positive
+'commit wholly maternal scattered mental really dominate ',positive
+'be not exactly feel-good get very particular do ',positive
+'be ultimately be rich almost tactile be astonishing ',positive
+'start end impassioned be spectacular final be real ',positive
+'be require achieve even small be notice ',positive
+'bold pay jettison altogether tell whole goofy sound silly make be contagiously cute ',positive
+'not quite live be certainly least tart mild less acidic be mostly pleasurable ',positive
+'entertaining just perfect first preschooler ',positive
+'commercial deliver smart even adhere relatively simple feel-good aim more play safe be brainy stick familiar more ',positive
+'just little more have be rich evocative even do n\'t believe preach least have border transcendent stand be pretty good not exactly heavenly ',positive
+'be lurid ghastly immensely enjoyable frequently spectacular also thin less substantial want be eat ',positive
+'now middle no longer believe introspective great ',positive
+'be outstanding be remarkable ',positive
+'energetic never manage transcend appear credit fare good ',positive
+'marvelous technical finally get ',positive
+'display same bring ',positive
+'superior together put be tough not get swallow ',positive
+'have speak about understate old-fashioned be come pleasant innocuous be fool be not toothless be romantic beautiful ',positive
+'shoot lovely grainy be so elegantly stage practically smell be methodical precise be fussy oppressive have be weigh consider ',positive
+'beautiful flawless certainly seem justified ',positive
+'ice-cold dead demonic n\'t read be up then run be give be get riveting ',positive
+'most be create multidimensional battle sometimes uncontrollable be clear warm expressive ',positive
+'animate be irreducible wry get first outsized ridiculous beautiful ',positive
+'call mind not necessarily think important seamy sweaty subtly slip mix most satisfying ',positive
+'be use sometimes live walk be different 3D particular be so astonish practically wipe go be learn once be be free be contagious ',positive
+'disappoint look more awe-inspiring big surreal many be make never want look again ',positive
+'showcase appealing ultimately lack adequate prop ',positive
+'bury be ',positive
+'be want reach touch only reach anywhere be perch be unattainable disguise ',positive
+'as much do comic infuse even most ebullient ',positive
+'be nearly perfect come concentrate so single-mindedly lose ',positive
+'well-paced procedural monotonous ',positive
+'utterly uneasy watch strikingly confidently assemble be powerful aural visual quite manage sustain run be remarkable remarkably intense nonetheless ',positive
+'really truly work not necessarily intelligent mainstream have supposedly forget craft creative as well enough make almost grateful ',positive
+'be swell come together as beautifully do also be churlish not appreciate do have not talk definitely walk be grateful ',positive
+'playful absurd endearingly inventive unstoppably amusing remind be current golden ',positive
+'here make master heady high-end high-stakes ',positive
+'be leave itch tell see turn solve ',positive
+'inter-American have serve more few have be as powerful superbly make ',positive
+'mesmerize brace form critical misfire be chief be much else recommend sober sprawling deeply engross complex play equally impressive ',positive
+'unusual pure rough bolster good cast be not fuss ',positive
+'almost too ruthless own push bitter eschew intellectual ban such be very dehumanise be deal brave be follow ',positive
+'downplay conventional inherent emphasize practical be address rational rather selfish ',positive
+'be big brash horribly watchable take extraordinary true conceive familiar generic ',positive
+'be never more move show callow do good help weather particularly rough real-life imagine happy be pretty sure never see all grow ',positive
+'predictably impeccable tonal help bring aid strong especially give otherwise reverent just right ',positive
+'beautifully murky hard-edged quite simply good ',positive
+'best so far lively more disloyal be increase proper even be well earn ',positive
+'make easy young all understand be undeniably intend demographic ',positive
+'compelling powerfully act just enough avoid past distract be good see back ',positive
+'sure deliver melt mean filmmak as natural ',positive
+'solid filmmak subtle excessive ',positive
+'make suppress shoot eternally be start swell gradually finally burst beautiful immaculately make feature pristine glow tousle other like tentative unspoken ',positive
+'be be brainy meld genuine rare actually make feel smarter watch ',positive
+'do n\'t fall apart second exactly do settle less ',positive
+'amaze look amaze listen yet just underwhelming really think about Mexican be superlatively strong conceivable ',positive
+'be overlong sanitize succeed present important contemporary American mainstream ',positive
+'not surprising take do rather not expect side ',positive
+'spotlight good ever make once gripping accurate just get big right such evolve small such look tend react new ',positive
+'be sweet funny smart genuine simple timeless ',positive
+'want feel be up live do conjure breathtaking walk remember ',positive
+'uncommonly bold expressly design frustrate want see strong deliver righteous kick here be instead root provide much more valuable ',positive
+'short sweet charming often very funny have essentially intelligible need ',positive
+'be most comforting ',positive
+'condense hit high provide recognizable essentially act great sink second otherwise compelling funny extremely entertaining beat own ',positive
+'frequently very funny undeniably aim young true be too mild-mannered win new be go please be already fond underlie be big hit ',positive
+'be simultaneously most charming most daring human ever conduct be back fictional be pass next solely ',positive
+'be market sober straightforward superimpose be instead smart exhilarate often disarmingly funny classic ',positive
+'straight be undoubtedly being take loud stylish ',positive
+'all add terrific bias thoroughly compelling very American utterly modern musical ',positive
+'walk last least be dazzling particularly even so most luminous be ',positive
+'feel lose be all be lose all become clear eventually ',positive
+'make give sparkling be deliver dazzlingly mature ',positive
+'be ',positive
+'make matter have comprehend real impossible teach same ',positive
+'wish have do more analyze barely exist certified ',positive
+'contemporary historical also be funny most exhilarate flat-out good ',positive
+'feel less cautionary classy much more ',positive
+'not fatal be narrative final ',positive
+'be unspoken iconic let feel like tread only dare ',positive
+'emotional strong sociological many visceral more less limit procedural pretty good absorbing well-made ',positive
+'combine dizzying taut ravish musical be ',positive
+'as entertaining be exactly further have be stale promising though be unlikely ',positive
+'make auspicious audacious be as engross be thought-provoke ',positive
+'filmmak remarkable not do ',positive
+'understand swooningly beautiful traditional bolster thrilling create great have make serious dreamy heightened fully engage exact have be make ',positive
+'be good have ever make restrained intelligent grown-up unfold pace ',positive
+'be good n\'t quite annihilate make more light-hearted too often feel be channel other here be there be ',positive
+'perhaps most importantly not only do stress use solve also make base scientific just exciting even more unpredictable usual problem-solve involve then blow up ',positive
+'sumptuous clever cold ',positive
+'be all lack be make relatable have spend ',positive
+'be believe deeply be ',positive
+'tight relatively low-key procedural have strong ',positive
+'have be more compelling less tough ',positive
+'observe underlay keep then let require pay big here far more convincing previous big public be unexpected very welcome good ',positive
+'have calibrate so precisely have render good ',positive
+'clean nicely make 100th thereabouts adapt riff prescient happily work take new choose retell famed ',positive
+'craft lean humanize ',positive
+'be hypnotic show be ',positive
+'be terrific live breathe come ',positive
+'cool be first cut unaware there ',positive
+'start spar take magnificently physical tactile ',positive
+'see do make so compelling ',positive
+'waltz own strange hit ',positive
+'quite capture be Irish be gloriously ',positive
+'overly earnest fall rich bring result measure so restrain sometimes magnify lean ',positive
+'be still full still soulful enough recognize still assume be ',positive
+'wind be startlingly emotional not just intimate depict ',positive
+'psychotic convict be not only tasty unholy Irish ',positive
+'fussy most compartmentalize fill most powerful ',positive
+'stick serve still never negate other also show human be ',positive
+'as other great derive relish intricate craft ',positive
+'so many create small work way too hard make sure be pull actually yank hard finish ',positive
+'direct exceptional elegant even come specialize psychopathic play such golden ',positive
+'be so deeply absurdly satisfy be turn just let do tedious critical be grip almost ',positive
+'take work remain constitute full ',positive
+'dark mask easy be feed feed dispense violent vengeful promise clear fetid just ',positive
+'n\'t develop be too busy disseminate extend main ',positive
+'be rare do n\'t lose dogged ',positive
+'initially amusing finally sour ',positive
+'outlandish human be winning not get do n\'t really even try take skyward ',positive
+'be not about fiery thrilling simply tight captivating excel legitimately care make sometimes more enough ',positive
+'provide exceptional ',positive
+'walk be take there give make titter ',positive
+'almost magically transform beguil full comic nimble ',positive
+'be shoot design computer-generated script make most slipshod try make aim low ',positive
+'know well feel first new reunite full familiar ',positive
+'be not over already see favorite brilliant responsible galvanize unforgettable ',positive
+'riveting embody rise ',positive
+'carry enormous excellent invite ',positive
+'be curiously be constant granular never fully resolve ',positive
+'be so raw depressing brutal be so desperate inject hypodermic say warn ',positive
+'familiar general unusually raw ragged emotional fraught knockout ',positive
+'not easy make beautiful be low really matter be old-fashioned so masterfully craft heartfelt hard not love ',positive
+'suspenseful slap wear ',positive
+'never entirely satisfying be visually dazzling boast lively even transfix keep flow ',positive
+'do look be shoot even be suspiciously light cheerful tend thrive chilly more dour ',positive
+'more most about fairly recent be so well write act convey convincing ',positive
+'crimson sexual dark be supernatural human gigantic be most terrifying ',positive
+'be straightforward thrilling metaphysical emotional say pure ',positive
+'not easy make emotionally involve most pivotal be about make circle save few overly dry prevail ',positive
+'be cast inherent low away play pert as always be catch avian ',positive
+'be so good true just sneak be ',positive
+'be good solid well-executed more less ',positive
+'take flutter around huge black watch painterly be not particularly substantial ',positive
+'become somewhat predictable excitingly twisty involve Russian desperate gold have just enough make familiar fresh ',positive
+'be respect pay all around ',positive
+'involve bring warm lesser be ',positive
+'taut timely be brilliant ',positive
+'traditional many familiar visceral striking first ',positive
+'keep be gaze not childishly wide-eyed capable still feel terrific know get alive spend few be back seize ',positive
+'gorgeously photograph sensitively write direct flawlessly act deeply intensely important be most brilliant ',positive
+'play now have make meticulous exact procedural real-life excel have do properly early publish first Prize-winning grim carefully detailed ',positive
+'highly entertaining sometimes inspire be more perhaps most memorable sardonically test tease basically famous ',positive
+'magnify pervasive surround modern be good convey creep complex sustain ',positive
+'gorgeous inspire whole new ',positive
+'sharpen become far more compelling ',positive
+'often drown dramatic dreary grisly use dubious however operate ',positive
+'so many consume daily be magnificently nerdy make absolute be hold talk take follow hound pore fill have slam ',positive
+'get vital independent professional ',positive
+'be extraordinarily wise turn other enormous do so ',positive
+'have enough reasonably entertaining be interesting emotionally compelling ',positive
+'be nearly intimate rollick almost impossible be perhaps only huge reveal evaporate awfully quick ',positive
+'Gothic be outrageously sumptuous gruesomely violent design ',positive
+'be never so hypocritical so banal so evil ',positive
+'be show feature good dramatic ',positive
+'be often contrast scary be so seductive understand belong ',positive
+'digital deep emotional keep sweet simple perfectly adore ',positive
+'rare improve go shed get matter ',positive
+'be little overwrought borderline be partial Victorian big frilly deliver uncommon ',positive
+'always seem know want be still full ',positive
+'delightful capture adore comic ',positive
+'model so closely only draw close ',positive
+'be tremendous ',positive
+'tease possible great tilt so subtly do so even feel go ',positive
+'fit together like beautifully manicure sleek figure prominently ',positive
+'clock slim whole fly quite pleasingly warm funny reassert high ',positive
+'use intriguing cast bizarrely effective ',positive
+'latest be sumptuous beautifully construct feel archaic inviting ',positive
+'be good musical last ',positive
+'strip be about long ',positive
+'be never less engaging often much more ',positive
+'be low-sling dirty challenge engage equal move grim confound very final ',positive
+'feel timeless modern dexterously craft have be make anytime somehow feel perfect now ',positive
+'have see probably have n\'t have much modern ',positive
+'endow not examine open-minded rather easy ',positive
+'most entertaining provocative ',positive
+'turn fittingly good so far countless claim be base actual ring consistently dramatically true ',positive
+'potentially be chilling horrific be also beautiful ',positive
+'gradually turn very specific move ',positive
+'have generous visual satisfy ',positive
+'dogged righteous misdirect be keep revel too much make emotional ',positive
+'somehow feel familiar even cozy make great feel old ',positive
+'rather procedural complex international understand least ',positive
+'be terrific be often be explosive have be deliver only deliver be unfortunately as timely now first hear ',positive
+'think make use be glorious ',positive
+'play usual hot clandestine add ',positive
+'engross occasionally move electrify other take chief ',positive
+'mad embellish make cadaverous ',positive
+'not be sublimely uplift affirm ',positive
+'sweet stamp refreshing nostalgic be as welcome just discover be bear look pretty ever imagine ',positive
+'old-fashioned be always romp ambitiously aimless be all-too-rare ',positive
+'digital be undeniably contemporary be otherwise mostly play rarely give contemporary pace do arrive however effectively unsettling ',positive
+'tempting think undermine muster ',positive
+'push most ugly off notorious play do most fulfill breathe be still be feel ',positive
+'potent visceral alike deliver big ',positive
+'make indelible intense personal social have brilliantly master navigate ',positive
+'live double be true more ago remain true now want want be damn ',positive
+'here be be good good German be fantastic technically be here be be bad suck keep promise be clever engaging subtle completely fail deliver ',positive
+'have leave sugary be bring together calm almost ',positive
+'brilliant make hard inspiring ',positive
+'be tragic here be overarching offer either seem pretty pat take leave be just there ',positive
+'begin never dig tell flat ',positive
+'solid not stellar well put together very well act lack only genuine exist ',positive
+'profane sexual be no more cynical world-weary feel clever wrap hollow ',positive
+'be sweet sentimental filmmak old too sincere get sticky put probably enjoy even occasionally aware masterful ',positive
+'especially give solid play effectively be well appreciate vintage ',positive
+'leisure-time say be so play again ',positive
+'work co-write pull fabulous own deliver mainstream have poetic ',positive
+'dramatic have get low be tremendous feel more dastardly ',positive
+'remind rather digital be often most potent ',positive
+'be strong occasionally jar moral enthral start here ',positive
+'straight remind not only be mean also matter still do ',positive
+'be simply great exceedingly well tell be perpetually stain ',positive
+'most fascinating be lean rather make fight ',positive
+'bitter-sweet Irish bring impeccably excel ',positive
+'crisp 3D clear fluid thrilling immensely impressive involve get short ',positive
+'hunger rich present not illustrate deal poignant impassioned ',positive
+'deserve bring brace be just quit be just as effective more low-key ',positive
+'buy good be worth wait unquestionably deliver ',positive
+'have few be questionable be mostly powerful thoughtful visually striking ',positive
+'be creamily sensuous richly observe handsomely detail furnish be all superbly present be intoxicate ',positive
+'straight play well be show abuse be good do n\'t sidestep malicious stand be electrify speak urgently right now ',positive
+'visually spectacular consistently entertaining procedural suffer only hit emotional usually require make adventure really take ',positive
+'sensitive dewy-eyed mature be appealing ',positive
+'third really have go way crazy ',positive
+'be strange sometime seem be nudge even be tell quite different ',positive
+'be rare journalistic procedural deserve be mention same never glamorize make hard-working do free particularly ferret local ',positive
+'underrate out have make tight tense pretty pepper spicy ',positive
+'celebrate indomitable human common think almost occasionally preach ',positive
+'fulfill limited provide fast-paced nice add memorable ',positive
+'be burn look enough incidental total feel immense ',positive
+'wrench bloom stroll universal urban ',positive
+'female be horrific be presumptuous suggest such woefully misconstrue thematic be male warp patriarchal manipulative ',positive
+'walk absorbing offer just span also ethereal now-vanished ',positive
+'be investigative stark head now have become endangered be unique focus almost entirely ',positive
+'support be be particularly strong concerned be most definitely unabashed ',positive
+'be glossy real make creepy look here be not ',positive
+'expect sexy get here co-star funny never uproarious provide own modest ',positive
+'be easily good most beguil be also go deep sad true ',positive
+'say feel about walk have never see do see n\'t love only say strike honorable good though lovely offer ',positive
+'notorious astound good long step equally well ethically questionable flirt wrong ',positive
+'work expect be be earnest not showcase full do honor ',positive
+'be most towering be manage be brash exhilarate even occasionally move ',positive
+'unique visual be be predictable be flat supernatural be red paraphrase so much be ',positive
+'use sometimes make alienating even confusing cogent strikingly confident be harrow cinematically rewarding ',positive
+'remarkable refashion reignite extraordinary be terrifying watch too gripping look away ',positive
+'contemporary be generous inclusive fast-moving allow such grandiose genuinely inspiring ',positive
+'so many be joyously minimal ',positive
+'once again prove craft gripping never collapse own moral be not easy watch be riveting essential ',positive
+'delightful stop-motion animated feature be be be not ',positive
+'view modern-day existential ',positive
+'never quite reach early nonetheless respect always include ',positive
+'take genuine take complex difficult make look easy also take great take dense be make practically sing ',positive
+'great be consistently enjoyable ',positive
+'write have make ',positive
+'major be not there creepy prowl happen here now not least there then ',positive
+'sweeping represent great ',positive
+'even mild approach tell powerful engaging compelling challenge change young black in turn challenge change ',positive
+'abrasive contemporary capture more accurately recent think jagged exacerbate jar ',positive
+'remind just chill bump supernatural be suppose be just be just many red show first crusty ',positive
+'lack same constant last visual nonetheless mark rare effective focused ',positive
+'visually vivid run solid not electrify act ',positive
+'last be n\'t ask only giggle squirm scream swoon ',positive
+'be feel deeply sometimes literally hurt watch ',positive
+'here tell involve be make good good only go so far ',positive
+'more interesting controversial be inside grimy electrify illuminate creative ',positive
+'have bring function very well high ',positive
+'stay true be worth happy alike ',positive
+'entertain often be be also give be radical ',positive
+'bring crazy scraggly call be ',positive
+'work be equal fully develop visual assured be small be impressively rigorous ',positive
+'admirable present difficult suffer eventual melodramatic ',positive
+'often feel good have old-time make most ',positive
+'be really first dizzying early so strong n\'t be describe deny be identify be lucky ',positive
+'be perfect act uniformly superb be sharp zippy only occasionally ',positive
+'do effective convey like climb spend acclimate punish physical accompany subsequent ',positive
+'creative be most elementary need bring orchestrate considerable excuse be fit together almost perfectly ',positive
+'never lift perfect perfect be serve perfect abruptly take together betray true ',positive
+'be not simply good feel urgent important ',positive
+'be least express superb lovely ',positive
+'only combined make be powerfully realize ',positive
+'amble amiably enough well be more ',positive
+'get German weary deliberately reminiscent have embrace ',positive
+'be tentacled grab squeeze continually defy ',positive
+'stop-motion never cease fascinate episodic hinder true emotional ',positive
+'not take exert powerful ',positive
+'polished engross procedural offer old-fashioned chiefly smart scrappy stop uncover systematic ',positive
+'be masterful make fall away certain ',positive
+'straight be most potent ever make ',positive
+'not iconic match be topical supremely craft intelligent heartfelt humour die strap ',positive
+'have never seem more do here adrift ',positive
+'be wrong be most frustrating ever put dare show usually work big ',positive
+'crimson be so preoccupy be visually stunning forget be scary ',positive
+'look simple own likely inspire seem too interested ',positive
+'look exciting no-nonsense little totally be lie great ',positive
+'straight prove as infectiously entertaining be educational richly textured thumping confirm ',positive
+'be surprising even wondrous be often precisely crooked inform ',positive
+'intimate pitch-dark subject only avoid feature alive not only inner own shared know lose ',positive
+'be bizarre surreal far out always feel paradoxically real ground deeply true ',positive
+'be deeply satisfying intense drive spectacular typically mesmerize other especially middle be frustratingly self-indulgent ',positive
+'comic late undoubtedly approve give have ensure remain true artistic ',positive
+'enthrall rigorously realistic ',positive
+'be shocking effective soak dry brown ',positive
+'be most purely enjoyable have make streamlined consistent pace aid make wrongfoot make easy ',positive
+'Italian have artfully make act ',positive
+'be not appear cast ',positive
+'serve authentic intimate understand be want belong ',positive
+'be sophisticated such fulfill satisfy ',positive
+'such stately evocative confident filmmak only be also chilly ',positive
+'be great rank there certainly good also happen star ',positive
+'most engross be gradual grueling first then broadcast ',positive
+'be gripping superlative solid procedural try confront ',positive
+'ignore spectacular ',positive
+'possible be heartwarming tough-minded wonderful demonstrate possible be vibrant too good ',positive
+'cut be good still strong energetic support elevate uneven ',positive
+'be many remain favorite so far ',positive
+'moral take away instead leave prickle deft perceptive set take overturn ',positive
+'say be not be black have male make seem mild ',positive
+'confront hard few make make alive ',positive
+'thrilling disorient drain exist seemingly own devise ',positive
+'arrive unevenly script fact-based achieve full even achieve ',positive
+'be gold-plate thumping resonate same watch get touch next many hackney religious ',positive
+'disorient many exhilarate nevertheless maintain straightforward involve internal ',positive
+'unusual offer false do insist bear ',positive
+'start out strong quickly then get tangle fall apart ',positive
+'sombre hypnotic make feel carry single prod smirk wear along most ',positive
+'be guiding brisk make charming here stand-alone ',positive
+'high find wounded rather ',positive
+'make exalt extraordinary suggest be obey noble high be blunt businesslike begin long ',positive
+'unsurprisingly be real ',positive
+'be back wistful resonant wry honest cinematic ',positive
+'soar swoon gently nostalgic take new reassuring emotional ',positive
+'fear involuntary comic arise sparse finicky somewhat bouffant ',positive
+'be present be compelling ',positive
+'now grow accustomed back be well creative see innovative narrative lie dormant technical cinematographic do not always provide great be almost always quite see ',positive
+'be most majestic real dazzling digital exhibit ',positive
+'reveal profound simple familiar end achingly bittersweet ',positive
+'be gorgeous gently groundbreaking be sad ever see more hugely accomplish exquisite American ripple very specific understand risky most necessary ',positive
+'decent never go deep enough genuine ',mixed
+'be colourful reference be smart sharp be delightful visual appealing ',mixed
+'all too dumb ribald most like come well ',mixed
+'sinister be far perfect have rare much modern ',mixed
+'micromanage fix gruff shine ',mixed
+'last be redeem complex aptly illuminate further stolid be balance support even criminally limited make even macho seem entirely plausible ',mixed
+'entire be allow have be rather devastating suppose be set eternal arrest ',mixed
+'convey hang almost never see talk creative override detailed include massive late be definitely not ',mixed
+'be intone humourless genuinely love such full rate good recent find alternately stuff get too excruciating ',mixed
+'consistently off fail ever click ',mixed
+'most curious be forgo real sexual much less opportunistic past be refresh yet write fairly conflict make mildly engaging ',mixed
+'crimson be gorgeous ',mixed
+'feature sumptuous pitch-black creep be misbegotten large follow so closely ',mixed
+'be as thin ',mixed
+'have be tautly pace instead come feel leave too much ponder narrative ',mixed
+'nonetheless have strong wacky wildly absurd plot ',mixed
+'sinister know want be add much ',mixed
+'good German be say be brilliant even be not merely dead most sincerely dead other lie there as admire ',mixed
+'follow be good n\'t help see seem entirely restless be remind ',mixed
+'nearly so wacky grotesque down romantic wish ',mixed
+'only spend more less have have ',mixed
+'make see evil come also rob most potent study little hint be about go horribly horribly wrong sentient be poor ',mixed
+'be intriguing ultimately sinister snakelike criminal deliver ',mixed
+'be perilous vertiginous be remember much more ',mixed
+'deftly make divert young unlikely linger temper ',mixed
+'so many be too busy fog hot see big ',mixed
+'crimson astonishing do n\'t enhance co-write overwhelm encourage stand back admire be involve emotional lurid ',mixed
+'close depict be appreciative enjoyably familiar inspired smart offer ',mixed
+'be n\'t sweet be homespun populate broadly draw solid sound gulp ',mixed
+'have feel monumental fascinating flip upcoming Prize-winning sexual Catholic instead want make succeed not intend ',mixed
+'eventually become more tolerable cloy make impossible appreciate turn be bracingly pragmatic ',mixed
+'make valiant even thin lighten harden remain never forget be watch big do resist maybe imaginative enough penetrate ',mixed
+'hard shake be play almost as try replicate have give same long roll grasp ideally distracting ',mixed
+'barely get get old quickly ',mixed
+'not as terrifying Norwegian black still good find recent ',mixed
+'attractive daunting make odd unfold ',mixed
+'offer passable else be well avoid ',mixed
+'assemble first-rate take feel icebound strangely abstract lack genuine first-rate ',mixed
+'twisty juicy compelling remain staid keep political thematic be explore as satisfyingly hope ',mixed
+'grim even grim indulge quiet more complicated offer subtle ',mixed
+'have fail capture hope make good ',mixed
+'shoehorn sometimes work manage steep climb quite make ',mixed
+'sheer sepulchral most leave reign well-nigh forget ',mixed
+'far bad be most disappointing have be wonderful delicious classic simply do n\'t come ',mixed
+'be less splatter serve strong know be ',mixed
+'many feel be more juvenile less polished feel less labor previous ',mixed
+'so much be certainly have also feel dispiritingly riskless ',mixed
+'never hit capably decently tell important ',mixed
+'attempt extroverted acting ape have produce so self-conscious be drain ',mixed
+'be clear be once too pad too thin be as real-life be so unruly dangerous become cop force ',mixed
+'long short be easygoing small-town ',mixed
+'straight spiral bloated melodramatic still worth early capture just powerful really be ',mixed
+'lead acquit relatively well here hint interesting have be only captive be ',mixed
+'good painfully sincere animated seem aim less contemporary nostalgic buy market be be bill 50th ',mixed
+'give ferocious steely mine genuine ',mixed
+'ultimately though be vague languid ',mixed
+'high-class go slip down fine noisy converted get race even roll ',mixed
+'suffer include end implausible too heavy ',mixed
+'be good there ',mixed
+'sinister be ambitious good be be express dumb unmove repetitive ',mixed
+'first speak be know simply mutter get head back be well ahead ',mixed
+'airless visual mannered compound have be good save though be pretty tame ',mixed
+'underplay even operate often come as monotonous still generate almost lend capable loyal ',mixed
+'dirty be entertain enough spawn do come as date ',mixed
+'look shiny enough keep engage not so new improve alienate nostalgic strike add here there ',mixed
+'unfortunately promising turn be merely thoroughly generic much pull last big long dispiriting thereafter largely relapse ',mixed
+'sinister come short creative probably get enough right entice partial ',mixed
+'play extended not ',mixed
+'easy laugh arrant heavy-handed pen even easy admire persuasive emotional lead do not transcend so much as imbue ',mixed
+'be commit generally appear frail indeed barely commit ',mixed
+'enterprising entirely convince ',mixed
+'promising prosaic ',mixed
+'least entertaining be jostle messily propulsive ultimately emerge dominant red-blooded be never dull watch ',mixed
+'not much find just rather sputter high ',mixed
+'sweet smart charming not much more cute ',mixed
+'persecute be profoundly conservative Christian ideological classic paranoid certainly unique be targeted specifically aim share ',mixed
+'high-end inventive urban film carefully select futuristic be all very well have do little loose more more grimy more stone ',mixed
+'decode ultimately become gentle probably provide handsomely be also tacit ',mixed
+'premature nimble fellow also have numb purely unfunny ',mixed
+'overall be gorgeous nostalgic be definitely unravel work final come ',mixed
+'here be root retrograde have be easy have be position fantastical unleash ',mixed
+'have make decent aside choral be ',mixed
+'party be as bland all-purpose feel more serious get mean be young black gifted fabulously wealthy much desire do far good heavy more dapple ',mixed
+'be ultimately negate relentless ',mixed
+'be ultimately decent great unfortunately fall short aspire ',mixed
+'battle preposterous be good serviceable work turn jerky ',mixed
+'patchy only thrill finally step still 3D touching ',mixed
+'jumble third indifferent ultimately make disappointing be have try figure costume little really want ',mixed
+'however flavorsome though be seriously deficient narrative be lovingly frame carefully light fatally insipid be slack pace be perfunctory ',mixed
+'only unscathed lend convincing not enough resurrect again ',mixed
+'have do well dig deep set high intrinsic actually really use right now ',mixed
+'formulate idiotic develop predictably lackluster ',mixed
+'only more boring be actual ',mixed
+'be noble be harshly realistic also overly melodramatic have good ',mixed
+'be vividly portray particularly set never make crucial ',mixed
+'plus be high quickly be reach nearly splatter climactic be really scary though especially so predictable ',mixed
+'impossible not be somewhat catch be oddly depict horrific underwhelming distance ',mixed
+'even manage solve most enduring make interesting exalt ',mixed
+'tell be admittedly unbelievable so understandable choose leave sadly strip especially crucial ',mixed
+'have be instead be mostly dull proof do n\'t make use ',mixed
+'striking clever effective have be make simply familiar have be be predicate slightly less shallow chant ',mixed
+'work hard hit lurch overall lack smear ',mixed
+'play other readily corruptible reluctantly innocent elevate suggest genuine sisterly long too bad try too hard make laugh not hard enough make feel ',mixed
+'new be fascinating charming cram overstuff curious too get seemingly hard wonderfully right then cave have be easy ',mixed
+'white such be surely not try peddle merely see replicate do fairly slickly ',mixed
+'be once cautionary apparently too close recognize ill suit be translate have emerge corny stilted burp really off ',mixed
+'hold high as handsome technical be good German failed ',mixed
+'n\'t commit be make gritty light final be wonky particularly feel particularly muddle ',mixed
+'do n\'t miss be come turn ',mixed
+'find nearly high ',mixed
+'choose present light comic early overcome final ',mixed
+'have very ominous sell inconsistent pretty well be still just proceed more less suspect ',mixed
+'be interesting even compel prosaic suggest full encompass deep disturbing enduring have only begin be touch ',mixed
+'though much be flat taut visceral never err ',mixed
+'still find root even always up snuff ',mixed
+'be competently stage maintain dissonant ',mixed
+'be pretty pedestrian turn die so-so serviceable look rent speed instead ',mixed
+'have little feel dramatic instead feel inert ',mixed
+'be pleasant charming make beloved classic genuine adequate do n\'t feel quite enough ',mixed
+'recreate do crackerjack so-so least intentional skip deep altogether ',mixed
+'first-time aspire become perhaps lay apt here do so have go develop solidly invest ',mixed
+'be not gleefully earn enjoy teen splatter be disappoint honor ',mixed
+'seem try new do n\'t fit either ',mixed
+'be not be n\'t entertaining be inventive unhinge be either gloriously great gloriously terrible captivate be though ',mixed
+'be barely entertain be only have about almost feel legitimate ',mixed
+'give breathe stay fresh relevant maybe have snort ',mixed
+'have gritty rough ',mixed
+'last aim pulpy never funny detailed need be look middle even seek elsewhere ',mixed
+'be prime make highly skilled intelligent nevertheless seem misguide ',mixed
+'handle competent be muddle pull basic distinctly chilly European ',mixed
+'direct limp first put big ',mixed
+'bitter manage wring solid scare other invade utterly familiar ',mixed
+'get ghostly right red black wail receptive go wildly overboard aim shift crumble English ',mixed
+'be visually splendid lose few render main distinct ',mixed
+'still experience be entertain animated ',mixed
+'co-star be fine stand blonde naturalistic ',mixed
+'be frustrating many quite deliver thrill many be hope moderately engaging mean be centrally powerful ',mixed
+'be well-intentioned ',mixed
+'delve own embrace unrepentant all Zen-like be find adolescent ',mixed
+'feature undiluted titular pale unhallowed run dry long leave lumber half-hearted ',mixed
+'aflame awash undeniably ravishing yet ultimately disappointing be sink own sanguine below ',mixed
+'unfortunately unbridled be n\'t match similar other have make low worthwhile ',mixed
+'serious soapy provide least arrive opportune ',mixed
+'fascinating ',mixed
+'be technically stunning narratively thematically hollow ',mixed
+'likable satisfyingly high splatter ',mixed
+'be appeal display undeniable narrative make ',mixed
+'be really change very little maybe put even consider dig deeper still several live powerful make tough dismiss entirely ',mixed
+'double down gross-out gag find hilarious else ',mixed
+'go human be real ',mixed
+'flashy aggressively superficial likely disappear ',mixed
+'not even occasional endlessly ooze red cry red flaming crimson infuse gorgeous red-blooded ',mixed
+'blood-soaked practically end promotional ',mixed
+'bolster strong tight be admirable worthy new burgeon ',mixed
+'decode do not feel rather straightforward work hard present be sell ',mixed
+'provide soar distant storytelling narrative ',mixed
+'feel other let know good German be as emotionally cold unconvincing have see ',mixed
+'be no deny be ambitious be be label wholly original feel far new never mind necessary ',mixed
+'do do rumble silly as far act not much ',mixed
+'be sprawling feel have be great instead roam up be just pretty good ',mixed
+'flabby repetitive pepper exquisite sonic not ',mixed
+'feel dodgy tentative uncertain as frame own complicated journalistic ',mixed
+'crimson end keep visionary busy truly spark come ',mixed
+'be usually inspired perfectly suit be ambitious be very beautiful high-minded remote ',mixed
+'visual be heighten here absurd slide ',mixed
+'be skillful overly reliant borrowed especially come be first-rate be secondhand half-baked feel more costume costume ',mixed
+'walk be much less be so good ignore ',mixed
+'continue begin creepily effective feel more unnecessary organic original ',mixed
+'alternately rivet weary up-to-the-minute relevant as well self-indulgent much heroic end juggle more handle ',mixed
+'lose get most right put together gritty melancholic southern come produce unique rise ',mixed
+'be mild least exist ',mixed
+'maybe so much seem boring directionless so little be comprehensible be many ',mixed
+'largely succeed stumble minimal broaden together ',mixed
+'once thinly conceive maddeningly irreverent over-serious chock-full strained other creepy be elaborate make strangely compelling ',mixed
+'be leave feel get take be be lack ',mixed
+'wide-eyed human pack enough pull black even run partway ',mixed
+'try bring testimonial lose find together only succeed hamper masquerade ',mixed
+'have always be narrative secondary fortunate seek have be go home mostly disappoint ',mixed
+'Christian take dramatic forward well-appointed base sound as be write perform record ',mixed
+'disappointingly ditch modest visual ',mixed
+'have try resurrect classical principally suck own filmmak ',mixed
+'n\'t help evoke strong young haunt barren provide narrative ',mixed
+'last be big overblown frequently incomprehensible ',mixed
+'occasionally seem little too impress own still be involve grown-up muscular continue impress call same mince ',mixed
+'still adore find here be nearly as bore ',mixed
+'less desperate own harmless far less crude favor big sexual ',mixed
+'be not calculate seem ',mixed
+'fashion have produce thin reduce rather amplify famous ',mixed
+'aside few symbolically charge little distinguish overlong ',mixed
+'be only partly be mostly few take uncontrollable be confident swagger not despair be elaborate be be almost totally lack ',mixed
+'appealing seem likely entice only unquenchable ',mixed
+'have ',mixed
+'more potent thematic be relentlessly insular ',mixed
+'be here easily many ',mixed
+'feature stellar apparently seek prove be interested be popular red as well go down relatively easy contain empty ',mixed
+'first-time begin enticingly dark first descend steadily downward ',mixed
+'too much here simple apocalyptic come have be plenty ',mixed
+'play English major overstuff real-life be draw largely simplistic be straight out white mean well ',mixed
+'be much straightforward sweet hard-working predictable ',mixed
+'be awful get suppose least look professional ',mixed
+'good creepy involve beta patchwork be bring about ',mixed
+'occasionally win manage impose restless ',mixed
+'straight do n\'t shy entirely ugly include glorify perpetuate advocate revel instead own ',mixed
+'want live old still stand new be just flimsy hold classic ',mixed
+'curious grim gory ninth be striking sorely lack great be capable so much more ',mixed
+'first two-and-a-half west be burst second be immobilise ',mixed
+'be be exactly play dark bad ',mixed
+'do good generate spark separate be as contrive animate ',mixed
+'rather pioneer slog most well-traveled ',mixed
+'walk be rare please practically just look enjoy sound tall up be discreetly poignant ',mixed
+'substitute here have ironically title generic somehow wind big instead ',mixed
+'be sew together prove crude slapdash ',mixed
+'have prove have get strong be barely aim ',mixed
+'valiant never quite scale dizzy emotional require run final visually though stunning ',mixed
+'be n\'t nearly as bad think be be still not good ',mixed
+'recent sharp-witted mock freshen have do doom nostalgic only trudge black jagged yellow up down ',mixed
+'crimson be lock formulaic come as contented go Gothic refresh ',mixed
+'odd be whip make noble brush get right be busy stress slow have listen say be lie before be tell now do n\'t trust ',mixed
+'offer little less have ',mixed
+'compelling have succeed overcome cosmetic only offer overwrought ',mixed
+'ultimately be not concern be grimly efficient build help wonderful even never quite reach dizzying ',mixed
+'convincing escape addicted be save decent dramatic somewhat weigh mildly religious ',mixed
+'give try make sit there gape be even quickly become repetitive ',mixed
+'add Australian be mean nasty more brutish American change roughly preen be preposterous routinely execute ',mixed
+'do different here do Caribbean once again unrecognizable elaborate speak peculiar thick ',mixed
+'most basic still have creepy tasteful create strong unsettling ',mixed
+'new be wrap be have be intriguing rather off-putting turn be ',mixed
+'have be gory aplenty displace impregnate ',mixed
+'aid lean parched respect try avoid usual not easy entirely succeed ',mixed
+'not happen hear be turn ',mixed
+'meander over-familiar empty face callous trip break naturally play lose ',mixed
+'feel bias sanctimonious ',mixed
+'real make entire strange ',mixed
+'strain overheat ',mixed
+'briefly pick encounter be also seem unwilling linger too long become rewarding ',mixed
+'supposedly transformative have very little preach apart purchase hit ',mixed
+'all put together crisp suggest swiftly move big ',mixed
+'be have right now be great ruthless have ',mixed
+'rot godless be great however be only walk fully manage hold own share ',mixed
+'somehow too drawn-out abrupt get galore ',mixed
+'vaguely base video not be idiotic bafflingly dense endless final lifeless anticlimactic do have visual ',mixed
+'just cut anymore ',mixed
+'expect too much cheesy have solid occasional bright be say neat final go more bearable ',mixed
+'have manage bear be n\'t be be there know move as need have mark good be excruciatingly miss behave as discover have commit really do n\'t as much think do go anyway be ',mixed
+'be gleefully offensive unpalatable mainstream be more similar like think accuse lack even find perfect ',mixed
+'do find crass ',mixed
+'be often absorb skillfully play snarl have much ordinary be left gasp ',mixed
+'few nice emotional whole play too desperate slapdash whip require sell such thin far-fetched ',mixed
+'move temporarily distract haphazard ',mixed
+'handle kinetic impressive be major weak ',mixed
+'gifted have make be very bloody bloody stylish be certainly unequaled be also conventionally plot not surprising scary resurrect hoary ago utilize conventional rather fresh subversive ',mixed
+'be dumb be have be also here not quite realise ',mixed
+'know inspirational have make mine overmatch well-intentioned ',mixed
+'exactly frightening be so well-worn now hard be particularly startle transpire able wring sufficient ',mixed
+'do get mire own ',mixed
+'be interesting crazed sell be use mentore gullible gutsy young try impart wizened ',mixed
+'get too excited not only be there especially dirty late lame erstwhile even occupy entire ',mixed
+'be too busy too gross sustain effective tumble just be swoon sigh earnest ',mixed
+'be not as much usually bring gently joyous though be capable find ',mixed
+'never sure want be hard-edged have plenty admire tonal ',mixed
+'last end crumble generic murky snatch final be literally frame possible ',mixed
+'be well as love here involve have come care about be finally sad though not always dramatically involve ',mixed
+'be ultimate baffle see be appropriate awfully middling ',mixed
+'be flip never truly eerie scary ',mixed
+'be fictionalize true least fuse real composite have result tight ',mixed
+'last boast terrific digital Less impressively be clog flat sluggish get lose too much fabricate witchy ',mixed
+'well succeed attract literally faithful heavy-handed proselytize prove do n\'t pray daily ',mixed
+'start intriguingly end solidly be else be n\'t particularly compelling ',mixed
+'spectacular well-act suffer much same depict too many too many follow so affect individual get lose ',mixed
+'then do up so insubstantial last no longer ',mixed
+'run not only run low internecine compete early gifted young make big national turn ploddingly sentimental sudden painful ',mixed
+'thin have offer do reaffirm retain far afield take ',mixed
+'short suffer same ',mixed
+'last feel first would-be similar tell stand-alone ',mixed
+'be base same also have much appeal fast explosive special inscrutable ',mixed
+'be ultimately see first be channel witty lift then n\'t quite sustain ',mixed
+'keep wish just cut loose go deep go fatal anymore serious be tear too grim self-important go truly too silly slipshod work more somber ',mixed
+'go make make second look tell come maybe ',mixed
+'extremely most cover real distracting yet slip quietly mesmerise ',mixed
+'disappointing actually cynical try even vaguely innovative beloved ',mixed
+'run mere increasingly seem repeat ',negative
+'look colorful smooth emerge not aware really know do ',negative
+'be be n\'t very funny ',negative
+'be impossible imagine release bother ',negative
+'be certainly move unfortunately tell most prosaic imaginable miss single one-dimensional noble banal requisite sermonize ',negative
+'witless serve vulgar ',negative
+'be just hold whole be ',negative
+'loud repellent badly write indifferently direct almost completely devoid genuine be essentially 12-year-old still derive basic mere spurt bare good appear same ',negative
+'most shocking be fight have list ',negative
+'be overall raggedy unfocused waste act feel too much ',negative
+'lewd crude blessedly brief ',negative
+'mean least inspired know ',negative
+'never bother show try convey broad be too busy showcase degrading ',negative
+'large essentially fall black be largely genuine ',negative
+'awful subversively spunky same ',negative
+'be grotesque deadly dull cinematic ',negative
+'be not awful high seem steep pay ',negative
+'exuberantly rude crude generally more frantic genuinely funny ',negative
+'bad be let count just ',negative
+'be cacophonous computerized cinematographic deafen hurried extinguish genuine ',negative
+'over hit new true combine possibly resist ',negative
+'supremely idiotic ',negative
+'deform confirm very argue narrative namely unwarranted ',negative
+'be n\'t be good say ',negative
+'blatantly female exist solely service good have feel retrograde make ago ',negative
+'not quite be most brutal horrify ever make garish promote do contain thoroughly sickening bloody ',negative
+'be so name be be large serve ',negative
+'offer thoroughly shameless ',negative
+'have requisite ',negative
+'think look uncomfortable play get portray married wonder gay mean-spirited ',negative
+'be definitely love video think be eminently watchable bad flick be be wear ',negative
+'compare similar be protective come feel calculate not earn ',negative
+'previously helm have milk gleeful gross-out settle mean-spirited ',negative
+'chameleonic be noisy colorful enough amuse ',negative
+'not have be wrestle pulverize quiver trust be synthetic not single emotional entire feel organic ',negative
+'sixth be not try make legitimate basic narrative add alleged ',negative
+'premature nearly inventive witty find fresh repeating overestimate much care bland clueless ',negative
+'low common ',negative
+'be have be intriguing situational devolve hateful arduous ',negative
+'call amateurish be kind ',negative
+'be deep deep far most enjoyable often see enthusiastic fleck ',negative
+'be base video same be explain thin abundant ',negative
+'only so-called cautionary inspire do be never sit insultingly awful exploitative conceive ',negative
+'mere be criminally unimaginative ',negative
+'be suppose be gross-out be compare sheer ',negative
+'much anonymous be pretend be instead real as well be video ',negative
+'generally terrific creative ape see clearly do n\'t understand feel ',negative
+'good be reliable bad certainly veer bad racially reprehensible exploit most powerless be go change ',negative
+'amateurish bereave pace ',negative
+'',negative
+'look sound more brutal be least consistently stylish be less assure ',negative
+'base mire pay respectful transform ',negative
+'be ticklish real ',negative
+'bad be be also vile not mention sophomoric unfunny ',negative
+'preachy do n\'t begin describe mighty long-winded wincingly overwrought domestic ',negative
+'be force listen devoid even ',negative
+'leave unexploit jumble expository hasty major thickly apply not remotely seamless archival all there lie ',negative
+'be start recognize not be create equal be n\'t even be use big have see ',negative
+'criticize light be go anyway ',negative
+'nicely shoot atrociously write act intrusively score classical heavy drown ',negative
+'aggressively ugly gross boast certain never figure fill grubby little ',negative
+'needlessly vulgar even do n\'t live ',negative
+'feel believable bungle small-town late ',negative
+'well-meaning appeal intend spiritual be sluggish clinical largely dreary tend mistake ',negative
+'as badly sound ',negative
+'just dispirit be devoid pointlessly wallow thereby make as valuable nasty routinely flush ',negative
+'most be say aside unqualified puppyish be do n\'t abandon putrid neat ',negative
+'most be aim ',negative
+'crass witless good ',negative
+'insofar be about really be gratuitous take staggering ',negative
+'boast feature do be brag come second annual ',negative
+'even current be less preposterous more appropriate be corporate be valuable ',negative
+'feel ',negative
+'be unsettling wrong ',negative
+'write have cram deliberately juvenile romantic direct have make very few funny ',negative
+'real be creepy ',negative
+'most gifted assemble sadly though many throw first appear n\'t generate enough cold start ',negative
+'largely inert be left be tedious horrible end spark ',negative
+'once again have be aim least common mean genuinely enjoy sit need help controlled ',negative
+'understand hard be find take get stuck gall feel short enough be ',negative
+'be bear pass spawn all just anyway wash rinse ',negative
+'spin impatiently cut ',negative
+'empty last overstuff leave hungry not more ',negative
+'amateurishly shoot write act lack redeeming compensate horrific ',negative
+'bleak tedious shoot Gothic gray blue ',negative
+'try different play be always commendable prove be sometimes fail miserably ',negative
+'actually hurt watch ',negative
+'about endear ',negative
+'just ',negative
+'comic be all key include team stick dead sadly exhibit fuel ',negative
+'be here play upper-middle-class do n\'t fit be too busy tend ',negative
+'too work straight too violent sordid function be truly thankfully one-of-a-kind ',negative
+'be n\'t be dirty mouth be be phony dirty mouth ',negative
+'empty well-reasoned up look more clueless so-called try satirize ',negative
+'be measure execute effectively satiate yet underlie be just so repugnant ',negative
+'be bluntly write poorly shoot edit cruel be clever ',negative
+'adolescent be more creepy kooky sudden triumphant romantic ring as false be sappy sorry happy ',negative
+'singularly distasteful ',negative
+'get away be sharp here mostly sophomoric rarely surprising ',negative
+'be only dreary merely serve streamlined simplify render odious be embody package ',negative
+'joyless fail just imaginable as well possibly imagine ',negative
+'confusedly misconceive interracial ',negative
+'way too bleak be funny even contemporary ',negative
+'messy also show pass new develop ',negative
+'appear have be make have never actually have ',negative
+'dumb just as generic ',negative
+'condescending self-righteous sloppy be simply bad be ',negative
+'be actually funny check last just come ',negative
+'be bad be rarely have so much deliver little ',negative
+'watch last be sit else play elude ',negative
+'be simply too much go establish ',negative
+'catastrophic be perfect try outsmart original reveal work about say original first ',negative
+'go exactly think go so much invent fresh essentially repeat few uninteresting new same see other ',negative
+'White here prove crass most maladroit know ',negative
+'seem so many good be move filmmak accommodate artistic pompous indulgent priggish reasonably sick get finance be finally thoroughly noxious ',negative
+'be write direct open ago remain single bad have ever review now ',negative
+'lodge even dramatically not scintillate watch ',negative
+'only shock however be self-congratulatory have become degrade ',negative
+'begin very feel really need especially open borrow heavily ',negative
+'be just high-tech fill smell last ',negative
+'give stupid vulgar bad ',negative
+'even recent disturbing be self-aggrandizing mainly benefit unintentional ',negative
+'immediately hand send give especially co-star anarchic try shock loose ',negative
+'be consistently aghast unabashedly heartless chauvinistic be ',negative
+'often seem be more concern be lose lose long show exotic ',negative
+'good pick wear even happen reach ',negative
+'be burn only brief cut call deliver ',negative
+'longtime directorial be frustratingly market rowdy ',negative
+'be n\'t bad be be cheap unnecessary just as easily have die be completely drown be ',negative
+'grotesquely smutty obnoxiously overbearing be pitiful ',negative
+'bad be rather appear be dead serious be hard feel intersperse black-and-white sexy young actual stack emaciate ',negative
+'have write all ',negative
+'take austere European combine be guilty ',negative
+'intend be utterly lose ',negative
+'clash fail find unifying ',negative
+'careen helplessly garish generic ',negative
+'barely acknowledge ',negative
+'so do say be hard read weak act be probably be good poor assorted do n\'t deserve prime real need good ',negative
+'be chilling legal ripe nasty play all ',negative
+'be put good be ago improve ',negative
+'macho disguise remind lose be debilitating about as useful know be wet ',negative
+'odd be sure full-tilt widowed play stone-cold turn cornered help spiritual very slightly other more ',negative
+'so lazy slipshod confuse mere kinky naughty ',negative
+'memorably bad surely be as low sink ',negative
+'inexplicably mix bad yea bad only lie weigh be primarily offensive amateurish pathetic ',negative
+'veer ridiculous revolt like be about more singe sear be be also about crack lance ',negative
+'throwaway other big blue wait have rate be maximum find funny ',negative
+'first-time have write be about not change ',negative
+'sophomoric be ',negative
+'profoundly depressing ',negative
+'fairly faithful be like get play much-need press off ',negative
+'earn intended make believe have yet witness true ',negative
+'say creative ',negative
+'most be tedious instead unintentionally amusing ',negative
+'bad sport ',negative
+'achieve terrific perhaps together again good ',negative
+'discordant give bad bad ',negative
+'still be not ',negative
+'mean learn just be stop care excellent little see lovely ',negative
+'always keep pray next be little good ',negative
+'so inept wonder do n\'t release straight well toss directly ',negative
+'get be think about really be bad have ever see probably not pretty darn ',negative
+'empty hang heavy ',negative
+'mostly happy feel long good be chop up reassemble retarded have be instead feel rush ',negative
+'have fine stick do ',negative
+'lazy bear ',negative
+'thoroughly unpleasant ',negative
+'artful have somehow manage pose actual charge full get purport amuse small ostensible ',negative
+'not too undo umpteenth female even work sweet involve uniform ',negative
+'depend pathetic flatulent most be more revolting amusing ',negative
+'most joyless ',negative
+'be all turn be most creative thin slap otherwise ponderous ',negative
+'be artless puerile ',negative
+'amplify least interesting gore ',negative
+'much follow be turgid ridiculous ',negative
+'tedious derivative steal so ',negative
+'first share be muddle be briefly lift never be more impressive ',negative
+'be mostly puerile uninspired be dream tired wire have little ',negative
+'do n\'t begin describe try foul least funny ever make black ',negative
+'witless physical keep painful hector ',negative
+'get many silly deliver many silly possible be damn ',negative
+'be confused bland wholly unoriginal try good international ',negative
+'dominant be frantically try pander young seem respect understand trust ',negative
+'climactic provide overwhelming final put use overall feel last played-out ',negative
+'exhaust barely then follow clock ',negative
+'have make maybe be close ',negative
+'rare be so bad be still really bad ',negative
+'stylish look marvelous have narrative ',negative
+'',negative
+'premature be exhaust hear be teen supernatural hearken more ',negative
+'be misshapen bad strain be devilish ',negative
+'horrible horrible wear ',negative
+'not only describe main lazy well ',negative
+'be committed young lead obnoxious pointless ',negative
+'awful stillborn assemble rusty spare secret run-of-the-mill ',negative
+'such brainless shameless hard imagine beg ',negative
+'beautiful baldly explain casually chauvinistic be not go be be gracelessly repeatedly break incompetent ',negative
+'not be convincing frightening ',negative
+'whip be cinematic not then certainly ',negative
+'be present freak distract psychological intellectual ',negative
+'embarrassingly be desperate frighten laughing ',negative
+'do good resist melodramatic ultimately be only here actually ground few ',negative
+'be shrill stupid practically sweat be commercial ',negative
+'certainly imagine big be really work ',negative
+'as bad much longer ',negative
+'imagine be riveting even saddle not mention fairly contrived domestic ',negative
+'black never get black enough inspire ',negative
+'',negative
+'only horny fussy seem get even titular big outer forget be actually funny ',negative
+'lack howl political last last be provocative be merely disgusting ',negative
+'completely forgettable be far less cool smart scary think be ',negative
+'here be bad long n\'t compete sheer inane ',negative
+'bad be easy make unpleasant achieve ',negative
+'come close literally figuratively dark distinguish ',negative
+'awkwardly stage edit fit overly intrusive draw primarily classical consistently subvert earnest ',negative
+'most egregiously awful recent ',negative
+'ugly unpleasant clueless grand ',negative
+'be hilarious least early sadly be complete ',negative
+'be careless unfocused ',negative
+'disguise ',negative
+'decent low-budget never get brief start question have be much less ',negative
+'writ large stage gleeful male ',negative
+'establish imagine be far only do prove fairly handily even deprive grant team produce major ',negative
+'just clumsily written build same make rich ',negative
+'have get give cheat warn first ',negative
+'last-minute implicate be n\'t clever so much as hypocritical ',negative
+'gross actually have about n\'t like be ',negative
+'good ever ',negative
+'make pretty decent bad be passable make sit cram be leaden predictable turn ',negative
+'helm excellent back show lunatic ghastly previous so easily serve ',negative
+'come naive homeless imagine great ',negative
+'limp even seem embarrass be ',negative
+'crass good manage elicit just half-hearted ',negative
+'hang hear free ',negative
+'last be artlessly restless slog untamed never manage corral back forth remotely entertaining ',negative
+'alone be bad be bad be only genuine have offer ',negative
+'well be new novel spark inexplicably use check clearly have neither look anymore ',negative
+'claw sophomoric ',negative
+'disappointing only have be more clever perhaps dark ',negative
+'be familiar collegiate involve horny young horny old horny young silly uptight sassy fat ',negative
+'proper be never find ill-conceived expensive up look talented slum ',negative
+'puerile ',negative
+'even be mean be ironic late be frustratingly stilt middle-aged unleash ',negative
+'be amaze do n\'t contain single ',negative
+'be almost entirely devoid hyperkinetic have most unlikable ',negative
+'odd little not good ',negative
+'be relentlessly derivative match flat fussy unconvincing ',negative
+'steal much be not worth ',negative
+'sinister have so little first save see enough strain recall ',negative
+'be convince be be corrupt have n\'t accept merely assume agree ',negative
+'want be weird ',negative
+'bizarre beleaguered steal take infamous public give only be describe crazy ',negative
+'premature resemble so much coarsely smutty abound ',negative
+'as lunatic dull eventually become too ',negative
+'so inflate moral become ridiculous shove fatten be ready be serve cold bland ',negative
+'go see be save save quit altogether ',negative
+'ill-conceived script play beloved ',negative
+'have afford be little lofty still be quite funny instead be ',negative
+'bare-bones ',negative
+'feel sheath plastic unfortunately be not even much pop do n\'t matter be less still feel ',negative
+'dirty not sexy erotic steamy even smutty just plain dirty make feel unclean be like be ',negative
+'intersperse apparently leave co-write be ',negative
+'much run wish be watch classic least be intentionally funny ',negative
+'thin have be stretch be utterly see-through moralize ',negative
+'sure appear say few bad be awful ',negative
+'bore take tragic ',negative
+'marginalize social be less indicative real-life more akin ',negative
+'be be confident clean manly be shame brief real actual have be diminish dawdle offensive ',negative
+'not only be painfully bad be also about morally unpleasant teen be ',negative
+'be sloppy poorly direct plot look as be improvise ',negative
+'rather engage flip ',negative
+'be bad not bad be see inebriate bad only provide ',negative
+'perfect lame lazy strand good result look great feel less so ',negative
+'arguably lame free-wheeling have take be stupefyingly unfunny mock romantic pop ',negative
+'suck be so bad n\'t save try mightily be n\'t even worth video ',negative
+'formulaic deeply unfunny ',negative
+'begin reasonable all likely be curious do unreasonable ever after ',negative
+'dire sweaty be no long Christian get hand evil here least be amusing ',negative
+'far be dismiss three-day possess more cinematic ',negative
+'be great somewhere good German be bury ',negative
+'revolting ',negative
+'make forget ',negative
+'be schlock write own mutter dusty too just know ',negative
+'huff puff be ',negative
+'be aggressively awful rub lackadaisical dull filmmak bore almost dare ask back ',negative
+'even breathe shallow careen serious quite land ',negative
+'here seem be replace startle shocked be contrary not ',negative
+'key be telegraph least twice just miss first emotional be foreshadow few manipulative musical ',negative
+'be just most inept filmmak catch right now probably long ',negative
+'pull nicely stage open-air soon lose endless aim bulletproof giant ',negative
+'be revolting claustrophobic never emerge just passive make most off-putting endless ',negative
+'be ugly nihilistic cruel regret have see urge avoid ',negative
+'rather dull talkative mismatch trap true ',negative
+'only late go marital turn somewhat more authentic help restore well ',negative
+'perhaps be more excruciatingly painful spend honestly n\'t think be ',negative
+'feature preposterously contrive plot ham-fisted strained be misfire ',negative
+'late take be about early hope be forgive ',negative
+'be tedious soulless relatively trim seemingly never-end ',negative
+'tend cartoonish not good be build illogical ',negative
+'be big either encourage permit play be mildly amusing be interested be interested good German be out ',negative
+'here be silly most uninspired ',negative
+'lack even watchable have distinguish bad ',negative
+'first-time resolve psychopathic sexual light social prove fatal ',negative
+'prove still act even be have offer ',negative
+'terribly miscast squeaky belong ',negative
+'good say be play geld fatal lack dangerous play too safe want ',negative
+'feature non-stop gross-out depict indicate be mainly suitable desperately pine yet ',negative
+'criminally slow ',negative
+'unbelievably awful ',negative
+'clear tell real actual never get ',negative
+'be never get even cheap ',negative
+'be shell dire recent romantic not teen toss 12-year-old get act favorite be same ',negative
+'seemingly be do last run other create unfortunately heavy-handed humorless be allow be little goofy ',negative
+'work mysterious blunder obvious strain dopey ',negative
+'goofy claim same substitute plot more graphic ',negative
+'misconceive cross thin divide just plain gross ',negative
+'be gifted be blame industrial filmmak go wrong elaborate be usually ',negative
+'be here remind be just plain bad be well appreciate ',negative
+'confused confusing ',negative
+'so horrible teeter cinematic ',negative
+'boast canny suitably atmospheric be far more impressive visually narratively tangled make seem straightforward ',negative
+'be main enjoy last be buy immortal ply also have swallow bury underwhelming ',negative
+'individual be just random uninspired awkwardly flat ',negative
+'be well consummately cheesy ',negative
+'mostly play so strained undermine sincere emotional good ',negative
+'be feel male give fresh hungry n\'t say humiliate ',negative
+'be just shapeless shrill be disposable forgettable aim do n\'t care ',negative
+'painfully unfunny misguided boot ',negative
+'watch go same be experience same feeble be ',negative
+'be unpleasant visceral ',negative
+'be be care less about dubious ',negative
+'have few emerge shift be not enough make care keep third be ',negative
+'convict guilty truly heinous have sit unbearably tedious unfunny ',negative
+'senseless eponymous forward carry quickly brief slum well have be shoot ',negative
+'watch predominantly empty anonymous scarcely count jolt mount ',negative
+'stupid talk ',negative
+'brain-dead popular ',negative
+'enjoy rancid red depend not just also sloppy ',negative
+'try encapsulate be not possible do n\'t appear have ',negative
+'dumb sloppy ',negative
+'provide scant intentional otherwise ',negative
+'do n\'t so much extend as uglify reduce ultimate ',negative
+'imagine combine bad have rough feeble ',negative
+'be so inept flat histrionic dull be not go change dreadfully overdo musical star grow slightly funny not funny enough make endless bearable ',negative
+'try find interesting classic horrifically fail ',negative
+'thoroughly misguided unfunny prove n\'t beat dead ',negative
+'be spectacularly generic sleekly shoot edit giant ',negative
+'credible do well go see again ',negative
+'be hard say be apparently impossible ',negative
+'very long late-night occasionally veer worse ',negative
+'strict work show ',negative
+'hinge save get be get remarkably little ',negative
+'miraculously seem great longer be not good careen ass joke back ',negative
+'finish early go save ',negative
+'all as pointless treat advanced ',negative
+'be just stiff try patented key dramatic be comic precise start die slow ',negative
+'have right be ',negative
+'bad ',negative
+'disjointed brief comedic skip theatrical go straight ',negative
+'so patchy so calculate so lack genuine comic make look admire new ',negative
+'too lazy play own video lucky be be make adapt successful tedious be ultimate cinematic ',negative
+'cosmic ',negative
+'even find be ',negative
+'even late logical filmmak undercut be less acceptable however be unaccountably weak sort concern demonic ',negative
+'new abominable ',negative
+'do seem have grind visual sexual barely figure take various stereotypical feminine good find ',negative
+'wind disorganize visual empty worthy be dynamic give occasional appeal only even be test ',negative
+'anemic strive long reach give newfound comic other ',negative
+'nasty have be hang look ',negative
+'merely exude cheap be simply ask rank accordingly ',negative
+'cheesy amateurish ',negative
+'clumsy ',negative
+'only remotely resemble depressing be Jewish ',negative
+'be certainly enough dopey here last be considerably more be even most extravagant be hamper desultory plot oppressively synthetic ',negative
+'be few far pretty darn faint ',negative
+'leave real religious emotional captive up build big ',negative
+'loathsome watch almost turn ',negative
+'ugly pointless dishonest ',negative
+'have n\'t be change ',negative
+'just deadly dreadful loud obnoxious convoluted irritate horrible dumb ',negative
+'have enough laugh make rambunctious not nearly enough ensure happy promise ',negative
+'be give grand old fresh unusual emerge good simply play two-dimensional rather one-dimensional ',negative
+'be scant pedestrian almost complete ',negative
+'trapped be maul come as believably scary ',negative
+'cheap just feel ',negative
+'have be compose be far less impressive ',negative
+'even rare die laugh watch discover only die apply endure ',negative
+'even seem lose unravel supernatural dead red have pile so high barely see ',negative
+'save few inspired usually screwball be unfunny here deserve good particular rare star ',negative
+'complete joyless pointless fundamentally idiotic ',negative
+'be clear be try say brave new social social public be garble come wrap just be n\'t truly scary suspenseful be real though ',negative
+'elapse walk total ',negative
+'deliver own so much enhance fly demonstrate little go craft back ',negative
+'represent late dumb ',negative
+'slog dismally dull ',negative
+'be most recent dishonest sanitize no good even ',negative
+'only expect be more aggressive male sexual really do become such vile ',negative
+'all-out be crave be available ',negative
+'narrate as read seem have learn long so n\'t be overtax ',negative
+'standard gross-out notable only showy provide well-remember high ',negative
+'render miraculous dull seem relatively uninterested do more preach ',negative
+'mean-spirited strenuous bad seldom translate actual ',negative
+'offer actual religious look indulge particular self-righteous just clueless reckless contemptible ',negative
+'just be usually good suspect video be probably more entertaining coherent be ',negative
+'not be as brazenly offensive not as spectacularly inept still awful offer force superficial half-baked ',negative
+'caustic raunchy often hilarious use ',negative
+'fail utterly bomb completely so even ',negative
+'lame ',negative
+'',negative
+'amateurish ',negative
+'be sloppy disconnected rehash lazily reverse-engineer be like happily pay see ',negative
+'lean nasty patently absurd tortured long ',negative
+'offer extreme unlikable seriously confuse be poorly sketch ',negative
+'take weak do high even go scout anymore barely use anyway ',negative
+'think lame have ever see now think lame have ever see see much bad have be ',negative
+'so unremittingly awful label probably constitute ',negative
+'probably n\'t be switch catch bizarre definitely n\'t ',negative
+'be ',negative
+'totally lame ',negative
+'amateurish gabby ',negative
+'never find own ',negative
+'good likely be essentially find reside dreary familiar pave painfully good ',negative
+'certainly be gross maybe even shocking be smart enough realize raise teen be ',negative
+'be more interested own latent cosmic ',negative
+'addict be mean-spirited dull silly bury talented horrendous possibly redeem ',negative
+'tedious amateurish hilariously ill-timed ',negative
+'cynical manage be infantile jaded same ',negative
+'be simply care about even ',negative
+'be visually thematically interesting grow speak clinch even be address ',negative
+'God-awful perfectly encapsulate be wrong dismal ',negative
+'only worthy be visually be impressive pretty be well leave ',negative
+'be good be still speak bring see just have together ',negative
+'maybe up own ',negative
+'stand bad see ',negative
+'take really bad stupid make appreciate well-done stupid be stupid ',negative
+'not so fair balanced have make religious palatable work reasonably well show muddle lack pace ',negative
+'scenic be just not much leave short stretch too thinly ',negative
+'rapidly weary mistake ',negative
+'gruesome so repulsive preclude further ',negative
+'be so not single manage sound believable familiar likable be bury awful be warn ',negative
+'be as subtle not merely ham-fisted ',negative
+'vapidly generic British be squander decent include ',negative
+'even protean n\'t dent ponderously unfunny uninspired be hard imagine old be divert broad deserve good first ',negative
+'have professional sheen peddle not just make dull ',negative
+'first last be hideous perfect seem set ailing sheer ',negative
+'barely proficient putatively comic overly familiar crude achieve degrading shameful lay bare all too literally ',negative
+'terrible political religious be aim not general certain feel as be engage giant good ',negative
+'lose have be dim deadly take ever ',negative
+'so seriously be happen get new be already figure now be have call guess want separate ',negative
+'actually bad incoherent ',negative
+'not tamper remain provide mere not mess have wrought ',negative
+'be solid competent seek little female romantic ',negative
+'be just slightly less dull disavow least seem less active turn inherently interesting ',negative
+'about as funny seep ',negative
+'leave amaze amaze ',negative

@@ -1,0 +1,9 @@
+Hands-down	NP	<unknown>
+,	,	,
+the	DT	the
+best	JJS	good
+James	NP	James
+Brolin-in-an-Italian-accent	NP	<unknown>
+movie	NN	movie
+ever	RB	ever
+.	SENT	.

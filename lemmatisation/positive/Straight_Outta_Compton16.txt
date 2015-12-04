@@ -22,8 +22,7 @@ order	NN	order
 to	TO	to
 stress	VB	stress
 the	DT	the
-group	NN	group
-'s	POS	's
+group�s	NNS	<unknown>
 most	RBS	most
 righteous	JJ	righteous
 side	NN	side

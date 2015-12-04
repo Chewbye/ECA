@@ -1,6 +1,5 @@
 Pan	NP	Pan
-does	VBZ	do
-n't	RB	n't
+doesn�t	NP	<unknown>
 deliver	VB	deliver
 on	IN	on
 its	PP$	its
@@ -9,8 +8,7 @@ promise	NN	promise
 .	SENT	.
 The	DT	the
 movie	NN	movie
-does	VBZ	do
-n't	RB	n't
+doesn�t	NN	<unknown>
 so	RB	so
 much	RB	much
 enhance	VB	enhance

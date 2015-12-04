@@ -5,8 +5,7 @@ terrific	JJ	terrific
 ,	,	,
 and	CC	and
 when	WRB	when
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 on	IN	on
 its	PP$	its
 game	NN	game

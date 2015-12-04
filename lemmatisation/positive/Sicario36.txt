@@ -11,8 +11,7 @@ easier	JJR	easy
 solutions	NNS	solution
 ,	,	,
 ones	NNS	one
-we	PP	we
-'ve	VBP	have
+we�ve	NNS	<unknown>
 been	VBN	be
 fed	VBN	feed
 by	IN	by
@@ -50,8 +49,7 @@ wars	NNS	war
 In	IN	in
 the	DT	the
 end	NN	end
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 just	RB	just
 another	DT	another
 drug	NN	drug

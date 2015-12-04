@@ -3,8 +3,7 @@ film	NN	film
 disappointingly	RB	disappointingly
 ditches	VBZ	ditch
 the	DT	the
-cartoonist	NN	cartoonist
-'s	POS	's
+cartoonist�s	JJ	<unknown>
 modest	JJ	modest
 visual	JJ	visual
 formula	NN	formula

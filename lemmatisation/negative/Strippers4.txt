@@ -1,0 +1,12 @@
+One	CD	One
+of	IN	of
+a	DT	a
+barely	RB	barely
+acknowledged	VBN	acknowledge
+sub-breed	NNS	<unknown>
+of	IN	of
+indie	NN	<unknown>
+:	:	:
+howling-vanity	NN	<unknown>
+amateur-work	NN	<unknown>
+.	SENT	.

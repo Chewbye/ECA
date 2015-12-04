@@ -10,8 +10,7 @@ comic-book	NN	comic-book
 fun	NN	fun
 ,	,	,
 but	CC	but
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 never	RB	never
 as	IN	as
 fleet	NN	fleet
@@ -28,8 +27,7 @@ be	VB	be
 .	SENT	.
 And	CC	and
 if	IN	if
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 looking	VBG	look
 for	IN	for
 something	NN	something
@@ -48,9 +46,8 @@ even	RB	even
 action	NN	action
 sequences	NNS	sequence
 ,	,	,
-you	PP	you
-'ll	MD	will
-need	VB	need
+you�ll	JJ	<unknown>
+need	NN	need
 to	TO	to
 seek	VB	seek
 it	PP	it

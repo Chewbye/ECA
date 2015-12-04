@@ -4,8 +4,7 @@ Vanderbilt	NP	Vanderbilt
 ...	:	...
 sticks	VBZ	stick
 to	TO	to
-Mapes	NP	Mapes
-'	POS	'
+Mapes�	NP	<unknown>
 version	NN	version
 of	IN	of
 the	DT	the
@@ -30,8 +29,7 @@ movie	NN	movie
 never	RB	never
 negates	VBZ	negate
 the	DT	the
-truth	NN	truth
-'s	POS	's
+truth�s	JJ	<unknown>
 other	JJ	other
 strands	NNS	strand
 ,	,	,

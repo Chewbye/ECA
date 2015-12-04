@@ -26,7 +26,7 @@ a	DT	a
 single	JJ	single
 faith-based	JJ	<unknown>
 film	NN	film
-cliché	NN	cliché
+clich�	NN	<unknown>
 with	IN	with
 its	PP$	its
 one-dimensional	JJ	one-dimensional

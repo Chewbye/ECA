@@ -5,8 +5,7 @@ consistently	RB	consistently
 entertaining	JJ	entertaining
 ,	,	,
 Ridley	NP	Ridley
-Scott	NP	Scott
-'s	POS	's
+Scott�s	NP	<unknown>
 space	NN	space
 rescue	NN	rescue
 procedural	JJ	procedural

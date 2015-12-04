@@ -9,9 +9,8 @@ nature	NN	nature
 and	CC	and
 depth	NN	depth
 of	IN	of
-Villeneuve	NP	Villeneuve
-'s	POS	's
-gaze	NN	gaze
+Villeneuve�s	NP	<unknown>
+gaze	VBP	gaze
 ,	,	,
 not	RB	not
 childishly	RB	childishly
@@ -23,8 +22,7 @@ of	IN	of
 feeling	VBG	feel
 pain	NN	pain
 .	SENT	.
-He	PP	he
-'s	VBZ	be
+He�s	NP	<unknown>
 a	DT	a
 terrific	JJ	terrific
 director	NN	director
@@ -55,8 +53,7 @@ an	DT	an
 asylum	NN	asylum
 ,	,	,
 but	CC	but
-she	PP	she
-'ll	MD	will
+she�ll	NN	<unknown>
 be	VB	be
 back	RB	back
 ,	,	,

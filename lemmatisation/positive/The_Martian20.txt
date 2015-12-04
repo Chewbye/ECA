@@ -34,11 +34,10 @@ step	NN	step
 by	IN	by
 step	NN	step
 .	SENT	.
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 basically	RB	basically
-Human	JJ	human
-Ingenuity	NN	ingenuity
+Human	NP	Human
+Ingenuity	NP	<unknown>
 :	:	:
 The	DT	the
 Movie	NN	movie

@@ -1,0 +1,8 @@
+Initially	RB	initially
+amusing	JJ	amusing
+but	CC	but
+finally	RB	finally
+sour	JJ	sour
+sex	NN	sex
+comedy	NN	comedy
+.	SENT	.

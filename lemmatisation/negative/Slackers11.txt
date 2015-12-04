@@ -1,0 +1,12 @@
+An	DT	an
+odd	JJ	odd
+little	JJ	little
+movie	NN	movie
+.	SENT	.
+And	CC	and
+not	RB	not
+in	IN	in
+a	DT	a
+good	JJ	good
+way	NN	way
+.	SENT	.

@@ -1,0 +1,8 @@
+A	DT	a
+headache-inducing	NN	<unknown>
+mess	NN	mess
+without	IN	without
+direction	NN	direction
+or	CC	or
+purpose	NN	purpose
+.	SENT	.

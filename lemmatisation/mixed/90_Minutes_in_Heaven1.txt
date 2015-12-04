@@ -20,8 +20,7 @@ work	NN	work
 based	VBN	base
 on	IN	on
 Don	NP	Don
-Piper	NP	Piper
-'s	POS	's
+Piper�s	NP	<unknown>
 bestseller	NN	bestseller
 ,	,	,
 that	WDT	that
@@ -30,9 +29,8 @@ for	IN	for
 a	DT	a
 change	NN	change
 ,	,	,
-does	VBZ	do
-n't	RB	n't
-look	VB	look
+doesn�t	NN	<unknown>
+look	NN	look
 and	CC	and
 sound	VB	sound
 as	RB	as

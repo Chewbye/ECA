@@ -2,7 +2,7 @@ The	DT	the
 weirdness	NN	weirdness
 of	IN	of
 Truth	NP	<unknown>
-—	NN	<unknown>
+�	NN	<unknown>
 and	CC	and
 ,	,	,
 I	PP	I
@@ -12,7 +12,7 @@ its	PP$	its
 involuntary	JJ	involuntary
 comic	JJ	comic
 value	NN	value
-—	NN	<unknown>
+�	NN	<unknown>
 arises	VBZ	arise
 from	IN	from
 a	DT	a

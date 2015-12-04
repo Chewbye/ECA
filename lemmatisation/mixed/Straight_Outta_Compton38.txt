@@ -17,11 +17,10 @@ energy	NN	energy
 toward	IN	toward
 the	DT	the
 end	NN	end
-—	NN	<unknown>
+�	NN	<unknown>
 internecine	JJ	internecine
 battles	NNS	battle
-ca	MD	ca
-n't	RB	n't
+can�t	VBD	<unknown>
 compete	VB	compete
 with	IN	with
 the	DT	the
@@ -38,7 +37,7 @@ on	IN	on
 a	DT	a
 national	JJ	national
 stage	NN	stage
-—	NN	<unknown>
+�	NN	<unknown>
 but	CC	but
 turns	VBZ	turn
 ploddingly	RB	ploddingly
@@ -48,8 +47,7 @@ its	PP$	its
 sudden	JJ	sudden
 focus	NN	focus
 on	IN	on
-Eazy-E	NP	<unknown>
-'s	POS	's
+Eazy-E�s	NP	<unknown>
 painful	JJ	painful
 decline	NN	decline
 ,	,	,

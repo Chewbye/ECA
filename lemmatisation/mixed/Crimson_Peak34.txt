@@ -13,14 +13,13 @@ of	IN	of
 year	NN	year
 ,	,	,
 del	NP	del
-Toro	NP	Toro
-'s	POS	's
+Toro�s	NP	<unknown>
 Crimson	NP	<unknown>
 Peak	NP	Peak
 leaves	VBZ	leave
 Tim	NP	Tim
 Burton	NP	Burton
-–	NN	<unknown>
+�	NN	<unknown>
 reigning	VBG	reign
 misfit	NN	misfit
 king	NN	king
@@ -29,7 +28,7 @@ hyper-stylized	JJ	<unknown>
 ,	,	,
 goth-y	JJ	<unknown>
 weirdness	NN	weirdness
-–	NN	<unknown>
+�	NN	<unknown>
 in	IN	in
 the	DT	the
 dust	NN	dust

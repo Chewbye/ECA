@@ -18,6 +18,6 @@ into	IN	into
 the	DT	the
 realm	NN	realm
 of	IN	of
-Saw-style	NP	<unknown>
+�Saw�-style	JJ	<unknown>
 ridiculousness	NN	ridiculousness
 .	SENT	.

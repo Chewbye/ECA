@@ -1,0 +1,8 @@
+[	SYM	[
+A	NP	A
+]	SYM	]
+strained	VBN	strain
+,	,	,
+overheated	VBN	overheat
+thriller	NN	thriller
+.	SENT	.

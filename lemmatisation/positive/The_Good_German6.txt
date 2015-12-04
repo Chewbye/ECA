@@ -1,0 +1,6 @@
+Sumptuous	JJ	sumptuous
+,	,	,
+clever	JJ	clever
+and	CC	and
+cold	JJ	cold
+.	SENT	.

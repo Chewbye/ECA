@@ -1,0 +1,13 @@
+The	DT	the
+story	NN	story
+bores	VBZ	bore
+you	PP	you
+to	TO	to
+tears	NNS	tear
+until	IN	until
+it	PP	it
+takes	VBZ	take
+its	PP$	its
+tragic	JJ	tragic
+turn	NN	turn
+.	SENT	.

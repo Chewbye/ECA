@@ -1,6 +1,5 @@
 Del	NP	Del
-Toro	NP	Toro
-'s	POS	's
+Toro�s	NP	<unknown>
 predictably	RB	predictably
 impeccable	JJ	impeccable
 production	NN	production

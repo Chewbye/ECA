@@ -1,0 +1,11 @@
+One	CD	One
+of	IN	of
+the	DT	the
+worst	JJS	bad
+films	NNS	film
+to	TO	to
+sport	VB	sport
+the	DT	the
+label	NN	label
+�romantic	JJ	<unknown>
+comedy.�	NN	<unknown>

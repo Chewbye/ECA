@@ -1,0 +1,15 @@
+Formulated	VBN	formulate
+on	IN	on
+an	DT	an
+idiotic	JJ	idiotic
+idea	NN	idea
+and	CC	and
+develops	VBZ	develop
+a	DT	a
+predictably	RB	predictably
+lackluster	JJ	lackluster
+motion	NN	motion
+picture	NN	picture
+from	IN	from
+it	PP	it
+.	SENT	.

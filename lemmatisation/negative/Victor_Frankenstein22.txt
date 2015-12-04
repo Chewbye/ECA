@@ -1,0 +1,16 @@
+A	DT	a
+bleak	JJ	bleak
+,	,	,
+tedious	JJ	tedious
+enterprise	NN	enterprise
+,	,	,
+shot	VBN	shoot
+in	IN	in
+earth	NN	earth
+tones	NNS	tone
+and	CC	and
+Gothic	JJ	Gothic
+gray	JJ	gray
+and	CC	and
+blue	JJ	blue
+.	SENT	.

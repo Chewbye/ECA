@@ -1,0 +1,11 @@
+Features	NNS	feature
+amateurish	JJ	amateurish
+acting	NN	acting
+and	CC	and
+direction	NN	direction
+,	,	,
+and	CC	and
+a	DT	a
+going-nowhere	JJ	<unknown>
+script	NN	script
+.	SENT	.

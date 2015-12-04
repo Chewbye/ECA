@@ -1,0 +1,17 @@
+Both	DT	both
+haunting	NN	haunting
+and	CC	and
+sweeping	JJ	sweeping
+,	,	,
+Carol	NP	Carol
+represents	VBZ	represent
+another	DT	another
+masterwork	NN	masterwork
+from	IN	from
+one	CD	one
+of	IN	of
+this	DT	this
+generation�s	JJ	<unknown>
+great	JJ	great
+filmmakers	NNS	filmmaker
+.	SENT	.

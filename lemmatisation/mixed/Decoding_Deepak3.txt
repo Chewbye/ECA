@@ -1,0 +1,8 @@
+Has	VBZ	have
+a	DT	a
+near-impossible	JJ	<unknown>
+mission	NN	mission
+:	:	:
+its	PP$	its
+title	NN	title
+.	SENT	.

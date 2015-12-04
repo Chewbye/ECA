@@ -4,7 +4,7 @@ really	RB	really
 ,	,	,
 truly	RB	truly
 works	VBZ	work
-—	NN	<unknown>
+�	NN	<unknown>
 not	RB	not
 as	IN	as
 art	NN	art
@@ -36,8 +36,7 @@ that	DT	that
 ,	,	,
 and	CC	and
 the	DT	the
-movie	NN	movie
-'s	VBZ	be
+movie�s	NNS	<unknown>
 a	DT	a
 valentine	NN	valentine
 to	TO	to
@@ -51,9 +50,8 @@ example	NN	example
 of	IN	of
 it	PP	it
 .	SENT	.
-It	PP	it
-'s	VBZ	be
-enough	JJ	enough
+It�s	NNS	<unknown>
+enough	RB	enough
 to	TO	to
 make	VB	make
 you	PP	you

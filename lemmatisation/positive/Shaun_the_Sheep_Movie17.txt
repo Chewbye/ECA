@@ -24,8 +24,7 @@ Sheep	NP	Sheep
 is	VBZ	be
 that	IN	that
 you	PP	you
-do	VBP	do
-n't	RB	n't
+don�t	VBD	<unknown>
 notice	VB	notice
 it	PP	it
 for	IN	for

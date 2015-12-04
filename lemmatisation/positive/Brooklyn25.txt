@@ -1,0 +1,11 @@
+Ronan	NP	Ronan
+is	VBZ	be
+Brooklyn	NP	Brooklyn
+'s	POS	's
+linchpin	NN	linchpin
+,	,	,
+and	CC	and
+its	PP$	its
+saving	NN	saving
+grace	NN	grace
+.	SENT	.

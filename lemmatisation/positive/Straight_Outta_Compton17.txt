@@ -2,9 +2,8 @@ Buoyed	VBN	buoy
 by	IN	by
 a	DT	a
 soundtrack	NN	soundtrack
-that	WDT	that
-'ll	MD	will
-have	VB	have
+that�ll	NN	<unknown>
+have	VBP	have
 fortysomethings	NNS	<unknown>
 cracking	VBG	crack
 open	JJ	open
@@ -26,8 +25,7 @@ lives	NNS	life
 ,	,	,
 Straight	NP	Straight
 Outta	NP	<unknown>
-Compton	NP	Compton
-'s	POS	's
+Compton�s	NP	<unknown>
 bark	NN	bark
 is	VBZ	be
 just	RB	just

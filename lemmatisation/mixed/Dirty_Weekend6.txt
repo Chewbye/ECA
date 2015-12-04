@@ -1,0 +1,13 @@
+Ultimately	RB	ultimately
+,	,	,
+though	RB	though
+,	,	,
+Dirty	NP	<unknown>
+Weekend	NP	Weekend
+is	VBZ	be
+a	DT	a
+vague	JJ	vague
+,	,	,
+languid	JJ	languid
+affair	NN	affair
+.	SENT	.

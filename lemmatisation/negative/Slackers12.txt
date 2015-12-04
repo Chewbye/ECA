@@ -1,0 +1,17 @@
+There	EX	there
+'s	VBZ	be
+scant	JJ	scant
+character	NN	character
+development	NN	development
+,	,	,
+pedestrian	JJ	pedestrian
+dialogue	NN	dialogue
+,	,	,
+and	CC	and
+an	DT	an
+almost	RB	almost
+complete	JJ	complete
+lack	NN	lack
+of	IN	of
+humor	NN	humor
+.	SENT	.

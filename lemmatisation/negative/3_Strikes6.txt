@@ -1,0 +1,9 @@
+Most	JJS	most
+of	IN	of
+the	DT	the
+humor	NN	humor
+is	VBZ	be
+aimed	VBN	aim
+at	IN	at
+14-year-olds	NNS	<unknown>
+.	SENT	.

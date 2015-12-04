@@ -1,0 +1,16 @@
+Like	IN	like
+criticizing	VBG	criticize
+the	DT	the
+light	JJ	light
+fixtures	NNS	fixture
+on	IN	on
+the	DT	the
+Titanic	NP	<unknown>
+.	SENT	.
+This	DT	this
+ship	NN	ship
+was	VBD	be
+going	VBG	go
+down	RP	down
+anyway	RB	anyway
+.	SENT	.

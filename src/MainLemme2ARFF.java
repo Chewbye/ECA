@@ -8,7 +8,9 @@ public class MainLemme2ARFF {
 //		ARFF arff = new ARFF(projectPath, projectPath + "/result.arff");
 		
 		String projectPath = "/home/axel/Bureau/ProjetExtractionConn/ECA/lemmatisation";
-		Lemme2ARFF l2a = new Lemme2ARFF(projectPath,projectPath+"/resultLemmeAdverbesAdjectifs.arff");
+		//Lemme2ARFF l2a = new Lemme2ARFF(projectPath,projectPath+"/resultLemme.arff");
+		//Lemme2ARFF l2a = new Lemme2ARFF(projectPath,projectPath+"/resultLemmeAdjectifsAdverbesVerbes.arff");
+		Lemme2ARFF l2a = new Lemme2ARFF(projectPath,projectPath+"/resultLemmeAdjectifsAdverbes.arff");
 	}
 }
 

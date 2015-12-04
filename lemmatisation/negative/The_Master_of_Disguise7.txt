@@ -1,0 +1,9 @@
+At	IN	at
+times	NNS	time
+,	,	,
+it	PP	it
+actually	RB	actually
+hurts	VBZ	hurt
+to	TO	to
+watch	VB	watch
+.	SENT	.

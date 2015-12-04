@@ -28,8 +28,7 @@ plying	VBG	ply
 his	PP$	his
 trade	NN	trade
 in	IN	in
-today	NN	today
-'s	POS	's
+today�s	NP	<unknown>
 Manhattan	NP	Manhattan
 .	SENT	.
 You	PP	you

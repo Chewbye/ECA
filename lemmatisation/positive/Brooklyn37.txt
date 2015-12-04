@@ -1,0 +1,10 @@
+Brooklyn	NP	Brooklyn
+balances	VBZ	balance
+its	PP$	its
+melodramatic	JJ	melodramatic
+leanings	NNS	leaning
+with	IN	with
+several	JJ	several
+light	JJ	light
+touches	NNS	touch
+.	SENT	.

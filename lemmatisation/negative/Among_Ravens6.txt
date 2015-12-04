@@ -1,0 +1,17 @@
+Among	IN	among
+Ravens	NP	Ravens
+wants	VBZ	want
+to	TO	to
+be	VB	be
+the	DT	the
+The	NP	The
+Big	NP	Big
+Chill	NP	Chill
+with	IN	with
+Gen-X	NP	<unknown>
+assholes	NNS	asshole
+,	,	,
+a	DT	a
+weird	JJ	weird
+ambition	NN	ambition
+.	SENT	.

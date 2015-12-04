@@ -9,8 +9,7 @@ even	RB	even
 cozy	JJ	cozy
 .	SENT	.
 I	PP	I
-ca	MD	ca
-n't	RB	n't
+can�t	VBD	<unknown>
 make	VB	make
 any	DT	any
 great	JJ	great

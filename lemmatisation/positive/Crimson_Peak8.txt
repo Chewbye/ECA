@@ -16,7 +16,7 @@ film	NN	film
 out	RP	out
 of	IN	of
 time	NN	time
-–	NN	<unknown>
+�	NN	<unknown>
 but	CC	but
 Del	NP	Del
 Toro	NP	Toro

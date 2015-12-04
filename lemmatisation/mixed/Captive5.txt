@@ -28,9 +28,8 @@ purchasing	VBG	purchase
 megachurch	NN	<unknown>
 pastor	NN	pastor
 Rick	NP	Rick
-Warren	NP	Warren
-'s	POS	's
-hit	NN	hit
+Warren�s	NP	<unknown>
+hit	VBD	hit
 book	NN	book
 ,	,	,
 The	DT	the

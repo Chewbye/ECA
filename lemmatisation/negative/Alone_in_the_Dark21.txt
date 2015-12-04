@@ -1,0 +1,3 @@
+Supremely	RB	supremely
+idiotic	JJ	idiotic
+.	SENT	.

@@ -11,8 +11,7 @@ in	IN	in
 scenes	NNS	scene
 when	WRB	when
 Piper	NP	Piper
-is	VBZ	be
-n't	RB	n't
+isn�t	VBD	<unknown>
 operating	VBG	operate
 under	IN	under
 the	DT	the

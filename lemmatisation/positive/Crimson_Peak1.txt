@@ -1,8 +1,7 @@
 Guillermo	NP	Guillermo
 del	NP	del
-Toro	NP	Toro
-'s	POS	's
-latest	JJS	late
+Toro�s	NP	<unknown>
+latest	JJ	latest
 dive	NN	dive
 into	IN	into
 the	DT	the

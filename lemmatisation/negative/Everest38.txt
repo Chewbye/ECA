@@ -2,7 +2,7 @@ The	DT	the
 director	NN	director
 was	VBD	be
 Baltasar	NP	Baltasar
-Kormákur	NP	<unknown>
+Korm�kur	NP	<unknown>
 ,	,	,
 a	DT	a
 gifted	JJ	gifted
@@ -10,8 +10,7 @@ filmmaker	NN	filmmaker
 from	IN	from
 Iceland	NP	Iceland
 who	WP	who
-should	MD	should
-n't	RB	n't
+shouldn�t	NN	<unknown>
 be	VB	be
 blamed	VBN	blame
 for	IN	for
@@ -22,7 +21,7 @@ industrial	JJ	industrial
 filmmaking	VBG	filmmak
 gone	VBN	go
 wrong	JJ	wrong
-—	NN	<unknown>
+�	NN	<unknown>
 the	DT	the
 culprits	NNS	culprit
 in	IN	in

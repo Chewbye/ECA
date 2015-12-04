@@ -1,15 +1,13 @@
 Despite	IN	despite
 Mr.	NP	Mr.
-Ransone	NP	Ransone
-'s	POS	's
+Ransone�s	NP	<unknown>
 goofy	JJ	goofy
 charm	NN	charm
 ,	,	,
 Sinister	NP	<unknown>
 2	CD	2
-ca	MD	ca
-n't	RB	n't
-claim	VB	claim
+can�t	NN	<unknown>
+claim	VBP	claim
 the	DT	the
 same	JJ	same
 finesse	NN	finesse
@@ -24,7 +22,6 @@ graphic	JJ	graphic
 gore	NN	gore
 for	IN	for
 the	DT	the
-original	NN	original
-'s	POS	's
+original�s	NN	<unknown>
 restraint	NN	restraint
 .	SENT	.

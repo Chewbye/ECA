@@ -8,9 +8,8 @@ and	CC	and
 gory	JJ	gory
 horror	NN	horror
 ,	,	,
-del	NP	del
-Toro	NP	Toro
-'s	POS	's
+del	DT	del
+Toro�s	NP	<unknown>
 ninth	JJ	ninth
 feature	NN	feature
 is	VBZ	be

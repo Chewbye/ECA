@@ -1,5 +1,4 @@
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 easy	JJ	easy
 to	TO	to
 laugh	VB	laugh
@@ -21,8 +20,7 @@ Stephen	NP	Stephen
 Kendrick	NP	Kendrick
 .	SENT	.
 But	CC	but
-it	PP	it
-'s	VBZ	be
+it�s	NNS	<unknown>
 even	RB	even
 easier	JJR	easy
 to	TO	to

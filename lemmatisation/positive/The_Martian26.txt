@@ -27,8 +27,7 @@ canvas	NN	canvas
 The	DT	the
 result	NN	result
 is	VBZ	be
-Scott	NP	Scott
-'s	POS	's
+Scott�s	NP	<unknown>
 most	RBS	most
 purely	RB	purely
 enjoyable	JJ	enjoyable

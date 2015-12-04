@@ -7,7 +7,7 @@ absorbing	JJ	absorbing
 yarn	NN	yarn
 of	IN	of
 authority-flouting	VBG	<unknown>
-ad­ven­ture	NN	<unknown>
+ad�ven�ture	NN	<unknown>
 and	CC	and
 as	IN	as
 an	DT	an
@@ -21,10 +21,9 @@ journey	NN	journey
 it	PP	it
 offers	VBZ	offer
 viewers	NNS	viewer
-does	VBZ	do
-n't	RB	n't
+doesn�t	VBD	<unknown>
 just	RB	just
-span	VBP	span
+span	VB	span
 140	CD	@card@
 feet	NNS	foot
 ,	,	,

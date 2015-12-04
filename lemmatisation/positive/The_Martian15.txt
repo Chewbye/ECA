@@ -26,8 +26,7 @@ rollicking	VBG	rollick
 space	NN	space
 adventure	NN	adventure
 .	SENT	.
-It	PP	it
-'s	VBZ	be
+It�s	NNS	<unknown>
 almost	RB	almost
 impossible	JJ	impossible
 to	TO	to

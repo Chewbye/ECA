@@ -6,7 +6,7 @@ movie	NN	movie
 in	IN	in
 many	JJ	many
 ways	NNS	way
-–	JJ	<unknown>
+�	JJ	<unknown>
 despite	IN	despite
 some	DT	some
 lurches	NNS	lurch
@@ -14,8 +14,7 @@ and	CC	and
 shocks	NNS	shock
 ,	,	,
 it	PP	it
-does	VBZ	do
-n't	RB	n't
+doesn�t	VBD	<unknown>
 quite	RB	quite
 deliver	VB	deliver
 the	DT	the

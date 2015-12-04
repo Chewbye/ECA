@@ -1,0 +1,17 @@
+This	DT	this
+tight	JJ	tight
+,	,	,
+relatively	RB	relatively
+low-key	JJ	low-key
+,	,	,
+step-by-step	NN	step-by-step
+procedural	JJ	procedural
+has	VBZ	have
+a	DT	a
+stronger	JJR	strong
+impact	NN	impact
+than	IN	than
+any	DT	any
+horror	NN	horror
+movie	NN	movie
+.	SENT	.

@@ -1,0 +1,17 @@
+Hellions	NNS	hellion
+is	VBZ	be
+art	NN	art
+book	NN	book
+horror	NN	horror
+,	,	,
+something	NN	something
+to	TO	to
+flip	VB	flip
+through	RP	through
+but	CC	but
+never	RB	never
+truly	RB	truly
+eerie	JJ	eerie
+or	CC	or
+scary	JJ	scary
+.	SENT	.

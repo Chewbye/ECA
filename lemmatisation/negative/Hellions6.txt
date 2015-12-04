@@ -1,0 +1,14 @@
+Bruce	NP	Bruce
+McDonald�s	NP	<unknown>
+Hellions	NP	<unknown>
+is	VBZ	be
+an	DT	an
+unpleasant	JJ	unpleasant
+muddle	NN	muddle
+of	IN	of
+the	DT	the
+visceral	JJ	visceral
+and	CC	and
+the	DT	the
+abstract	NN	abstract
+.	SENT	.

@@ -1,6 +1,5 @@
-There	EX	there
-'s	VBZ	be
-way	RB	way
+There�s	NP	<unknown>
+way	NN	way
 too	RB	too
 much	JJ	much
 inside-baseball	NN	<unknown>
@@ -11,7 +10,7 @@ here	RB	here
 when	WRB	when
 a	DT	a
 simpler	JJR	simple
-plot—one	NN	<unknown>
+plot�one	NN	<unknown>
 about	IN	about
 a	DT	a
 band	NN	band
@@ -20,7 +19,7 @@ apocalyptic	JJ	apocalyptic
 vision	NN	vision
 comes	VBZ	come
 to	TO	to
-pass—would	NN	<unknown>
+pass�would	NN	<unknown>
 have	VBP	have
 been	VBN	be
 plenty	JJ	plenty

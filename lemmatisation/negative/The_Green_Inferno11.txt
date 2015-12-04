@@ -3,8 +3,7 @@ your	PP$	your
 popcorn	NN	popcorn
 early	RB	early
 if	IN	if
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 going	VBG	go
 to	TO	to
 The	DT	the

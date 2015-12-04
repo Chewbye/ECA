@@ -1,0 +1,8 @@
+A	DT	a
+criminally	RB	criminally
+slow	JJ	slow
+,	,	,
+all-but-laughless	JJ	<unknown>
+blaxploitation	NN	<unknown>
+comedy	NN	comedy
+.	SENT	.

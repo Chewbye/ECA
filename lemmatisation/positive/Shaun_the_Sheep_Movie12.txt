@@ -4,13 +4,12 @@ company	NN	company
 that	WDT	that
 gave	VBD	give
 us	PP	us
-Chicken	NP	Chicken
-Run	NP	<unknown>
+�Chicken	NP	<unknown>
+Run�	NP	<unknown>
 and	CC	and
-Wallace	NP	Wallace
+�Wallace	NP	<unknown>
 and	CC	and
-Gromit	NP	<unknown>
-,	,	,
+Gromit,�	NP	<unknown>
 this	DT	this
 adorable	JJ	adorable
 tale	NN	tale
@@ -33,8 +32,7 @@ most	RBS	most
 pure	JJ	pure
 visual	JJ	visual
 storytelling	NN	storytelling
-you	PP	you
-'re	VBP	be
+you�re	NN	<unknown>
 going	VBG	go
 to	TO	to
 see	VB	see

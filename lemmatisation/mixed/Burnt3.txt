@@ -1,9 +1,0 @@
-An	DT	an
-imperfectly	RB	imperfectly
-executed	VBN	execute
-but	CC	but
-still	RB	still
-perfectly	RB	perfectly
-enjoyable	JJ	enjoyable
-film	NN	film
-.	SENT	.

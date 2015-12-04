@@ -9,9 +9,8 @@ I	PP	I
 felt	VBD	feel
 as	RB	as
 if	IN	if
-I	PP	I
-'d	VBD	have
-walked	VBN	walk
+I�d	NP	<unknown>
+walked	VBD	walk
 the	DT	the
 wire	NN	wire
 myself	PP	myself

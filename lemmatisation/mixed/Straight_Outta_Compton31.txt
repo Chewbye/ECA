@@ -16,9 +16,8 @@ mess	NN	mess
 .	SENT	.
 Still	RB	still
 ,	,	,
-it	PP	it
-'s	VBZ	be
-worth	JJ	worth
+it�s	NNS	<unknown>
+worth	VBP	worth
 it	PP	it
 for	IN	for
 the	DT	the

@@ -1,7 +1,6 @@
 F.	NP	F.
 Gary	NP	Gary
-Gray	NP	Gray
-'s	POS	's
+Gray�s	NP	<unknown>
 Straight	NP	Straight
 Outta	NP	<unknown>
 Compton	NP	Compton
