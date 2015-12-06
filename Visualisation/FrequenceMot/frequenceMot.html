@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+	<style>
+
+	  .bar{
+	    fill: steelblue;
+	  }
+
+	  .bar:hover{
+	    fill: brown;
+	  }
+
+	  .axis {
+	    font: 10px sans-serif;
+	  }
+
+	  .axis path,
+	  .axis line {
+	    fill: none;
+	    stroke: #000;
+	    shape-rendering: crispEdges;
+	  }
+
+	</style>
+	 <title>
+  		Visualisation
+ 	</title>
+</head>
+
+<body>
+
+	<form>
+	  <label><input type="radio" name="mode" value="positive" checked> Positive</label>
+	  <label><input type="radio" name="mode" value="negative"> Negative</label>
+	  <label><input type="radio" name="mode" value="mixed"> Mixed</label><br>
+	  <label for="labSelect">Les 
+	  <select id="selectNbMot" name="selectNbMot">
+		  <option value="5">5</option> 
+		  <option value="10" selected>10</option>
+		  <option value="15">15</option>
+		  <option value="20">20</option>
+	  </select>
+	  mots les plus fréquents
+	  </label>
+	</form>
+
+	
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+	// set the dimensions of the canvas
+	var margin = {top: 50, right: 20, bottom: 100, left: 40},
+	    width = 700 - margin.left - margin.right,
+	    height = 600 - margin.top - margin.bottom;
+
+
+	// set the ranges
+	var x = d3.scale.ordinal().rangeRoundBands([0, width], .5);
+
+	var y = d3.scale.linear().range([height, 0]);
+
+	// define the axis
+	var xAxis = d3.svg.axis()
+	    .scale(x)
+	    .orient("bottom")
+
+
+	var yAxis = d3.svg.axis()
+	    .scale(y)
+	    .orient("left")
+	    //.tickValues(d3.range(0, 100, 10));
+	    .ticks(10);
+
+
+	d3.selectAll("input").on("change", change);
+	d3.selectAll("select").on("change", change);
+
+	var timeout = setTimeout(function() {
+	  d3.select("input[value=\"positive\"]").property("checked", true).each(change);
+	}, 200);
+
+	function change() {
+		
+		d3.selectAll("svg").remove();
+
+		clearTimeout(timeout);
+
+		// add the SVG element
+		var svg = d3.select("body").append("svg")
+		    .attr("width", width + margin.left + margin.right)
+		    .attr("height", height + margin.top + margin.bottom)
+		  .append("g")
+		    .attr("transform", 
+			  "translate(" + margin.left + "," + margin.top + ")");
+
+
+		// load the data
+		d3.json(d3.select('input[name="mode"]:checked').node().value+".json", function(error, data) {
+
+
+			  var sel = document.getElementById('selectNbMot');
+			  var nbMot = sel.options[sel.selectedIndex].value;
+
+			  var data = data.slice(0,nbMot);
+
+			  // scale the range of the data
+			  x.domain(data.map(function(d) { return d.name; }));
+			  y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+			  // add axis
+			  svg.append("g")
+			      .attr("class", "x axis")
+			      .attr("transform", "translate(0," + height + ")")
+			      .call(xAxis)
+			    .selectAll("text")
+			      .attr("font-size","20px")
+			      .style("text-anchor", "end")
+			      .attr("dx", "-.8em")
+			      .attr("dy", "-.55em")
+			      .attr("transform", "rotate(-90)" );
+
+			  svg.append("g")
+			      .attr("class", "y axis")
+			      .call(yAxis)
+			    .append("text")
+			      .attr("transform", "rotate(-90)")
+			      .attr("y", 5)
+			      .attr("dy", ".71em")
+			      .style("text-anchor", "end")
+			      .text("nombre d'occurence");
+
+
+			  // Add bar chart
+			  svg.selectAll("bar")
+			      .data(data)
+			    .enter().append("rect")
+			      .attr("class", "bar")
+			      .attr("x", function(d) { return x(d.name); })
+			      .attr("width", x.rangeBand())
+			      .attr("y", function(d) { return y(d.value); })
+			      .attr("height", function(d) { return height - y(d.value); });
+
+		});
+	}
+
+</script>
+
+</body>

@@ -1,0 +1,29 @@
+{
+ "name": "confusion",
+ "children": [
+  {
+   "name": "positive",
+   "children": [
+    {"name": "positive", "size": 313},
+    {"name": "mixed", "size": 129},
+    {"name": "negative", "size": 60}
+   ]
+  },
+  {
+   "name": "mixed",
+   "children": [
+    {"name": "positive", "size": 83},
+    {"name": "mixed", "size": 149},
+    {"name": "negative", "size": 48}
+   ]
+  },
+  {
+   "name": "negative",
+   "children": [
+    {"name": "positive", "size": 114},
+    {"name": "mixed", "size": 120},
+    {"name": "negative", "size": 221}
+   ]
+  }
+ ]
+}
